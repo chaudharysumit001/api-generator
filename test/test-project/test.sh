@@ -13,4 +13,5 @@ PUPPETEER_SKIP_DOWNLOAD=true npm install -g @asyncapi/html-template@0.16.0
 rm -rf node_modules/@asyncapi/html-template
 rm -rf ../../node_modules/@asyncapi/html-template
 npm run test:global
+sudo chmod -R 777 verdaccio
 npm run test:registry
