@@ -13,7 +13,7 @@ services:
 
   test-project:
     privileged: true
-    image: "node:{NODE_IMAGE_TAG}"
+    image: "node:${NODE_IMAGE_TAG}"
     extra_hosts:
      - "host.docker.internal:host-gateway"
     environment:
