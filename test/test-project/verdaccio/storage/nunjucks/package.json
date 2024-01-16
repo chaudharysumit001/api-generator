@@ -5083,7 +5083,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d57e2d502dd2547645cd9832df41aef6\"",
-			"fetched": 1705396388698
+			"fetched": 1705397997697
 		}
 	},
 	"_distfiles": {
@@ -5379,7 +5379,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-30c2b0c75ce91954",
+	"_rev": "2-427c810c091a1874",
 	"_id": "nunjucks",
 	"readme": "# Nunjucks\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Linux Build][github-actions-image]][github-actions-url]\n[![Windows Build][appveyor-image]][appveyor-url]\n[![Test Codecov][codecov-image]][codecov-url]\n\n[Nunjucks](https://mozilla.github.io/nunjucks/) is a full featured\ntemplating engine for javascript. It is heavily inspired by\n[jinja2](http://jinja.pocoo.org/). View the docs\n[here](https://mozilla.github.io/nunjucks/).\n\n## Installation\n\n`npm install nunjucks`\n\nTo use the file watcher built-in to Nunjucks, Chokidar must be installed separately.\n\n`npm install nunjucks chokidar`\n\n(View the [CHANGELOG](https://github.com/mozilla/nunjucks/releases))\n\n## Documentation\n\nSee [here](https://mozilla.github.io/nunjucks/).\n\n## Browser Support\n\nSupported in all modern browsers. For IE8 support, use [es5-shim](https://github.com/es-shims/es5-shim).\n\n## Tests\n\nRun the tests with `npm test`.\n\nWatch `master` branch's [tests running in the browser](https://mozilla.github.io/nunjucks/files/tests/browser/).\n\n## Mailing List\n\nJoin our mailing list and get help with and issues you have:\nhttps://groups.google.com/forum/?fromgroups#!forum/nunjucks\n\n## Want to help?\n\nContributions are always welcome! Before you submit an issue or pull request, please read our [contribution guidelines](CONTRIBUTING.md).\n\n[Contributors](https://github.com/mozilla/nunjucks/graphs/contributors)\n\n[npm-image]: https://img.shields.io/npm/v/nunjucks.svg\n[npm-url]: https://npmjs.org/package/nunjucks\n[downloads-image]: https://img.shields.io/npm/dm/nunjucks.svg\n[downloads-url]: https://npmjs.org/package/nunjucks\n[github-actions-image]: https://img.shields.io/github/workflow/status/mozilla/nunjucks/Tests/master.svg?label=linux\n[github-actions-url]: https://github.com/mozilla/nunjucks/actions\n[appveyor-image]: https://img.shields.io/appveyor/ci/fdintino/nunjucks/master.svg?label=windows\n[appveyor-url]: https://ci.appveyor.com/project/fdintino/nunjucks\n[codecov-image]: https://img.shields.io/codecov/c/gh/mozilla/nunjucks.svg\n[codecov-url]: https://codecov.io/gh/mozilla/nunjucks/branch/master"
 }

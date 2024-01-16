@@ -1632,7 +1632,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7b61dcb25db7b1dc12c1b72d1d3e6b28\"",
-			"fetched": 1705396326291
+			"fetched": 1705397938889
 		}
 	},
 	"_distfiles": {
@@ -1723,7 +1723,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-1c221c2ad1ff49d5",
+	"_rev": "2-154878047840d420",
 	"_id": "ansi-regex",
 	"readme": ""
 }

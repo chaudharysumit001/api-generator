@@ -9799,7 +9799,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"674f47f5158fc5b65b5612727aff340b\"",
-			"fetched": 1705396277170
+			"fetched": 1705397884360
 		}
 	},
 	"_distfiles": {
@@ -10440,7 +10440,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-42b6fc6b11b7932b",
+	"_rev": "2-ae3a84bb5330fe3c",
 	"_id": "@babel/helpers",
 	"readme": ""
 }

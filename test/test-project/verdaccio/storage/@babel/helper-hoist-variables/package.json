@@ -4312,7 +4312,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a3075323eb9ffa5b764f6dd63dcbb908\"",
-			"fetched": 1705396278805
+			"fetched": 1705397887425
 		}
 	},
 	"_distfiles": {
@@ -4633,7 +4633,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-22ef147f6715399c",
+	"_rev": "2-4fa1a6eb72c23c37",
 	"_id": "@babel/helper-hoist-variables",
 	"readme": ""
 }

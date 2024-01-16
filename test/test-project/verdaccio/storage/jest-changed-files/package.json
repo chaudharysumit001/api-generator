@@ -12773,7 +12773,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"4f6ac8c573cc75f1c03e09b88ba62d06\"",
-			"fetched": 1705396369265
+			"fetched": 1705397980223
 		}
 	},
 	"_distfiles": {
@@ -13634,7 +13634,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-c3d5b2a833136089",
+	"_rev": "2-37f6efa8cfb2afa4",
 	"_id": "jest-changed-files",
 	"readme": "# jest-changed-files\n\nA module used internally by Jest to check which files have changed since you last committed in git or hg.\n\n## Install\n\n```sh\n$ npm install --save jest-changed-files\n```\n\n## API\n\n### `getChangedFilesForRoots(roots: Array<string>, options: Options): Promise<ChangedFiles>`\n\nGet the list of files and repos that have changed since the last commit.\n\n#### Parameters\n\nroots: Array of string paths gathered from [jest roots](https://jestjs.io/docs/configuration#roots-arraystring).\n\noptions: Object literal with keys\n\n- lastCommit: boolean\n- withAncestor: boolean\n- changedSince: string\n\n### Returns\n\nA Promise of Object literal with keys\n\n- changedFiles: Set\\<string>\n- repos:\n  - git: Set\\<string>\n  - hg: Set\\<string>\n\n### findRepos(roots: Array<string>): Promise<Repos>\n\nGet a set of git and hg repositories.\n\n#### Parameters\n\nroots: Array of string paths gathered from [jest roots](https://jestjs.io/docs/configuration#roots-arraystring).\n\n### Returns\n\nA Promise of Object literal with keys\n\n- git: Set\\<string>\n- hg: Set\\<string>\n\n## Usage\n\n```javascript\nimport {getChangedFilesForRoots} from 'jest-changed-files';\n\ngetChangedFilesForRoots(['/path/to/test'], {\n  lastCommit: true,\n  withAncestor: true,\n}).then(files => {\n  /*\n  {\n    repos: [],\n    changedFiles: []\n  }\n  */\n});\n```\n\n```javascript\nimport {getChangedFilesForRoots} from 'jest-changed-files';\n\ngetChangedFilesForRoots(['/path/to/test'], {\n  changedSince: 'main',\n}).then(files => {\n  /*\n  {\n    repos: [],\n    changedFiles: []\n  }\n  */\n});\n```\n\n```javascript\nimport {findRepos} from 'jest-changed-files';\n\nfindRepos(['/path/to/test']).then(repos => {\n  /*\n  {\n    git: Set<Path>,\n    hg: Set<Path>\n  }\n  */\n});\n```"
 }

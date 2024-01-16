@@ -5089,7 +5089,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f686ef5208350c9918921e875cf31847\"",
-			"fetched": 1705396288207
+			"fetched": 1705397897257
 		}
 	},
 	"_distfiles": {
@@ -5425,7 +5425,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-96a80fba2aa720a9",
+	"_rev": "2-cffd61fec488789c",
 	"_id": "@babel/plugin-transform-computed-properties",
 	"readme": ""
 }

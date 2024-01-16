@@ -535,7 +535,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"96f14f084f778584d49aeed1114c9cdc\"",
-			"fetched": 1705396301381
+			"fetched": 1705397914590
 		}
 	},
 	"_distfiles": {
@@ -566,7 +566,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-c560cf3f5c7a36bb",
+	"_rev": "2-48f7e5aee9fb5cc7",
 	"_id": "@jridgewell/set-array",
 	"readme": "# @jridgewell/set-array\n\n> Like a Set, but provides the index of the `key` in the backing array\n\nThis is designed to allow synchronizing a second array with the contents of the backing array, like\nhow in a sourcemap `sourcesContent[i]` is the source content associated with `source[i]`, and there\nare never duplicates.\n\n## Installation\n\n```sh\nnpm install @jridgewell/set-array\n```\n\n## Usage\n\n```js\nimport { SetArray, get, put, pop } from '@jridgewell/set-array';\n\nconst sa = new SetArray();\n\nlet index = put(sa, 'first');\nassert.strictEqual(index, 0);\n\nindex = put(sa, 'second');\nassert.strictEqual(index, 1);\n\nassert.deepEqual(sa.array, [ 'first', 'second' ]);\n\nindex = get(sa, 'first');\nassert.strictEqual(index, 0);\n\npop(sa);\nindex = get(sa, 'second');\nassert.strictEqual(index, undefined);\nassert.deepEqual(sa.array, [ 'first' ]);\n```"
 }

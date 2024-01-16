@@ -1927,7 +1927,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b97d77551c3b64a8d19ad7898e31d661\"",
-			"fetched": 1705396352204
+			"fetched": 1705397962729
 		}
 	},
 	"_distfiles": {
@@ -2053,7 +2053,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-b3233e7d68ae498b",
+	"_rev": "3-8eb433f701835ad4",
 	"_id": "extract-zip",
 	"readme": "# extract-zip\n\nUnzip written in pure JavaScript. Extracts a zip into a directory. Available as a library or a command line program.\n\nUses the [`yauzl`](http://npmjs.org/yauzl) ZIP parser.\n\n[![NPM](https://nodei.co/npm/extract-zip.png?global=true)](https://npm.im/extract-zip)\n[![Uses JS Standard Style](https://cdn.jsdelivr.net/gh/standard/standard/badge.svg)](https://github.com/standard/standard)\n[![Build Status](https://github.com/maxogden/extract-zip/workflows/CI/badge.svg)](https://github.com/maxogden/extract-zip/actions?query=workflow%3ACI)\n\n## Installation\n\nMake sure you have Node 10 or greater installed.\n\nGet the library:\n\n```\nnpm install extract-zip --save\n```\n\nInstall the command line program:\n\n```\nnpm install extract-zip -g\n```\n\n## JS API\n\n```javascript\nconst extract = require('extract-zip')\n\nasync function main () {\n  try {\n    await extract(source, { dir: target })\n    console.log('Extraction complete')\n  } catch (err) {\n    // handle any errors\n  }\n}\n```\n\n### Options\n\n- `dir` (required) - the path to the directory where the extracted files are written\n- `defaultDirMode` - integer - Directory Mode (permissions), defaults to `0o755`\n- `defaultFileMode` - integer - File Mode (permissions), defaults to `0o644`\n- `onEntry` - function - if present, will be called with `(entry, zipfile)`, entry is every entry from the zip file forwarded from the `entry` event from yauzl. `zipfile` is the `yauzl` instance\n\nDefault modes are only used if no permissions are set in the zip file.\n\n## CLI Usage\n\n```\nextract-zip foo.zip <targetDirectory>\n```\n\nIf not specified, `targetDirectory` will default to `process.cwd()`."
 }

@@ -1541,7 +1541,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dd1885c2ef84fa5440eb19efc549bc23\"",
-			"fetched": 1705396279845
+			"fetched": 1705397887896
 		}
 	},
 	"_distfiles": {
@@ -1647,7 +1647,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-30351b844540c64b",
+	"_rev": "2-ef2da96fb9a468f0",
 	"_id": "@babel/helper-skip-transparent-expression-wrappers",
 	"readme": ""
 }

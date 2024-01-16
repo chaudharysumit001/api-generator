@@ -618,7 +618,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9c2cea10a5de2ebd4693e10ffc8d15e6\"",
-			"fetched": 1705396297042
+			"fetched": 1705397910075
 		}
 	},
 	"_distfiles": {
@@ -674,7 +674,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-7adf438cfef86aa6",
+	"_rev": "2-92a3dff5e3e53f72",
 	"_id": "color-name",
 	"readme": "A JSON with color names and its values. Based on http://dev.w3.org/csswg/css-color/#named-colors.\n\n[![NPM](https://nodei.co/npm/color-name.png?mini=true)](https://nodei.co/npm/color-name/)\n\n\n```js\nimport colors from 'color-name';\ncolors.red //[255,0,0]\n```\n\n<a href=\"LICENSE\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg\" width=\"120\"/></a>"
 }

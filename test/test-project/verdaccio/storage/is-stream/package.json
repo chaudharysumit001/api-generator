@@ -480,7 +480,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"705f7e7681845a197dd8c991901b0cc0\"",
-			"fetched": 1705396366454
+			"fetched": 1705397978508
 		}
 	},
 	"_distfiles": {
@@ -516,7 +516,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-aa61d2bee870335e",
+	"_rev": "2-0650c78299c0ba54",
 	"_id": "is-stream",
 	"readme": "# is-stream\n\n> Check if something is a [Node.js stream](https://nodejs.org/api/stream.html)\n\n## Install\n\n```\n$ npm install is-stream\n```\n\n## Usage\n\n```js\nimport fs from 'node:fs';\nimport {isStream} from 'is-stream';\n\nisStream(fs.createReadStream('unicorn.png'));\n//=> true\n\nisStream({});\n//=> false\n```\n\n## API\n\n### isStream(stream)\n\nReturns a `boolean` for whether it's a [`Stream`](https://nodejs.org/api/stream.html#stream_stream).\n\n#### isWritableStream(stream)\n\nReturns a `boolean` for whether it's a [`stream.Writable`](https://nodejs.org/api/stream.html#stream_class_stream_writable).\n\n#### isReadableStream(stream)\n\nReturns a `boolean` for whether it's a [`stream.Readable`](https://nodejs.org/api/stream.html#stream_class_stream_readable).\n\n#### isDuplexStream(stream)\n\nReturns a `boolean` for whether it's a [`stream.Duplex`](https://nodejs.org/api/stream.html#stream_class_stream_duplex).\n\n#### isTransformStream(stream)\n\nReturns a `boolean` for whether it's a [`stream.Transform`](https://nodejs.org/api/stream.html#stream_class_stream_transform).\n\n## Related\n\n- [is-file-stream](https://github.com/jamestalmage/is-file-stream) - Detect if a stream is a file stream\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-is-stream?utm_source=npm-is-stream&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

@@ -320,7 +320,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b0aa2df35587682c4a6e8331b900c195\"",
-			"fetched": 1705396366457
+			"fetched": 1705397977778
 		}
 	},
 	"_distfiles": {
@@ -346,7 +346,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-b09bc6b806fc24ce",
+	"_rev": "2-88805c2756c7c51c",
 	"_id": "is-generator-fn",
 	"readme": "# is-generator-fn\n\n> Check if something is a [generator function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)\n\n## Install\n\n```\n$ npm install is-generator-fn\n```\n\n## Usage\n\n```js\nimport isGeneratorFunction from 'is-generator-fn';\n\nisGeneratorFunction(function * () {});\n//=> true\n\nisGeneratorFunction(function () {});\n//=> false\n```\n\n## Related\n\n- [is](https://github.com/sindresorhus/is) - Type check values"
 }

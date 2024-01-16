@@ -3233,7 +3233,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7da356e5f70bac1a379ec84e408580c2\"",
-			"fetched": 1705396368239
+			"fetched": 1705397980415
 		}
 	},
 	"_distfiles": {
@@ -3429,7 +3429,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-12079e4dff1b5ab0",
+	"_rev": "2-b31d89b134a14dc1",
 	"_id": "istanbul-lib-source-maps",
 	"readme": "# istanbul-lib-source-maps\n\n[![Build Status](https://travis-ci.org/istanbuljs/istanbuljs.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbuljs)\n\nSource map support for istanbuljs.\n\n## Debugging\n\n_istanbul-lib-source-maps_ uses the [debug](https://www.npmjs.com/package/debug) module.\nRun your application with the environment variable `DEBUG=istanbuljs`, to receive debug\noutput."
 }

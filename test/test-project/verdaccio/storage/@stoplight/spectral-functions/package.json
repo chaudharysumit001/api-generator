@@ -2347,7 +2347,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8e94e32d0e54cf80db843e3df4156266\"",
-			"fetched": 1705396312308
+			"fetched": 1705397926089
 		}
 	},
 	"_distfiles": {
@@ -2443,7 +2443,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-5ae42dc97d7b0a58",
+	"_rev": "2-7ba94e7915af6823",
 	"_id": "@stoplight/spectral-functions",
 	"readme": "ERROR: No README data found!"
 }

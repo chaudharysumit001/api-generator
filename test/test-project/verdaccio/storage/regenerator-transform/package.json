@@ -2818,7 +2818,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d5adc151544707a08d8a18939eefa1c3\"",
-			"fetched": 1705396399182
+			"fetched": 1705398008657
 		}
 	},
 	"_distfiles": {
@@ -3004,7 +3004,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-a3f769e7faee52d3",
+	"_rev": "2-4d806cfa36ed55fb",
 	"_id": "regenerator-transform",
 	"readme": "# regenerator-transform\n\nTransform async/generator functions with [regenerator](https://github.com/facebook/regenerator)\n\n## Installation\n\n```sh\n$ npm install regenerator-transform\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```js\n// without options\n{\n  \"plugins\": [\"regenerator-transform\"]\n}\n// with options\n{\n  \"plugins\": [\n    [\"regenerator-transform\", {\n      asyncGenerators: false, // true by default\n      generators: false, // true by default\n      async: false // true by default\n    }]\n  ]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins regenerator-transform script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"@babel/core\").transformSync(\"code\", {\n  plugins: [\"regenerator-transform\"]\n});\n```"
 }

@@ -5283,7 +5283,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9c629a3d513c38a9de8f554a84e299f1\"",
-			"fetched": 1705396311504
+			"fetched": 1705397924127
 		}
 	},
 	"_distfiles": {
@@ -5489,7 +5489,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f8f4bc896ae269ad",
+	"_rev": "2-aad283673fa29a7e",
 	"_id": "@stoplight/spectral-core",
 	"readme": "ERROR: No README data found!"
 }

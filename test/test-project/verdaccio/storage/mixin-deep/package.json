@@ -1237,7 +1237,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cf7a622d80cdd0fbeccd3a0aa0c0bc93\"",
-			"fetched": 1705396384164
+			"fetched": 1705397992256
 		}
 	},
 	"_distfiles": {
@@ -1308,7 +1308,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-15fe67e56d25fee7",
+	"_rev": "2-908cd96238ec86f3",
 	"_id": "mixin-deep",
 	"readme": ""
 }

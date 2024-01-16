@@ -615,7 +615,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a435c7b13275101619810d271a9656a5\"",
-			"fetched": 1705396389791
+			"fetched": 1705397998120
 		}
 	},
 	"_distfiles": {
@@ -666,7 +666,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-05627c126d5ea874",
+	"_rev": "2-bbf798d9694a0de3",
 	"_id": "object-get",
 	"readme": "[![view on npm](http://img.shields.io/npm/v/object-get.svg)](https://www.npmjs.org/package/object-get)\n[![npm module downloads](http://img.shields.io/npm/dt/object-get.svg)](https://www.npmjs.org/package/object-get)\n[![Build Status](https://travis-ci.org/75lb/object-get.svg?branch=master)](https://travis-ci.org/75lb/object-get)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)\n\n# object-get\n\n***No longer maintained. Please consider using the lodash [`_.get`](https://lodash.com/docs/4.17.15#get) method or similar***\n\n* * *\n\n&copy; 2015-16 Lloyd Brookes \\<75pound@gmail.com\\>. Documented by [jsdoc-to-markdown](https://github.com/jsdoc2md/jsdoc-to-markdown)."
 }

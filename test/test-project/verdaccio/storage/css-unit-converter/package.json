@@ -268,7 +268,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b9a8b61d4dfaa2b06e571ca3475d66fc\"",
-			"fetched": 1705396341713
+			"fetched": 1705397952963
 		}
 	},
 	"_distfiles": {
@@ -294,7 +294,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-20bac79a4d36c642",
+	"_rev": "2-e95cafddf8e2b86b",
 	"_id": "css-unit-converter",
 	"readme": "# css-unit-converter [![Build Status][ci-img]][ci]\r\n\r\nConverts CSS values from one unit to another\r\n\r\n[PostCSS]: https://github.com/postcss/css-unit-converter\r\n[ci-img]:  https://travis-ci.org/andyjansson/css-unit-converter.svg\r\n[ci]:      https://travis-ci.org/andyjansson/css-unit-converter\r\n\r\n\r\n## Installation\r\n\r\n```js\r\nnpm install css-unit-converter\r\n```\r\n\r\n## Usage\r\n\r\n\r\n```js\r\nvar convert = require('css-unit-converter');\r\n//convert 1 inch to pc\r\nconvert(1, 'in', 'pc'); // 6\r\n\r\n//convert 10px to cm with a maximum of 10 decimals\r\nconvert(10, 'px', 'cm', 10); // 0.2645833333\r\n```"
 }

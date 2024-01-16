@@ -7970,7 +7970,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"14ff18fc4712a43519081d31926a3397\"",
-			"fetched": 1705396277970
+			"fetched": 1705397883565
 		}
 	},
 	"_distfiles": {
@@ -8421,7 +8421,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-a5d3c77beed7b003",
+	"_rev": "2-20f955029a29deee",
 	"_id": "@babel/helper-create-class-features-plugin",
 	"readme": ""
 }

@@ -780,7 +780,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2e8eab8a7361372115ca03d1b008a482\"",
-			"fetched": 1705396385703
+			"fetched": 1705397994419
 		}
 	},
 	"_distfiles": {
@@ -841,7 +841,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-8328ca9cc108d884",
+	"_rev": "2-884b456bf05d3ddd",
 	"_id": "nice-try",
 	"readme": "# nice-try\n\n![Build](https://github.com/electerious/nice-try/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/electerious/nice-try/badge.svg?branch=master)](https://coveralls.io/github/electerious/nice-try?branch=master)\n\nA function that tries to execute a function and discards any error that occurs.\n\n## Install\n\n```\nnpm install nice-try\n```\n\n## Usage\n\n```js\nconst niceTry = require('nice-try')\n\nniceTry(() => JSON.parse('true')) // true\nniceTry(() => JSON.parse('truee')) // undefined\nniceTry() // undefined\nniceTry(true) // undefined\n\nawait niceTry.promise(async () => JSON.parse('true')) // true\nawait niceTry.promise(async () => JSON.parse('truee')) // undefined\n```\n\n## API\n\n### Parameters\n\n- `fn` `{Function}` Function that might or might not throw an error.\n\n### Returns\n\n- `{?*}` Return-value of the function when no error occurred.\n\n## What others say\n\nThis module is a controversial thing and people like to get mad about it. I decided to give those people a voice. Here's what they're saying.\n\n> fundamentally inane\n\n— frou_dh\n\n> the worst Javascript library […] in several categories\n\n— kuzux\n\n> how is this a thing\n\n— uint8_t\n\n> This is blowing my mind\n\n— mr_jim_lahey\n\n> a shit-tastic try-catch alias\n\n— Dropping_fruits\n\n> I assumed every commit was a joke, but after researching the maintainer a bit I'm not sure it is...\n\n— MrPineappleHat"
 }

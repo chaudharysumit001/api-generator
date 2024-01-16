@@ -680,7 +680,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"42b0c564f1ef0d24e07764e4fd6fb008\"",
-			"fetched": 1705396414023
+			"fetched": 1705398019710
 		}
 	},
 	"_distfiles": {
@@ -726,7 +726,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f9505cd3ee6a2846",
+	"_rev": "2-70bffc2844620041",
 	"_id": "terminal-link",
 	"readme": "# terminal-link\n\n> Create clickable links in the terminal\n\n<img src=\"screenshot.gif\" width=\"301\" height=\"148\">\n\n## Install\n\n```\n$ npm install terminal-link\n```\n\n## Usage\n\n```js\nimport terminalLink from 'terminal-link';\n\nconst link = terminalLink('My Website', 'https://sindresorhus.com');\nconsole.log(link);\n```\n\n## API\n\n### terminalLink(text, url, options?)\n\nCreate a link for use in stdout.\n\n[Supported terminals.](https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda)\n\nFor unsupported terminals, the link will be printed in parens after the text: `My website (https://sindresorhus.com)`.\n\n#### text\n\nType: `string`\n\nText to linkify.\n\n#### url\n\nType: `string`\n\nURL to link to.\n\n#### options\n\nType: `object`\n\n##### fallback\n\nType: `Function | boolean`\n\nOverride the default fallback. The function receives the `text` and `url` as parameters and is expected to return a string.\n\nIf set to `false`, the fallback will be disabled when a terminal is unsupported.\n\n### terminalLink.isSupported\n\nType: `boolean`\n\nCheck whether the terminal's stdout supports links.\n\nPrefer just using the default fallback or the `fallback` option whenever possible.\n\n### terminalLink.stderr(text, url, options?)\n\nCreate a link for use in stdout.\n\nSame arguments as `terminalLink()`.\n\n### terminalLink.stderr.isSupported\n\nType: `boolean`\n\nCheck whether the terminal's stderr supports links.\n\nPrefer just using the default fallback or the `fallback` option whenever possible.\n\n## Related\n\n- [terminal-link-cli](https://github.com/sindresorhus/terminal-link-cli) - CLI for this module\n- [ink-link](https://github.com/sindresorhus/ink-link) - Link component for Ink\n- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right"
 }

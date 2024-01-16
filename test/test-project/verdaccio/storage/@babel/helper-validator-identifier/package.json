@@ -2244,7 +2244,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"086233dcc9f11d0c5072de65d4d4d379\"",
-			"fetched": 1705396282905
+			"fetched": 1705397888547
 		}
 	},
 	"_distfiles": {
@@ -2400,7 +2400,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-e7b83b27007ef29e",
+	"_rev": "2-90b52aa475b2b599",
 	"_id": "@babel/helper-validator-identifier",
 	"readme": ""
 }

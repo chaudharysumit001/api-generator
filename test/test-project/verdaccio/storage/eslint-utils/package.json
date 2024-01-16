@@ -1277,7 +1277,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8f2437b64b0e1a7134e3dd1a0523bd09\"",
-			"fetched": 1705396322449
+			"fetched": 1705397934278
 		}
 	},
 	"_distfiles": {
@@ -1348,7 +1348,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-db713fa7b5bbcbe9",
+	"_rev": "2-e3e88d03319d79ad",
 	"_id": "eslint-utils",
 	"readme": "# eslint-utils\n\n[![npm version](https://img.shields.io/npm/v/eslint-utils.svg)](https://www.npmjs.com/package/eslint-utils)\n[![Downloads/month](https://img.shields.io/npm/dm/eslint-utils.svg)](http://www.npmtrends.com/eslint-utils)\n[![Build Status](https://github.com/mysticatea/eslint-utils/workflows/CI/badge.svg)](https://github.com/mysticatea/eslint-utils/actions)\n[![Coverage Status](https://codecov.io/gh/mysticatea/eslint-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/eslint-utils)\n[![Dependency Status](https://david-dm.org/mysticatea/eslint-utils.svg)](https://david-dm.org/mysticatea/eslint-utils)\n\n## 🏁 Goal\n\nThis package provides utility functions and classes for make ESLint custom rules.\n\nFor examples:\n\n- [getStaticValue](https://eslint-utils.mysticatea.dev/api/ast-utils.html#getstaticvalue) evaluates static value on AST.\n- [ReferenceTracker](https://eslint-utils.mysticatea.dev/api/scope-utils.html#referencetracker-class) checks the members of modules/globals as handling assignments and destructuring.\n\n## 📖 Usage\n\nSee [documentation](https://eslint-utils.mysticatea.dev/).\n\n## 📰 Changelog\n\nSee [releases](https://github.com/mysticatea/eslint-utils/releases).\n\n## ❤️ Contributing\n\nWelcome contributing!\n\nPlease use GitHub's Issues/PRs.\n\n### Development Tools\n\n- `npm test` runs tests and measures coverage.\n- `npm run clean` removes the coverage result of `npm test` command.\n- `npm run coverage` shows the coverage result of the last `npm test` command.\n- `npm run lint` runs ESLint.\n- `npm run watch` runs tests on each file change."
 }

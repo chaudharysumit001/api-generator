@@ -264,7 +264,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"923233e3073c93d5b5486af20919397c\"",
-			"fetched": 1705396412011
+			"fetched": 1705398017418
 		}
 	},
 	"_distfiles": {
@@ -285,7 +285,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-06ceb5101f24778d",
+	"_rev": "2-731cf772f9e23d54",
 	"_id": "strip-final-newline",
 	"readme": "# strip-final-newline\n\n> Strip the final [newline character](https://en.wikipedia.org/wiki/Newline) from a string or Uint8Array.\n\nThis can be useful when parsing the output of, for example, `ChildProcess#execFile()`, as [binaries usually output a newline at the end](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline). You cannot use `stdout.trimEnd()` for this as it removes all trailing newlines and whitespaces at the end.\n\n## Install\n\n```sh\nnpm install strip-final-newline\n```\n\n## Usage\n\n```js\nimport stripFinalNewline from 'strip-final-newline';\n\nstripFinalNewline('foo\\nbar\\n\\n');\n//=> 'foo\\nbar\\n'\n\nconst uint8Array = new TextEncoder().encode('foo\\nbar\\n\\n')\nnew TextDecoder().decode(stripFinalNewline(uint8Array));\n//=> 'foo\\nbar\\n'\n```\n\n## Performance\n\nWhen using an `Uint8Array`, the original value is referenced, not copied. This is much more efficient, requires almost no memory, and remains milliseconds fast even on very large inputs.\n\nIf you'd like to ensure that modifying the return value does not also modify the value passed as input, please use `.slice()`.\n\n```js\nconst value = new TextDecoder().decode(stripFinalNewline(uint8Array).slice());\n```"
 }

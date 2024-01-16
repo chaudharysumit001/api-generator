@@ -4983,7 +4983,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cf145297ececef5db96127cb60321322\"",
-			"fetched": 1705396294077
+			"fetched": 1705397903580
 		}
 	},
 	"_distfiles": {
@@ -5309,7 +5309,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-c85225d55c2ad138",
+	"_rev": "2-dd48e8c3348dbf71",
 	"_id": "@babel/plugin-transform-typeof-symbol",
 	"readme": ""
 }

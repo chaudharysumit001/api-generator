@@ -507,7 +507,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bedceab46177bc42c8ab365f471e713a\"",
-			"fetched": 1705396315990
+			"fetched": 1705397929758
 		}
 	},
 	"_distfiles": {
@@ -553,7 +553,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-59ef1e36883a92f3",
+	"_rev": "2-9239df3071685eff",
 	"_id": "@types/istanbul-lib-coverage",
 	"readme": "[object Object]"
 }

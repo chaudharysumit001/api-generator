@@ -2154,7 +2154,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bd5dc93d06df4ca8e3364b61d5f072e3\"",
-			"fetched": 1705396317159
+			"fetched": 1705397929671
 		}
 	},
 	"_distfiles": {
@@ -2360,7 +2360,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-7af7243e0d479e4e",
+	"_rev": "2-7c3d908f7bb728d1",
 	"_id": "@types/estree",
 	"readme": "[object Object]"
 }

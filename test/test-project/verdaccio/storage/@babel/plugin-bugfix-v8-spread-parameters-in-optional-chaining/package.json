@@ -2213,7 +2213,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8822c857f9f943b879e7a7c89fa31136\"",
-			"fetched": 1705396282904
+			"fetched": 1705397889626
 		}
 	},
 	"_distfiles": {
@@ -2344,7 +2344,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-05ffe1789c66bd29",
+	"_rev": "2-75dd1b8d87b9b7d4",
 	"_id": "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining",
 	"readme": ""
 }

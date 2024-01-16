@@ -4711,7 +4711,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ed7cd835594b0e6a3f7f3c62a811b862\"",
-			"fetched": 1705396311269
+			"fetched": 1705397925061
 		}
 	},
 	"_distfiles": {
@@ -4872,7 +4872,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-51d83f941e847d70",
+	"_rev": "2-e931e610d93a02be",
 	"_id": "jsonpath-plus",
 	"readme": ""
 }

@@ -888,7 +888,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"92aac31928bf04d165d1a327206168b2\"",
-			"fetched": 1705396293459
+			"fetched": 1705397905481
 		}
 	},
 	"_distfiles": {
@@ -944,7 +944,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-5d099c51d8b1ffe1",
+	"_rev": "2-e3708c77269d7871",
 	"_id": "@babel/plugin-transform-unicode-property-regex",
 	"readme": ""
 }

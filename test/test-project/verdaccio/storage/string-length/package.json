@@ -1146,7 +1146,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"4b53e1baf6860f64dba9a8783382a665\"",
-			"fetched": 1705396411203
+			"fetched": 1705398016629
 		}
 	},
 	"_distfiles": {
@@ -1222,7 +1222,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-176d9dd5e3f69432",
+	"_rev": "2-d4308117850a6371",
 	"_id": "string-length",
 	"readme": "# string-length\n\n> Get the real length of a string - by correctly counting astral symbols and ignoring [ansi escape codes](https://github.com/sindresorhus/strip-ansi)\n\n`String#length` erroneously counts [astral symbols](https://web.archive.org/web/20150721114550/http://www.tlg.uci.edu/~opoudjis/unicode/unicode_astral.html) as two characters.\n\n## Install\n\n```sh\nnpm install string-length\n```\n\n## Usage\n\n```js\nimport stringLength from 'string-length';\n\n'🐴'.length;\n//=> 2\n\nstringLength('🐴');\n//=> 1\n\nstringLength('\\u001B[1municorn\\u001B[22m');\n//=> 7\n```\n\n## API\n\n### stringLength(string, options?)\n\n#### options\n\nType: `object`\n\n##### countAnsiEscapeCodes\n\nType: `boolean`\\\nDefault: `false`\n\nWhether [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code) should be counted. They are ignored by default.\n\n## Related\n\n- [string-length-cli](https://github.com/LitoMore/string-length-cli) - CLI for this module\n- [string-width](https://github.com/sindresorhus/string-width) - Get visual width of a string"
 }

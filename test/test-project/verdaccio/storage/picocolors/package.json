@@ -417,7 +417,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f9d2f9893000e8f3e49d02119fb51b88\"",
-			"fetched": 1705396392256
+			"fetched": 1705398000618
 		}
 	},
 	"_distfiles": {
@@ -453,7 +453,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-433dec5437ed70bb",
+	"_rev": "2-9865dfd3caf57c2b",
 	"_id": "picocolors",
 	"readme": "# picocolors\n\nThe tiniest and the fastest library for terminal output formatting with ANSI colors.\n\n```javascript\nimport pc from \"picocolors\"\n\nconsole.log(\n  pc.green(`How are ${pc.italic(`you`)} doing?`)\n)\n```\n\n- **No dependencies.**\n- **14 times** smaller and **2 times** faster than chalk.\n- Used by popular tools like PostCSS, SVGO, Stylelint, and Browserslist.\n- Node.js v6+ & browsers support. Support for both CJS and ESM projects.\n- TypeScript type declarations included.\n- [`NO_COLOR`](https://no-color.org/) friendly.\n\n## Docs\nRead **[full docs](https://github.com/alexeyraspopov/picocolors#readme)** on GitHub."
 }

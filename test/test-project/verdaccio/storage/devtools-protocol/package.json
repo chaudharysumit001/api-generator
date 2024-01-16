@@ -62892,7 +62892,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e92bf2dde27dee3a2e00cf7ec838fb9a\"",
-			"fetched": 1705396344230
+			"fetched": 1705397955359
 		}
 	},
 	"_distfiles": {
@@ -68628,7 +68628,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-155069069bb7a3f9",
+	"_rev": "3-5429ef6366107871",
 	"_id": "devtools-protocol",
 	"readme": "# devtools-protocol [![devtools-protocol on npm](https://img.shields.io/npm/v/devtools-protocol)](https://www.npmjs.com/package/devtools-protocol)\n\n:warning:\nThis repository is related to Chrome DevTools Protocol, but does not track issues regarding its definition or implementation.\nIf you want to file an issue for the Chrome DevTools Protocol, please open an issue on https://crbug.com under [`component: Platform>DevTools>Platform`](https://bugs.chromium.org/p/chromium/issues/entry?components=Platform%3EDevTools%3EPlatform).\n\nUse the [protocol viewer](https://chromedevtools.github.io/devtools-protocol/) for navigating the protocol.\n\nTypeScript definitions for the protocol's types are available in ['types/protocol.d.ts'](https://github.com/ChromeDevTools/devtools-protocol/tree/master/types). Mappings from Commands and events to these types are available in either generated `DomainApi` style in [`types/protocol-proxy-api.d.ts`](https://github.com/ChromeDevTools/devtools-protocol/blob/master/types/protocol-proxy-api.d.ts) or in simple name-to-type-interface style in [`types/protocol-mapping.d.ts`](https://github.com/ChromeDevTools/devtools-protocol/blob/master/types/protocol-mapping.d.ts).\n\nAlso, this repo is published as the [`devtools-protocol`](https://www.npmjs.com/package/devtools-protocol) npm module."
 }

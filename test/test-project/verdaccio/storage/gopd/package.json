@@ -124,7 +124,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"4ecb32dd7233c75468d2492c6d708f0d\"",
-			"fetched": 1705396358490
+			"fetched": 1705397970558
 		}
 	},
 	"_distfiles": {
@@ -135,7 +135,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-30ed08f1fcac1d63",
+	"_rev": "2-843433d3dea11e74",
 	"_id": "gopd",
 	"readme": ""
 }

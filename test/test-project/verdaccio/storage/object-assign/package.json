@@ -1313,7 +1313,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d8c7eac06c11ed8e8f80bf19dc8f8c10\"",
-			"fetched": 1705396388116
+			"fetched": 1705397997161
 		}
 	},
 	"_distfiles": {
@@ -1404,7 +1404,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-185b70caae09b3e8",
+	"_rev": "2-258a8c60fbadcbfd",
 	"_id": "object-assign",
 	"readme": "# object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)\n\n> ES2015 [`Object.assign()`](http://www.2ality.com/2014/01/object-assign.html) [ponyfill](https://ponyfill.com)\n\n\n## Use the built-in\n\nNode.js 4 and up, as well as every evergreen browser (Chrome, Edge, Firefox, Opera, Safari),\nsupport `Object.assign()` :tada:. If you target only those environments, then by all\nmeans, use `Object.assign()` instead of this package.\n\n\n## Install\n\n```\n$ npm install --save object-assign\n```\n\n\n## Usage\n\n```js\nconst objectAssign = require('object-assign');\n\nobjectAssign({foo: 0}, {bar: 1});\n//=> {foo: 0, bar: 1}\n\n// multiple sources\nobjectAssign({foo: 0}, {bar: 1}, {baz: 2});\n//=> {foo: 0, bar: 1, baz: 2}\n\n// overwrites equal keys\nobjectAssign({foo: 0}, {foo: 1}, {foo: 2});\n//=> {foo: 2}\n\n// ignores null and undefined sources\nobjectAssign({foo: 0}, null, {bar: 1}, undefined);\n//=> {foo: 0, bar: 1}\n```\n\n\n## API\n\n### objectAssign(target, [source, ...])\n\nAssigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.\n\n\n## Resources\n\n- [ES2015 spec - Object.assign](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.assign)\n\n\n## Related\n\n- [deep-assign](https://github.com/sindresorhus/deep-assign) - Recursive `Object.assign()`\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

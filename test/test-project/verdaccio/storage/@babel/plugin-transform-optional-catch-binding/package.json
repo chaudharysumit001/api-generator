@@ -982,7 +982,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b56ef585dcba8ccd0f53d249e1092fac\"",
-			"fetched": 1705396291376
+			"fetched": 1705397902853
 		}
 	},
 	"_distfiles": {
@@ -1048,7 +1048,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-6fada4de3d1ff08e",
+	"_rev": "2-1038d21a430e31ce",
 	"_id": "@babel/plugin-transform-optional-catch-binding",
 	"readme": ""
 }

@@ -5250,7 +5250,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ac30a481dc6b189a6189dd8294774229\"",
-			"fetched": 1705396290503
+			"fetched": 1705397900052
 		}
 	},
 	"_distfiles": {
@@ -5591,7 +5591,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-7b5eb90de20dc9f6",
+	"_rev": "2-032e290734b13937",
 	"_id": "@babel/plugin-transform-modules-umd",
 	"readme": ""
 }

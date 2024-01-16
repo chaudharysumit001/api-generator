@@ -1757,7 +1757,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c150c9094c8a42691e2a4b0228890a15\"",
-			"fetched": 1705396284391
+			"fetched": 1705397892955
 		}
 	},
 	"_distfiles": {
@@ -1873,7 +1873,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-ef7eb8e8e4a55789",
+	"_rev": "2-dea65a2b6c35dbaa",
 	"_id": "@babel/plugin-syntax-import-assertions",
 	"readme": ""
 }

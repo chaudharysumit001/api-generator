@@ -2246,7 +2246,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0e999aa8692ae988daf1b118bf98f2c1\"",
-			"fetched": 1705396378376
+			"fetched": 1705397987744
 		}
 	},
 	"_distfiles": {
@@ -2377,7 +2377,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-67a75f4a6778bef6",
+	"_rev": "2-4770859b128ed215",
 	"_id": "lines-and-columns",
 	"readme": "# lines-and-columns\n\nMaps lines and columns to character offsets and back. This is useful for parsers\nand other text processors that deal in character ranges but process text with\nmeaningful lines and columns.\n\n## Install\n\n```\n$ npm install [--save] lines-and-columns\n```\n\n## Usage\n\n```js\nimport { LinesAndColumns } from 'lines-and-columns'\n\nconst lines = new LinesAndColumns(\n  `table {\n  border: 0\n}`\n)\n\nlines.locationForIndex(9)\n// { line: 1, column: 1 }\n\nlines.indexForLocation({ line: 1, column: 2 })\n// 10\n```\n\n## License\n\nMIT"
 }

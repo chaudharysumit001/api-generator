@@ -7754,7 +7754,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"52c2567ba30c926493e5c445bec50afb\"",
-			"fetched": 1705396287938
+			"fetched": 1705397898707
 		}
 	},
 	"_distfiles": {
@@ -8215,7 +8215,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-428f14f7531aa3cf",
+	"_rev": "2-0e8283eee808771d",
 	"_id": "@babel/plugin-transform-classes",
 	"readme": ""
 }

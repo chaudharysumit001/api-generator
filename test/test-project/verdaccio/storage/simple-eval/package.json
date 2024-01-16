@@ -402,7 +402,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c75168a49f13340309f26108043878d0\"",
-			"fetched": 1705396407524
+			"fetched": 1705398014182
 		}
 	},
 	"_distfiles": {
@@ -428,7 +428,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-e9b11ae0c0cfea14",
+	"_rev": "2-918b43acba0fac88",
 	"_id": "simple-eval",
 	"readme": "# simple-eval\n\nSimple JavaScript expression evaluator.\n\n## Install\n\n```sh\nyarn add simple-eval\n```\n\nor if npm is package manager of your choice\n\n```sh\nnpm install simple-eval --save\n```\n\n## Usage\n\n```js\nimport simpleEval from 'simple-eval';\n\nsimpleEval('2 + 4 * 10 + -4'); //  38\nsimpleEval('Math.floor(Math.PI * 10)'); // exception \nsimpleEval('Math.floor(Math.PI * 10)', { Math }); // 31, works because we provided Math\nsimpleEval('foo.bar.baz ? 10 : Math.random()', {\n  Math,\n  foo: {\n    bar: {\n      baz: false,\n    }\n  }\n}); // some random number, as returned by Math.random()\n```\n\nBy default, `simple-eval` uses [`jsep`](https://www.npmjs.com/package/jsep),\nbut you're free to use any ESTree compliant parser such as [`acorn`](https://www.npmjs.com/package/acorn), [`@babel/parser`](https://www.npmjs.com/package/@babel/parser), or [`esprima`](https://www.npmjs.com/package/esprima).\n\n## Caveats\n\nAlthough a number of use cases is supported, do note that this library does not aim to be a drop-in replacement for `eval`.\nBy supporting a limited set of instructions, it's arguably safer than `eval`, albeit it's still not supposed to be used instead of proper sandbox.\nIn particular, all kind of declarations and assignments are prohibited.\n\n## LICENSE\n\n[MIT](https://github.com/P0lip/simple-eval/blob/master/LICENSE)"
 }

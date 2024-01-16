@@ -4580,7 +4580,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ac0ca3801f0e215d046dae1cf0364985\"",
-			"fetched": 1705396286384
+			"fetched": 1705397894727
 		}
 	},
 	"_distfiles": {
@@ -4886,7 +4886,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-5a2322b8da640aed",
+	"_rev": "2-dd2754f734e7970c",
 	"_id": "@babel/plugin-transform-block-scoped-functions",
 	"readme": ""
 }

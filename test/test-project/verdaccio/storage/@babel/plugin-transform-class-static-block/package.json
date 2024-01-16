@@ -1042,7 +1042,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0205eb0b550d441d287960ad8dcc213a\"",
-			"fetched": 1705396286620
+			"fetched": 1705397896247
 		}
 	},
 	"_distfiles": {
@@ -1108,7 +1108,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-29e76e52c1f45d40",
+	"_rev": "2-41f618e728d4ecad",
 	"_id": "@babel/plugin-transform-class-static-block",
 	"readme": ""
 }

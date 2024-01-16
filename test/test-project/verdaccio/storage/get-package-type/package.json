@@ -86,7 +86,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"00d1b9a9c2acf0e43200e29787c285b5\"",
-			"fetched": 1705396356751
+			"fetched": 1705397968800
 		}
 	},
 	"_distfiles": {
@@ -97,7 +97,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2907259aaca2406a",
+	"_rev": "2-d5e36889b469ba99",
 	"_id": "get-package-type",
 	"readme": "# get-package-type [![NPM Version][npm-image]][npm-url]\n\nDetermine the `package.json#type` which applies to a location.\n\n## Usage\n\n```js\nconst getPackageType = require('get-package-type');\n\n(async () => {\n  console.log(await getPackageType('file.js'));\n  console.log(getPackageType.sync('file.js'));\n})();\n```\n\nThis function does not validate the value found in `package.json#type`.  Any truthy value\nfound will be returned.  Non-truthy values will be reported as `commonjs`.\n\nThe argument must be a filename.\n```js\n// This never looks at `dir1/`, first attempts to load `./package.json`.\nconst type1 = await getPackageType('dir1/');\n\n// This attempts to load `dir1/package.json`.\nconst type2 = await getPackageType('dir1/index.cjs');\n```\n\nThe extension of the filename does not effect the result.  The primary use case for this\nmodule is to determine if `myapp.config.js` should be loaded with `require` or `import`.\n\n[npm-image]: https://img.shields.io/npm/v/get-package-type.svg\n[npm-url]: https://npmjs.org/package/get-package-type"
 }

@@ -5020,7 +5020,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0a9ed7a51c348bc3cf918a4d3f6a9101\"",
-			"fetched": 1705396293692
+			"fetched": 1705397904042
 		}
 	},
 	"_distfiles": {
@@ -5346,7 +5346,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-269e5080b249de57",
+	"_rev": "2-c47ebc25ed60d1f7",
 	"_id": "@babel/plugin-transform-unicode-regex",
 	"readme": ""
 }

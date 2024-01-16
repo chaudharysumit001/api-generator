@@ -1190,7 +1190,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d761d3b7f930e7602d72ed0f14923b92\"",
-			"fetched": 1705396287935
+			"fetched": 1705397897012
 		}
 	},
 	"_distfiles": {
@@ -1266,7 +1266,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-aac2023837117d61",
+	"_rev": "2-2d73c91d5827b69b",
 	"_id": "update-browserslist-db",
 	"readme": "# Update Browserslist DB\n\n<img width=\"120\" height=\"120\" alt=\"Browserslist logo by Anton Popov\"\n     src=\"https://browsersl.ist/logo.svg\" align=\"right\">\n\nCLI tool to update `caniuse-lite` with browsers DB\nfrom [Browserslist](https://github.com/browserslist/browserslist/) config.\n\nSome queries like `last 2 version` or `>1%` depends on actual data\nfrom `caniuse-lite`.\n\n```sh\nnpx update-browserslist-db@latest\n```\n\n<a href=\"https://evilmartians.com/?utm_source=update-browserslist-db\">\n  <img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\"\n       alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n## Docs\nRead full docs **[here](https://github.com/browserslist/update-db#readme)**."
 }

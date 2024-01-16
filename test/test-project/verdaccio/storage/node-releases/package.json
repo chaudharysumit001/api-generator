@@ -7560,7 +7560,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6b2b5735639f25df889c0f5b0bc37726\"",
-			"fetched": 1705396287562
+			"fetched": 1705397896797
 		}
 	},
 	"_distfiles": {
@@ -8111,7 +8111,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-c39b50d2e9fe4d92",
+	"_rev": "2-bbe45d3d46e12c76",
 	"_id": "node-releases",
 	"readme": "# Node.js releases data\n\nAll data is located in `data` directory.\n\n`data/processed` contains `envs.json` with node.js releases data preprocessed to be used by [Browserslist](https://github.com/ai/browserslist) and other projects. Each version in this file contains only necessary info: version, release date, LTS flag/name, and security flag.\n\n`data/release-schedule` contains `release-schedule.json` with node.js releases date and end of life date.\n\n## Installation\n```bash\nnpm install node-releases\n```"
 }

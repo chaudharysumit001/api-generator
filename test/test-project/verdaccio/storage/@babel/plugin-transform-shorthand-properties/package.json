@@ -4589,7 +4589,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7f70737d5c30832a0185903eb8c28255\"",
-			"fetched": 1705396292615
+			"fetched": 1705397903129
 		}
 	},
 	"_distfiles": {
@@ -4895,7 +4895,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-7db9c67f86982b7b",
+	"_rev": "2-8d3ce64bf89b97b5",
 	"_id": "@babel/plugin-transform-shorthand-properties",
 	"readme": ""
 }

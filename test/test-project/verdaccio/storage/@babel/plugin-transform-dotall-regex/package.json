@@ -5100,7 +5100,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bbc727ad31b4cf2d3609c7b2eaec1cfd\"",
-			"fetched": 1705396288538
+			"fetched": 1705397897598
 		}
 	},
 	"_distfiles": {
@@ -5396,7 +5396,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-51639a60bd4d0edd",
+	"_rev": "2-91dc87a79462dea4",
 	"_id": "@babel/plugin-transform-dotall-regex",
 	"readme": ""
 }

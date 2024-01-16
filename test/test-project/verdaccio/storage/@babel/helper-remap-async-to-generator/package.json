@@ -5124,7 +5124,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"717b50a931a57dec6540656deacc7041\"",
-			"fetched": 1705396279443
+			"fetched": 1705397888677
 		}
 	},
 	"_distfiles": {
@@ -5480,7 +5480,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-73eee7c6161ca185",
+	"_rev": "2-a7f39b82440890e5",
 	"_id": "@babel/helper-remap-async-to-generator",
 	"readme": ""
 }

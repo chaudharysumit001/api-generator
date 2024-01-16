@@ -5861,7 +5861,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"23544afb8d305465386aa7cf8841b55f\"",
-			"fetched": 1705396290082
+			"fetched": 1705397899075
 		}
 	},
 	"_distfiles": {
@@ -6247,7 +6247,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-27ac3ef26b2cf080",
+	"_rev": "2-1a584dbf27cbe1b5",
 	"_id": "@babel/plugin-transform-for-of",
 	"readme": ""
 }

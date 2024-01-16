@@ -4627,7 +4627,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a9543de79f1d1da69aea01926ec49cdf\"",
-			"fetched": 1705396319562
+			"fetched": 1705397933081
 		}
 	},
 	"_distfiles": {
@@ -4958,7 +4958,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-de72da4f6947be8c",
+	"_rev": "2-f7088d19b7043533",
 	"_id": "@types/prettier",
 	"readme": "[object Object]"
 }

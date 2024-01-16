@@ -13633,7 +13633,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"08db974b605d146436c8b40ce3fb502d\"",
-			"fetched": 1705396330529
+			"fetched": 1705397942161
 		}
 	},
 	"_distfiles": {
@@ -14569,7 +14569,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f5e2a66dffc30633",
+	"_rev": "2-12344cd2a482524f",
 	"_id": "babel-plugin-jest-hoist",
 	"readme": "# babel-plugin-jest-hoist\n\nBabel plugin to hoist `jest.disableAutomock`, `jest.enableAutomock`, `jest.unmock`, `jest.mock`, calls above `import` statements. This plugin is automatically included when using [babel-jest](https://github.com/jestjs/jest/tree/main/packages/babel-jest).\n\n## Installation\n\n```sh\n$ yarn add --dev babel-plugin-jest-hoist\n```\n\n## Usage\n\n### Via `babel.config.js` (Recommended)\n\n```js\nmodule.exports = {\n  plugins: ['jest-hoist'],\n};\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins jest-hoist script.js\n```\n\n### Via Node API\n\n```javascript\nrequire('@babel/core').transform('code', {\n  plugins: ['jest-hoist'],\n});\n```"
 }

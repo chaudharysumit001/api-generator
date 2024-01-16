@@ -339,7 +339,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e9318dfb936e2f2fe3162dee44b64e16\"",
-			"fetched": 1705396284122
+			"fetched": 1705397893076
 		}
 	},
 	"_distfiles": {
@@ -365,7 +365,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-a3260b5fb250c0e8",
+	"_rev": "2-2b96b94e077cce3c",
 	"_id": "@babel/plugin-syntax-class-static-block",
 	"readme": ""
 }

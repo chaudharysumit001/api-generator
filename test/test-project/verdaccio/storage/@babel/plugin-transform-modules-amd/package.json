@@ -5932,7 +5932,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"81e909660e904a73ce2ccffd5be2a4a4\"",
-			"fetched": 1705396290074
+			"fetched": 1705397899539
 		}
 	},
 	"_distfiles": {
@@ -6313,7 +6313,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-39f31eb67ffb41cf",
+	"_rev": "2-e5eb645096fa1dbe",
 	"_id": "@babel/plugin-transform-modules-amd",
 	"readme": ""
 }

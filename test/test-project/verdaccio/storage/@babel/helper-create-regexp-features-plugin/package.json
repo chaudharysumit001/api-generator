@@ -3812,7 +3812,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ce1df1573781ce89544cebc9fc2208ef\"",
-			"fetched": 1705396278266
+			"fetched": 1705397886078
 		}
 	},
 	"_distfiles": {
@@ -4043,7 +4043,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-bde4afa5d14fc572",
+	"_rev": "2-9321e61760957309",
 	"_id": "@babel/helper-create-regexp-features-plugin",
 	"readme": ""
 }

@@ -4818,7 +4818,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2f98f137ab639beee7da52e50421409e\"",
-			"fetched": 1705396291125
+			"fetched": 1705397901633
 		}
 	},
 	"_distfiles": {
@@ -5134,7 +5134,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-fe04d58de365ff9d",
+	"_rev": "2-579e52cf1c053ed7",
 	"_id": "@babel/plugin-transform-object-super",
 	"readme": ""
 }

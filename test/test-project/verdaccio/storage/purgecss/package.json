@@ -6275,7 +6275,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2a963375e6a1072732714fd1bed382e9\"",
-			"fetched": 1705396396642
+			"fetched": 1705398005477
 		}
 	},
 	"_distfiles": {
@@ -6586,7 +6586,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-77b9acd096077f73",
+	"_rev": "2-f5b285cb6484b38b",
 	"_id": "purgecss",
 	"readme": "# PurgeCSS\n\n[![npm](https://img.shields.io/npm/v/purgecss?style=for-the-badge)](https://www.npmjs.com/package/purgecss)\n![npm](https://img.shields.io/npm/dm/purgecss?style=for-the-badge)\n![GitHub](https://img.shields.io/github/license/FullHuman/purgecss?style=for-the-badge)\n![Dependabot](https://img.shields.io/badge/dependabot-enabled-%23024ea4?style=for-the-badge)\n[![Coverage Status](https://img.shields.io/coveralls/github/FullHuman/purgecss/main?style=for-the-badge)](https://coveralls.io/github/FullHuman/purgecss?branch=main)\n\n<p align=\"center\">\n\t<img src=\"https://i.imgur.com/UEiUiJ0.png\" height=\"200\" width=\"200\" alt=\"PurgeCSS logo\"/>\n</p>\n\n## What is PurgeCSS?\n\nWhen you are building a website, chances are that you are using a css framework like Bootstrap, Materializecss, Foundation, etc... But you will only use a small set of the framework and a lot of unused css styles will be included.\n\nThis is where PurgeCSS comes into play. PurgeCSS analyzes your content and your css files. Then it matches the selectors used in your files with the one in your content files. It removes unused selectors from your css, resulting in smaller css files.\n\n## Sponsors 🥰\n\n[<img src=\"https://avatars0.githubusercontent.com/u/67109815?v=4\" height=\"85\" style=\"margin-right: 10px\">](https://tailwindcss.com)\n\n## Documentation\n\nYou can find the PurgeCSS documentation on [this website](https://purgecss.com).\n\n### Table of Contents\n\n#### PurgeCSS\n\n- [Configuration](https://purgecss.com/configuration.html)\n- [Command Line Interface](https://purgecss.com/CLI.html)\n- [Programmatic API](https://purgecss.com/api.html)\n- [Safelisting](https://purgecss.com/safelisting.html)\n- [Extractors](https://purgecss.com/extractors.html)\n- [Comparison](https://purgecss.com/comparison.html)\n\n#### Plugins\n\n- [PostCSS](https://purgecss.com/plugins/postcss.html)\n- [Webpack](https://purgecss.com/plugins/webpack.html)\n- [Gulp](https://purgecss.com/plugins/gulp.html)\n- [Grunt](https://purgecss.com/plugins/grunt.html)\n- [Gatsby](https://purgecss.com/plugins/gatsby.html)\n\n#### Guides\n\n- [Vue.js](https://purgecss.com/guides/vue.html)\n- [Nuxt.js](https://purgecss.com/guides/nuxt.html)\n- [React.js](https://purgecss.com/guides/react.html)\n- [Next.js](https://purgecss.com/guides/next.html)\n- [Razzle](https://purgecss.com/guides/razzle.html)\n\n## Getting Started\n\n#### Installation\n\n```\nnpm i --save-dev purgecss\n```\n\n## Usage\n\n```js\nimport PurgeCSS from \"purgecss\";\nconst purgeCSSResults = await new PurgeCSS().purge({\n  content: [\"**/*.html\"],\n  css: [\"**/*.css\"],\n});\n```\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](./../../CONTRIBUTING.md) for details on our code of\nconduct, and the process for submitting pull requests to us.\n\n## Versioning\n\nPurgeCSS use [SemVer](http://semver.org/) for versioning.\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](./../../LICENSE) file\nfor details."
 }

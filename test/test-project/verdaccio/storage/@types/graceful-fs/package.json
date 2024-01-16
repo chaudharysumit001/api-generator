@@ -1339,7 +1339,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"df658feeddb71963585dc6e37c58f3f0\"",
-			"fetched": 1705396317148
+			"fetched": 1705397930260
 		}
 	},
 	"_distfiles": {
@@ -1460,7 +1460,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-7decd41f98b90342",
+	"_rev": "2-71d9d05d9e61f377",
 	"_id": "@types/graceful-fs",
 	"readme": "[object Object]"
 }

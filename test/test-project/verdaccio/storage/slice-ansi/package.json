@@ -1252,7 +1252,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"08a7171c3db75cbe9c55ed51a119f509\"",
-			"fetched": 1705396407520
+			"fetched": 1705398013870
 		}
 	},
 	"_distfiles": {
@@ -1323,7 +1323,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f5cdc411728eb7e2",
+	"_rev": "2-7f5545c7ac37c363",
 	"_id": "slice-ansi",
 	"readme": "# slice-ansi [![XO: Linted](https://img.shields.io/badge/xo-linted-blue.svg)](https://github.com/xojs/xo)\n\n> Slice a string with [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors_and_Styles)\n\n## Install\n\n```sh\nnpm install slice-ansi\n```\n\n## Usage\n\n```js\nimport chalk from 'chalk';\nimport sliceAnsi from 'slice-ansi';\n\nconst string = 'The quick brown ' + chalk.red('fox jumped over ') +\n\t'the lazy ' + chalk.green('dog and then ran away with the unicorn.');\n\nconsole.log(sliceAnsi(string, 20, 30));\n```\n\n## API\n\n### sliceAnsi(string, startSlice, endSlice?)\n\n#### string\n\nType: `string`\n\nString with ANSI escape codes. Like one styled by [`chalk`](https://github.com/chalk/chalk).\n\n#### startSlice\n\nType: `number`\n\nZero-based index at which to start the slice.\n\n#### endSlice\n\nType: `number`\n\nZero-based index at which to end the slice.\n\n## Related\n\n- [wrap-ansi](https://github.com/chalk/wrap-ansi) - Wordwrap a string with ANSI escape codes\n- [cli-truncate](https://github.com/sindresorhus/cli-truncate) - Truncate a string to a specific width in the terminal\n- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right\n\n## Maintainers\n\n- [Sindre Sorhus](https://github.com/sindresorhus)\n- [Josh Junon](https://github.com/qix-)"
 }

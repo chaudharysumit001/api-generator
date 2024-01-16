@@ -175,7 +175,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9c1b348ad9126e90eb53707b941f5985\"",
-			"fetched": 1705396416541
+			"fetched": 1705398021545
 		}
 	},
 	"_distfiles": {
@@ -191,7 +191,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-0529c94ba38f9dd3",
+	"_rev": "2-2b35eda8884dfdb0",
 	"_id": "trim-repeated",
 	"readme": "# trim-repeated\n\n> Trim a consecutively repeated substring: `foo--bar---baz` → `foo-bar-baz`\n\n## Install\n\n```\n$ npm install trim-repeated\n```\n\n## Usage\n\n```js\nimport trimRepeated from 'trim-repeated';\n\ntrimRepeated('foo--bar---baz', '-');\n//=> 'foo-bar-baz'\n\ntrimRepeated('foo@#@#baz', '@#');\n//=> 'foo@#baz'\n```\n\n### trimRepeated(input, target)\n\n#### input\n\n*Required*\\\nType: `string`\n\n#### target\n\n*Required*\\\nType: `string`\n\nSubstring to trim.\n\n## Related\n\n- [`condense-whitespace`](https://github.com/sindresorhus/condense-whitespace) - Remove leading, trailing and repeated whitespace from a string"
 }

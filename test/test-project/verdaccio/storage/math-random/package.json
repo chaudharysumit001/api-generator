@@ -472,7 +472,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1b400b3debbbe15f27a2d41c4ac62c45\"",
-			"fetched": 1705396382595
+			"fetched": 1705397991042
 		}
 	},
 	"_distfiles": {
@@ -513,7 +513,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-c6232b8aa1a88987",
+	"_rev": "2-86a12fa6e99c4ed6",
 	"_id": "math-random",
 	"readme": "# math-random\n\nmath-random is an isomorphic, drop-in replacement for `Math.random` that uses cryptographically secure random number generation, where available\n\n[![ci](https://travis-ci.org/michaelrhodes/math-random.svg?branch=master)](https://travis-ci.org/michaelrhodes/math-random)\n\n## install\n```sh\nnpm install math-random\n```\n\n## use\n```js\nconsole.log(require('math-random')())\n=> 0.584293719381094\n\nconsole.log(require('math-random/is-secure'))\n=> true || false\n```\n\n## obey\n[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)"
 }

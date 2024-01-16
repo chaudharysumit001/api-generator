@@ -1692,7 +1692,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e86449cb283e2cc68cff9bd66bfe85bb\"",
-			"fetched": 1705396398490
+			"fetched": 1705398006213
 		}
 	},
 	"_distfiles": {
@@ -1788,7 +1788,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-8f5fe04a61d1a9f2",
+	"_rev": "2-dce1c97fb17c8b0d",
 	"_id": "read-package-json-fast",
 	"readme": "# read-package-json-fast\n\nLike [`read-package-json`](http://npm.im/read-package-json), but faster and\nmore accepting of \"missing\" data.\n\nThis is only suitable for reading package.json files in a node_modules\ntree, since it doesn't do the various cleanups, normalization, and warnings\nthat are beneficial at the root level in a package being published.\n\n## USAGE\n\n```js\nconst rpj = require('read-package-json-fast')\n\n// typical promisey type API\nrpj('/path/to/package.json')\n  .then(data => ...)\n  .catch(er => ...)\n\n// or just normalize a package manifest\nconst normalized = rpj.normalize(packageJsonObject)\n```\n\nErrors raised from parsing will use\n[`json-parse-even-better-errors`](http://npm.im/json-parse-even-better-errors),\nso they'll be of type `JSONParseError` and have a `code: 'EJSONPARSE'`\nproperty.  Errors will also always have a `path` member referring to the\npath originally passed into the function.\n\n## Indentation\n\nTo preserve indentation when the file is saved back to disk, use\n`data[Symbol.for('indent')]` as the third argument to `JSON.stringify`, and\nif you want to preserve windows `\\r\\n` newlines, replace the `\\n` chars in\nthe string with `data[Symbol.for('newline')]`.\n\nFor example:\n\n```js\nconst data = await readPackageJsonFast('./package.json')\nconst indent = Symbol.for('indent')\nconst newline = Symbol.for('newline')\n// .. do some stuff to the data ..\nconst string = JSON.stringify(data, null, data[indent]) + '\\n'\nconst eolFixed = data[newline] === '\\n' ? string\n  : string.replace(/\\n/g, data[newline])\nawait writeFile('./package.json', eolFixed)\n```\n\nIndentation is determined by looking at the whitespace between the initial\n`{` and the first `\"` that follows it.  If you have lots of weird\ninconsistent indentation, then it won't track that or give you any way to\npreserve it.  Whether this is a bug or a feature is debatable ;)\n\n## WHAT THIS MODULE DOES\n\n- Parse JSON\n- Normalize `bundledDependencies`/`bundleDependencies` naming to just\n  `bundleDependencies` (without the extra `d`)\n- Handle `true`, `false`, or object values passed to `bundleDependencies`\n- Normalize `funding: <string>` to `funding: { url: <string> }`\n- Remove any `scripts` members that are not a string value.\n- Normalize a string `bin` member to `{ [name]: bin }`.\n- Fold `optionalDependencies` into `dependencies`.\n- Set the `_id` property if name and version are set.  (This is\n  load-bearing in a few places within the npm CLI.)\n\n## WHAT THIS MODULE DOES NOT DO\n\n- Warn about invalid/missing name, version, repository, etc.\n- Extract a description from the `README.md` file, or attach the readme to\n  the parsed data object.\n- Read the `HEAD` value out of the `.git` folder.\n- Warn about potentially typo'ed scripts (eg, `tset` instead of `test`)\n- Check to make sure that all the files in the `files` field exist and are\n  valid files.\n- Fix bundleDependencies that are not listed in `dependencies`.\n- Fix `dependencies` fields that are not strictly objects of string values.\n- Anything involving the `directories` field (ie, bins, mans, and so on)."
 }

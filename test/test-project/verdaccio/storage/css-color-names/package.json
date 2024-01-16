@@ -470,7 +470,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a8a13a5ce24e8f32e599446ae9e9fe0b\"",
-			"fetched": 1705396341483
+			"fetched": 1705397952491
 		}
 	},
 	"_distfiles": {
@@ -511,7 +511,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-213469db36481f9b",
+	"_rev": "2-c8bc15912095a59b",
 	"_id": "css-color-names",
 	"readme": "css-color-names\n===============\n\nA JSON Object of css color names mapped to their hex value\n\nUsage\n-----\n\n``` js\nvar csscolors = require('css-color-names');\nconsole.dir(csscolors);\n```\n\nyields\n\n``` json\n{\n  \"aqua\": \"#00ffff\",\n  \"aliceblue\": \"#f0f8ff\",\n  \"antiquewhite\": \"#faebd7\",\n  \"black\": \"#000000\",\n  \"blue\": \"#0000ff\",\n  ...\n}\n```\n\nHow was this list generated?\n----------------------------\n\nIn the Makefile you'll see a line like this:\n\n\t./getcolors.sh | ./stringify.js > $(FILE)\n\nThe first command scrapes a site for the list,\nand outputs the results separated by newlines.  The\nsecond command creates the JSON object and outputs\nit to stdout, which then gets redirected into\n`css-color-names.json`\n\nInstallation\n------------\n\n    npm install css-color-names\n\nLicense\n-------\n\nMIT"
 }

@@ -679,7 +679,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"feb76e817ca1fc8dbb25353e5ef53631\"",
-			"fetched": 1705396335455
+			"fetched": 1705397948785
 		}
 	},
 	"_distfiles": {
@@ -725,7 +725,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-702d51743f827cb3",
+	"_rev": "2-7510821d72a0b6f4",
 	"_id": "cli-cursor",
 	"readme": "# cli-cursor\n\n> Toggle the CLI cursor\n\nThe cursor is [gracefully restored](https://github.com/sindresorhus/restore-cursor) if the process exits.\n\n## Install\n\n```\n$ npm install cli-cursor\n```\n\n## Usage\n\n```js\nimport cliCursor from 'cli-cursor';\n\ncliCursor.hide();\n\nconst unicornsAreAwesome = true;\ncliCursor.toggle(unicornsAreAwesome);\n```\n\n## API\n\n### .show(stream?)\n\n### .hide(stream?)\n\n### .toggle(force?, stream?)\n\n#### force\n\nUseful for showing or hiding the cursor based on a boolean.\n\n#### stream\n\nType: `stream.Writable`\\\nDefault: `process.stderr`\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-cli-cursor?utm_source=npm-cli-cursor&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

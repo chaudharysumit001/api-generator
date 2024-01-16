@@ -218,7 +218,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"84af8bf1e9786343663fb339b8c7f501\"",
-			"fetched": 1705396297234
+			"fetched": 1705397908931
 		}
 	},
 	"_distfiles": {
@@ -239,7 +239,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-309132abb7bc4aa4",
+	"_rev": "2-b115391d53a39971",
 	"_id": "@isaacs/string-locale-compare",
 	"readme": "# @isaacs/string-locale-compare\n\nCompare strings with Intl.Collator if available, falling back to\nString.localeCompare otherwise.\n\nThis also forces the use of a specific locale, to avoid using the system\nlocale, which is non-deterministic.\n\n## USAGE\n\n```js\nconst stringLocaleCompare = require('@isaacs/string-locale-compare')\n\nmyArrayOfStrings.sort(stringLocaleCompare('en'))\n\n// can also pass extra options\nmyArrayOfNumericStrings.sort(stringLocaleCompare('en', { numeric: true }))\n```\n\n## API\n\n`stringLocaleCompare(locale, [options])`\n\nLocale is required, must be a valid locale string.\n\nOptions is optional.  The following options are supported:\n\n* `sensitivity`\n* `numeric`\n* `ignorePunctuation`\n* `caseFirst`"
 }

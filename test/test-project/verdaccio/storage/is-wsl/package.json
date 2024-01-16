@@ -696,7 +696,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3f16fab803e66cd424e2aa47eb11acf7\"",
-			"fetched": 1705396367293
+			"fetched": 1705397979163
 		}
 	},
 	"_distfiles": {
@@ -742,7 +742,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-9888b207861b02e0",
+	"_rev": "2-0c78f4e1faf2e944",
 	"_id": "is-wsl",
 	"readme": "# is-wsl\n\n> Check if the process is running inside [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) (Bash on Windows)\n\nCan be useful if you need to work around unimplemented or buggy features in WSL. Supports both WSL 1 and WSL 2.\n\n## Install\n\n```sh\nnpm install is-wsl\n```\n\n## Usage\n\n```js\nimport isWsl from 'is-wsl';\n\n// When running inside Windows Subsystem for Linux\nconsole.log(isWsl);\n//=> true\n```"
 }

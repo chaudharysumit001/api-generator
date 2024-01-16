@@ -281,7 +281,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9b5cba86f9de81d0733ca3a57a97cf88\"",
-			"fetched": 1705396337688
+			"fetched": 1705397950108
 		}
 	},
 	"_distfiles": {
@@ -302,7 +302,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2d36f1dddac5711d",
+	"_rev": "2-3ec7e446c6c68ef5",
 	"_id": "collect-v8-coverage",
 	"readme": "# collect-v8-coverage\n\nUse this module to start and stop the V8 inspector manually and collect precise coverage.\n\n```js\nconst {CoverageInstrumenter} = require('collect-v8-coverage');\n\nconst instrumenter = new CoverageInstrumenter();\n\nawait instrumenter.startInstrumenting();\n\n// require some modules, run some code\n\nconst coverage = await instrumenter.stopInstrumenting();\n```"
 }

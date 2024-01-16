@@ -1177,7 +1177,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"062061ba4179ac4a6dcbfa4168f68c11\"",
-			"fetched": 1705396360859
+			"fetched": 1705397973687
 		}
 	},
 	"_distfiles": {
@@ -1263,7 +1263,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-b853d87b4b69e5dc",
+	"_rev": "2-1e89e6232f8666e0",
 	"_id": "html-tags",
 	"readme": "# html-tags\n\n> List of standard HTML tags\n\nIt's just a couple of JSON files that can be used in any environment.\n\nIt intentionally leaves out obsolete tags.\n\n## Install\n\n```\n$ npm install html-tags\n```\n\n## Usage\n\n```js\nconst htmlTags = require('html-tags');\n\nconsole.log(htmlTags);\n//=> ['a', 'abbr', 'acronym', …]\n```\n\nAnd void (self-closing) tags:\n\n```js\nconst voidHtmlTags = require('html-tags/void');\n\nconsole.log(voidHtmlTags);\n//=> ['area', 'base', 'br', …]\n```\n\n## Contribute\n\nMake sure to update types in `index.d.ts` when changing HTML elements."
 }

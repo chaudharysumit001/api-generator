@@ -2403,7 +2403,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"07e15a6135e09eb4bdd26a699063ed9a\"",
-			"fetched": 1705396308685
+			"fetched": 1705397922407
 		}
 	},
 	"_distfiles": {
@@ -2474,7 +2474,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-5767bc03878dc103",
+	"_rev": "2-41874a5d9fd9db25",
 	"_id": "@stoplight/better-ajv-errors",
 	"readme": "> JSON Schema validation for Human 👨‍🎤\n\nMain goal of this library is to provide relevant AJV error messages. It's a fork\nof great [better-ajv-errors](https://github.com/atlassian/better-ajv-errors) by\nAtlassian, with focus on being leaner.\n\n## Installation\n\n```bash\n$ yarn add @stoplight/better-ajv-errors\n```\n\nor\n\n```bash\n$ npm i @stoplight/better-ajv-errors\n```\n\nAlso make sure that you installed [ajv](https://www.npmjs.com/package/ajv)\npackage to validate data against JSON schemas.\n\n## Usage\n\nFirst, you need to validate your payload with `ajv`. If it's invalid then you\ncan pass `validate.errors` object into `better-ajv-errors`.\n\n```js\nimport Ajv from 'ajv';\nimport betterAjvErrors from '@stoplight/better-ajv-errors';\n// const Ajv = require('ajv');\n// const betterAjvErrors = require('better-ajv-errors');\n\n// You need to pass `jsonPointers: true`\nconst ajv = new Ajv({ jsonPointers: true });\n\n// Load schema and data\nconst schema = ...;\nconst data = ...;\n\nconst validate = ajv.compile(schema);\nconst valid = validate(data);\n\nif (!valid) {\n  const output = betterAjvErrors(schema, validate.errors, {\n    propertyPath: [],\n    targetValue: data,\n  });\n  console.log(output);\n}\n```\n\n## API\n\n### betterAjvErrors(schema, data, errors, [options])\n\nReturns formatted validation error to **print** in `console`. See\n[`options.format`](#format) for further details.\n\n#### schema\n\nType: `Object`\n\nThe JSON Schema you used for validation with `ajv`.\n\n#### errors\n\nType: `Array`\n\nArray of\n[ajv validation errors](https://github.com/epoberezkin/ajv#validation-errors)\n\n#### options\n\nType: `Object`\n\n##### propertyPath\n\nType: `Array`\n\nProperty path of a validated object that is a part of a bigger document. Might\nbe empty if the validated object equals the whole document.\n\n##### targetValue\n\nType: `Object`\n\nThe JSON payload you validate against using `ajv`."
 }

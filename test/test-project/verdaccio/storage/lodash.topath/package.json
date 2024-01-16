@@ -942,7 +942,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e32cb074084a68e2b2d6ca49fef99488\"",
-			"fetched": 1705396381269
+			"fetched": 1705397988704
 		}
 	},
 	"_distfiles": {
@@ -1003,7 +1003,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f028234118e5acb7",
+	"_rev": "2-cc7ec8021f008ee3",
 	"_id": "lodash.topath",
 	"readme": "# lodash.topath v4.5.2\n\nThe [lodash](https://lodash.com/) method `_.toPath` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.topath\n```\n\nIn Node.js:\n```js\nvar toPath = require('lodash.topath');\n```\n\nSee the [documentation](https://lodash.com/docs#toPath) or [package source](https://github.com/lodash/lodash/blob/4.5.2-npm-packages/lodash.topath) for more details."
 }

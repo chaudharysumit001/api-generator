@@ -1615,7 +1615,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fef8093554ba50bbf11141a4bf0b01c8\"",
-			"fetched": 1705396337156
+			"fetched": 1705397949257
 		}
 	},
 	"_distfiles": {
@@ -1726,7 +1726,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-a76efe764b00432e",
+	"_rev": "2-ba6ac3fbc0951294",
 	"_id": "cmd-shim",
 	"readme": "# cmd-shim\n\nThe cmd-shim used in npm to create executable scripts on Windows,\nsince symlinks are not suitable for this purpose there.\n\nOn Unix systems, you should use a symbolic link instead.\n\n[![Build Status](https://img.shields.io/travis/npm/cmd-shim/master.svg)](https://travis-ci.org/npm/cmd-shim)\n[![Dependency Status](https://img.shields.io/david/npm/cmd-shim.svg)](https://david-dm.org/npm/cmd-shim)\n[![npm version](https://img.shields.io/npm/v/cmd-shim.svg)](https://www.npmjs.com/package/cmd-shim)\n\n## Installation\n\n```\nnpm install cmd-shim\n```\n\n## API\n\n### cmdShim(from, to) -> Promise\n\nCreate a cmd shim at `to` for the command line program at `from`.\ne.g.\n\n```javascript\nvar cmdShim = require('cmd-shim');\ncmdShim(__dirname + '/cli.js', '/usr/bin/command-name').then(() => {\n  // shims are created!\n})\n```\n\n### cmdShim.ifExists(from, to) -> Promise\n\nThe same as above, but will just continue if the file does not exist."
 }

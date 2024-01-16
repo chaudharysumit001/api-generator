@@ -1189,7 +1189,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5626b37aae4413b4914f702a36aa9183\"",
-			"fetched": 1705396339980
+			"fetched": 1705397950527
 		}
 	},
 	"_distfiles": {
@@ -1230,7 +1230,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-139a71c171ca6cb9",
+	"_rev": "2-12eb435002fafa46",
 	"_id": "component-emitter",
 	"readme": "# component-emitter\n\n> Simple event emitter\n\n## Install\n\n```sh\nnpm install component-emitter\n```\n\n## Usage\n\nAs an `Emitter` instance:\n\n```js\nimport Emitter from 'component-emitter';\n\nconst emitter = new Emitter();\n\nemitter.emit('🦄');\n```\n\nAs a mixin:\n\n```js\nimport Emitter from 'component-emitter';\n\nconst user = {name: 'tobi'};\nEmitter(user);\n\nuser.emit('I am a user');\n```\n\nAs a prototype mixin:\n\n```js\nimport Emitter from 'component-emitter';\n\nEmitter(User.prototype);\n```\n\n## API\n\n### new Emitter()\n\nCreate a new emitter.\n\n### Emitter(object)\n\nUse it as a mixin. For example a plain object may become an emitter, or you may extend an existing prototype.\n\n### Emitter#on(event, listener)\n\nRegister an event handler that listens to a specified event.\n\n### Emitter#once(event, listener)\n\nRegister a one-time event handler for a specified event.\n\n### Emitter#off(event, listener)\n\nRemove a specific event handler for a specified event.\n\n### Emitter#off(event)\n\nRemove all event handlers for a specified event.\n\n### Emitter#off()\n\nRemove all event handlers for all events.\n\n### Emitter#emit(event, ...arguments)\n\nEmit an event, invoking all handlers registered for it.\n\n### Emitter#listeners(event)\n\nRetrieve the event handlers registered for a specific event.\n\n### Emitter#listenerCount(event)\n\nGet the count of listeners for a specific event.\n\n### Emitter#listenerCount()\n\nGet the count of all event handlers in total.\n\n### Emitter#hasListeners(event)\n\nCheck if there are any handlers registered for a specific event.\n\n### Emitter#hasListeners()\n\nCheck if there are any handlers registered for any event.\n\n## FAQ\n\n### How does it differ from the Node.js EventEmitter?\n\nIt's simpler and more lightweight, and it works in any JavaScript environment, not just Node.js. It also provides mixin functionality to add event handling to existing objects without needing inheritance."
 }

@@ -7568,7 +7568,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c8ced911e3b4f43fea1ead559fcca033\"",
-			"fetched": 1705396286393
+			"fetched": 1705397896024
 		}
 	},
 	"_distfiles": {
@@ -8054,7 +8054,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-4fc31a9adf1ddd82",
+	"_rev": "2-3aad3d39da89adb1",
 	"_id": "@babel/plugin-transform-block-scoping",
 	"readme": ""
 }

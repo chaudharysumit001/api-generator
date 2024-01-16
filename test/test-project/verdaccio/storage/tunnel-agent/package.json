@@ -524,7 +524,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"41cfc7c2c8e94008e5739dae60253a45\"",
-			"fetched": 1705396416893
+			"fetched": 1705398021819
 		}
 	},
 	"_distfiles": {
@@ -570,7 +570,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2dac7a77033431f7",
+	"_rev": "2-f119fd84c6f69e49",
 	"_id": "tunnel-agent",
 	"readme": "tunnel-agent\n============\n\nHTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module."
 }

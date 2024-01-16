@@ -442,7 +442,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"42b74d8e60e238300135cde63ccf62ae\"",
-			"fetched": 1705396364463
+			"fetched": 1705397976081
 		}
 	},
 	"_distfiles": {
@@ -473,7 +473,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-cabe9271d8f534e4",
+	"_rev": "2-85fe8a4c5f9c4b03",
 	"_id": "is-binary-path",
 	"readme": "# is-binary-path [![Build Status](https://travis-ci.org/sindresorhus/is-binary-path.svg?branch=master)](https://travis-ci.org/sindresorhus/is-binary-path)\n\n> Check if a file path is a binary file\n\n\n## Install\n\n```\n$ npm install is-binary-path\n```\n\n\n## Usage\n\n```js\nconst isBinaryPath = require('is-binary-path');\n\nisBinaryPath('source/unicorn.png');\n//=> true\n\nisBinaryPath('source/unicorn.txt');\n//=> false\n```\n\n\n## Related\n\n- [binary-extensions](https://github.com/sindresorhus/binary-extensions) - List of binary file extensions\n- [is-text-path](https://github.com/sindresorhus/is-text-path) - Check if a filepath is a text file\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com), [Paul Miller](https://paulmillr.com)"
 }

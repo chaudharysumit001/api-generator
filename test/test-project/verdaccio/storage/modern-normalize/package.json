@@ -889,7 +889,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"aab3d038f366890d968a433bd1a24d8b\"",
-			"fetched": 1705396384750
+			"fetched": 1705397993139
 		}
 	},
 	"_distfiles": {
@@ -945,7 +945,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-4284da5e4b3c26ed",
+	"_rev": "2-1aef2209ecfd900b",
 	"_id": "modern-normalize",
 	"readme": "<div align=\"center\">\n\t<img src=\"media/logo.svg\" alt=\"modern-normalize\">\n\t<br>\n\t<br>\n\t<div align=\"center\">\n\t\t<p>\n\t\t\t<p>\n\t\t\t\t<sup>\n\t\t\t\t\t<a href=\"https://github.com/sponsors/sindresorhus\">My open source work is supported by the community</a>\n\t\t\t\t</sup>\n\t\t\t</p>\n\t\t\t<sup>Special thanks to:</sup>\n\t\t\t<br>\n\t\t\t<br>\n\t\t\t<a href=\"https://standardresume.co/tech\">\n\t\t\t\t<img src=\"https://sindresorhus.com/assets/thanks/standard-resume-logo.svg\" width=\"200\"/>\n\t\t\t</a>\n\t\t</p>\n\t</div>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n</div>\n\n## Differences from [`normalize.css`](https://github.com/necolas/normalize.css)\n\n- Smaller\n- Includes only normalizations for the latest Chrome, Firefox, and Safari\n- [Sets `box-sizing: border-box`](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)\n- [Improves consistency of default fonts](https://github.com/sindresorhus/modern-normalize/issues/3)\n- [Sets a more readable tab size](https://github.com/sindresorhus/modern-normalize/issues/17)\n- Fully tested\n\nAll credit should go to `normalize.css`. I just removed some cruft and added some improvements. If you have questions about the source, check out the [original source](https://github.com/necolas/normalize.css/blame/master/normalize.css) and [this](https://github.com/necolas/normalize.css#extended-details-and-known-issues) for details.\n\n[**The goal of this project is to make itself obsolete.**](https://github.com/sindresorhus/modern-normalize/issues/2)\n\n## Browser support\n\n- Latest Chrome\n- Latest Firefox\n- Latest Safari\n\n## Install\n\n```\n$ npm install modern-normalize\n```\n\n###### Download\n\n- [Normal](https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css)\n- [Minified](https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css)\n\n###### CDN\n\n- [jsdelivr](https://www.jsdelivr.com/package/npm/modern-normalize)\n- [unpkg](https://unpkg.com/modern-normalize)\n- [cdnjs](https://cdnjs.com/libraries/modern-normalize)\n\n## Usage\n\n```css\n@import 'node_modules/modern-normalize/modern-normalize.css';\n```\n\nor\n\n```html\n<link rel=\"stylesheet\" href=\"node_modules/modern-normalize/modern-normalize.css\">\n```\n\n## FAQ\n\n### Can you provide Sass, Less, etc, ports?\n\nThere's absolutely no reason to have separate ports for these. They are just CSS supersets and can import CSS directly.\n\n## Related\n\n- [sass-extras](https://github.com/sindresorhus/sass-extras) - Useful utilities for working with Sass"
 }

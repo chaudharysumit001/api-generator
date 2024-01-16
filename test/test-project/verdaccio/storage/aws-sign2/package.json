@@ -225,7 +225,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"60d6f96a146dcc5cf8ee21d4769cfc7e\"",
-			"fetched": 1705396329261
+			"fetched": 1705397941814
 		}
 	},
 	"_distfiles": {
@@ -251,7 +251,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-4ada0a604716418d",
+	"_rev": "2-9d979d6d6de1ea30",
 	"_id": "aws-sign2",
 	"readme": "aws-sign\n========\n\nAWS signing. Originally pulled from LearnBoost/knox, maintained as vendor in request, now a standalone module."
 }

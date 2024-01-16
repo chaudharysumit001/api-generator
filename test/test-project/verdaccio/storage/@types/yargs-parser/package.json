@@ -1226,7 +1226,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e138b0466b0cf1b0a7ba086a990cbdb6\"",
-			"fetched": 1705396321159
+			"fetched": 1705397933391
 		}
 	},
 	"_distfiles": {
@@ -1337,7 +1337,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-9782107ee35263f6",
+	"_rev": "2-dd64c0f9d7ae2b2f",
 	"_id": "@types/yargs-parser",
 	"readme": "[object Object]"
 }

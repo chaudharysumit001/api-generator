@@ -858,7 +858,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"85663cff60dc2fa6db0b2949163c41ea\"",
-			"fetched": 1705396377464
+			"fetched": 1705397985416
 		}
 	},
 	"_distfiles": {
@@ -919,7 +919,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-e81d19841506eaf9",
+	"_rev": "2-986116bbd847f7f9",
 	"_id": "jsonpointer",
 	"readme": "# JSON Pointer for Node.js\n\nThis is an implementation of [JSON Pointer](https://tools.ietf.org/html/rfc6901).\n\n## CLI\n\nLooking to filter JSON from the command line? Check out [jsonpointer-cli](https://github.com/joeyespo/jsonpointer-cli).\n\n## Usage\n```javascript\nvar jsonpointer = require('jsonpointer');\nvar obj = { foo: 1, bar: { baz: 2}, qux: [3, 4, 5]};\n\njsonpointer.get(obj, '/foo');     // returns 1\njsonpointer.get(obj, '/bar/baz'); // returns 2\njsonpointer.get(obj, '/qux/0');   // returns 3\njsonpointer.get(obj, '/qux/1');   // returns 4\njsonpointer.get(obj, '/qux/2');   // returns 5\njsonpointer.get(obj, '/quo');     // returns undefined\n\njsonpointer.set(obj, '/foo', 6);  // sets obj.foo = 6;\njsonpointer.set(obj, '/qux/-', 6) // sets obj.qux = [3, 4, 5, 6]\n\nvar pointer = jsonpointer.compile('/foo')\npointer.get(obj)    // returns 1\npointer.set(obj, 1) // sets obj.foo = 1\n```\n\n## Testing\n\n    $ npm test\n    All tests pass.\n    $\n\n[![Node.js CI](https://github.com/janl/node-jsonpointer/actions/workflows/node.js.yml/badge.svg)](https://github.com/janl/node-jsonpointer/actions/workflows/node.js.yml)\n\n## Author\n\n(c) 2011-2021 Jan Lehnardt <jan@apache.org> & Marc Bachmann <https://github.com/marcbachmann>\n\nThanks to all contributors.\n\n## License\n\nMIT License."
 }

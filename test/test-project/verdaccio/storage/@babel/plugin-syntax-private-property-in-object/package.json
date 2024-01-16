@@ -179,7 +179,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"56ee5fe9b4b8d36ea504a945fc8c6f4c\"",
-			"fetched": 1705396285635
+			"fetched": 1705397894389
 		}
 	},
 	"_distfiles": {
@@ -195,7 +195,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-6a6be3a0e3f2ed5a",
+	"_rev": "2-20a45ed7c1ea5a4a",
 	"_id": "@babel/plugin-syntax-private-property-in-object",
 	"readme": ""
 }

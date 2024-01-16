@@ -825,7 +825,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2d440596c3d135f34626ee06eb00c572\"",
-			"fetched": 1705396375735
+			"fetched": 1705397984538
 		}
 	},
 	"_distfiles": {
@@ -896,7 +896,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-44b46b2d4457f90f",
+	"_rev": "3-15dae08e94092559",
 	"_id": "json-pointer",
 	"readme": "# json-pointer\n\n[![Build Status](https://travis-ci.org/manuelstofer/json-pointer.svg?branch=master)](https://travis-ci.org/manuelstofer/json-pointer)\n[![npm version](https://badge.fury.io/js/json-pointer.svg)](https://www.npmjs.com/package/json-pointer)\n[![Coverage Status](https://coveralls.io/repos/github/manuelstofer/json-pointer/badge.svg?branch=master&service=github)](https://coveralls.io/github/manuelstofer/json-pointer?branch=master)\n\nSome utilities for JSON pointers described by RFC 6901\n\nProvides some additional stuff i needed but is not included in [node-jsonpointer](https://github.com/janl/node-jsonpointer)\n\n\n## Installation\n\n[node.js](http://nodejs.org)\n\n```bash\n$ npm install json-pointer\n```\n\n\n## API\n\n```Javascript\nvar pointer = require('json-pointer');\n```\n\n\n### .get(object, pointer)\n\nLooks up a JSON pointer in an object.\n\nArray of reference tokens, e.g. returned by api.parse, can be passed as a pointer to .get, .set and .remove methods.\n\n```Javascript\nvar obj = {\n    example: {\n        bla: 'hello'\n    }\n};\npointer.get(obj, '/example/bla');\n```\n\n\n### .set(object, pointer, value)\n\nSets a new value on object at the location described by pointer.\n\n```Javascript\nvar obj = {};\npointer.set(obj, '/example/bla', 'hello');\n```\n\n\n### .remove(object, pointer)\n\nRemoves an attribute of object referenced by pointer.\n\n```Javascript\nvar obj = {\n    example: 'hello'\n};\npointer.remove(obj, '/example');\n// obj -> {}\n```\n\n\n### .dict(object)\n\nCreates a dictionary object (pointer -> value).\n\n```Javascript\nvar obj = {\n    hello: {bla: 'example'}\n};\npointer.dict(obj);\n\n// Returns:\n// {\n//    '/hello/bla': 'example'\n// }\n```\n\n\n### .walk(object, iterator)\n\nJust like:\n\n```Javascript\neach(pointer.dict(obj), iterator);\n```\n\n\n### .has(object, pointer)\n\nTests if an object has a value for a JSON pointer.\n\n```Javascript\nvar obj = {\n    bla: 'hello'\n};\n\npointer.has(obj, '/bla');               // -> true\npointer.has(obj, '/non/existing');      // -> false\n```\n\n\n### .escape(str)\n\nEscapes a reference token.\n\n```Javascript\npointer.escape('hello~bla');            // -> 'hello~0bla'\npointer.escape('hello/bla');            // -> 'hello~1bla'\n```\n\n\n### .unescape(str)\n\nUnescape a reference token.\n\n```Javascript\npointer.unescape('hello~0bla');         // -> 'hello~bla'\npointer.unescape('hello~1bla');         // -> 'hello/bla'\n```\n\n\n### .parse(str)\n\nConverts a JSON pointer into an array of reference tokens.\n\n```Javascript\npointer.parse('/hello/bla');            // -> ['hello', 'bla']\n```\n\n\n### .compile(array)\n\nBuilds a json pointer from an array of reference tokens.\n\n```Javascript\npointer.compile(['hello', 'bla']);      // -> '/hello/bla'\n```\n\n\n### pointer(object, [pointer, [value]])\n\nConvenience wrapper around the api.\n\n```Javascript\npointer(object)                 // bind object\npointer(object, pointer)        // get\npointer(object, pointer, value) // set\n```\n\nThe wrapper supports chainable object oriented style.\n\n```Javascript\nvar obj = {anything: 'bla'};\nvar objPointer = pointer(obj);\nobjPointer.set('/example', 'bla').dict();\n```"
 }

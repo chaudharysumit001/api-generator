@@ -2159,7 +2159,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f6a973e701520f9afd20a1614e21bf6b\"",
-			"fetched": 1705396278715
+			"fetched": 1705397882056
 		}
 	},
 	"_distfiles": {
@@ -2260,7 +2260,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-fd2df89491609c76",
+	"_rev": "2-31ded8043787880a",
 	"_id": "@asyncapi/raml-dt-schema-parser",
 	"readme": "# RAML Data Types Schema Parser\n\nA schema parser for RAML data types.\n\n> **Note**\n> Version >= `3.0.0` of package is only supported by `@asyncapi/parser` version >= `2.0.0`.\n\n> **Warning** \n> This package is not browser-compatible.\n\n<!-- toc is generated with GitHub Actions do not remove toc markers -->\n\n<!-- toc -->\n\n- [Installation](#installation)\n- [Usage](#usage)\n\n<!-- tocstop -->\n\n## Installation\n\n```bash\nnpm install @asyncapi/raml-dt-schema-parser\n// OR\nyarn add @asyncapi/raml-dt-schema-parser\n```\n\n## Usage\n\n```ts\nimport { Parser } from '@asyncapi/parser';\nimport { RamlDTSchemaParser } from '@asyncapi/raml-dt-schema-parser';\n\nconst parser = new Parser();\nparser.registerSchemaParser(RamlDTSchemaParser()); \n\nconst asyncapiWithRAML = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with RAML\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/raml+yaml;version=1.0'\n        payload: # The following is a RAML data type\n          type: object\n          properties:\n            title: string\n            author:\n              type: string\n              examples:\n                anExample: Jack Johnson\n`;\n\nconst { document } = await parser.parse(asyncapiWithRAML);\n```\n\n```js\nconst { Parser } = require('@asyncapi/parser');\nconst { RamlDTSchemaParser } = require('@asyncapi/raml-dt-schema-parser');\n\nconst parser = new Parser();\nparser.registerSchemaParser(RamlDTSchemaParser()); \n\nconst asyncapiWithRAML = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with RAML\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/raml+yaml;version=1.0'\n        payload: # The following is a RAML data type\n          type: object\n          properties:\n            title: string\n            author:\n              type: string\n              examples:\n                anExample: Jack Johnson\n`;\n\nconst { document } = await parser.parse(asyncapiWithRAML);\n```\n\nIt also supports referencing remote RAML data types:\n\n```js\nimport { Parser } from '@asyncapi/parser';\nimport { RamlDTSchemaParser } from '@asyncapi/raml-dt-schema-parser';\n\nconst parser = new Parser();\nparser.registerSchemaParser(RamlDTSchemaParser()); \n\nconst asyncapiWithRAML = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with RAML\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/raml+yaml;version=1.0'\n        payload:\n          $ref: 'yourserver.com/data-types/library.raml#/Book'\n`;\n\nconst { document } = await parser.parse(asyncapiWithRAML);\n```"
 }

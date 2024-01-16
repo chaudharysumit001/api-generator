@@ -622,7 +622,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3daf2b51b4b308233c4db5ea5d95aa1b\"",
-			"fetched": 1705396402047
+			"fetched": 1705398010608
 		}
 	},
 	"_distfiles": {
@@ -663,7 +663,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-dd5069fc63f09664",
+	"_rev": "2-2021bac3fa0bf7d3",
 	"_id": "restore-cursor",
 	"readme": "# restore-cursor\n\n> Gracefully restore the CLI cursor on exit\n\nPrevent the cursor you have hidden interactively from remaining hidden if the process crashes.\n\nIt does nothing if run in a non-TTY context.\n\n## Install\n\n```sh\nnpm install restore-cursor\n```\n\n## Usage\n\n```js\nimport restoreCursor from 'restore-cursor';\n\nrestoreCursor();\n```"
 }

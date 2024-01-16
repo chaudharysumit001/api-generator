@@ -1543,7 +1543,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3679cbb4651296dea49463adc0d511c6\"",
-			"fetched": 1705396352591
+			"fetched": 1705397963976
 		}
 	},
 	"_distfiles": {
@@ -1639,7 +1639,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-087a401ccd72302d",
+	"_rev": "2-2667b396dc1e03b2",
 	"_id": "filenamify",
 	"readme": "# filenamify\n\n> Convert a string to a valid safe filename\n\nOn Unix-like systems, `/` is reserved. On Windows, [`<>:\"/\\|?*`](http://msdn.microsoft.com/en-us/library/aa365247%28VS.85%29#naming_conventions) along with trailing periods are reserved.\n\n## Install\n\n```sh\nnpm install filenamify\n```\n\n## Usage\n\n```js\nimport filenamify from 'filenamify';\n\nfilenamify('<foo/bar>');\n//=> '!foo!bar!'\n\nfilenamify('foo:\"bar\"', {replacement: '🐴'});\n//=> 'foo🐴bar🐴'\n```\n\n## API\n\n### filenamify(string, options?)\n\nConvert a string to a valid filename.\n\n### filenamifyPath(path, options?)\n\nConvert the filename in a path a valid filename and return the augmented path.\n\n```js\nimport {filenamifyPath} from 'filenamify';\n\nfilenamifyPath('foo:bar');\n//=> 'foo!bar'\n```\n\n#### options\n\nType: `object`\n\n##### replacement\n\nType: `string`\\\nDefault: `'!'`\n\nString to use as replacement for reserved filename characters.\n\nCannot contain: `<` `>` `:` `\"` `/` `\\` `|` `?` `*`\n\n##### maxLength\n\nType: `number`\\\nDefault: `100`\n\nTruncate the filename to the given length.\n\nOnly the base of the filename is truncated, preserving the extension. If the extension itself is longer than `maxLength`, you will get a string that is longer than `maxLength`, so you need to check for that if you allow arbitrary extensions.\n\nSystems generally allow up to 255 characters, but we default to 100 for usability reasons.\n\n## Browser-only import\n\nYou can also import `filenamify/browser`, which only imports `filenamify` and not `filenamifyPath`, which relies on `path` being available or polyfilled. Importing `filenamify` this way is therefore useful when it is shipped using `webpack` or similar tools, and if `filenamifyPath` is not needed.\n\n```js\nimport filenamify from 'filenamify/browser';\n\nfilenamify('<foo/bar>');\n//=> '!foo!bar!'\n```\n\n## Related\n\n- [filenamify-cli](https://github.com/sindresorhus/filenamify-cli) - CLI for this module\n- [filenamify-url](https://github.com/sindresorhus/filenamify-url) - Convert a URL to a valid filename\n- [valid-filename](https://github.com/sindresorhus/valid-filename) - Check if a string is a valid filename\n- [unused-filename](https://github.com/sindresorhus/unused-filename) - Get a unused filename by appending a number if it exists\n- [slugify](https://github.com/sindresorhus/slugify) - Slugify a string"
 }

@@ -982,7 +982,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"307be75fbaf1d1b7b5fb2cfb13d5b40d\"",
-			"fetched": 1705396289283
+			"fetched": 1705397898836
 		}
 	},
 	"_distfiles": {
@@ -1048,7 +1048,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-4b588907f4a22f5f",
+	"_rev": "2-ea5363bd3821531b",
 	"_id": "@babel/plugin-transform-json-strings",
 	"readme": ""
 }

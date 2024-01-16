@@ -437,7 +437,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"96f6af8bfe6e98dc48d403f7dd4b0842\"",
-			"fetched": 1705396356233
+			"fetched": 1705397967434
 		}
 	},
 	"_distfiles": {
@@ -468,7 +468,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2aa218d71fa5c2d4",
+	"_rev": "2-6d63c1fdfe15c38c",
 	"_id": "is-fullwidth-code-point",
 	"readme": "# is-fullwidth-code-point\n\n> Check if the character represented by a given [Unicode code point](https://en.wikipedia.org/wiki/Code_point) is [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms)\n\n## Install\n\n```sh\nnpm install is-fullwidth-code-point\n```\n\n## Usage\n\n```js\nimport isFullwidthCodePoint from 'is-fullwidth-code-point';\n\nisFullwidthCodePoint('谢'.codePointAt(0));\n//=> true\n\nisFullwidthCodePoint('a'.codePointAt(0));\n//=> false\n```\n\n## API\n\n### isFullwidthCodePoint(codePoint)\n\n#### codePoint\n\nType: `number`\n\nThe [code point](https://en.wikipedia.org/wiki/Code_point) of a character."
 }

@@ -3683,7 +3683,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1c2d621ec13cfb495978f186e45cebcf\"",
-			"fetched": 1705396290789
+			"fetched": 1705397901141
 		}
 	},
 	"_distfiles": {
@@ -3899,7 +3899,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-666b4208397f7a80",
+	"_rev": "2-fef0deea4eda31ed",
 	"_id": "@babel/plugin-transform-named-capturing-groups-regex",
 	"readme": ""
 }

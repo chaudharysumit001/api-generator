@@ -754,7 +754,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"81c1ea39132f522476d391ab29679a56\"",
-			"fetched": 1705396407102
+			"fetched": 1705398013784
 		}
 	},
 	"_distfiles": {
@@ -810,7 +810,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-82f9975062a6edc0",
+	"_rev": "2-3d03bf0492078005",
 	"_id": "slash",
 	"readme": "# slash\n\n> Convert Windows backslash paths to slash paths: `foo\\\\bar` ➔ `foo/bar`\n\n[Forward-slash paths can be used in Windows](http://superuser.com/a/176395/6877) as long as they're not extended-length paths.\n\nThis was created since the `path` methods in Node.js outputs `\\\\` paths on Windows.\n\n## Install\n\n```sh\nnpm install slash\n```\n\n## Usage\n\n```js\nimport path from 'node:path';\nimport slash from 'slash';\n\nconst string = path.join('foo', 'bar');\n// Unix    => foo/bar\n// Windows => foo\\\\bar\n\nslash(string);\n// Unix    => foo/bar\n// Windows => foo/bar\n```\n\n## API\n\n### slash(path)\n\nType: `string`\n\nAccepts a Windows backslash path and returns a path with forward slashes."
 }

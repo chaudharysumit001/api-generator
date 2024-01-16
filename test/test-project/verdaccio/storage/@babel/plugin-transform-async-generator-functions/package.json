@@ -1445,7 +1445,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2b1c0d6e4730278aaa550b4b8c4f6a70\"",
-			"fetched": 1705396286187
+			"fetched": 1705397895525
 		}
 	},
 	"_distfiles": {
@@ -1536,7 +1536,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-8052ee932574d36c",
+	"_rev": "2-ce5e4fce6f56c8e9",
 	"_id": "@babel/plugin-transform-async-generator-functions",
 	"readme": ""
 }

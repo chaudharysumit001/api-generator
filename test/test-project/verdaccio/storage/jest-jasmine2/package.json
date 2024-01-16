@@ -26973,7 +26973,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2983a3cff6b7e73832e8bda94e7a5757\"",
-			"fetched": 1705396371462
+			"fetched": 1705397981636
 		}
 	},
 	"_distfiles": {
@@ -28504,7 +28504,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2f54bc9f3ba171f5",
+	"_rev": "2-bea4d832380de893",
 	"_id": "jest-jasmine2",
 	"readme": "ERROR: No README data found!"
 }

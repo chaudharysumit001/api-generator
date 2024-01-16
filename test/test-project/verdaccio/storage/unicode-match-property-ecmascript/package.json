@@ -463,7 +463,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e9baa47e6f09393c3b3a4926ae609921\"",
-			"fetched": 1705396419975
+			"fetched": 1705398023258
 		}
 	},
 	"_distfiles": {
@@ -499,7 +499,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-9f5a74b5da9e8c91",
+	"_rev": "2-bbb80456f79426ea",
 	"_id": "unicode-match-property-ecmascript",
 	"readme": "# unicode-match-property-ecmascript [![Build status](https://travis-ci.org/mathiasbynens/unicode-match-property-ecmascript.svg?branch=main)](https://travis-ci.org/mathiasbynens/unicode-match-property-ecmascript) [![unicode-match-property-ecmascript on npm](https://img.shields.io/npm/v/unicode-match-property-ecmascript)](https://www.npmjs.com/package/unicode-match-property-ecmascript)\n\n_unicode-match-property-ecmascript_ matches a given Unicode property or [property alias](https://github.com/mathiasbynens/unicode-property-aliases-ecmascript) to its canonical property name without applying [loose matching](https://github.com/mathiasbynens/unicode-loose-match) per the algorithm used for [RegExp Unicode property escapes in ECMAScript](https://github.com/tc39/proposal-regexp-unicode-property-escapes). Consider it a strict alternative to loose matching.\n\n## Installation\n\nTo use _unicode-match-property-ecmascript_ programmatically, install it as a dependency via [npm](https://www.npmjs.com/):\n\n```bash\n$ npm install unicode-match-property-ecmascript\n```\n\nThen, `require` it:\n\n```js\nconst matchProperty = require('unicode-match-property-ecmascript');\n```\n\n## API\n\nThis module exports a single function named `matchProperty`.\n\n### `matchProperty(value)`\n\nThis function takes a string `value` and attempts to match it to a canonical Unicode property name. If there’s a match, it returns the canonical property name. Otherwise, it throws an exception.\n\n```js\n// Find the canonical property name:\nmatchProperty('sc')\n// → 'Script'\n\nmatchProperty('Script')\n// → 'Script'\n\nmatchProperty('script') // Note: incorrect casing.\n// → throws\n```\n\n## For maintainers\n\n### How to publish a new release\n\n1. On the `main` branch, bump the version number in `package.json`:\n\n    ```sh\n    npm version patch -m 'Release v%s'\n    ```\n\n    Instead of `patch`, use `minor` or `major` [as needed](https://semver.org/).\n\n    Note that this produces a Git commit + tag.\n\n1. Push the release commit and tag:\n\n    ```sh\n    git push && git push --tags\n    ```\n\n    Our CI then automatically publishes the new release to npm.\n\n## Author\n\n| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias \"Follow @mathias on Twitter\") |\n|---|\n| [Mathias Bynens](https://mathiasbynens.be/) |\n\n## License\n\n_unicode-match-property-ecmascript_ is available under the [MIT](https://mths.be/mit) license."
 }

@@ -1725,7 +1725,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"03f18a72f8eb2d57963acc40bf2d162d\"",
-			"fetched": 1705396391312
+			"fetched": 1705397999617
 		}
 	},
 	"_distfiles": {
@@ -1831,7 +1831,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-b995451753552d37",
+	"_rev": "2-bec6fd4a4d7e012e",
 	"_id": "parse-json",
 	"readme": "# parse-json\n\n> Parse JSON with more helpful errors\n\n## Install\n\n```sh\nnpm install parse-json\n```\n\n## Usage\n\n```js\nimport parseJson, {JSONError} from 'parse-json';\n\nconst json = '{\\n\\t\"foo\": true,\\n}';\n\n\nJSON.parse(json);\n/*\nundefined:3\n}\n^\nSyntaxError: Unexpected token }\n*/\n\n\nparseJson(json);\n/*\nJSONError: Unexpected token } in JSON at position 16 while parsing near '{      \"foo\": true,}'\n\n  1 | {\n  2 |   \"foo\": true,\n> 3 | }\n    | ^\n*/\n\n\nparseJson(json, 'foo.json');\n/*\nJSONError: Unexpected token } in JSON at position 16 while parsing near '{      \"foo\": true,}' in foo.json\n\n  1 | {\n  2 |   \"foo\": true,\n> 3 | }\n    | ^\n*/\n\n\n// You can also add the filename at a later point\ntry {\n\tparseJson(json);\n} catch (error) {\n\tif (error instanceof JSONError) {\n\t\terror.fileName = 'foo.json';\n\t}\n\n\tthrow error;\n}\n/*\nJSONError: Unexpected token } in JSON at position 16 while parsing near '{      \"foo\": true,}' in foo.json\n\n  1 | {\n  2 |   \"foo\": true,\n> 3 | }\n    | ^\n*/\n```\n\n## API\n\n### parseJson(string, reviver?, filename?)\n\nThrows a `JSONError` when there is a parsing error.\n\n#### string\n\nType: `string`\n\n#### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter\n) for more.\n\n#### filename\n\nType: `string`\n\nThe filename displayed in the error message.\n\n### JSONError\n\nExposed for `instanceof` checking.\n\n#### fileName\n\nType: `string`\n\nThe filename displayed in the error message.\n\n#### codeFrame\n\nType: `string`\n\nThe printable section of the JSON which produces the error.\n\n#### rawCodeFrame\n\nType: `string`\n\nThe raw version of `codeFrame` without colors."
 }

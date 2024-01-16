@@ -4580,7 +4580,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"68cf91119df41c2c8d9fcd679944eb7f\"",
-			"fetched": 1705396291961
+			"fetched": 1705397901729
 		}
 	},
 	"_distfiles": {
@@ -4886,7 +4886,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-8696ba5ef76fd8ff",
+	"_rev": "2-7965bd96f955bf87",
 	"_id": "@babel/plugin-transform-property-literals",
 	"readme": ""
 }

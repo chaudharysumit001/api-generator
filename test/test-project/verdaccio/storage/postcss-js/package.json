@@ -1448,7 +1448,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"735f3cfd1cffad834b9072463d6fcfe4\"",
-			"fetched": 1705396393524
+			"fetched": 1705398002654
 		}
 	},
 	"_distfiles": {
@@ -1544,7 +1544,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-61243ff690e9d606",
+	"_rev": "2-51d5b980af28f751",
 	"_id": "postcss-js",
 	"readme": "# PostCSS JS\n\n<img align=\"right\" width=\"135\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"https://postcss.org/logo-leftp.svg\">\n\n[PostCSS] for CSS-in-JS and styles in JS objects.\n\nFor example, to use [Stylelint] or [RTLCSS] plugins in your workflow.\n\n<a href=\"https://evilmartians.com/?utm_source=postcss-js\">\n  <img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\"\n       alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n[Stylelint]: https://github.com/stylelint/stylelint\n[PostCSS]:   https://github.com/postcss/postcss\n[RTLCSS]:    https://github.com/MohammadYounes/rtlcss\n\n\n## Docs\nRead full docs **[here](https://github.com/postcss/postcss-js#readme)**."
 }

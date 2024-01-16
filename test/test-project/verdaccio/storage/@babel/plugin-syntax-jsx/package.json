@@ -4665,7 +4665,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0a786342ebf05b3e7d840f5eddf8539d\"",
-			"fetched": 1705396284642
+			"fetched": 1705397892266
 		}
 	},
 	"_distfiles": {
@@ -4981,7 +4981,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-611aced4debfa426",
+	"_rev": "2-a21426b1b76a27cc",
 	"_id": "@babel/plugin-syntax-jsx",
 	"readme": ""
 }

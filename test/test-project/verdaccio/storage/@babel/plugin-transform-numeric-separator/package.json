@@ -1006,7 +1006,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c82c89c5cb9522e883e9ac213a88a575\"",
-			"fetched": 1705396292628
+			"fetched": 1705397900864
 		}
 	},
 	"_distfiles": {
@@ -1072,7 +1072,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-af6f3e8d1fd8b9ba",
+	"_rev": "2-481aa3958ff03a49",
 	"_id": "@babel/plugin-transform-numeric-separator",
 	"readme": ""
 }

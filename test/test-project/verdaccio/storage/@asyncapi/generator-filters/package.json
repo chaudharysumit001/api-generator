@@ -509,7 +509,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dab7f3982234eb4c3c15f73dfadd3bab\"",
-			"fetched": 1705396271998
+			"fetched": 1705397877160
 		}
 	},
 	"_distfiles": {
@@ -535,7 +535,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-ad74c16e21037f04",
+	"_rev": "2-a39f34a49687d637",
 	"_id": "@asyncapi/generator-filters",
 	"readme": "# Generator Filters\n\nThis is a library with [generator](https://github.com/asyncapi/generator/) filters that are used in more than one template. Use these filters to not double your work.\n\nThis library consists of:\n- Custom filters. Check out [API docs](docs/api.md) for complete list\n- Lodash-powered filters. For the list of all available filters check [official docs](https://lodash.com/docs/)"
 }

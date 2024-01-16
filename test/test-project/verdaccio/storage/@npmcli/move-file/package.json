@@ -759,7 +759,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"41ead191e1b5481c197904ce5621dd48\"",
-			"fetched": 1705396304433
+			"fetched": 1705397919032
 		}
 	},
 	"_distfiles": {
@@ -805,7 +805,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-8f04ef2a73e42d73",
+	"_rev": "2-1cb7e5242a0835a2",
 	"_id": "@npmcli/move-file",
 	"readme": "# @npmcli/move-file\n\nA fork of [move-file](https://github.com/sindresorhus/move-file) with\ncompatibility with all node 10.x versions.\n\n> Move a file (or directory)\n\nThe built-in\n[`fs.rename()`](https://nodejs.org/api/fs.html#fs_fs_rename_oldpath_newpath_callback)\nis just a JavaScript wrapper for the C `rename(2)` function, which doesn't\nsupport moving files across partitions or devices. This module is what you\nwould have expected `fs.rename()` to be.\n\n## Highlights\n\n- Promise API.\n- Supports moving a file across partitions and devices.\n- Optionally prevent overwriting an existing file.\n- Creates non-existent destination directories for you.\n- Support for Node versions that lack built-in recursive `fs.mkdir()`\n- Automatically recurses when source is a directory.\n\n## Install\n\n```\n$ npm install @npmcli/move-file\n```\n\n## Usage\n\n```js\nconst moveFile = require('@npmcli/move-file');\n\n(async () => {\n\tawait moveFile('source/unicorn.png', 'destination/unicorn.png');\n\tconsole.log('The file has been moved');\n})();\n```\n\n## API\n\n### moveFile(source, destination, options?)\n\nReturns a `Promise` that resolves when the file has been moved.\n\n### moveFile.sync(source, destination, options?)\n\n#### source\n\nType: `string`\n\nFile, or directory, you want to move.\n\n#### destination\n\nType: `string`\n\nWhere you want the file or directory moved.\n\n#### options\n\nType: `object`\n\n##### overwrite\n\nType: `boolean`\\\nDefault: `true`\n\nOverwrite existing destination file(s)."
 }

@@ -2542,7 +2542,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d4a4ebfde0272e29a3126480d22d862e\"",
-			"fetched": 1705396393696
+			"fetched": 1705398003489
 		}
 	},
 	"_distfiles": {
@@ -2723,7 +2723,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-4f65bf81c50bb1d2",
+	"_rev": "2-e4b3f0193cbfd56f",
 	"_id": "postcss-nested",
 	"readme": "# PostCSS Nested\n\n<img align=\"right\" width=\"135\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"https://postcss.org/logo-leftp.svg\">\n\n[PostCSS] plugin to unwrap nested rules closer to Sass syntax.\n\n```css\n.phone {\n    &_title {\n        width: 500px;\n        @media (max-width: 500px) {\n            width: auto;\n        }\n        body.is_dark & {\n            color: white;\n        }\n    }\n    img {\n        display: block;\n    }\n}\n\n.title {\n  font-size: var(--font);\n\n  @at-root html {\n      --font: 16px\n  }\n}\n```\n\nwill be processed to:\n\n```css\n.phone_title {\n    width: 500px;\n}\n@media (max-width: 500px) {\n    .phone_title {\n        width: auto;\n    }\n}\nbody.is_dark .phone_title {\n    color: white;\n}\n.phone img {\n    display: block;\n}\n\n.title {\n  font-size: var(--font);\n}\nhtml {\n  --font: 16px\n}\n```\n\nRelated plugins:\n\n* Use [`postcss-current-selector`] **after** this plugin if you want\n  to use current selector in properties or variables values.\n* Use [`postcss-nested-ancestors`] **before** this plugin if you want\n  to reference any ancestor element directly in your selectors with `^&`.\n\nAlternatives:\n\n* See also [`postcss-nesting`], which implements [CSSWG draft].\n* [`postcss-nested-props`] for nested properties like `font-size`.\n\n<a href=\"https://evilmartians.com/?utm_source=postcss-nested\">\n  <img src=\"https://evilmartians.com/badges/sponsored-by-evil-martians.svg\"\n       alt=\"Sponsored by Evil Martians\" width=\"236\" height=\"54\">\n</a>\n\n[`postcss-current-selector`]: https://github.com/komlev/postcss-current-selector\n[`postcss-nested-ancestors`]: https://github.com/toomuchdesign/postcss-nested-ancestors\n[`postcss-nested-props`]:     https://github.com/jedmao/postcss-nested-props\n[`postcss-nesting`]:          https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting\n[CSSWG draft]:              https://drafts.csswg.org/css-nesting-1/\n[PostCSS]:                  https://github.com/postcss/postcss\n\n\n## Docs\nRead full docs **[here](https://github.com/postcss/postcss-nested#readme)**."
 }

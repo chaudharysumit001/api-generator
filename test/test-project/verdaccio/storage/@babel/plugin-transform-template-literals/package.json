@@ -5218,7 +5218,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bfc7defab5c5e69c0d945910f4901733\"",
-			"fetched": 1705396295022
+			"fetched": 1705397906189
 		}
 	},
 	"_distfiles": {
@@ -5559,7 +5559,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-f59000f6173f3f1a",
+	"_rev": "2-c8fa1fa6626663fb",
 	"_id": "@babel/plugin-transform-template-literals",
 	"readme": ""
 }

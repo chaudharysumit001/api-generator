@@ -10705,7 +10705,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dcb8abcc3f9d3c10f2bc168e41d7571c\"",
-			"fetched": 1705396299581
+			"fetched": 1705397913931
 		}
 	},
 	"_distfiles": {
@@ -11276,7 +11276,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-04350fce092823f4",
+	"_rev": "2-4eb540a8e19a7f82",
 	"_id": "@jest/fake-timers",
 	"readme": "ERROR: No README data found!"
 }

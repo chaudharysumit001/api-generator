@@ -845,7 +845,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d25887de093ca3db7d7b9bf45dd8a314\"",
-			"fetched": 1705396310178
+			"fetched": 1705397924542
 		}
 	},
 	"_distfiles": {
@@ -881,7 +881,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-675176168b0d0d00",
+	"_rev": "2-cc3e9baeab21800b",
 	"_id": "@stoplight/ordered-object-literal",
 	"readme": "# @stoplight/ordered-object-literal\n\n## Install\n\nDo not use it if you can use maps.\n\n```sh\nyarn add @stoplight/ordered-object-literal\n```\n\nor if npm is package manager of your choice\n\n```sh\nnpm install @stoplight/ordered-object-literal --save\n```\n\n## Usage\n\n### I want to create a new object\n\n```js\nimport box from '@stoplight/ordered-object-literal';\n\nconst trackedObj = box({});\n```\n\n### I have an existing object\n\n```js\nimport box from '@stoplight/ordered-object-literal';\n\nconst myObj = { \n  a: true,\n  b: void 0,\n};\n\nconst trackedObj = box(myObj);\n// alternatively if you want to provide a custom orer\nconst trackedReversedObj = box(myObj, ['b', 'a']);\n```\n\n## LICENSE\n\n[Apache License 2.0](https://github.com/stoplightio/ordered-object-literal/blob/master/LICENSE)"
 }

@@ -814,7 +814,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"138e9da3a1546efd8843aee76315bb68\"",
-			"fetched": 1705396284639
+			"fetched": 1705397891857
 		}
 	},
 	"_distfiles": {
@@ -870,7 +870,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-2de92e0f850a5606",
+	"_rev": "2-47075199ca85a893",
 	"_id": "@babel/plugin-syntax-import-attributes",
 	"readme": ""
 }
