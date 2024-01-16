@@ -2,7 +2,7 @@ version: '3'
 
 services:
   verdaccio:
-    build: .
+    image: verdaccio/verdaccio:5
     container_name: 'verdaccio'
     ports:
       - '4873:4873'
@@ -13,7 +13,7 @@ services:
 
   test-project:
     privileged: true
-    image: "node:16"
+    image: "node:{NODE_IMAGE_TAG}"
     extra_hosts:
      - "host.docker.internal:host-gateway"
     environment:
