@@ -306,7 +306,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"02dbeced772359c444fd2795f7c67d1e\"",
-			"fetched": 1705387233773
+			"fetched": 1705396392706
 		}
 	},
 	"_distfiles": {
@@ -342,7 +342,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "1-d637b835cdb66295",
+	"_rev": "2-ab54052bbd8d6b92",
 	"_id": "pend",
 	"readme": "# Pend\n\nDead-simple optimistic async helper.\n\n## Usage\n\n```js\nvar Pend = require('pend');\nvar pend = new Pend();\npend.max = 10; // defaults to Infinity\nsetTimeout(pend.hold(), 1000); // pend.wait will have to wait for this hold to finish\npend.go(function(cb) {\n  console.log(\"this function is immediately executed\");\n  setTimeout(function() {\n    console.log(\"calling cb 1\");\n    cb();\n  }, 500);\n});\npend.go(function(cb) {\n  console.log(\"this function is also immediately executed\");\n  setTimeout(function() {\n    console.log(\"calling cb 2\");\n    cb();\n  }, 1000);\n});\npend.wait(function(err) {\n  console.log(\"this is excuted when the first 2 have returned.\");\n  console.log(\"err is a possible error in the standard callback style.\");\n});\n```\n\nOutput:\n\n```\nthis function is immediately executed\nthis function is also immediately executed\ncalling cb 1\ncalling cb 2\nthis is excuted when the first 2 have returned.\nerr is a possible error in the standard callback style.\n```"
 }

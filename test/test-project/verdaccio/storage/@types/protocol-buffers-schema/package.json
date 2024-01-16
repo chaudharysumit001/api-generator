@@ -1,0 +1,432 @@
+{
+	"name": "@types/protocol-buffers-schema",
+	"versions": {
+		"3.3.0": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.3.0",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"url": "https://github.com/claasahl",
+					"githubUsername": "claasahl"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "d440503aaf9c241dfd6f9d0cac675773f73d0f6e7f2a3a6cd4cb5a427a6ed048",
+			"typeScriptVersion": "2.7",
+			"_id": "@types/protocol-buffers-schema@3.3.0",
+			"dist": {
+				"integrity": "sha512-+m/5h9+oMi2sMrf/MOVlzaXJbHC5OjiBiOAqHudvoPFhKl7FJyEqGw63XLelxKCzB7zNqHcwanp0gdhUgow04g==",
+				"shasum": "a810c4b62f9a66e85c8211153405f08869c08622",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.3.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 4932,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJchqScCRA9TVsSAnZWagAACUMP/jDWqa0OXY0FEEDmITJK\nWINfJ4bAxDzAtQ0dtJT0LL90JuG2DOpW+nq034ZV7eteLRpeeLFnQ/lKPcPX\nBxXTsZdhqWv8ln2n6y7jj6yI6o3HbvPv7pPK+ygV8WWjdKrFI3ldH2kIt/Il\ndyjEGe9UVpoEmzq/qkaMzFL7Tl5XgQ2yE53uly6UjWnO4SwGSOB1enfGi+gj\n/7zsUqFvjCI5velj3w6eZAwrQXxg62arZ6aV6l/B4cFq/RAXULxKon5XBSn2\nvr/Uq7uD80w/Nar2RgGWNSiu6Jfx+ihdWl+B77XsMw06sIdnrpgX5YNF0f+7\neoqI9V5sjj7LbFhnyRk/HMJkgyWTv/vRthjcCIem+WXJJpwyOL+NPG9bf/YH\nZCwx0SEiu9kJtNdt+mpzqx+ih4fvxBpaQJ7mu95QyglP69GSgxVe4l8urcDQ\nh60xOWp4TyMaUkUzQJKFMYAxC1t9rl4sh0cPEJWkFuyNJ5TmepwQ4f3lIkbV\nwzOtSjyXjkIwhv/dvzVyfPeYMsk5WwC2NVB/WryiXM+FBRSLSKxUUt3BWOTy\nYWTR5UaYCTa+Vil8MDQD10uEiZsJ2pGAR+h/DiDqqf2UgwTZejKmF/v7XaGz\n9XSaQc4443pgDSvIOcK2L05uUB96H3PtZ0cWoWCHpvmhiYX8/Ova3wOyN1Ei\nh1AN\r\n=Bsk4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAjnmcvdFEWGJafzHB7MuBsKI39KszMOb8k4w+l28v7zAiBLUUz2l11PYU3XXhIddmom9M/d7us/hypC5KkHjkBVgg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.3.0_1552327835932_0.581915477000772"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.3.1": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.3.1",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"url": "https://github.com/claasahl",
+					"githubUsername": "claasahl"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "0eeb81b77ae6aef631df1584087ebdea046be205865920b6572978ea857e166c",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/protocol-buffers-schema@3.3.1",
+			"dist": {
+				"integrity": "sha512-4ylC5oHKFDVzaPmVCJxIJWzf+7kafYevI12K0UsIYU62hcHgIWcgGjU474QFpPY/V+pz0qdMnaz8RI/g1juJ2Q==",
+				"shasum": "5c3b944b06fc66ebad5e15a554364b335e199a8c",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.3.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 4982,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeDnqtCRA9TVsSAnZWagAArBkP/jaMXreYkRc3KGzedAL5\nFXDMwwLbg0f67E/ZV7itwb7JLUzNzxmFQydOsROiyvCfa+/fkDxoDgzlRoW5\nIIiEQHhrxjKuBZJejW9ixuoH9YZnsxercwPM2z31mxDGJdKYhijJf7n3Ykn9\ni0opeBRYZmHyMUF4eeFm0clZVNeO4OAW1H3rHXTJ0rmZwZTLYYO+VcgtUS+m\nip2KJeZEau9/W+g86Rx/XokqKedKx65XUC02KtQK/5f/EZ/I+WIDrCnXUrmE\nsWvwRjvZyIUh4/9rzOYGhGL9JRSnh1h/PHgrbi7CpL+i2Q4bBu1urRGIsand\nBXcgFulLMWO2NfXwtELfDTbT5eO4Q5v1lCVNxq0uCKwBrvKviE2eSIZ1vUF/\n1K7BUXHW2ShlUG2UCits6ezEXoVlp08lNIgOvvoqt3SCMto6hnb55XkUmQ39\na645hGMB0vUoOrPJwpAzaVqqXThSpL7T9Xw5uIqQ9jafwG9NV4ASfA0KcBuS\nS2O/edc5AnPfahtqXQPPj/D/yXTM1XesKCkM7H9+eNdMxzwcb9TR+8vBb1cU\nqJgav9P9hlecAVxa5R+aLjNOiQSkfgdFbI303bx8Q23yJWCDazSODqjf5qYH\nsHnie3Cqg4/C8XBxUvTCHBH3nFr4JljjO4mpaa6MbDuyl7ppNWwaRosbwAHH\nMySi\r\n=IS/h\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDtNLAfSsl3uQ2bDCTRnHvQJpXyMPXT/dcxsOrSeNEx2AiEAl6CjJuZ0oQEkYLz7m5MXrYtUgUbvYTgxwnX2Z7oWGfk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.3.1_1578007213224_0.7401223414526745"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.4.0": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.4.0",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"url": "https://github.com/claasahl",
+					"githubUsername": "claasahl"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "aa06bb59502e581752f6bcb50fe2db57253081295414e0e7842237057c0b76b8",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/protocol-buffers-schema@3.4.0",
+			"dist": {
+				"integrity": "sha512-hycZagB1N8sGEc9NtP6qhXVsgFAQ7AgYIg9NcxY7FXhYyCOTX4SPXKCyCxBg8suB5xVCxXqZUlCMDlax0Piu1Q==",
+				"shasum": "e0744a0d28cc24d6e73574ebab56dca945d90f8e",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 5005,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeat3yCRA9TVsSAnZWagAA5g8QAIqAIncLLhzNu1Z4ssrd\naad9oMG1rMrpPwueip1K4eMZX78qHbO3Avsv1yovZGsPYz8tUFSriRLTmRky\nHUQVNyVmaEZ6TzCxislptTwV/qCuv3vgJNNKhnxkvthaNH5XewxY1pB3kiOR\nNILSJo76b9T+CAdotLeh+9vGqcffYUzz4v0xZewWadMf7oAZJD03uxSoA/7f\nWe+IkjA834Ak5kvCH6hEQy+WmoN4K9DJpjib/0h8mHv10Z1a8coUOCIvalWN\nPvuXNnlzqFQsAiVX/k8EVfV+tx+7E15lqOGSlQdXlqr/sB5vJ/72wYEvWc+8\nl0r8X7AJbj4ulb6TozPus6FBn8IiR46blbDqN0jpXmliedtmm4+C1o3shamU\nCAm4rq60+eiryjA2s9Y/b6RBYdfo+Nya60WEgYg5pfPxgYgHz36OcrzBRo6d\nP9r1/ACwv34Ky8cZp6eYzwf7jL7qv3R74RibUethPKexUfvZtuqzgtaVQTA9\nnchDJLR6Q8otGy4vVqj9qwwYNOhzOOAFxCTQFDoI2wkDRqk+G4uENRf3RjNh\nUc4IArnyETKoQ09hRaK6xIuCrVARyoA2pyIA2V3toY8Giz3pOD1WnA5bfVcD\nVf8lxbu+iyGqVjpM8TP/EAhGCD6/g9JkoqNUJqXanoGnxOiUteiXJ0OfFlKf\nBhOV\r\n=9JZk\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDC25OQ7ysILSvmhn75w3wmW3L1GiWFR5sAsAbLa6UvxgIgERzDwMqgqF3jrUbT/9awvZRq79x3QEZFG5a+VlEdadc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.4.0_1584061938470_0.7681356252423843"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.4.1": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.4.1",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"url": "https://github.com/claasahl",
+					"githubUsername": "claasahl"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "f1454274df615561b5070a5ff01d0270cf0502dd5b099450276013413a768560",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/protocol-buffers-schema@3.4.1",
+			"dist": {
+				"integrity": "sha512-CBpqIDa1+/F3Z5EL8Uz/t+1eygIinJiMS37KP8O9TN+n38OlckYQhU+t/vYpsF7XhSDuiZS0zAJyfRrAeDKDUw==",
+				"shasum": "82ffab9b40a95768c5b5693b7280259e9b39d48e",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 5087,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg52m6CRA9TVsSAnZWagAACHUP/R88fUj5BK1NqQPhFuDD\nJnMwROUHi/hfuJUNAgMxRthDPMYKs8Ghs3M6MwfeypN+5LxkPyp1Gn+woAir\ngvBKoWTTgC4XKwZNSbek+pfjW9of43dbeMw3ypuxXHPNBOLJmBNHtE8OaYGv\nnLn4dzLrmmoMWpFYTyo8/unGR/RRWI76L6MAgAR8EXVuUkcQT7IhMUQrIP2T\nYR4zyZYLuX+lRtqpmTDHjDF0cRGkLIWeemFd6BFqevt8a5gKXoMNMVwfOXMJ\n0h+Y85XGp7corvgIsv9NjbfWcwVFo2/424jI1athUrefv68yaG2EaDAOeUzy\nQJq2L9YC8vp6WL4tK8xBPPHMGTP+Fj3qexk9Sq+JRtdsCMDDOI0MZXw2v+J6\nVEm1ZFEt8GARoCp0tH5oQpBIXWCBB1E2wlsQ2GYM63Lv3XbIEkUzcm0Y4C63\ngjk6GKzxqczxDp/YfMk9R3SEaZkuSnPsuXhJ7MAyGH4+hR64ZL5OXHvuI3nk\nHYVxol1GqfpPZ/OuPd/GK/A1mUwx4o/8/DGXBGrElHbzav9AxNtMJ5jc9omb\npsk4rlHV0BOsk1SeUsCoqhTj96FsQhpuY4t9fL7Xhe+AhCV4A7sNQOmTesl8\nfnm8kFj9Ex5HcnAsS63kVZQ9oD0gKRoiFve5aSdYNGAcA7D9T9f0pDal05yn\nrzwH\r\n=NOUq\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDnr5FHAVPyWTdqKdRBEqW914qgaTK/DjGmUXD76ylowQIgBqvMiMKvSH/ETsJw78lXDd8q3i9ENuQqP5zqwKP+1yg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.4.1_1625778618076_0.04194657281588676"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.4.2": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.4.2",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"githubUsername": "claasahl",
+					"url": "https://github.com/claasahl"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "10b97ce7a7a32fe5561fb498aff16f5fada61ce6caa8708fffafa25414a60982",
+			"typeScriptVersion": "4.5",
+			"_id": "@types/protocol-buffers-schema@3.4.2",
+			"dist": {
+				"integrity": "sha512-GaQpfsfFk4wGU3//d7uCGy9zy6B8QBEyWYd6+maZH+S6m861QrFvLWS5RyHj4UfIiON9tmqCz9C+oNpebDgGIw==",
+				"shasum": "15226dfa0cd74687d1e8c5643bb17b59470b9b2c",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4787,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBm3hxg54FRcWzLnlgGDHCyqiR+Ad2RlHnaAbuXsEN0WAiEA8NGvGeMPJNZJD70gbhHWcsM2+BlmWXP7Hkop6axIdwg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.4.2_1697628712740_0.9866142764487353"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.4.3": {
+			"name": "@types/protocol-buffers-schema",
+			"version": "3.4.3",
+			"description": "TypeScript definitions for protocol-buffers-schema",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/protocol-buffers-schema",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Claas Ahlrichs",
+					"githubUsername": "claasahl",
+					"url": "https://github.com/claasahl"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/protocol-buffers-schema"
+			},
+			"scripts": {},
+			"dependencies": {
+				"@types/node": "*"
+			},
+			"typesPublisherContentHash": "ab09110952e7ba056c740778a99a5a4e2a1060b56d03bbd61324e269a6b672ef",
+			"typeScriptVersion": "4.5",
+			"_id": "@types/protocol-buffers-schema@3.4.3",
+			"dist": {
+				"integrity": "sha512-8cCg6BiIj4jS0LXUFq3sndmd46yyPLYqMzvXLcTM1MRubh3sfZlQiehoCjGDxSHTqGSjjx8EtVNryIAl0njQWg==",
+				"shasum": "f6c45003ff55104ae7b6406a60313cf712d69a43",
+				"tarball": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.3.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4787,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAoKxfehFS36mtoFpwXAC0buXiO4i466UFmz3+EZQomyAiEAi4tvXORwVshdKVPQGATRptaG8W6SQ4LBCQ/wSmBlgtw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/protocol-buffers-schema_3.4.3_1699363930138_0.256650709674366"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-03-11T18:10:35.748Z",
+		"3.3.0": "2019-03-11T18:10:36.029Z",
+		"modified": "2023-11-07T13:32:34.327Z",
+		"3.3.1": "2020-01-02T23:20:13.356Z",
+		"3.4.0": "2020-03-13T01:12:18.605Z",
+		"3.4.1": "2021-07-08T21:10:18.180Z",
+		"3.4.2": "2023-10-18T11:31:52.977Z",
+		"3.4.3": "2023-11-07T13:32:10.293Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.4.3",
+		"ts2.7": "3.3.0",
+		"ts2.8": "3.4.0",
+		"ts2.9": "3.4.0",
+		"ts3.0": "3.4.0",
+		"ts3.1": "3.4.0",
+		"ts3.2": "3.4.0",
+		"ts3.3": "3.4.0",
+		"ts3.4": "3.4.0",
+		"ts3.5": "3.4.0",
+		"ts3.6": "3.4.1",
+		"ts3.7": "3.4.1",
+		"ts3.8": "3.4.1",
+		"ts3.9": "3.4.1",
+		"ts4.0": "3.4.1",
+		"ts4.1": "3.4.1",
+		"ts4.2": "3.4.1",
+		"ts4.3": "3.4.1",
+		"ts4.4": "3.4.1",
+		"ts4.5": "3.4.3",
+		"ts4.6": "3.4.3",
+		"ts4.7": "3.4.3",
+		"ts4.8": "3.4.3",
+		"ts4.9": "3.4.3",
+		"ts5.0": "3.4.3",
+		"ts5.1": "3.4.3",
+		"ts5.2": "3.4.3",
+		"ts5.3": "3.4.3",
+		"ts5.4": "3.4.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"2e49f3c7257ba18755507640f1c875da\"",
+			"fetched": 1705396320889
+		}
+	},
+	"_distfiles": {
+		"protocol-buffers-schema-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.3.0.tgz",
+			"sha": "a810c4b62f9a66e85c8211153405f08869c08622",
+			"registry": "npmjs"
+		},
+		"protocol-buffers-schema-3.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.3.1.tgz",
+			"sha": "5c3b944b06fc66ebad5e15a554364b335e199a8c",
+			"registry": "npmjs"
+		},
+		"protocol-buffers-schema-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.0.tgz",
+			"sha": "e0744a0d28cc24d6e73574ebab56dca945d90f8e",
+			"registry": "npmjs"
+		},
+		"protocol-buffers-schema-3.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.1.tgz",
+			"sha": "82ffab9b40a95768c5b5693b7280259e9b39d48e",
+			"registry": "npmjs"
+		},
+		"protocol-buffers-schema-3.4.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.2.tgz",
+			"sha": "15226dfa0cd74687d1e8c5643bb17b59470b9b2c",
+			"registry": "npmjs"
+		},
+		"protocol-buffers-schema-3.4.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/protocol-buffers-schema/-/protocol-buffers-schema-3.4.3.tgz",
+			"sha": "f6c45003ff55104ae7b6406a60313cf712d69a43",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-e7db2773dedebc32",
+	"_id": "@types/protocol-buffers-schema",
+	"readme": "[object Object]"
+}

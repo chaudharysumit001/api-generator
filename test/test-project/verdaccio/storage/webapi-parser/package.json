@@ -1,0 +1,1340 @@
+{
+	"name": "webapi-parser",
+	"versions": {
+		"0.0.1-security": {
+			"name": "webapi-parser",
+			"version": "0.0.1-security",
+			"description": "security holding package",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/npm/security-holder.git"
+			},
+			"bugs": {
+				"url": "https://github.com/npm/security-holder/issues"
+			},
+			"homepage": "https://github.com/npm/security-holder#readme",
+			"_id": "webapi-parser@0.0.1-security",
+			"_nodeVersion": "10.13.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-fI2/YPg+gQUva18D77hakw08v8bbvrdwfwwjd4X0AM+K8rFdht3JLKDYiUz4TvhQqOi0QMS04NJ2f4V+KuBhSA==",
+				"shasum": "80bad73df9be162bf5b2c70213c668b09ead908a",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-security.tgz",
+				"fileCount": 2,
+				"unpackedSize": 473,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1I2LCRA9TVsSAnZWagAAEawP/0q+eMPzqccxK1SYAkaw\nAwWYsQMutrmSOfevvg00PVEQi2Vjhl7LLsV+Rw0EUElvfGxdIeO95A2cmomF\ncHU7SCtIERJ6+7UsxrwXYfmnQaIFJwHvY9nA6h7TahNU8o1YDUXY6+sHJ1lk\nWm5SRWR/Rcnxw1xivhov9OYeSMrJ56Y9fGlJWc4ZKONrhLlODyrl2LSHu8Rk\nQkdiHLSWnRfUR3FkfizOuRBsUIaYkdTgVgca6cqK/dLLbpW8b2E09X+/zXnB\neffzbSW/u1yvQFHV3wFeREXakgL4Wa6KGlWHM2eBJ41zGU3aCaVNM9ReM2I+\nDfDPEJ3tVdVd4MDcHKyFk+RA+c3KRHXqlOdceSOV5xsIiCkuS4P/WDnfPtL1\niDN9b9hZVgD3b/H3GeboFcDYp5Baacw1CJ3XP6wnWHrRTSWriXLZNzleQQXD\ntIvuQX4DCz4ZmapN1d5dgrnHu1pNxYOjxLbufXn+pIdxMQhDU3PQpkVL7j/v\nmYJrAqBRjkTyyHdpOlFd6+mOLRQACzayGe/UQvh3VFzfDTGep0tHVe0qodj1\nOSf40WFzWzo5vOv3bGffJtTa8wSmjzxQng1TbaGsmO2zXziMPW3t8hnHdrBm\nj04hEZ3i3eM4mDNY37YnhPLf8kvTPZKApBXTEiug8cRbJfzfOLqUltGjtWoA\nrxex\r\n=Bg5O\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDjgORW2GyuHwQXN43/fQhOdORqmnuq4giVGygewYsc0gIga/QhytYo4I3WS7yE+es6EiXfKyJiwaIi0YZl0rQIzW0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "shanisebarona",
+					"email": "shanise@npmjs.com"
+				}
+			],
+			"_npmUser": {
+				"name": "shanisebarona",
+				"email": "shanise@npmjs.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-security_1557433739122_0.24685474429739762"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.0": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.4.0",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-R+kWfloCjKrh2ESFrzLWeH3Brf3yTS12uMg/M68e7gI+ClVgr1MwYNkEYkbZpBWzElFCQXOq1Zl6xlOpd5ixZQ==",
+				"shasum": "a68d3a2b8c3efc36a90b2f835eab659dc72f9b76",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1MfcCRA9TVsSAnZWagAAncMP/AqxUVrNjZqUu07Nu/oS\ntSJuP+9XWGkLyvIILa0JRckfOlHvXjL/n28bwr4DoQ6JM09axd+plL0QvoL+\nVN2WylFEDNUNzS40dSCEsLr1gEVP7Q8dfhdv/v3YQNiISGlUky1f9ycW48aL\n5EKNQjsYzCKIWR98cab+lYsKdwYcOaEuY9YDzWtGg6S+iFTezoyQLXx8L61C\n2SiMJGEHC3MxF25VIzpiVQj3ebz00/t1ckdUv/J5wmfQW1zxu0ESpVjM031/\n5z5SW74tzSnPYSyHYEvnpekDtxkcRBF+VgaitdA6xwwdEaYrI8LcJ8VGLmBj\npBE+IQ1/P/zkjP/Iko59MBC8HOttum4ahBBSPnlbzewBO5Oiz5Qm886F84MQ\nzI44xjX4fuySM4j6wuaXgAQYFlhEKXdcQvJwmnaboHfthca/0EI1MWn/C90j\nWh2wWH0Uz5RhrXclx3B1O0qq6/dCNjDitpYL/TQA0a3Rjms/aZF2XdMdyc8q\nPumWbCz4hVZUUpgPATG4ZXEqaFOMuqEeI2I4QtyGed93hq+2id4CWF+COO1a\nOyyCHSIYNrimInZnb63lUfs22XQvd3h8PS1BynKG3nNxi+E+gkq96LvnNwQd\nDSlItZVb7hYkZ/UfDwXRYVAA1fRYRIHIITqo/QKBYb676aaJrOVtS95vchVC\nUt5w\r\n=ICfk\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDGGI85w9m0eJm3b7GnYnAPpH0QqKA6uBunR+RyuD73JwIgF+STwmtdlIhFwbJqHRgHeeKlstVf9/N0GXtNoTu9XRM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.0_1557448668116_0.0038419444493071886"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.1": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.1",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-fNXFTJb53y8JFyPtHV4WWG8bwzifJENF5IqjIcEaLq3TbrY19kIz0lB2jvrAOKKtLBhpAT+CP0YF4TH03SqmkA==",
+				"shasum": "771da6b567fd806e769a830bdbd89950dbbecc67",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.1.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1MqyCRA9TVsSAnZWagAARR0P/R2TQk38jwas8DB30JFi\nZWxgFFXq3YxTaXAtOGEfrsA0edum0VnIAl57eoO+E/mkF7u+yR6o5lrNfefB\n3ki7/J/C+0+ddaBBd4jG3eI8fwL91vMibJ4cqXIjy6bcwcQ6I4b7j4NnpJ5m\nj1Eg2YthapRoXlFDpsaoviJj35U2mtCEjji/3099bKRpId9+V9g67whgK91+\nRozFe9oux0xrWYJ9XI46VmHXN++xMehj1MlOjEr2evXGkWpoYoWI+zsOjOam\nm7JUR5gUtea05g1dxYvhkq6K+TaMTLTX0Ri/x8ZYBLR0yhkpAEHnq7zWMyW6\nFqfiMx5zFDHka2+5kySnov8O8+I8+R5RvvKMW5pTBw5I0UHGnlTrGRCT7I3x\nkl9u88X4s2hV6Xm6BHb57bTq2lj/rfyAitR8TQu8NeUT/C3khme5NwJAvLjo\nWF4Uy9dBHCNBLzYv2WmygX4448NfUg6u/dvjqaSTHgeOOqRws9MwncaQDNMB\nAYaxrVNfm5BMVNmYu5zVapdMkIC/kBjZLd/U0ZWjzl5EfI7iS3gCP8GZ8fcZ\n+reQsA655C5mfiBLKCS8Vr7VJ7EF/wXn76b5EOiWv2TbwNrnj/+OPvfLxuYS\nS2ShZqiq81tk5lz7uQ+ocXNNHm7VHDXLQCgqvJmP+Ps82ywuRh3p+9ha6aZo\nE12S\r\n=neR/\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDgHgfcOO95XJWuBsa4ajRnYITlbQtX97vys0S5bA+c8AIgOyqIHiYFCOanSIY9R4XnGQ8rq8FAipyLKA4zlA3fcBM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.1_1557449394126_0.567536096829063"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.2": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.2",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-feLdwQE02ZUWKAa3US3k6FLqSR+3ZSl6ZLVwls7TU3toj9MLyUKODYvAWxk3cKCjLhT5cKqtrSJ2zZcSuEfJ4w==",
+				"shasum": "ee5f0bee7aa687fce5b209b92da9f49f995aa0d1",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.2.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1e/MCRA9TVsSAnZWagAAbLEQAII1UiT+tYc6Kj0GoXPK\nP2eSBMKiHEOkORW1FzLj51Mpz8s7fEtjJFeMKlXc4AqSxBr7oQOyMBjFphJY\njgMfHIZ9at1/VDMDr8/tes5MKdmpjjPiVyKGE+U6t4jEigZDq+v9+iTC8lvU\ndNM+XkT7uU7nECpLiBi2l63d6l+gyqA4Y3siex7ktoKHztMEqHlCXoTc2HvJ\nbKnuD3A2J5U3NcNBEFhAi87r68uISjOgqvtrshzMpnODPP6S+Q3z1nWHaGWN\neWBHKYhaHtvORbwyF3Dug8/42dSimXpm1vGLLudds1ChZAQzLyFksoh0AzlQ\nQZN29mUHDTtYSwfcf4THAa+MsdV79iZSCVlGOz7unsW2pKcHYfE0dw8Pv5XM\nwoXdutdTP6Bmm6AAqUkQbVW047lyUb8YOF2M432nTeHQjnr8xqBEJKK/pm3c\n1Rqhu9x3MF3zHpEP+d6Tf9KBD7dWic82pX2rrTzKJ78kAwBhIsjuOYBiOAh0\nZQ6FlU1jFyqtxrLHkjBmkqoYQ5lciKjROeoPxVe8yDbA7vETuyEYv3R6Qq10\nTgtR1RVy6Q3fB22Jt0ParFifX20m+FhTVdhZjyxDyDQS5Sn/U6Uya2Kphrw/\nQVl3aTOO8NOOvqvBwvNHP/Mkx+gAnDxfUB5z+lbve72dcPG4nGLlUy237lP0\niFix\r\n=8+lS\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCID+ShCHhwARLnHRGjTUOI0o/7MzJws0gQR0R5xPIzahDAiEAidJzysOOAk8OVmWdzZLAh+M59FGgtJ29fwIHJTQpM3A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.2_1557524427234_0.7983220214975071"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.3": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.3",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.3",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-/r5aRwa/MvC6Ry/wpG8UeWykFh0AzzWQLg8yQUGFpx0JjPpXhRLTk0erdt1OXcBvBqc6eiW9GfMkCDP95e2PIQ==",
+				"shasum": "462a78ecd77fa032f8294adf986912944ff4f912",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.3.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1fh1CRA9TVsSAnZWagAAbsoQAKPnGg4rbnm9G1aJD6mY\nXP3dF7Zs7L3bdT+RRwzDtkfmshHu51TpnKM3dgrwJbXQ0s7+cvMfwRagv/Vx\n8sgVwX8wV+zsh4F3h8/erT2fBM09lpWC6G5ME55d0RU1HfuwWDyrn/s+KFR8\n0dgCtDKMwo4TcHJYSOnGPIIHrD3T2rZnukMz+vJ/gHUKRvsfggvjKdjl2CVq\nxk1fexBQNf+5FXt2EQI16xhfp324ltZ1yDTLk3ipT+yKTu5UT9lvgOgKIgOy\nHvO1gnuL762yX+riKF2gAWXAYFnOImKPqa+0KOGopbBTEaH2wCEzu/oBkXbZ\nR9CPq0MHOknl8t1/LDIfjHY/K/eIn9BFs0s1+0xj+aKFs8voS64m2pCFWyQF\n1tQPK15KbKppP98H39QzeucwgdgeFbDrhG7dEX3JEUuHugwYxfnDEf0/sHv/\nscbU7DbUWZnElTQxh9KMkdb9yoapjhpfRL9c7sJDKj2Yzu86/l/YylTQmHh/\nyM97aQqJdkrBWXBxaikjVJwSy3t22UBtKkbH+jENFvhlRVnGa7QBh9jpQNXh\nEPouBs92WxUcgL1t67/B8VRN3xD25apgUlsZfDuBsO2HwHvoEXSBBmkCJpb/\nfGvWJ6Xul8vbshI/8GryyDH72FyfFdHaUWNQI5QvLRI3ABX7M2VE3scXor2p\nxbMa\r\n=zaEZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID+tS710giJvWHnDX31EDnmID/5IY3icyyo/bgDzW1jWAiAD7E2miiavaXugT4xb+GyiNPI8M9s/SOcvqAN0MY3W7g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.3_1557526644677_0.42083689006925007"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.4": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.4",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-nOhQzJvx+vtAa6mbH9NgzUAMXSNE7hYQuxmSKBdMpOC+BAy+hNBCD66yVbKytkfVDkgJ+g7ANPHBAN5lc1nVbw==",
+				"shasum": "76ca6f9feb9faae95a712c80dcc6425dfb7fe053",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.4.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1hPRCRA9TVsSAnZWagAAdXsP/jCLB9LluynvNUdsRQnL\nNafJsRtUWjsS/UGcBwC3qWSjDQ52KqrquzPK4KJDdmSlZuf4c8P3qlWWh9pA\nV8qDClXMZuEbnw9cmBnV1OyhqO/qXKS9C+CzfzVGqHH74WWygkRM+x/eki0T\nlrGXXPcaKF9IjeeDDV3VN2KYUKl2ynBwTIrk09LtstcQAQIdKUu5eqeGmJPa\nHWKOVdHG5zc2KwFddz3Sdz1/LlgFqfV5cntHK22C0Yr7HenMZEDbTOwLU8lF\nq4swOlsdWfauPl3yb0jkLYm5WFUCB9x1wKbB9JaX0kQaAiNyNOfe/xgwYQen\nBXdl6rWkWC4IO9LkuZY7P/0i/0qUhxwl1ngUNteI2fsqVOvN+YPt+1cKnOWw\nYaHSOLkVIjskP1OZI89hE9YfmrKhcV8kuoiJEwK59qGnlHPDGOLIGqyg62o3\naPz6ljcywizzWK8OxwS7Z44Mtd9U29eQ5B6LLDgqx9wt20KZVR5jvtSsPoKa\n3fixO02Y64WfkLUqCEhwzrdcP8xdpQV81EZcMLaQrj/XtOxJ3sIvIUxfBAW3\n2Q322lhZtYPet0V5kwK/jbSho8hJ1XSss7m9fKrS4PsASnPu7keRBfvwWZ9d\nE4MkraTX5X9Wpuc7uB8fOOih5e2DrMFPEPyoI8M4DXlUjF2Dz3jpA8p0JMhg\n/BVZ\r\n=Yrdo\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDMnsLKZ5+Igj6YnvyNSLsYC9KSOSMa0XKbo8YN43p7YQIhAN5rzgQptc6LIrpvPalqBghxAb1KT5aDD7v86KNX1KLC"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.4_1557533648901_0.009937775866253107"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.5": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.5",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-MVC/v0Q1A7Q0uR8I/BNzXWzZMbpQoVGy7Q+cjRLZnDDTNU17ot/y/yi3fsQ56TndMXfgpN5sASdR/S1eBz57uw==",
+				"shasum": "ef2b228707d0f88826d95254c0d50608cc0c55a5",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.5.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2S6lCRA9TVsSAnZWagAACsIP/RJb6xgvRqFJ/1usmTuM\njEpc8ZDV8WXcwNQfwvqMObmrfGm4WKkBZBjKLEee22Sen1sIvlG7i1ZhlERp\ndMPkenQoltdh+QgpwdUW+PGkIFgR/XQ5Hd8bySbl3dQfA/TJhztfm6twoOkm\nsSB7XZEMk0zuXb6beRunm8+eRC2zGIp8tmAiK2SAgVB+gH7Es5w/C8UYwKUY\n+SLkEMZAuJdoKIVybKxpXJZ1qVBXok6mOX9bdG33hSe8oacBFedLr+197ZsH\nGuibKauhWK7G14FZmkbHxDv4zFHeFbvbxdVhPLD7ecl4bkdafrifNwiGEcYt\nSpnKNn3M2R7HB8etaEtP5Xy80dvGTcgboXVXqJq8KeZ2O5nsx4ZEkS0nCoTS\nlSt2mPx2U+wc3wzGYNtkQnyjlyZfJAP3Dysn/VHhz5cLhNRhA3sYIEexlRmU\nv+yiswYbtaZXgb5nNJ9PSkn8RfqzPq4tU/bvcU2DaiYTY8h+bz3FDSmqLDdM\na5HszPOgfpYQvKvCfXvKIP25+oz6v/amkG5cX169hoj2Xcf8X4CKO/k4AP7+\nmBjg1VYKbq8KGxyNylpBkuUE8ti1Ywo0QW+9GC2tCQhctgEb/Mopzx5VsAsS\n7wANzT/fsfsdqDZ+t+XUuBkKE09vbZPpMLJp2JVxXAjB0DTV0S2QCnU0csv9\nUC4j\r\n=OThu\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDLsxeN4ByR4ynsuCwsjc+Qeiv8IjQawJc887Gg7xHgkgIgLON4XhFTV0ig7OUCfXbm/NMtJN/4WBFQSMzP1tyUS2w="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.5_1557737124547_0.04487803197135598"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.6": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.6",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.6",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-NscMt2inARu+NrDmUigF7EbRpD1lkzTKeaA3uIYGq8Pd4oaDIVve0gwyRvsnCzAelSkR84eMJSnhHcRMNMvdtQ==",
+				"shasum": "f994baa9c8f50b310442510132eae4d215a1ab58",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.6.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2TeqCRA9TVsSAnZWagAAELYP/22WbYVBJgfRlut9USiN\neTWV7cUSWQo5q06Dzqv+kYpFxyPeHqJA+HuQtPXw6knh3skNOlops4Blw1o8\nOcPp6rtqEAF2KN3CylftslFbt6RCzo/+aYmH3SQLtcFIsXyglXP52MtEEp9E\n5lt/+BLb0YTsij2+13H3+hTB5RwBghbCgDfJjGEXeV9s1UuEur5f8MeVqfzN\nVOdNUoqWVjlIcJA6AB7uCVlv32qZGpM9pXlRGKpIAA6+AB+APaATblWNST7Q\nLHwt5jlJxZD2r0s0iS4/e4Mre0+c1BrqsQFMEVvksgtfvRdH+vdbC9pLJnCU\nj0ICAlO9dovbzhjyD53lD3Fc0NPZb1FrHBG/zoG5PkBav15lQraJLUGZGz8u\nL+r2GTK/PeJiH0kgxvN8VN2I9z7pr4aUrdBzFxswdPi6RPg+ZpHjYEt56Xl0\n67x/rHG0tWPnhO6rI/v5G6DkJQHo6sNB2TlLIESidQh1NO+Xfd5ga5TO1Pgr\nbW3X/ZeIascZILRPBWXt6Pl5lUXT3+CgJsMMl5zW9LQf2Xlc+tMVi3GP3lpJ\naOX2Vlf9e5qjXoe0X5uIkRFl2MKQIxIWQeM2TnyVY1oiKsHRQcWyVsO2U1zr\nX5ch2o/z4YkD/k3UTSVf+o3eTAWXg2vbBM38cEJ0dWhNv95blRCgURO2qNdk\nXmlb\r\n=LtZB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD8elRPJl7WdsrMfqRtgV9SKfu/ZApb92PXNnkCXzvzEQIgO+xoFfgD8PzNFNLkTrODIw9hBBCP36LY2dYPkz0EKQ4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.6_1557739433793_0.4137084975632539"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.7": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.7",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.7",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-YJdjKxQQVDcP3z+xYMUVYk92XghKQFZAFoU/B9/OrMvDKtg+fZp12rn7gPhh9++8Iy9LZfU/D75TMbPOCWPBsg==",
+				"shasum": "725d7254a825e8d14a948e870d161ad7a7e97a68",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.7.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2TvsCRA9TVsSAnZWagAA98YP/2G6dyJfe7qcgSBF3lGk\nqm5wX4XpkAwvZM/AhamPI8hjq2Qkf3FjplQ94LFX1unsm5zT8SOEE1amJHLf\nEQkbc4zTEhobs4SZIT6Wn7JNc6NNt4WgjFNNOQcNw8vEdlUuKsZzWmxZ9AX0\nOCH/pHn71+Rbj6gRIIBObJEUeTaUofmKkkLiIQftdNVutkJKeTgDVow9Nuw5\n3pfBuqeH6nQdxppfwVeUgTEtCsRJ71cesWqyTKQfADIcURaSOmZ+JH8ILYg4\nPjXqwuuRFgYPxALy6bFKNQz7Oidf0y9eSlbNf2sZ+9vY/Xr59jYNahhM3mC+\n1uqxHtxeuVtQ/XkqkICAO2F+AF+UGPQZOqehL8ieq4+fekT449GkrLsjFSa1\nxJEcpZPjD+3vqbmy4gKaywP2OKGLF6s6irk7jcRdn47Va+mpl/y1LpnrvEXe\nmQ9YcBCWuv6BQMm1E5/u5zvcaFZLpjDvA7G0HZlOJnmpIoxk+py+BjB/eQtM\n5cWLfwfxjwPv/cqnzUdhpgpfUaGh2tWW0EvBUc4yShJVVNWhRIrt/fFw3NIM\nqD4zSjAPQrErmIem953EhRK49LneRVaNbXiiImlH3IyXzE065vQGGJrqL1BE\nIlRoYjNf/2vT9T//MGftnieW2RFhmC8T99gyYPWAhaIEd3GvJN+jH764A8PV\nZZXB\r\n=lsdb\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDMe9WYCpkPNM4kHVbfhZV3d6m60vZaVHehd41mhQzsjQIhAJ6JEiKX5vx1vwalNQL+vGTCd/cBQTjM7Cd95iUukw8P"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.7_1557740523487_0.406433854568063"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.8": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.8",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.8",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-ibC3ex4E2u9vW/BNgUA14zPHy2YOrlB+JvxwDTZuBrAUNpC/OZwJBNwL2L9emONa11eP40YSPn6pkyd/Hu6Kfw==",
+				"shasum": "3d6cff3dd5d14081110268fffb77fa69ae731cb8",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.8.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2UHCCRA9TVsSAnZWagAA4b0P/1QT9ORAXhzH6pZac52H\nbU/zOd43QEuuj2XDYceuwCaxd3+A/aOH0iDGIgvX4hvJ2+VmIMj1+fp2+8cP\n0n309EZihQ+HN0Q+X9bOZc4R3qFzmTazfCooIghQXcqjaXV3VbULk6BK3/9R\ndr1AtC2LuDWxMaTVKZDtj9Tltf9l8VGTcgcUEwCg25PlA0Lm21ELlyOu1oov\nWXbAqnwKY5w5rUuaAS7DBP5SmngWDilkuGmWf8ndaZ3anEsiRfXJWAI+Igmn\nejMYDmUZE399TSwsiU9QG3uTsEzz/Z3V9jor2VSQSTZ3Gcdevi+3U2c6Zxko\nK2LwUq9B0KxBkkiKufkPjLqeWEAEBATeBTgmHOFTW/h1oD0rmATVImvy3DSF\nLnl5y/hHmA4q9hspM6q632M4lOfvgKiQnSDXAnN0ipn68edz6Sjhu1EFyMLx\nNhFh5vVc+fHrKWgMThw3Dd+ESYVtapGc+8DUgIwhVIfJ/yrCDdXTjJsmdI/8\nA9OwquuGNx7mocSKc1FBsvS6dIt6kQGS162JefzhFwzxMqvZDEyNVxvpKjeJ\ngymk2izbOW6s/kVSnF4Z6SxObixg6uuq7+CKBgJNGoFLgAm+w5AoTuKAFoJL\nFmFVq5Wqylon/bnpfML1Y1uDKSqFt6BG9qFBcbTzuA2dJE08abiHJVghxCn4\njb1m\r\n=QHbd\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDKYpB1vB/EiDpbLgRc1u8ajxJD+7LlB7/aC9sl5w6oHwIgMOeDEJwYlT24lv1OyeNkK6cWOX0tAtMTgvWEX4L1W+k="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.8_1557742018067_0.18966305265682792"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "webapi-parser",
+			"version": "0.0.1",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-12TplCSv5BMrbhbJ18e1ZyuTJlnq/h+alWTwvGzsqmYQs4AWUIQraVkrhCfh5xBfPWVqEyG0fNb7LEiOGZ6nDQ==",
+				"shasum": "1fd80a6eb197a57a5bd54ac7c29de53197882463",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082336,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2UUrCRA9TVsSAnZWagAAoI4P/iCyVcVlC5ef5r781BNx\n+C1WUHUcacWHclOI+RjcEop+6hHaPu8MwAvLFVS/Pjc6FFL7ncWkbx+Nmma/\noyh1cj+Up47R/LQpiacHliP27g74ekq2Rpn4KL9lH93KGUh4kjAX0EI7Z4Go\nLbFp8ZQ+lJAWIvOk0h/aFtZLtMuj8SXftuyDdUz3UqvFcO/zdCaduFCTOhys\nKKogEXoQkPx0bSnGEd/KnWY2oeNBk3/k/BslJg0hb+9EBgTUzBRWrYj35Cde\n/C35vZTRbgnlqB/T61EJOyXpen2yMNQuU6Hv415FE0YrQIN3G/QuDU1BvuCr\nxV87qKQM0wu7fliody3U+kcaLUU85kayUBdFgb0/zlxgWhkHigpOu/8uQ4w7\n2qylKsGAUEmurIiEDQ9H6Ym2894t7W3I+4VHAKFRc7f7dEdyx4DAP+bL9WLF\nBdv9FO71GDfMrCYp+/DnxqzR0ijoXerGckmxdirSju7HgW/keQLT5qJWC5sL\n2WVAvL+/rsyErH+R/NnAEAjFpqd52RluAnln+kZEUlQTvMK6PJTtpVKAT0wF\nOp+tLalE+sihYLtuwDyWgA8NtQV/lNkNbGk2D7WdIfzBzy49U1duEh5luZba\nziedpxlJ9PbEtc1GlQmWdrjSdwCe5HJRRycMhXK53iLL+GGf7T1jguNedOHe\nj47G\r\n=GyQP\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDp3Q7GGhYUPkAm5fa3ZIO8/qDzMc7sA84z1AiZ7lkp4gIhAK7jbHXBt0hgiQrOAnIn9aDKMfOc7sJWqIGQHQLk8mcf"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1_1557742890837_0.6944996366826521"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "webapi-parser",
+			"version": "0.0.2",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-r7z0QngC7lfEimltSdxtI3UV7Y5HBJHTopNWx/1wXmfKQCPsmKaCzoX20zEqe4WDIty6gKaLXwSODzRNSbKg9w==",
+				"shasum": "6b2d48b5ab6ca45bbbbc09d7f685fe1d73ebd77a",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.2.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082336,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2YO8CRA9TVsSAnZWagAArTgP+QGlw7D+sUz2eKI8ykjQ\ncr2obFca/KzRToKEOnJ1t6z0BygcJVlMtDwU1hDMlWQuUtkN73KGQFbtYWqJ\n+DEdY3IF86AJqCmmSXNL5ysldgRMAJgg2e1+5MRPRSAmGKI0kqvY5VR1ajS/\nJANqgfUjGulM2150V//QeG4b1Y11vsp10Uv/2+jcVYJe4kmAhcb20FsLQmwn\n7/xHFH6WrhMnioRyPvi/YIGkOnABaHiw5wtPDIvgpiMSY/W/382tZjdfs7Cv\ncXlPUW2ZPNa94elhNFCqoJzFkoo09eC9UlNAgyTBQ36ggj64uu7qBj4a2Gz8\nbQg+cbSZCuaG/1Rr4moMk5B/NPaO0iMW8712R0WaXlWE2My5tWkAZILRodsf\nYcXuq7hXC6e0lN8c2yxZ/Gi9h6TJvoutgAu+reLAsc+66h90yQuY9N1i6ae+\n9BpRjlDTqmpnpciO1nb9E21zpYZCVCct8SwPswtKofyMf3tPbG5XEUZvkLio\nl6/qidmAsydvWd9BrkSYV0F+wLlwr0TJeVI4KVkHKEsr4cleORynT+vmmoDC\n4AwkLRXovtlIQs2YqkSnkER69A/1QHuQ5I/Q1zzHIA+8eXjsasvgbM13tIqZ\nDxE3zz57/LLsm5TdjR27eKUczQDg73RbVdERrVTQSxCKMx9ENAt6UaPNTrP/\nkV3F\r\n=JNa3\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDA1FrxDQTkFs/XzriyJfiXNxGbz9SH1fIkH7PJD9w9fwIgZ4mWQLVSRxYxJdmxZ3vBT8x2LGmuiz+G+bXAcW0KWpg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.2_1557758908180_0.9129016465208897"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1-beta.9": {
+			"name": "webapi-parser",
+			"version": "0.0.1-beta.9",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.0.1-beta.9",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-7n9QODaqPhC5uMfGuxTZH9cqLjtGQZEljGIwmxyaLeHfs+hmdH/C1pOQ8zZH5rrQrgvKrJ2kUABrD95tzLzWdA==",
+				"shasum": "e6e2bb3ff3a5075172cf02c32fc9a8410871e34c",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.9.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3082343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc2a2JCRA9TVsSAnZWagAAab4P/1xRjh1ZrHiwKp6Ojrm+\nOP38z+xj0Wmpxuc2JyVKkrBVjSmvsGSc4o9Diyr0bXaayYEzexGcULFOCmvL\ngHi6sEX89D4GcocgOtuQKC3wWdS+DIRbMPgdeS9NcNE4mhoQkqPXBa2gJbzl\nyX09HtumYw3lW4DgSb4NU38imQBT8sng1fI2aqOIu7ngm7bQxKl1/iwi9Cp+\nx4x4G+ZCUnmhBnd3CmUl10FOO144bpiTjdq40ht6ISgHm/5lkk0+5XboeFtg\nBTJFX+JdREv7VW1UXcMsMttXaIwUhlrNXcTW/Jpb3WZntUDvbS0Wb5cUqaVc\ncPNMvSecqL/SiKFYzIdVSNwaP9XPVtCcKnRy0qh3/iowWPXpoLphBbaHXC2A\nwapkCBH/ftGE+gfvNwU+NcLhteJ4tEHlp3XjY66MaB+qM1jKN8IET3FVfcXp\nGu6vfBu+J4RlUl5Z9Ja7eC8Amga+fdDwY+aM/vQEwgVcPzZHwlSka+4xFeTd\nGqUphsu+wJG+uDGsH1v9ijNZrozSIb3sL0Evsvdje1rg6+DVl8QQnbQar1d7\nIWVzC9MJQCDt1bDFuq8N7XykZSCbRzpsQk6XkdzBrYd3kyVcXmEXnvIDSyen\nEjyaVKfyJQkbaypglGdVrZojrnRtJLzT9s4dKiTEflKP25GuicKP4qgo99u0\n9HXc\r\n=15ss\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDr8omHqTYuDqlL/swnvXGs9RbiqWPthfDUAm0eIoIU8QIgTxlLB84v8efYJouV7D3JvbEhjIJBMx1fpDk2zxMpxWo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.0.1-beta.9_1557769608818_0.7313568925256062"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "webapi-parser",
+			"version": "0.1.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.1.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-ZtW/aMiyr5C0+GjQAoi4QJwr4G4nkp7e+02tpfDnUdqht/OKQdYImZdvpri1rwN3Robld2aayVpmxWj6EOKaog==",
+				"shasum": "f6e305505b56763bb6da756e447a6eeeee4ff0ea",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.1.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3105410,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7246CRA9TVsSAnZWagAAc0gP/10SUSg3apPNfCxXv9V6\nphQBjR6VO24NXEJQEFDCG3FtZ3Ht0Px3yjqGYenCg2CxZgfjZ925A3FzHKJB\ngCMbGDnlLnJfcHgSvuRm1LJQaSXia8YGCY3PZJZTVl+W+/sg4k4QO1mmiPlx\n9iZ8W39cqlaHRwo6ggbBFoHagfd6Qh/RqTJzIcL/JzBTfjZnfxKSIBV+3Gi5\nxsdbMe101VhbvwlcB5J1KjMKymSzdfwi98QVL8dL2NkdecPu2ZMs2ppNT9rn\nhLONfapOZQXbnEclVaahIV1jH6iDTbOeQF7Wp0/Nh0Ky2O6KXUmER7pPuVwf\n9yOkOVOoumUtMERz1OeOvU45Q9VCg/SfS+yEoH4wCz1T7yDdPvDfkiLbUBoK\nh00H+QUfeUEAFuknI/uIaNlSe6Z1imo9fe1ecs5yQZ333uRel1NbFvdwDQdZ\nUZ6mLE3Ln2AV2NmiqnxIEjXOriGCxrPAAu3Jglkd/1xU3Af/sT5HZCedOqee\naXgwa2Dg8CGtDbEw+JcByhtwnjNC2Han4maqIoxOgCcP4j3dHc3CVy1266DM\nizmoYK0K0c2r+rSNugev3bRTNbhh8UDQy1kyLBtqq+Hgq3HVler3KO3DTFu/\nYKrKrAVAhNj/dp+ur05pgHyAwjhzpi2ejkZibxRQNCw7y0zWb94nBVpxS2z3\nMbJ5\r\n=8skA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCZv4scebLEBtjejbEV+DRY8pBbTJoTjUW74mzr782cJgIgU2jCoI1QoXJ3z5KZ/bfLOymzuElAP3N3i+FFmd5o1RU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.1.0_1559195193475_0.47343268520737825"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "webapi-parser",
+			"version": "0.2.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.2.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-AP+NzgsmYV9QUX3LW1tk/tNePpnh//LoG87OlxNzMhD+meOTRDX2LBZY0VbrM5xNA2tb7HzY+EP07uJzj+VGYQ==",
+				"shasum": "8c3d8d87c22369cd1af66a1d554fe51502994c4e",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.2.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3122310,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdNqSwCRA9TVsSAnZWagAA0y8P/jM5+de34HF0vKw50Ljc\nXNW/W27fVjFfZB/ZfMN8ehJwg6q6Kkeg9rW51XUCZqTIoSW/1rvMy+fmOGF8\nmwExhjhysYzRaSG7Sbh4LqW9t/pOef+qLFPDWEtQG8cM0wJqq6MC8aD3rCfK\nateFXSRv6JNaSqo3k1xRDYZQf3LLXkOcgaYxSI9kK3N33VgzdsPxgqqvm69h\n8n/tC3fnH36PlS8vjh5j/aLccvi3YrvMDIsq0L78OkvZt9hHqd7mkVL6Hx/4\nZqhhSyoK+xIgPqddLprrMMMWT7Y1Wi+eweNAKOaV8sRh9QIIhT9cmCIHqaka\nkDJ15xInoO/wsSluzxcC0YaqpAb6lPq7ua5hytzR0iTYlDGu06qrBIRidnTy\nCy7eN8o4n5OdW6BuZBrC7vJzHLDdrR5ogZQebNdl1zwu0IdUffewfbOw23j8\nH0rYDxUMOcmq9MRUZSuY7jAsC3DLcgAV3VruVChyzk2A3h7n71Qqj7oFAc0/\nqo5LZFmZ+vPoFLHMRyFcUQF+tgt+F/G2obt7BA/E4b2HkSyehDfSsuZP1pHm\nrD4Jpr+0xvAFOIHYWM5a6HIUZlyfjbMQ5yALwPxMF9wmThrpAPuy0U5jzG4V\nNeeeJcTmDUvDOKxzCeYRgX4MVKODcdErcAwhA7T6XJbHqZ+O9rAVV9OdXmcR\n/kzt\r\n=s2x5\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFxE0ZzWGO5j7rWo2/lNf3lbR3Ek+SUk35oqQRMaE71GAiBE8D7gP6KtQFo5w/DH4Gpii4wKL4BPWdperT6I3eBREg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.2.0_1563862191711_0.00566934260626617"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "webapi-parser",
+			"version": "0.3.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.3.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-tK6abDejQtrvpr/a81XgN3doEj19/5/yBkCL+Emx5b8ZRseRauDqYQ8a3O3tvZnIrDghh8rJ2GgaaADr+VGhAQ==",
+				"shasum": "f35a975207690b873f7a18a478d537ae78772d16",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3162949,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdgKDtCRA9TVsSAnZWagAAs0AP/0TA1L9gJ2raZrm6wUgb\nGkToB+2W9TaNN3+0hwjxdGiRU3W8e/Gdai7jAWczeCQURVLjQZtYbg3UcxE6\nsewxjNLSau5aiIrlTZUWTavUi68aSWjmaaxndLK27E7iv0+QBPCG9xvIa9b4\nskSq13GHsgg4htJtfPL892PeR4iphy0kZx2eaYKoofuvM64fslOP+Q2tdNmI\nAkAa3KwP4NyRMqwxgK4sQYzG+VZ2wBD9QysiPWYIhS2fWb9BUicqCzhNgqUm\nk+btFP2RBbmmSVrjs9j7qieTNRQ5S3neNbT1zx17D3+vHuaaF1ObAfMGJnmT\nz1UMGAhj+2gWDu76ZdYPlelZL3EpI8Fw2rxllkXrwTI7rgq4xrtPJcsojKCC\nBvS6rsBxbu125B4fxeFteavaeOetjPZXtBvQsZrpExIa+a6eLR17SIs7JGIM\n8/xYQ8tXLEHoZelT6fc0aPUo53yeEv6JfhH/ks1mWnE1XAw1oM40ckZ4ee47\nIYxLJQgGR2uO/iyCE66/JNd+eOjFMxoL3qDt/oS1EwOBkOxRhRgtnG+21pIW\nSfkN2JjQXeVpVuNY3t+BZEM2mZHd8WH3TKqki20u8jQN35LzpRG2+0+M+jeC\nRW6FRMJZIKwlX7whLPtDU7Lof6cIy/De8AWxFoqb5beA19tnGaKsm/+VwWFy\nSlyg\r\n=64N9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBZyqphGr24RzUzoxLzZfCc4ALJvECsU/ZDwI1J+SQl2AiAE1YUcMD/wZ98KjYhpj8il2X9UAi0GT0drTVnSpvadtQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.3.0_1568710892670_0.5558896201957015"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "webapi-parser",
+			"version": "0.3.1",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.3.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-eypt72tHwAFcBZym/3+rb21r72IUKGLk/NchnjHVp1T1bD6sNE2aYR96/GbMtezEwujph6FfDpaknTQyMBbsfg==",
+				"shasum": "d1006b2cc3314a750324cad46ea34eeec7fd125a",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.1.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3196837,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdiGRvCRA9TVsSAnZWagAAV2gP/jXOjzJ0+P80tPGz7hoP\nhDn+PMfUeT0aLrIFyUUfiYxHsGXwOodsRYcBYtX/yGr3BaGfUvJUhScnRCY3\nM0dbqMwSchbx5jZ4k7HaDhfrOB7YkqFFXRy2r+HSro2J/tjJSQtxARJr0X4z\nAy/zdbZuXtH6fDe4o5tnqpZAzYIX16C+NlpPWkUI6jwbpkk+iaYaZbzqcFF7\ne21aNGhQeUNT2+Zfc9/Y77mcpVMo6TOfybS6ndGf6zv1QW4j+KX1ziJZfVL9\nbL4beTubqfWoEYWUj+PugEka9jq9+oVqi5nPy8FMqGcwkSAk906gmwa8SGLL\nthVYqZoL6rAJj5W88lgaAH0ETF68i2p7keu+Mef+s5UwGyG09Qw/mpqW15tu\nhG7zA3wkr8Oqgpz5rChSqcvJKt/KIowmqI3HbA6w10BKoD641JEQQQSW4HFj\ndUsux+9FWDzBNezOVhTaa5xhmCB4RQpd5RM6nf+X1KogOSdxbBinAFUnC0Ut\nvO1BJrivkfUWmo3n16ttXkWUHgvpsHVOOhZsNAuGDNeiyLETU8Rnswk8rx2j\nzFm5KZkBiqhp9QyKsBtJcqy4wsCWarTDDxlHxvug5SCFbv/LknQP+APioKVQ\nuAbNYqIDgQQbTS9hhv/Po0O8eT3Juj9rP+4JceMFx6Ln7ye1BjllP1PJk9yk\nRSUu\r\n=ycl2\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFf8CELep+qCq+ZFt8eIZUNUS8nrQ6f3zLRxEmFTRekPAiBpncnPXxOoZLTtqdo2Dj3+tSPDX3JkI6yvHyYq5sqhpQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.3.1_1569219694645_0.1899293546232541"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.2": {
+			"name": "webapi-parser",
+			"version": "0.3.2",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.3.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-ttlwO2aYo8EasQxDHlCmbUs/4qSRS1TRj2nbQVtubpHKAjH4KUszaWRr1b8deN049av7jwI2OogKHlQeEa6Rxg==",
+				"shasum": "76e87361bc7fb942dfead9f1b40595f85c2b3bce",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.2.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3222141,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdnvRRCRA9TVsSAnZWagAA880P/jChWGmBemSuYIKnLSV1\ntQhKpSyYPfRSWZ94MEJ2O5jAaWvglsk8DDT1/zfGfokAFqGqdIqyFc/pN7AG\n2bktZJTsKtdpxA1PNs5+KTIYSoH0AsEBm4SIBv5MvgGqTAJLtQwdUdj1SGzG\nA48CGQnkm0uMaClhXBTZwS89Nsitl4EBl9zwXdfBQEnlmZbkKpY0YuXUwnkF\nEoZ+raN7Vq0sKr0bFspJmtCFIBQ/LHfBK6SZ4FQtHWOJEIVpGjfqfh6NeBSm\n7Rfvz+rFdwucnSUky0nt4rnaA0GSactFdFjCBgIqffqnCuV1MMHwhnmillUC\nHHAkD0HrNKn2OtOtnmEi3yOWrJdwslvya7ME+b8bas6mHy6qtzOFoy44tx3N\n9Jm/w6otv5D7uMw1lidzDzTKeWqvhanzNcSzVjVp619LugZeIbstqhvfdSb7\nIrtbebzPVQBotLN28C3Dye+ilENIYo974oeFiMC4f1CQvthVRhsUtpq/v4nR\noUCW5w2hfHjjPtCThtCdHTiTSBLwQ1HME5twVI48qD5JYm5ATuPT4O7s3E5R\nsRYeu3xsT2D5o2gl/feNSMbA9uSU14pZ6EwrCUAtc+ouLHaWa2D3dAoV9ubc\n4qzK5x60uqJfgOgNM+SGO1CPGhVBcvInCwoUjecfe2ITek3QnaPY054ar+/N\n9Aj3\r\n=laEz\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHFnjLUeZIVZlqxkyfgCLnSiATSqPe+eOGMUaKlv0u8+AiByga7KUbaRLeOQiWE3JfI2vmTS3ukBFSi1GCfnr0ryUA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.3.2_1570698320944_0.6326602154451966"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "webapi-parser",
+			"version": "0.4.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.4.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-rv3jvM7ReNAI1YtDWz34TnnK6E64XY6fkq9F8+jO+JSal2Y0EOdTpTl7cm5oLfcK2jT3+sGEC+ARMzbIJ9gV9Q==",
+				"shasum": "5aac55850924919164c7d8efadd844f0e3454aa7",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.4.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3277126,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd5MaPCRA9TVsSAnZWagAAeSwP/ibVw3ec3fVWbCSjvFy+\nQCskBVUnvUvXeIrv1fN7+aeLix5UaAVb/vhZcE+aWRYKMBO5AwaTX5W3GaWP\n7EA/lCLK0GbGYy3RSZJ5RiXETfDBZY4noxODTWh6rpJFdJRnspQ3bnMIh+xJ\nO6sGU6RIo8FIRF1ceH5F3Wd8SktvlIxMRG8eg7v6GVh56aOO1yFK2zdn+E/7\ni2E74e9AB0ieNCwijK8xj3hFyH0QprPNYxtbSOFNDPLwaQBNOsHC0e0TO8HS\nr+1dvON5hS4D8mq5awzLTsW5gJyWiugd+NkvE2Wc/PlQrqlH76RUug/R7LEW\n3PoxR+bRIkq4AO6ju4ImCgigZnzOVOH9NYxxWft830UEQ9WMRhkAc95g+xoM\nU3nceFQMyGYcXKZhofjF27pg7dKxA7iK1hVaIts1s69p1hfVWoysvHIDM/UR\n7A7bDZS4chI/R6Mp7FmX0smHf09qlM6ZXkvuaQt8tkcEFaJF/JYywvLD4r2u\nhRPF6sbOFBnPLg3sHLNQ0p8QfWqBo0xCFI7R85IPGTnH4ThDYnyhewKKA8js\nldGQ3YUI3FfQfuhWoc3vr2uIBRx7SMM8THFU0L7Y8NfU+SXj+K5W4NvnzfnS\nx/yA/vDVr7/KNyj8VX/E9zA/pJeZIM4JHu+ASdFZhF1Emybz6QlazZCVMZF/\n3Zsd\r\n=K/kE\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGJau8KBKp0+vJ1HxfWRHwGCLGkqAQ6jNllUh2fUP5f0AiAr8W1k8F2UdtPSuNrH0lKuHRXMhFZ1Q2POqtUnNdcUSw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.4.0_1575274127140_0.16907334966273746"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.1": {
+			"name": "webapi-parser",
+			"version": "0.4.1",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.4.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-F5oSV1ttCnm4H8tLyAiT6l564A1B0KLkVSBJs3jpyalDPkMn/qvpB+jniEWLNmhOroLCunV07xCCUKJTf98f7Q==",
+				"shasum": "a7a4d1d4d5249eeaef237e809176daf5b99aaf13",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.4.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3327802,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeHZn2CRA9TVsSAnZWagAATdYP/0VYP33+LYlz/PYMKPso\nCWOkVyalH04Og4sC2YthuN2kgAuxTvxb0lUo2R4QEClgMQU2U60avte2s5+4\nHmB53jJ4EqEIZG6NTgqvpEaYwCGb5LSq4fVzbZCuwUgLUT1302Pf4+NnPN0K\n74SNhMHlDgatnB9JuHy5xiB9/HAS9UZuqJNVCYcE7CZc+A6Hht+qWBq1F8Pg\n+048HUxCAM9LaEajBX+hBbE6qQpiM+QIOPi+2t0KTH0tgHF9H9MOcG/l3u7Z\niBjOXK1bZsOwEy5QKnVYCWdEeWWrhAhjbQ1ariXCiTnVeuNWSPXHL32zkB7j\nu9fUtVvOccs4ji8lylYSozhIXjvv63hHBxgbJvWyO2T7+2EO/dWGdf2+FACO\n0jfgv/rMMpaMK4tkf8cOd8RQ+3YwP341MvRiWljKXsbFrHVU2Y1u8JMA9tC3\nGFNB4Xx7N10hRDyVD1hTARwaJ4qtLStc0L61BMgF9UT0C0QsIyzISmbg2jyu\nsDk6hD6CZlqRoP4CkBskHxDE4J2d3uavB/auROIzog2qg8Va83rtj0fNWHX9\nj93JkNrQ/NeYi1oIq1xLRPrh4BRoFLwEjRcAUITQaKznWvGf84HdyV0eSP3Q\n12gfuveKeU1ikMOmObPBSUw0oWjYvidKFhZsOY1rEz7HIyn8FRm1HLQVk0Vw\nk3fk\r\n=68+g\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHvT4amsXiy2/QFDTw+QkD+YDSibA91kN6FPMuNomMxDAiEAzJXjCBSPuUxnMrfHBMRITd/0BMWPh9K7hv/OlrxUVGc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.4.1_1578998261328_0.5353064472063822"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.0": {
+			"name": "webapi-parser",
+			"version": "0.5.0",
+			"description": "WebApi Parser",
+			"main": "webapi-parser.js",
+			"author": {
+				"name": "MuleSoft"
+			},
+			"license": "Apache-2.0",
+			"homepage": "https://github.com/raml-org/webapi-parser",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/raml-org/webapi-parser.git"
+			},
+			"types": "./typings/webapi-parser.d.ts",
+			"typings": "./typings/webapi-parser.d.ts",
+			"dependencies": {
+				"ajv": "6.5.2"
+			},
+			"bugs": {
+				"url": "https://github.com/raml-org/webapi-parser/issues"
+			},
+			"_id": "webapi-parser@0.5.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "jstoiko",
+				"email": "jonathan@ramses.tech"
+			},
+			"dist": {
+				"integrity": "sha512-fPt6XuMqLSvBz8exwX4QE1UT+pROLHa00EMDCdO0ybICduwQ1V4f7AWX4pNOpCp+x+0FjczEsOxtQU0d8L3QKw==",
+				"shasum": "2632185c5d8f3e6addb2520857af89ea9844dc14",
+				"tarball": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.5.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3495454,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeM9OlCRA9TVsSAnZWagAAd7AP/R6fZ8T3RT6J20bz+HtJ\n0n3cvyooiSsrHGlpzoH2PENG9ETeN5Rg1Ys9Vx7924Mm4DERaNC11T9+jABC\nd0Aic9zZesNJlkyeop8sVkwHXaiZbEjrY6lcy/yofYolMyw9IH9o9ysl3fOz\nxX1171NHYMb2nBe2NXYKLDv6Am8rNi2O/SJQeIZkNth1nHJ/DPt8tzkh1UMo\nEAB9lwXIWn4nYWxXu6RzhLPQG3DgGdI1ZGf96c1SkzDmTfdoCZkChI8T+tQh\nj6TKtcVhr9saCj+fGpM5LAwAdNcYmPRz08cubM+zevdbts3Cl3v7HkiF2+gp\n+Jmpi4xNmYKHIx6hIDaKDUCKtdT5N7YBRUByNbTmeme2uwJU5XebZdutw83V\nEWzJ9y3Iy8ORlfunDQa6/idmy9U/N+SwmA6VXGtUcxCw26YOlhO87olfqvl9\nq/3Zwh+UKdQuVfHeg68384kxwX5qdTJe+iEG6P/ZUkx6GvmMn/1Z33MX19+W\nHhL4xXAK22a2Zq6l57k1EjgcaGBupgnWYX/6XjlTLWjjH0Mf0JLl8hJri3fz\n/bbtPDg7wJ8IWhvPfCYWZ1luG381VAPvNNzrQSYwy948gz+ucKy+dyfWADzH\nB2+QAA63yJJJPlrLCK6qQyeF5gmNHglUTZrRPMOJ0a2msKMWagQG96qtyWQo\nm0PA\r\n=KHb/\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDjpl74qqSEJLJRnCvXiBdoSr1krN/Wjbcf2qvGdtzqsgIhAKVCOnIfZTAw46gjCyhXN+4zT/kwJ7VmtPcqIjdwPY1f"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "jonathan@ramses.tech",
+					"name": "jstoiko"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webapi-parser_0.5.0_1580454820855_0.1372545227801112"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"0.0.1-SNAPSHOT.2": "2019-05-09T00:09:57.103Z",
+		"created": "2019-05-09T20:28:59.121Z",
+		"0.0.1-security": "2019-05-09T20:28:59.227Z",
+		"modified": "2022-05-24T05:18:48.578Z",
+		"0.0.1-beta.0": "2019-05-10T00:37:48.266Z",
+		"0.0.1-beta.1": "2019-05-10T00:49:54.336Z",
+		"0.0.1-beta.2": "2019-05-10T21:40:27.513Z",
+		"0.0.1-beta.3": "2019-05-10T22:17:24.911Z",
+		"0.0.1-beta.4": "2019-05-11T00:14:09.127Z",
+		"0.0.1-beta.5": "2019-05-13T08:45:24.806Z",
+		"0.0.1-beta.6": "2019-05-13T09:23:53.997Z",
+		"0.0.1-beta.7": "2019-05-13T09:42:03.714Z",
+		"0.0.1-beta.8": "2019-05-13T10:06:58.256Z",
+		"0.0.1": "2019-05-13T10:21:31.039Z",
+		"0.0.2": "2019-05-13T14:48:28.311Z",
+		"0.0.1-beta.9": "2019-05-13T17:46:49.001Z",
+		"0.1.0": "2019-05-30T05:46:33.719Z",
+		"0.2.0": "2019-07-23T06:09:51.907Z",
+		"0.3.0": "2019-09-17T09:01:32.900Z",
+		"0.3.1": "2019-09-23T06:21:34.868Z",
+		"0.3.2": "2019-10-10T09:05:21.267Z",
+		"0.4.0": "2019-12-02T08:08:47.345Z",
+		"0.4.1": "2020-01-14T10:37:41.550Z",
+		"0.5.0": "2020-01-31T07:13:40.974Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.5.0",
+		"beta": "0.0.1-beta.9"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8f1db8254848406d390e43d5c6494dd1\"",
+			"fetched": 1705396423319
+		}
+	},
+	"_distfiles": {
+		"webapi-parser-0.0.1-security.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-security.tgz",
+			"sha": "80bad73df9be162bf5b2c70213c668b09ead908a",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.0.tgz",
+			"sha": "a68d3a2b8c3efc36a90b2f835eab659dc72f9b76",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.1.tgz",
+			"sha": "771da6b567fd806e769a830bdbd89950dbbecc67",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.2.tgz",
+			"sha": "ee5f0bee7aa687fce5b209b92da9f49f995aa0d1",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.3.tgz",
+			"sha": "462a78ecd77fa032f8294adf986912944ff4f912",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.4.tgz",
+			"sha": "76ca6f9feb9faae95a712c80dcc6425dfb7fe053",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.5.tgz",
+			"sha": "ef2b228707d0f88826d95254c0d50608cc0c55a5",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.6.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.6.tgz",
+			"sha": "f994baa9c8f50b310442510132eae4d215a1ab58",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.7.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.7.tgz",
+			"sha": "725d7254a825e8d14a948e870d161ad7a7e97a68",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.8.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.8.tgz",
+			"sha": "3d6cff3dd5d14081110268fffb77fa69ae731cb8",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1.tgz",
+			"sha": "1fd80a6eb197a57a5bd54ac7c29de53197882463",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.2.tgz",
+			"sha": "6b2d48b5ab6ca45bbbbc09d7f685fe1d73ebd77a",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.0.1-beta.9.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.0.1-beta.9.tgz",
+			"sha": "e6e2bb3ff3a5075172cf02c32fc9a8410871e34c",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.1.0.tgz",
+			"sha": "f6e305505b56763bb6da756e447a6eeeee4ff0ea",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.2.0.tgz",
+			"sha": "8c3d8d87c22369cd1af66a1d554fe51502994c4e",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.0.tgz",
+			"sha": "f35a975207690b873f7a18a478d537ae78772d16",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.1.tgz",
+			"sha": "d1006b2cc3314a750324cad46ea34eeec7fd125a",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.3.2.tgz",
+			"sha": "76e87361bc7fb942dfead9f1b40595f85c2b3bce",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.4.0.tgz",
+			"sha": "5aac55850924919164c7d8efadd844f0e3454aa7",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.4.1.tgz",
+			"sha": "a7a4d1d4d5249eeaef237e809176daf5b99aaf13",
+			"registry": "npmjs"
+		},
+		"webapi-parser-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/webapi-parser/-/webapi-parser-0.5.0.tgz",
+			"sha": "2632185c5d8f3e6addb2520857af89ea9844dc14",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-0d9348dfcf05b972",
+	"_id": "webapi-parser",
+	"readme": "# `webapi-parser`\n\n[![Build status](https://img.shields.io/travis/raml-org/webapi-parser.svg?style=flat)](https://travis-ci.org/raml-org/webapi-parser)\n[![Coverage Status](https://coveralls.io/repos/github/raml-org/webapi-parser/badge.svg?branch=master)](https://coveralls.io/github/raml-org/webapi-parser?branch=master)\n\nAPI Spec parser based on [AMF](https://github.com/aml-org/amf). Currently supports RAML 0.8, RAML 1.0, OAS 2.0 and OAS 3.0(beta).\n\nThis project is a thin wrapper that exposes API Spec-related capabilities from [AMF](https://github.com/aml-org/amf). It is written in Scala and offered in two versions: [JavaScript](#javascript) and [Java](#java).\n\n## 📃 Documentation\n|      | JavaScript | Java |\n| ---- | ---------- | ---- |\n| **Installation** | [NPM](#javascript) | [Gradle/Maven](#java) |\n| **Object-oriented interface** | [\"WebApi\" Model](https://raml-org.github.io/webapi-parser/js/classes/_webapi_parser_.webapibaseunit.html) | [\"WebApi\" Model](https://raml-org.github.io/webapi-parser/js/classes/_webapi_parser_.webapibaseunit.html) |\n| **Package** | [![NPMJS](https://img.shields.io/npm/v/webapi-parser.svg?style=flat)](https://www.npmjs.com/package/webapi-parser) | [![Maven Central](https://img.shields.io/static/v1.svg?style=flat&logo=java&label=%20&labelColor=white&labelColor=007396&color=007396&message=Maven%20Central)](https://search.maven.org/artifact/org.raml/webapi-parser/) |\n| **Examples** | [JavaScript examples](./examples/js/README.md) | [Java examples](./examples/java/README.md) |\n| **Developer Documentation** | [JavaScript Typedoc](https://raml-org.github.io/webapi-parser/js/modules/_webapi_parser_.html) | [Javadocs](https://raml-org.github.io/webapi-parser/java/index.html) |\n\n## 📦 Examples\n* [Resolving a \"WebApi\" Model](https://raml-org.github.io/webapi-parser/resolving.html)\n* [Navigating a \"WebApi\" Model](https://raml-org.github.io/webapi-parser/navigating.html)\n* [Constructing a \"WebApi\" Model](https://raml-org.github.io/webapi-parser/constructing.html)\n* [Translating RAML DataTypes to JSON Schemas](https://raml-org.github.io/webapi-parser/translating-raml-json.html)\n* [Translating JSON Schemas to RAML DataTypes](https://raml-org.github.io/webapi-parser/translating-json-raml.html)\n* [More examples](./examples)\n\n## 🛠 Installation\n\n### JavaScript\nInstall the npm package:\n\n```sh\n$ npm install webapi-parser\n```\n\nand require/reference as follows:\n```js\nconst wap = require('webapi-parser').WebApiParser\n```\n\nUsage examples are located in the [examples directory](./examples/js/README.md).\n\n### Java\nSpecify `webapi-parser` as a dependency and set both MuleSoft and Jitpack repositories.\n\nGradle:\n```groovy\ndependencies {\n    compile 'org.raml:webapi-parser:x.y.z'\n}\n...\nrepositories {\n    maven {\n        url \"https://repository-master.mulesoft.org/nexus/content/repositories/releases\"\n    }\n    maven {\n        url \"https://jitpack.io\"\n    }\n    mavenCentral()\n}\n```\n\nMaven:\n```xml\n<dependency>\n    <groupId>org.raml</groupId>\n    <artifactId>webapi-parser</artifactId>\n    <version>X.Y.Z</version>\n</dependency>\n...\n<repositories>\n    <repository>\n        <id>MuleSoftReleases</id>\n        <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases</url>\n    </repository>\n    <repository>\n        <id>jitpack.io</id>\n        <url>https://jitpack.io</url>\n    </repository>\n</repositories>\n```\n\nTo install snapshot versions set additional Sonatype snapshots repository.\n\nGradle:\n```groovy\n...\nrepositories {\n    ...\n    maven {\n        url 'https://oss.sonatype.org/content/repositories/snapshots'\n    }\n}\n```\n\nMaven:\n```xml\n...\n<repositories>\n    ...\n    <repository>\n        <id>SonatypeSnapshots</id>\n        <url>https://oss.sonatype.org/content/repositories/snapshots</url>\n    </repository>\n</repositories>\n```\n\nUsage examples are located in the [examples directory](./examples/java/README.md).\n\n---\n\nIf you wish to contribute to this project, please review our [Contribution Guidelines](./CONTRIBUTING.md)."
+}

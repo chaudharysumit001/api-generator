@@ -1,0 +1,541 @@
+{
+	"name": "@asyncapi/generator-filters",
+	"versions": {
+		"1.0.0": {
+			"name": "@asyncapi/generator-filters",
+			"version": "1.0.0",
+			"description": "Library with Nunjucks filters for templates using AsyncAPI Generator",
+			"main": "src/index.js",
+			"scripts": {
+				"test": "ava",
+				"docs": "jsdoc2md src/customFilters.js > docs/api.md",
+				"lint": "eslint --config .eslintrc .",
+				"get-version": "echo $npm_package_version",
+				"release": "semantic-release",
+				"lint-fix": "eslint --fix --config .eslintrc ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/asyncapi/generator-filters.git"
+			},
+			"keywords": [
+				"asyncapi",
+				"generator",
+				"nunjucks"
+			],
+			"author": {
+				"name": "Lukasz Gornicki",
+				"email": "lpgornicki@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/asyncapi/generator-filters/issues"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"homepage": "https://github.com/asyncapi/generator-filters#readme",
+			"devDependencies": {
+				"ava": "^3.7.0",
+				"eslint": "^6.8.0",
+				"eslint-plugin-sonarjs": "^0.5.0",
+				"jsdoc-to-markdown": "^5.0.3",
+				"@semantic-release/commit-analyzer": "^8.0.1",
+				"@semantic-release/github": "^7.0.4",
+				"@semantic-release/npm": "^7.0.3",
+				"@semantic-release/release-notes-generator": "^9.0.1",
+				"conventional-changelog-conventionalcommits": "^4.2.3",
+				"semantic-release": "^17.0.4"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"markdown-it": "^10.0.0",
+				"openapi-sampler": "^1.0.0-beta.15"
+			},
+			"ava": {
+				"files": [
+					"./src/*.test.js"
+				]
+			},
+			"release": {
+				"branches": [
+					"master"
+				],
+				"plugins": [
+					[
+						"@semantic-release/commit-analyzer",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					[
+						"@semantic-release/release-notes-generator",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					"@semantic-release/npm",
+					"@semantic-release/github"
+				]
+			},
+			"gitHead": "0dc43f96c7b339c8d93fc367d6d8bea505aa87ca",
+			"_id": "@asyncapi/generator-filters@1.0.0",
+			"_nodeVersion": "13.13.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-LcqLwUh/PqcHzIyEWxPT3pIehzif8d7aVq/CBWx0Hni7x/jsEbQhvtgT8LQpwHFLTZrNAKuxGivzOk3Ero+SQQ==",
+				"shasum": "846667c5abfbc56878e2e0e57e1ebf2a811bbcc0",
+				"tarball": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-1.0.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 29645,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeqXitCRA9TVsSAnZWagAABRIP/3qFb/TtPuQgjj6FJTDB\n1RBrnVTgdRL46PAPdGTh4fXC1l6z5fOplu++jCyVHwiYUiof1FsQmrWuUxMu\nf/e+AuAQDQUsHylGgF0pX4bOMkQrHVMnVQ8MZE6HFZf29Ly574aRxEEpFwTx\nLlV+upY8nn23lB6RHHlDMqR8YP0DGxbRMJYqeBCiBKQggL/qVPaxhw+dYykc\nFKdUvrifvI6H3tCZnh0MO78as0sNMiCesxshlQU2VhrtqzdncPjh4Mf3eSOR\n3BF1lmpXH0rM3SHN89i5F1W/EfbvaZV73Edm7x3VuwTiBfsJ943lnjNz08oi\nIPJo1X5C/35EC7FJRPd4ltZ2A0Dmv6E2Q5Pe593ELmunZ2oo6qjiuTlTDDSw\njolDkuYaECfQZZijdGqdSOr9c4s0RLr0BvJzDM1xsla1+4MgIDPvOb/jMNc1\nCIfaKDakAweU7UnI2mv0Knnc5rnzcCt4zw4wqNlYGZIHAcwHCFeZQdfgeNXI\nM/WDNcecXSJVeqMPS0rVjNBPaxrbJWtKn/RSzRyq6ygFoHer4T34IYzG5BtX\nA791o7z/8kOgvEIr9BeX3OAKYKplWPbh+zwgpVqyF4SAVWUHW/rbUitd0pb4\nF6h/R/q/PzTmULB7CmeU9DTe5Gte+YaL770IBYUEUVfSSNWLftCt1ELJ8J98\ni6Cm\r\n=p8uK\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDeQINSznvoY0Zfu4qOcZtwAwDYmkTQ2wGxtHg9Hg1ODAiBEvGtd5Ny8WPEQGVFIUkpNYPlpI3CQuR2DuJLui+Eafg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "asyncapi-bot",
+					"email": "derberg@wp.pl"
+				},
+				{
+					"name": "derberg",
+					"email": "lpgornicki@gmail.com"
+				},
+				{
+					"name": "fmvilas",
+					"email": "fmvilas@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "asyncapi-bot",
+				"email": "derberg@wp.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/generator-filters_1.0.0_1588164781275_0.5165450744244777"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "@asyncapi/generator-filters",
+			"version": "1.1.0",
+			"description": "Library with Nunjucks filters for templates using AsyncAPI Generator",
+			"main": "src/index.js",
+			"scripts": {
+				"test": "ava",
+				"docs": "jsdoc2md src/customFilters.js > docs/api.md",
+				"lint": "eslint --config .eslintrc .",
+				"get-version": "echo $npm_package_version",
+				"release": "semantic-release",
+				"lint-fix": "eslint --fix --config .eslintrc ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/asyncapi/generator-filters.git"
+			},
+			"keywords": [
+				"asyncapi",
+				"generator",
+				"nunjucks"
+			],
+			"author": {
+				"name": "Lukasz Gornicki",
+				"email": "lpgornicki@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/asyncapi/generator-filters/issues"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"homepage": "https://github.com/asyncapi/generator-filters#readme",
+			"devDependencies": {
+				"ava": "^3.7.0",
+				"eslint": "^6.8.0",
+				"eslint-plugin-sonarjs": "^0.5.0",
+				"jsdoc-to-markdown": "^5.0.3",
+				"@semantic-release/commit-analyzer": "^8.0.1",
+				"@semantic-release/github": "^7.0.4",
+				"@semantic-release/npm": "^7.0.3",
+				"@semantic-release/release-notes-generator": "^9.0.1",
+				"conventional-changelog-conventionalcommits": "^4.2.3",
+				"semantic-release": "^17.0.4"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"markdown-it": "^10.0.0",
+				"openapi-sampler": "1.0.0-beta.17"
+			},
+			"ava": {
+				"files": [
+					"./src/*.test.js"
+				]
+			},
+			"release": {
+				"branches": [
+					"master"
+				],
+				"plugins": [
+					[
+						"@semantic-release/commit-analyzer",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					[
+						"@semantic-release/release-notes-generator",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					"@semantic-release/npm",
+					"@semantic-release/github"
+				]
+			},
+			"gitHead": "575a0c6ac198f85c9b876ee2a2bfc542f1bcca78",
+			"_id": "@asyncapi/generator-filters@1.1.0",
+			"_nodeVersion": "13.14.0",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-04Z2mMi3iv1jl7RZ1U5DX+Ruet5BOHLzEMSsl0vnYx2UZCM0AIlMvS6ph5JHv2AhBTD65a4Lfnsdr8qz0ybW+g==",
+				"shasum": "d6869fc1468a1d4ea3f7f20d463e7283e4aaa13c",
+				"tarball": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-1.1.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 29978,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfW2VGCRA9TVsSAnZWagAAB+gP/2Ik1SvS3Mhxw9K6LcZ1\nj0djKEf5AqqKZmstXOSPlOeXhGhSqq7YQu2DG/HARx2EWSt+Yvh823rOlAxe\nAEeCdkUxpZ/wmlijMLnfhANagybuvZDBHmZ4nNAv+vtfBjIEE0cqV1i8+Iw/\n7xaDtUU8AfLgkIdx/izTKFeHLRk9SdkmGj7Ip3TECOwv3BPgthvsnKxJ3laz\nLnjNmK+QgB7jhDmz+pZEb/Baz6VQ5MXyAAzdmsvFkYdh8UisJHdgfHorXz68\nP1dhjQnI/3ZCPqj1GWDvn/Oe7mbCTaNKBTqH4/kAuicRq3ONtQ1hw20L3TLQ\nSlWBzmGKyUwvjBDw5eKlX51AwLI9J10NuncQ9XnENY8C7gOYaw6QJz86gS9F\nApiNMRwIYf0zmXYv/5+P+WhbJN4tJ9zZHDTUXpIw5vjAZ7V5lzdKe2zWXquP\n5RHeXKbyfrCm2ipti2OzGH3m9dRk/0zMmcSd2e0Z9FZ8ahf6/mJjSdtIRxNo\nmWFPHZEeTl95ZPNvGFubwVyUYVv4eDxOqqFkSfzQXG7QPkTuDE0cC/2dY4Rw\nyT1DTZPCkBnUs6fH9XCRflrLqUO+Ow8jHJOyJWALp9M5bPhrzsyr7Bwzpp+a\nGdQIVIiOxgWjq7ZS1SpYZ8qZap9dCVOnKGCLBPw4+2d9U2to6mRQ8ofNi3v6\nZdDb\r\n=PyFr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG/yEmV3JfHy28JHpcJrFkWXdj75q089r9nt/Sv/ERMRAiAcYli+Otiu+ARfuwLdKmSw5OiarQqjxq7zYnNAEL0Q5g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "asyncapi-bot",
+					"email": "derberg@wp.pl"
+				},
+				{
+					"name": "derberg",
+					"email": "lpgornicki@gmail.com"
+				},
+				{
+					"name": "fmvilas",
+					"email": "fmvilas@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "asyncapi-bot",
+				"email": "derberg@wp.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/generator-filters_1.1.0_1599825221962_0.4263463484000294"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@asyncapi/generator-filters",
+			"version": "2.0.0",
+			"description": "Library with Nunjucks filters for templates using AsyncAPI Generator",
+			"main": "src/index.js",
+			"scripts": {
+				"test": "ava",
+				"docs": "jsdoc2md src/customFilters.js > docs/api.md",
+				"lint": "eslint --max-warnings 0 --config .eslintrc .",
+				"get:version": "echo $npm_package_version",
+				"get:name": "echo $npm_package_name",
+				"release": "semantic-release",
+				"lint:fix": "eslint --fix --config .eslintrc .",
+				"generate:assets": "npm run docs",
+				"bump:version": "npm --no-git-tag-version --allow-same-version version $VERSION"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/asyncapi/generator-filters.git"
+			},
+			"keywords": [
+				"asyncapi",
+				"generator",
+				"nunjucks"
+			],
+			"author": {
+				"name": "Lukasz Gornicki",
+				"email": "lpgornicki@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/asyncapi/generator-filters/issues"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"homepage": "https://github.com/asyncapi/generator-filters#readme",
+			"devDependencies": {
+				"@asyncapi/parser": "^1.7.0",
+				"@semantic-release/commit-analyzer": "^8.0.1",
+				"@semantic-release/github": "^7.0.4",
+				"@semantic-release/npm": "^7.0.3",
+				"@semantic-release/release-notes-generator": "^9.0.1",
+				"ava": "^3.7.0",
+				"conventional-changelog-conventionalcommits": "^4.2.3",
+				"eslint": "^6.8.0",
+				"eslint-plugin-sonarjs": "^0.5.0",
+				"jsdoc-to-markdown": "^5.0.3",
+				"semantic-release": "^17.0.4"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"markdown-it": "^10.0.0",
+				"openapi-sampler": "1.0.0-beta.17"
+			},
+			"ava": {
+				"files": [
+					"./src/*.test.js"
+				]
+			},
+			"release": {
+				"branches": [
+					"master"
+				],
+				"plugins": [
+					[
+						"@semantic-release/commit-analyzer",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					[
+						"@semantic-release/release-notes-generator",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					"@semantic-release/npm",
+					"@semantic-release/github"
+				]
+			},
+			"gitHead": "183635d7af3d34f087e2aa8527cafba269dcb0bb",
+			"_id": "@asyncapi/generator-filters@2.0.0",
+			"_nodeVersion": "14.17.1",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-KTcdPrdF2qPtiW4VCwIJmX+U0S8teeRaZ3UX1l5PIluWxc4RPNnIkQvpRMJyrdw7nJFGuX1yu1bvhCzqBoWyhA==",
+				"shasum": "bc7f2f7ff6c2d95d2d6e5a1264562c09de5cd18d",
+				"tarball": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-2.0.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 55354,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg2wSmCRA9TVsSAnZWagAAITwP/iIcnIw/Ca6d5hJEbaBi\nBwol0/9NTpyyWnveSWdFVTwQx7C8M3icYH5FRORUPqNj5z/NbZ+9nAi/jRTi\nyMd/FVc7vdiPDzqvmzczCbVNC6l9SivBAQ6TsphrXu+b/X37fvUr/kFaum9o\nq2CvRrPiIndHR5vLcsSACpyG2jhKPQskZLNiluMm6oOxdkuH1Yves2lDVaOK\nsIAZiQ2M34Et5WjKlHkGdujSPenuZIm5wWdwwe+WGsP/DCcFZuapDxjwpIgW\nkukYdWI+wRnZbMN9hidXd4Xe0elPY65Qhs7y8ji3O6svPIVbpTPTkLHpaqLY\nmz4k6zCgMse2Qf3J8GMYwZpcM7juvy3/SPbM1cYJBzx/n7EfTql7mdJpHRJg\nzXuiPLiiA/1WM76hbTmSG2+TzEhZvLdjB2wKSFTBhWjZfu5bFX7DERAbnT4p\nJoaRyo3qkYDQ0o1PcDfIpvyIE3WxpTkWf+EdAnJxMDf8uHaNU0fmwp15es2b\nSFgXIkp/yCI2E02WlWOyPLTDYy0zUxikwFyNQvDffU6FzN3RGj6iD0WJKGQq\n4BX3OFINcxIX54/yXA6WLLZgW7q6vJrN1Wkp9zPJOIN5RPVQ2jYdQQTOXHqo\n+BDcI8fxT8pEoJ1T2J22td2XCPBwFvR4XO2ng8lPrXrvP7DZUX9jKwkklEY0\nGPz2\r\n=nozg\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDnFI0YYiUNS74nnYn0R29mPjBeFKUqxMEBMMh/MxU//QIgIVza3+PT1pcrLUptpRXqM18zh0+ncFC9FYB/xE3wi4I="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "asyncapi-bot",
+				"email": "derberg@wp.pl"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "fmvilas",
+					"email": "fmvilas@gmail.com"
+				},
+				{
+					"name": "derberg",
+					"email": "lpgornicki@gmail.com"
+				},
+				{
+					"name": "asyncapi-bot",
+					"email": "derberg@wp.pl"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/generator-filters_2.0.0_1624966309965_0.05103681227525003"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@asyncapi/generator-filters",
+			"version": "2.1.0",
+			"description": "Library with Nunjucks filters for templates using AsyncAPI Generator",
+			"main": "src/index.js",
+			"scripts": {
+				"test": "ava",
+				"docs": "jsdoc2md src/customFilters.js > docs/api.md",
+				"lint": "eslint --max-warnings 0 --config .eslintrc .",
+				"get:version": "echo $npm_package_version",
+				"get:name": "echo $npm_package_name",
+				"release": "semantic-release",
+				"lint:fix": "eslint --fix --config .eslintrc .",
+				"generate:assets": "npm run docs",
+				"bump:version": "npm --no-git-tag-version --allow-same-version version $VERSION"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/asyncapi/generator-filters.git"
+			},
+			"keywords": [
+				"asyncapi",
+				"generator",
+				"nunjucks"
+			],
+			"author": {
+				"name": "Lukasz Gornicki",
+				"email": "lpgornicki@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/asyncapi/generator-filters/issues"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"homepage": "https://github.com/asyncapi/generator-filters#readme",
+			"devDependencies": {
+				"@asyncapi/parser": "^1.7.0",
+				"@semantic-release/commit-analyzer": "^8.0.1",
+				"@semantic-release/github": "^7.0.4",
+				"@semantic-release/npm": "^7.0.3",
+				"@semantic-release/release-notes-generator": "^9.0.1",
+				"ava": "^3.7.0",
+				"conventional-changelog-conventionalcommits": "^4.2.3",
+				"eslint": "^6.8.0",
+				"eslint-plugin-sonarjs": "^0.5.0",
+				"jsdoc-to-markdown": "^5.0.3",
+				"semantic-release": "^17.0.4"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"markdown-it": "^10.0.0",
+				"openapi-sampler": "1.0.0-beta.17"
+			},
+			"ava": {
+				"files": [
+					"./src/*.test.js"
+				]
+			},
+			"release": {
+				"branches": [
+					"master"
+				],
+				"plugins": [
+					[
+						"@semantic-release/commit-analyzer",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					[
+						"@semantic-release/release-notes-generator",
+						{
+							"preset": "conventionalcommits"
+						}
+					],
+					"@semantic-release/npm",
+					"@semantic-release/github"
+				]
+			},
+			"gitHead": "f171ad4c3172f9446de26a2b80d2ffa0a40b4ff0",
+			"_id": "@asyncapi/generator-filters@2.1.0",
+			"_nodeVersion": "14.17.4",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-OZcz8VjivvNvofEunGL+SO5M9Sq8CczNNyuBhdDzAhmdBxRPCswnliDFuHK+ZJ6XA/JgSfx2zN3H2uwzPajIgw==",
+				"shasum": "3227749fd819a316762611c34a30754d19a2000e",
+				"tarball": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-2.1.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 58071,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhEi+gCRA9TVsSAnZWagAAzV0P/1YCmbV7QRnXvStiLKZq\nTCjT/zt7nJ+L0mqwk3e5YpbthGsIjK5BsbghJqqKI6Nccq9xgXsjRadynjt9\ng3kWuuovb8wJTWTHT5Uy5u0LOLDOL+Q6oQEwuc2uI4gk/hNJ4P+7qepYVITd\ngGwsssTePfl1ZyKBIMjItgln6B5CTvsMHmsKIxT3ikOwx/Y/jwXKgc6P1yhV\n5MYDmqP+qeXsQYvqeWn+kReValpGXyQuLahwIlRf+IiWbdGBpthqzEnU+4aw\nLYDgRIePHPMJnUEB/xFZIAryLET3EoHc48hlZpF7bmuqwu5sf8D7i8JKNtKI\n9hFqgIxOpTqYFzo2HYkmf2jc7ORINnnb9J9flShRnrdIvv49Towi2ear23OR\n0mC7xQdK93UZ2OeEvKP3OIUyeM6OSnws+fAO/pSATFQCfcnjEgXmduLu+dCl\nKqIKPc3BOsBqusnJCKcrKuRFXINdsZuKZEaxhkLca0cj5Zvp6sSe1f5G5FK5\nAKckOQi6qaWcvihjnU9MgFjOHLk9ofF9WDwkydD8OwFVl1f1vppKVS70EOLw\nRVWW0BVPwUi2dhBxIQ520+eoCXnSg4BPI47qkTmPeRLh6xQvQh7Z7rZHX3z8\naNDylGRoIwoDhCvumUYCfvdhsn8NbULzRo3lPpG69cCWJoxz6+pRUeo8/ShE\nl8ju\r\n=6CoG\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICgOj93Rfpes/UcpzzaqTeBLE+fLdXxs6IZskV70K+CJAiAH/MYktDwbM266HodBQ/8YzusBOTB5AkqKdjUBdcYEkA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "asyncapi-bot",
+				"email": "derberg@wp.pl"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "fmvilas",
+					"email": "fmvilas@gmail.com"
+				},
+				{
+					"name": "derberg",
+					"email": "lpgornicki@gmail.com"
+				},
+				{
+					"name": "asyncapi-bot",
+					"email": "derberg@wp.pl"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/generator-filters_2.1.0_1628581792632_0.14972380312708777"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-04-29T12:53:01.019Z",
+		"1.0.0": "2020-04-29T12:53:01.429Z",
+		"modified": "2022-04-04T16:01:42.472Z",
+		"1.1.0": "2020-09-11T11:53:42.077Z",
+		"2.0.0": "2021-06-29T11:31:50.105Z",
+		"2.1.0": "2021-08-10T07:49:52.772Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"dab7f3982234eb4c3c15f73dfadd3bab\"",
+			"fetched": 1705396271998
+		}
+	},
+	"_distfiles": {
+		"generator-filters-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-1.0.0.tgz",
+			"sha": "846667c5abfbc56878e2e0e57e1ebf2a811bbcc0",
+			"registry": "npmjs"
+		},
+		"generator-filters-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-1.1.0.tgz",
+			"sha": "d6869fc1468a1d4ea3f7f20d463e7283e4aaa13c",
+			"registry": "npmjs"
+		},
+		"generator-filters-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-2.0.0.tgz",
+			"sha": "bc7f2f7ff6c2d95d2d6e5a1264562c09de5cd18d",
+			"registry": "npmjs"
+		},
+		"generator-filters-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@asyncapi/generator-filters/-/generator-filters-2.1.0.tgz",
+			"sha": "3227749fd819a316762611c34a30754d19a2000e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-ad74c16e21037f04",
+	"_id": "@asyncapi/generator-filters",
+	"readme": "# Generator Filters\n\nThis is a library with [generator](https://github.com/asyncapi/generator/) filters that are used in more than one template. Use these filters to not double your work.\n\nThis library consists of:\n- Custom filters. Check out [API docs](docs/api.md) for complete list\n- Lodash-powered filters. For the list of all available filters check [official docs](https://lodash.com/docs/)"
+}
