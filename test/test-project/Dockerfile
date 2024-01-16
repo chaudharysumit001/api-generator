@@ -9,4 +9,5 @@ EXPOSE 4873
 # Mount the configuration volume
 VOLUME /verdaccio/conf
 
-CMD ["chown -R 100:101 /opt/verdaccio"]
+CMD [ "chown -R verdaccio:verdaccio /verdaccio &&\
+exec guso verdaccio:verdacio  $APPDIR/bin/verdaccio --config /verdaccio/conf/config.yaml --listen $PROTOCOL://0.0.0.0:${PORT}" ]
