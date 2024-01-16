@@ -25646,7 +25646,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b012956d5c12e5da4aae17f952293947\"",
-			"fetched": 1705392409694
+			"fetched": 1705393896005
 		}
 	},
 	"_distfiles": {
@@ -26887,7 +26887,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-4f6ea3320b62aae3",
+	"_rev": "5-f874fe048666f422",
 	"_id": "postcss",
 	"readme": "# PostCSS\n\n<img align=\"right\" width=\"95\" height=\"95\"\n     alt=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"https://postcss.org/logo.svg\">\n\nPostCSS is a tool for transforming styles with JS plugins.\nThese plugins can lint your CSS, support variables and mixins,\ntranspile future CSS syntax, inline images, and more.\n\nPostCSS is used by industry leaders including Wikipedia, Twitter, Alibaba,\nand JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins is one of the most popular CSS tools.\n\n---\n\n<img src=\"https://cdn.evilmartians.com/badges/logo-no-label.svg\" alt=\"\" width=\"22\" height=\"16\" />  Made in <b><a href=\"https://evilmartians.com/devtools?utm_source=postcss&utm_campaign=devtools-button&utm_medium=github\">Evil Martians</a></b>, product consulting for <b>developer tools</b>.\n\n---\n\n[Abstract Syntax Tree]: https://en.wikipedia.org/wiki/Abstract_syntax_tree\n[Evil Martians]:        https://evilmartians.com/?utm_source=postcss\n[Autoprefixer]:         https://github.com/postcss/autoprefixer\n[Stylelint]:            https://stylelint.io/\n[plugins]:              https://github.com/postcss/postcss#plugins\n\n\n## Docs\nRead full docs **[here](https://postcss.org/)**."
 }
