@@ -628,7 +628,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"12f45eb501053060036d3826ad03e1c6\"",
-			"fetched": 1705397915915
+			"fetched": 1705401143796
 		}
 	},
 	"_distfiles": {
@@ -669,7 +669,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-c95914e915943a60",
+	"_rev": "4-1cd64634345e114e",
 	"_id": "@jsep-plugin/ternary",
 	"readme": "[npm]: https://img.shields.io/npm/v/@jsep-plugin/ternary\n[npm-url]: https://www.npmjs.com/package/@jsep-plugin/ternary\n[size]: https://packagephobia.now.sh/badge?p=@jsep-plugin/ternary\n[size-url]: https://packagephobia.now.sh/result?p=@jsep-plugin/ternary\n\n[![npm][npm]][npm-url]\n[![size][size]][size-url]\n\n# @jsep-plugin/ternary\n\nA JSEP plugin for adding ternary expression support. Allows expressions of the form:\n\n```javascript\njsep('a ? 1 : 2');\n```\n\n## Install\n\n```console\nnpm install @jsep-plugin/ternary\n# or\nyarn add @jsep-plugin/ternary\n```\n\n## Usage\n```javascript\nimport jsep from 'jsep';\nimport jsepTernary from '@jsep-plugin/ternary';\njsep.plugins.register(jsepTernary);\n```\n\n## Meta\n\n[LICENSE (MIT)](/LICENSE)"
 }

@@ -679,7 +679,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"83e1ecb8c8fcde08e00487b070507ca2\"",
-			"fetched": 1705397921485
+			"fetched": 1705401148911
 		}
 	},
 	"_distfiles": {
@@ -720,7 +720,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-11421b28089fad32",
+	"_rev": "4-81a1be34694e5b83",
 	"_id": "@smoya/multi-parser",
 	"readme": "# multi-parser-js\nThis tool allows to parse AsyncAPI documents and produce a desired interface based on a given Parser-API version"
 }

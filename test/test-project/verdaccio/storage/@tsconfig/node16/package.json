@@ -407,7 +407,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9ffa12d4b2651a8f4cc39e6f14fd303b\"",
-			"fetched": 1705397928259
+			"fetched": 1705401152445
 		}
 	},
 	"_distfiles": {
@@ -448,7 +448,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-d6b7880dbcb7104c",
+	"_rev": "4-fccf21c97de89c60",
 	"_id": "@tsconfig/node16",
 	"readme": "### A base TSConfig for working with Node 16.\n\nAdd the package to your `\"devDependencies\"`:\n\n```sh\nnpm install --save-dev @tsconfig/node16\nyarn add --dev @tsconfig/node16\n```\n\nAdd to your `tsconfig.json`:\n\n```json\n\"extends\": \"@tsconfig/node16/tsconfig.json\"\n```\n\n---\n\nThe `tsconfig.json`: \n\n```jsonc\n{\n  \"$schema\": \"https://json.schemastore.org/tsconfig\",\n  \"display\": \"Node 16\",\n  \"_version\": \"16.1.0\",\n\n  \"compilerOptions\": {\n    \"lib\": [\"es2021\"],\n    \"module\": \"node16\",\n    \"target\": \"es2021\",\n\n    \"strict\": true,\n    \"esModuleInterop\": true,\n    \"skipLibCheck\": true,\n    \"forceConsistentCasingInFileNames\": true,\n    \"moduleResolution\": \"node16\"\n  }\n}\n\n```\n\nYou can find the [code here](https://github.com/tsconfig/bases/blob/master/bases/node16.json)."
 }

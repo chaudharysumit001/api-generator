@@ -3381,7 +3381,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"71a7d1b6d14c3b7dca9a401496169d20\"",
-			"fetched": 1705397988412
+			"fetched": 1705401203812
 		}
 	},
 	"_distfiles": {
@@ -3557,7 +3557,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-40a70fb4bdf749bb",
+	"_rev": "4-181ac18036029097",
 	"_id": "lodash.template",
 	"readme": "# lodash.template v4.5.0\n\nThe [Lodash](https://lodash.com/) method `_.template` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.template\n```\n\nIn Node.js:\n```js\nvar template = require('lodash.template');\n```\n\nSee the [documentation](https://lodash.com/docs#template) or [package source](https://github.com/lodash/lodash/blob/4.5.0-npm-packages/lodash.template) for more details."
 }

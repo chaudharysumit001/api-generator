@@ -271,7 +271,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b4648bd0e1630be3b40bfe620f4a820c\"",
-			"fetched": 1705397952148
+			"fetched": 1705401172156
 		}
 	},
 	"_distfiles": {
@@ -297,7 +297,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-296e95e7c3e2f5ba",
+	"_rev": "4-907862db8fa7462e",
 	"_id": "core-util-is",
 	"readme": "# core-util-is\n\nThe `util.is*` functions introduced in Node v0.12."
 }

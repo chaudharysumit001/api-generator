@@ -19282,7 +19282,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"92c85f9119b6464b7dc9fe9192fdf697\"",
-			"fetched": 1705397982343
+			"fetched": 1705401199520
 		}
 	},
 	"_distfiles": {
@@ -20463,7 +20463,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ff7a5b7622e6ebae",
+	"_rev": "4-b761939f09cac759",
 	"_id": "jest-resolve-dependencies",
 	"readme": "ERROR: No README data found!"
 }

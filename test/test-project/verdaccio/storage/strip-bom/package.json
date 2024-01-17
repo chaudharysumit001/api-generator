@@ -845,7 +845,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"acf42b7aa58b9481a0ff25dbcc71b5e3\"",
-			"fetched": 1705398017188
+			"fetched": 1705401231925
 		}
 	},
 	"_distfiles": {
@@ -901,7 +901,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3401aad2dec9830b",
+	"_rev": "4-cf9f2e250781f3de",
 	"_id": "strip-bom",
 	"readme": "# strip-bom\n\n> Strip UTF-8 [byte order mark](https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8) (BOM) from a string\n\nFrom Wikipedia:\n\n> The Unicode Standard permits the BOM in UTF-8, but does not require nor recommend its use. Byte order has no meaning in UTF-8.\n\n## Install\n\n```\n$ npm install strip-bom\n```\n\n## Usage\n\n```js\nimport stripBom from 'strip-bom';\n\nstripBom('\\uFEFFunicorn');\n//=> 'unicorn'\n```\n\n## Related\n\n- [strip-bom-cli](https://github.com/sindresorhus/strip-bom-cli) - CLI for this module\n- [strip-bom-buf](https://github.com/sindresorhus/strip-bom-buf) - Buffer version of this module\n- [strip-bom-stream](https://github.com/sindresorhus/strip-bom-stream) - Stream version of this module\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-strip-bom?utm_source=npm-strip-bom&utm_medium=referral&utm_campaign=readme\">Get professional support for 'strip-bom' with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

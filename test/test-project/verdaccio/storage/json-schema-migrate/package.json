@@ -708,7 +708,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e9cada3efb403d13165c2432b47ddd26\"",
-			"fetched": 1705397985329
+			"fetched": 1705401202533
 		}
 	},
 	"_distfiles": {
@@ -754,7 +754,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-8e8987c292981b17",
+	"_rev": "4-001d14814164d9e9",
 	"_id": "json-schema-migrate",
 	"readme": "# json-schema-migrate\n\nMigrate JSON-Schema from draft-04 to draft-07, draft-2019-09 or draft-2020-12\n\n[![build](https://github.com/ajv-validator/json-schema-migrate/workflows/build/badge.svg)](https://github.com/ajv-validator/json-schema-migrate/actions?query=workflow%3Abuild)\n[![npm](https://img.shields.io/npm/v/json-schema-migrate)](https://www.npmjs.com/package/json-schema-migrate)\n[![coverage](https://coveralls.io/repos/github/ajv-validator/json-schema-migrate/badge.svg?branch=master)](https://coveralls.io/github/ajv-validator/json-schema-migrate?branch=master)\n\n## Install\n\n```\nnpm install json-schema-migrate\n```\n\n## Usage\n\n```javascript\nconst migrate = require(\"json-schema-migrate\")\nconst schema = {\n  id: \"my-schema\",\n  minimum: 1,\n  exclusiveMinimum: true,\n}\nmigrate.draft7(schema)\n// or migrate.draft2019(schema)\n// or migrate.draft2020(schema)\n\nconsole.log(schema)\n// {\n//  $id: 'my-schema',\n//  exclusiveMinimum: 1\n// }\n```\n\nYou can access Ajv instance that is used to migrate schema using `migrate.getAjv` function:\n\n```javascript\nconsole.log(migrate.getAjv().errorsText(errors))\n```\n\n## Changes in schemas after migration\n\n- `id` is replaced with `$id`\n- `$schema` value becomes draft-07, draft-2019-09 or draft-2020-12 meta-schema\n- draft-04 boolean form of `exclusiveMaximum/Minimum` is replaced with the current number form\n- `enum` with a single allowed value is replaced with `const`\n- Non-standard `constant` is replaced with `const`\n- empty schema is replaced with `true`\n- schema `{\"not\":{}}` is replaced with `false`\n- `draft2019` function additionally replaces:\n  - `definitions` with `$defs`\n  - `dependencies` with `dependentRequired` and `dependentSchemas`\n  - `\"id\": \"#foo\"` with `\"$anchor\": \"foo\"`\n  - `\"id\": \"schema#foo\"` with `\"$id\": \"schema\", \"$anchor\": \"foo\"`\n- `draft2020` function additionally replaces array form of `items` with `prefixItems` (and `additionalItems` with `items`)\n\n## License\n\n[MIT](https://github.com/epoberezkin/json-schema-migrate/blob/master/LICENSE)"
 }

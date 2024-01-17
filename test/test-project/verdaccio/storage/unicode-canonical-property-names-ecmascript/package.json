@@ -431,7 +431,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fadeca8cd3df8118eae61c65853bdee7\"",
-			"fetched": 1705398023171
+			"fetched": 1705401237000
 		}
 	},
 	"_distfiles": {
@@ -467,7 +467,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-24b00beabf93bed1",
+	"_rev": "4-b725a858fad77f21",
 	"_id": "unicode-canonical-property-names-ecmascript",
 	"readme": "# unicode-canonical-property-names-ecmascript [![Build status](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names-ecmascript.svg?branch=main)](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names-ecmascript) [![unicode-canonical-property-names-ecmascript on npm](https://img.shields.io/npm/v/unicode-canonical-property-names-ecmascript)](https://www.npmjs.com/package/unicode-canonical-property-names-ecmascript)\n\n_unicode-canonical-property-names-ecmascript_ exports the set of canonical Unicode property names that are supported in [ECMAScript RegExp property escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes).\n\n## Installation\n\nTo use _unicode-canonical-property-names-ecmascript_, install it as a dependency via [npm](https://www.npmjs.com/):\n\n```bash\n$ npm install unicode-canonical-property-names-ecmascript\n```\n\nThen, `require` it:\n\n```js\nconst properties = require('unicode-canonical-property-names-ecmascript');\n```\n\n## Example\n\n```js\nproperties.has('ID_Start');\n// → true\nproperties.has('IDS');\n// → false\n```\n\n## For maintainers\n\n### How to publish a new release\n\n1. On the `main` branch, bump the version number in `package.json`:\n\n    ```sh\n    npm version patch -m 'Release v%s'\n    ```\n\n    Instead of `patch`, use `minor` or `major` [as needed](https://semver.org/).\n\n    Note that this produces a Git commit + tag.\n\n1. Push the release commit and tag:\n\n    ```sh\n    git push && git push --tags\n    ```\n\n    Our CI then automatically publishes the new release to npm.\n\n## Author\n\n| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias \"Follow @mathias on Twitter\") |\n|---|\n| [Mathias Bynens](https://mathiasbynens.be/) |\n\n## License\n\n_unicode-canonical-property-names-ecmascript_ is available under the [MIT](https://mths.be/mit) license."
 }

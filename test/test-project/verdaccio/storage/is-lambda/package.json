@@ -157,7 +157,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9f4b45ed9fa6e9379089c2c7ddbda87e\"",
-			"fetched": 1705397978757
+			"fetched": 1705401194218
 		}
 	},
 	"_distfiles": {
@@ -173,7 +173,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-7d16a09463a7b435",
+	"_rev": "4-11fcf829e77f96f1",
 	"_id": "is-lambda",
 	"readme": "# is-lambda\n\nReturns `true` if the current environment is an [AWS\nLambda](https://aws.amazon.com/lambda/) server.\n\n[![Build status](https://travis-ci.org/watson/is-lambda.svg?branch=master)](https://travis-ci.org/watson/is-lambda)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)\n\n## Installation\n\n```\nnpm install is-lambda\n```\n\n## Usage\n\n```js\nvar isLambda = require('is-lambda')\n\nif (isLambda) {\n  console.log('The code is running on a AWS Lambda')\n}\n```\n\n## License\n\nMIT"
 }

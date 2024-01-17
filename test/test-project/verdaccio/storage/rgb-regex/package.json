@@ -138,7 +138,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8bddacda0314c44959d13ab789e435f6\"",
-			"fetched": 1705398010947
+			"fetched": 1705401225106
 		}
 	},
 	"_distfiles": {
@@ -154,7 +154,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-2134ddd64d1eaa61",
+	"_rev": "4-1ff901cf8a5eacc1",
 	"_id": "rgb-regex",
 	"readme": "# rgb-regex\n\n[![Build Status](https://secure.travis-ci.org/regexps/rgb-regex.png?branch=master)](https://travis-ci.org/regexps/rgb-regex)\n\nRegex for RGB color strings.\n\n## Installation\n\n```bash\nnpm install --save rgb-regex\n```\n\n## Usage\n\n```javascript\nvar rgbRegex = require('rgb-regex');\n\nrgbRegex({ exact: true }).test('rgb(12, 34, 56)');  // => true\nrgbRegex({ exact: true }).test('unicorns');         // -> false\nrgbRegex({ exact: true }).test('rgb(,,)');          // => false\n\nrgbRegex().exec('rgb(12, 34, 56)');\n// => [\n//  '12',\n//  '34',\n//  '56',\n//  index: 0,\n//  input: 'rgb(12,34,56)'\n// ]\n\n'rgb(12, 34, 56) cats and dogs'.match(rgbRegex());\n// = ['rgb(12, 34, 56)']\n```\n\n## License\n\nMIT\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\nCrafted with <3 by John Otander ([@4lpine](https://twitter.com/4lpine)).\n\n***\n\n> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git)."
 }

@@ -8131,7 +8131,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"19ef5cbaba1834242d0320339541582f\"",
-			"fetched": 1705397882061
+			"fetched": 1705401123105
 		}
 	},
 	"_distfiles": {
@@ -8662,7 +8662,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ae3d62cd11fa855f",
+	"_rev": "4-519188164c2073ec",
 	"_id": "@babel/helper-module-transforms",
 	"readme": ""
 }

@@ -531,7 +531,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bcebe420cb2ff003f76d4e749db2eb7d\"",
-			"fetched": 1705397975782
+			"fetched": 1705401191426
 		}
 	},
 	"_distfiles": {
@@ -572,7 +572,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-14fb00a297b5f4be",
+	"_rev": "4-f4455937dc0aae0b",
 	"_id": "is-arrayish",
 	"readme": "# node-is-arrayish [![Travis-CI.org Build Status](https://img.shields.io/travis/Qix-/node-is-arrayish.svg?style=flat-square)](https://travis-ci.org/Qix-/node-is-arrayish) [![Coveralls.io Coverage Rating](https://img.shields.io/coveralls/Qix-/node-is-arrayish.svg?style=flat-square)](https://coveralls.io/r/Qix-/node-is-arrayish)\n> Determines if an object can be used like an Array\n\n## Example\n```javascript\nvar isArrayish = require('is-arrayish');\n\nisArrayish([]); // true\nisArrayish({__proto__: []}); // true\nisArrayish({}); // false\nisArrayish({length:10}); // false\n```\n\n## License\nLicensed under the [MIT License](http://opensource.org/licenses/MIT).\nYou can find a copy of it in [LICENSE](LICENSE)."
 }

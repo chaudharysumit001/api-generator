@@ -257,7 +257,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"94d77ed1906d2b4d7711377d09ce518e\"",
-			"fetched": 1705397916366
+			"fetched": 1705401144548
 		}
 	},
 	"_distfiles": {
@@ -278,7 +278,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-e6e8a582b7a017d8",
+	"_rev": "4-3e3622ad35e102d1",
 	"_id": "@kwsites/file-exists",
 	"readme": "# @kwsites/file-exists\n\nSynchronous validation of a path existing either as a file or as a directory.\n\n```\nconst { exists, FILE, FOLDER, READABLE } = require('@kwsites/file-exists');\n\n// check for a folder existing\nassert(exists(__dirname, FOLDER));\nassert(!exists(__filename, FOLDER));\n\n// check for a file existing\nassert(!exists(__filename, FILE));\nassert(exists(__filename, FILE));\n\n// when no type is specified, both folders and files are allowed\nassert(exists(__dirname));\nassert(exists(__filename));\n\n// alternatively specify both files and folders\nassert(exists(__dirname, FILE + FOLDER));\n\n// or just that the path is readable (can be either a file or folder)\nassert(exists(__filename, READABLE));\n```\n\n## Troubleshooting\n\nThis library uses [debug](https://www.npmjs.com/package/debug) to handle logging,\nto enable logging, use either the environment variable:\n\n```\n\"DEBUG=@kwsites/file-exists\" node ./your-app.js \n``` \n\nOr explicitly enable logging using the `debug` library itself:\n\n```javascript\nrequire('debug').enable('@kwsites/file-exists');\n```"
 }

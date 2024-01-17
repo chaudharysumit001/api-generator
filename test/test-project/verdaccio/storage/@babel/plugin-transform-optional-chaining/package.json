@@ -1428,7 +1428,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6d2283ad2f79d8315da27393615f3533\"",
-			"fetched": 1705397902179
+			"fetched": 1705401135844
 		}
 	},
 	"_distfiles": {
@@ -1519,7 +1519,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-2f0f8c5fbe0bbc15",
+	"_rev": "4-4406acebb2495c34",
 	"_id": "@babel/plugin-transform-optional-chaining",
 	"readme": ""
 }

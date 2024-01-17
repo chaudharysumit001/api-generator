@@ -599,7 +599,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0f3036b4fe001e0d5d594e9f2a0316ae\"",
-			"fetched": 1705398009638
+			"fetched": 1705401224708
 		}
 	},
 	"_distfiles": {
@@ -650,7 +650,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-cbb432a4d39275d4",
+	"_rev": "4-d163b22bdb8e94d3",
 	"_id": "require-from-string",
 	"readme": "# require-from-string [![Build Status](https://travis-ci.org/floatdrop/require-from-string.svg?branch=master)](https://travis-ci.org/floatdrop/require-from-string)\n\nLoad module from string in Node.\n\n## Install\n\n```\n$ npm install --save require-from-string\n```\n\n\n## Usage\n\n```js\nvar requireFromString = require('require-from-string');\n\nrequireFromString('module.exports = 1');\n//=> 1\n```\n\n\n## API\n\n### requireFromString(code, [filename], [options])\n\n#### code\n\n*Required*  \nType: `string`\n\nModule code.\n\n#### filename\nType: `string`  \nDefault: `''`\n\nOptional filename.\n\n\n#### options\nType: `object`\n\n##### appendPaths\nType: `Array`\n\nList of `paths`, that will be appended to module `paths`. Useful, when you want\nto be able require modules from these paths.\n\n##### prependPaths\nType: `Array`\n\nSame as `appendPaths`, but paths will be prepended.\n\n## License\n\nMIT © [Vsevolod Strukchinsky](http://github.com/floatdrop)"
 }

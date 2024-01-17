@@ -2376,7 +2376,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3b9b4594169c5496b6d09d9d31c14876\"",
-			"fetched": 1705397920587
+			"fetched": 1705401147477
 		}
 	},
 	"_distfiles": {
@@ -2497,7 +2497,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-361c506d7c1333c0",
+	"_rev": "4-7785475d73979306",
 	"_id": "@sinonjs/commons",
 	"readme": "# commons\n\n[![CircleCI](https://circleci.com/gh/sinonjs/commons.svg?style=svg)](https://circleci.com/gh/sinonjs/commons)\n[![codecov](https://codecov.io/gh/sinonjs/commons/branch/master/graph/badge.svg)](https://codecov.io/gh/sinonjs/commons)\n<a href=\"CODE_OF_CONDUCT.md\"><img src=\"https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg\" alt=\"Contributor Covenant\" /></a>\n\nSimple functions shared among the sinon end user libraries\n\n## Rules\n\n-   Follows the [Sinon.JS compatibility](https://github.com/sinonjs/sinon/blob/master/CONTRIBUTING.md#compatibility)\n-   100% test coverage\n-   Code formatted using [Prettier](https://prettier.io)\n-   No side effects welcome! (only pure functions)\n-   No platform specific functions\n-   One export per file (any bundler can do tree shaking)"
 }

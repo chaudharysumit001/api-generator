@@ -496,7 +496,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cdd7393ed07033585503936ccd6cfa22\"",
-			"fetched": 1705397915883
+			"fetched": 1705401146100
 		}
 	},
 	"_distfiles": {
@@ -532,7 +532,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-c76f60fb72383a23",
+	"_rev": "4-a570a55c03265cbf",
 	"_id": "@kwsites/promise-deferred",
 	"readme": "ERROR: No README data found!"
 }

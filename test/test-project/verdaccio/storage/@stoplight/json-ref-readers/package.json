@@ -481,7 +481,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"60eef92d3022a88a27af6ab02a320bb4\"",
-			"fetched": 1705397923975
+			"fetched": 1705401149181
 		}
 	},
 	"_distfiles": {
@@ -502,7 +502,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-c434e7acfeb98cc1",
+	"_rev": "4-19ffd8541f2a38e4",
 	"_id": "@stoplight/json-ref-readers",
 	"readme": "# json-ref-readers\nSet of utilities for reading external json references.\n\n## Installation\n\n```bash\nyarn add @stoplight/json-ref-readers\n```\n\n## Usage\n\nThe library exports two functions: `resolveHttp` and `resolveFile`. Both take `uri.URI` and resolve to a string containing requested resource.\n\n```ts\nimport { Resolver } from '@stoplight/json-ref-resolver';\nimport { resolveFile, resolveHttp } from '@stoplight/json-ref-readers';\n\nconst httpAndFileResolver = new Resolver({\n  resolvers: {\n    https: { resolve: resolveHttp },\n    http: { resolve: resolveHttp },\n    file: { resolve: resolveFile },\n  },\n});\n```"
 }

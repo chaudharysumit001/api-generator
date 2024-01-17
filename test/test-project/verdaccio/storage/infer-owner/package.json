@@ -161,7 +161,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6b6d22c06883c3b41456ca2bcdd3d040\"",
-			"fetched": 1705397974597
+			"fetched": 1705401191344
 		}
 	},
 	"_distfiles": {
@@ -177,7 +177,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ef59f9a24e57d55e",
+	"_rev": "4-bfbe738ccda2e714",
 	"_id": "infer-owner",
 	"readme": "# infer-owner\n\nInfer the owner of a path based on the owner of its nearest existing parent\n\n## USAGE\n\n```js\nconst inferOwner = require('infer-owner')\n\ninferOwner('/some/cache/folder/file').then(owner => {\n  // owner is {uid, gid} that should be attached to\n  // the /some/cache/folder/file, based on ownership\n  // of /some/cache/folder, /some/cache, /some, or /,\n  // whichever is the first to exist\n})\n\n// same, but not async\nconst owner = inferOwner.sync('/some/cache/folder/file')\n\n// results are cached!  to reset the cache (eg, to change\n// permissions for whatever reason), do this:\ninferOwner.clearCache()\n```\n\nThis module endeavors to be as performant as possible.  Parallel requests\nfor ownership of the same path will only stat the directories one time.\n\n## API\n\n* `inferOwner(path) -> Promise<{ uid, gid }>`\n\n    If the path exists, return its uid and gid.  If it does not, look to\n    its parent, then its grandparent, and so on.\n\n* `inferOwner(path) -> { uid, gid }`\n\n    Sync form of `inferOwner(path)`.\n\n* `inferOwner.clearCache()`\n\n    Delete all cached ownership information and in-flight tracking."
 }

@@ -4580,7 +4580,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9c1b4fdf3aac79f8be6147e521233e47\"",
-			"fetched": 1705397899314
+			"fetched": 1705401134924
 		}
 	},
 	"_distfiles": {
@@ -4886,7 +4886,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3945db1718fc2adf",
+	"_rev": "4-94a6b4bcc72bf485",
 	"_id": "@babel/plugin-transform-member-expression-literals",
 	"readme": ""
 }

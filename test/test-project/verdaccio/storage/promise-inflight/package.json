@@ -138,7 +138,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"4c5e001fb33450fbbc6e68026e931f43\"",
-			"fetched": 1705398003796
+			"fetched": 1705401216378
 		}
 	},
 	"_distfiles": {
@@ -154,7 +154,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-6377336ecbebda18",
+	"_rev": "4-0bacfd014a21e730",
 	"_id": "promise-inflight",
 	"readme": "# promise-inflight\n\nOne promise for multiple requests in flight to avoid async duplication\n\n## USAGE\n\n```javascript\nconst inflight = require('promise-inflight')\n\n// some request that does some stuff\nfunction req(key) {\n  // key is any random string.  like a url or filename or whatever.\n  return inflight(key, () => {\n    // this is where you'd fetch the url or whatever\n    return Promise.delay(100)\n  })\n}\n\n// only assigns a single setTimeout\n// when it dings, all thens get called with the same result.  (There's only\n// one underlying promise.)\nreq('foo').then(…)\nreq('foo').then(…)\nreq('foo').then(…)\nreq('foo').then(…)\n```\n\n## SEE ALSO\n\n* [inflight](https://npmjs.com/package/inflight) - For the callback based function on which this is based.\n\n## STILL NEEDS\n\nTests!"
 }

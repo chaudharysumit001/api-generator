@@ -2729,7 +2729,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"029e39d599e091bbf661c70f9395a764\"",
-			"fetched": 1705397894510
+			"fetched": 1705401129732
 		}
 	},
 	"_distfiles": {
@@ -2925,7 +2925,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-7bd5ce1339a44c81",
+	"_rev": "4-64e52168957416fa",
 	"_id": "@babel/plugin-syntax-optional-chaining",
 	"readme": "# @babel/plugin-syntax-optional-chaining\n\n> Allow parsing of optional properties\n\nSee our website [@babel/plugin-syntax-optional-chaining](https://babeljs.io/docs/en/next/babel-plugin-syntax-optional-chaining.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-optional-chaining\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-optional-chaining --dev\n```"
 }

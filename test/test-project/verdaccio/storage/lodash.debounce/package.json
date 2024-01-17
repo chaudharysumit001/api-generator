@@ -2024,7 +2024,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cda3c87b061d2f958bbe89b6e8a65410\"",
-			"fetched": 1705397987836
+			"fetched": 1705401203510
 		}
 	},
 	"_distfiles": {
@@ -2140,7 +2140,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-546e630d047ed09e",
+	"_rev": "4-31a132cd0d746665",
 	"_id": "lodash.debounce",
 	"readme": "# lodash.debounce v4.0.8\n\nThe [lodash](https://lodash.com/) method `_.debounce` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.debounce\n```\n\nIn Node.js:\n```js\nvar debounce = require('lodash.debounce');\n```\n\nSee the [documentation](https://lodash.com/docs#debounce) or [package source](https://github.com/lodash/lodash/blob/4.0.8-npm-packages/lodash.debounce) for more details."
 }

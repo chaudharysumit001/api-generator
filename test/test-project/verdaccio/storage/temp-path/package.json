@@ -146,7 +146,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c21c438b7556d5f11c276638ab91e6af\"",
-			"fetched": 1705398019533
+			"fetched": 1705401233805
 		}
 	},
 	"_distfiles": {
@@ -162,7 +162,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ad301bc325af8680",
+	"_rev": "4-5b2c91793cc7cf53",
 	"_id": "temp-path",
 	"readme": "# temp-path\n\nCreate a temporary filename or path.\n\n```js\nvar random = require('temp-path');\n\nvar filename = random();\n```"
 }

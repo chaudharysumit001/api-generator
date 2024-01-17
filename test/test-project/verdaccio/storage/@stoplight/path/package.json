@@ -3274,7 +3274,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a99e88199807dfdf411d20b289d0ac4a\"",
-			"fetched": 1705397924767
+			"fetched": 1705401151727
 		}
 	},
 	"_distfiles": {
@@ -3440,7 +3440,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-85c8fca9a0acffd9",
+	"_rev": "4-38da9c2272651283",
 	"_id": "@stoplight/path",
 	"readme": "# @stoplight/path\n\n<!-- BADGES -->\n\n<!-- SUMMARY -->\n\n- View the changelog: [Releases](https://github.com/stoplightio/path/releases)\n\n### Features\n\n- **Awesome**: It is.\n- .. more features\n\n### Installation\n\nSupported in modern browsers and node.\n\n```bash\n# latest stable\nyarn add @stoplight/path\n```\n\n### Usage\n\n```ts\nimport * as path from '@stoplight/path';\n\n// ...example\n```\n\n### Contributing\n\n1. Clone repo.\n2. Create / checkout `feature/{name}`, `chore/{name}`, or `fix/{name}` branch.\n3. Install deps: `yarn`.\n4. Make your changes.\n5. Run tests: `yarn test.prod`.\n6. Stage relevant files to git.\n7. Commit: `yarn commit`. _NOTE: Commits that don't follow the [conventional](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-conventional) format will be rejected. `yarn commit` creates this format for you, or you can put it together manually and then do a regular `git commit`._\n8. Push: `git push`.\n9. Open PR targeting the `master` branch."
 }

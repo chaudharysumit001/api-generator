@@ -258,7 +258,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"eca418655e8e0da5c6d67f9c1e80fa42\"",
-			"fetched": 1705398000374
+			"fetched": 1705401213063
 		}
 	},
 	"_distfiles": {
@@ -279,7 +279,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-e2b3261c42c1437a",
+	"_rev": "4-b51d4b676ecbc2d0",
 	"_id": "path-is-absolute",
 	"readme": "# Deprecated\n\nThis package is no longer relevant as Node.js 0.12 is unmaintained.\n\n---\n\n# path-is-absolute [![Build Status](https://travis-ci.org/sindresorhus/path-is-absolute.svg?branch=master)](https://travis-ci.org/sindresorhus/path-is-absolute)\n\n> Node.js 0.12 [`path.isAbsolute()`](http://nodejs.org/api/path.html#path_path_isabsolute_path) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save path-is-absolute\n```\n\n\n## Usage\n\n```js\nconst pathIsAbsolute = require('path-is-absolute');\n\n// Running on Linux\npathIsAbsolute('/home/foo');\n//=> true\npathIsAbsolute('C:/Users/foo');\n//=> false\n\n// Running on Windows\npathIsAbsolute('C:/Users/foo');\n//=> true\npathIsAbsolute('/home/foo');\n//=> false\n\n// Running on any OS\npathIsAbsolute.posix('/home/foo');\n//=> true\npathIsAbsolute.posix('C:/Users/foo');\n//=> false\npathIsAbsolute.win32('C:/Users/foo');\n//=> true\npathIsAbsolute.win32('/home/foo');\n//=> false\n```\n\n\n## API\n\nSee the [`path.isAbsolute()` docs](http://nodejs.org/api/path.html#path_path_isabsolute_path).\n\n### pathIsAbsolute(path)\n\n### pathIsAbsolute.posix(path)\n\nPOSIX specific version.\n\n### pathIsAbsolute.win32(path)\n\nWindows specific version.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -2130,7 +2130,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"69d1fb0257a5c91c1cc09a1a77416001\"",
-			"fetched": 1705397903821
+			"fetched": 1705401137561
 		}
 	},
 	"_distfiles": {
@@ -2266,7 +2266,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-d2923c03aaa63dd1",
+	"_rev": "4-b6cf425f119eb2b8",
 	"_id": "@babel/plugin-transform-unicode-escapes",
 	"readme": ""
 }

@@ -553,7 +553,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ee5d8a66c06ea6d17bfe1c4825d7e469\"",
-			"fetched": 1705397935516
+			"fetched": 1705401156228
 		}
 	},
 	"_distfiles": {
@@ -604,7 +604,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-79f358f5e1a55ac1",
+	"_rev": "4-472cbcac1b261c0a",
 	"_id": "abbrev",
 	"readme": "# abbrev-js\n\nJust like [ruby's Abbrev](http://apidock.com/ruby/Abbrev).\n\nUsage:\n\n    var abbrev = require(\"abbrev\");\n    abbrev(\"foo\", \"fool\", \"folding\", \"flop\");\n    \n    // returns:\n    { fl: 'flop'\n    , flo: 'flop'\n    , flop: 'flop'\n    , fol: 'folding'\n    , fold: 'folding'\n    , foldi: 'folding'\n    , foldin: 'folding'\n    , folding: 'folding'\n    , foo: 'foo'\n    , fool: 'fool'\n    }\n\nThis is handy for command-line scripts, or other cases where you want to be able to accept shorthands."
 }

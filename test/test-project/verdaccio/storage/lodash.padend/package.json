@@ -949,7 +949,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e425eeeb5bfed4d5227728136292bb3b\"",
-			"fetched": 1705397988245
+			"fetched": 1705401204299
 		}
 	},
 	"_distfiles": {
@@ -1010,7 +1010,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-bac8548ff04492b3",
+	"_rev": "4-be5aab019c477275",
 	"_id": "lodash.padend",
 	"readme": "# lodash.padend v4.6.1\n\nThe [lodash](https://lodash.com/) method `_.padEnd` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.padend\n```\n\nIn Node.js:\n```js\nvar padEnd = require('lodash.padend');\n```\n\nSee the [documentation](https://lodash.com/docs#padEnd) or [package source](https://github.com/lodash/lodash/blob/4.6.1-npm-packages/lodash.padend) for more details."
 }

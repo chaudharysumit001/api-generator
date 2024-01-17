@@ -732,7 +732,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dadc8f1ad090d1810c91a6886afb0f54\"",
-			"fetched": 1705397977590
+			"fetched": 1705401193026
 		}
 	},
 	"_distfiles": {
@@ -783,7 +783,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-2241d1a4acfecad5",
+	"_rev": "4-d1456a3cf133c646",
 	"_id": "is-docker",
 	"readme": "# is-docker\n\n> Check if the process is running inside a Docker container\n\n## Install\n\n```\n$ npm install is-docker\n```\n\n## Usage\n\n```js\nimport isDocker from 'is-docker';\n\nif (isDocker()) {\n\tconsole.log('Running inside a Docker container');\n}\n```\n\n## CLI\n\n```\n$ is-docker\n```\n\nExits with code 0 if inside a Docker container and 2 if not."
 }

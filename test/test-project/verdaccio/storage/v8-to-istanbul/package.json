@@ -4800,7 +4800,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"163fd662461d637ec1c8efad79fa683e\"",
-			"fetched": 1705398025193
+			"fetched": 1705401239462
 		}
 	},
 	"_distfiles": {
@@ -5076,7 +5076,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-b51f21f5f80230a1",
+	"_rev": "4-8964bec3c4f53ec2",
 	"_id": "v8-to-istanbul",
 	"readme": "# v8-to-istanbul\n\n[![Build Status](https://img.shields.io/github/actions/workflow/status/istanbuljs/v8-to-istanbul/ci.yaml?branch=master)](https://github.com/istanbuljs/v8-to-istanbul/actions)\n[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)\n![nycrc config on GitHub](https://img.shields.io/nycrc/istanbuljs/v8-to-istanbul)\n\nconverts from v8 coverage format to [istanbul's coverage format](https://github.com/gotwarlost/istanbul/blob/master/coverage.json.md).\n\n## Usage\n\n```js\nconst v8toIstanbul = require('v8-to-istanbul')\n// the path to the original source-file is required, as its contents are\n// used during the conversion algorithm.\nconst converter = v8toIstanbul('./path-to-instrumented-file.js')\nawait converter.load() // this is required due to async file reading.\n// provide an array of coverage information in v8 format.\nconverter.applyCoverage([\n  {\n    \"functionName\": \"\",\n    \"ranges\": [\n      {\n        \"startOffset\": 0,\n        \"endOffset\": 520,\n        \"count\": 1\n      }\n    ],\n    \"isBlockCoverage\": true\n  },\n  // ...\n])\n// output coverage information in a form that can\n// be consumed by Istanbul.\nconsole.info(JSON.stringify(converter.toIstanbul()))\n```\n\n## Ignoring Uncovered Lines\n\nSometimes you might find yourself wanting to ignore uncovered lines\nin your application (for example, perhaps you run your tests in Linux, but\nthere's code that only executes on Windows).\n\nTo ignore lines, use the special comment `/* v8 ignore next */`.\n\n**NOTE**: Before version `9.2.0` the ignore hint had to contain `c8` keyword, e.g. `/* c8 ignore ...`.\n\n### ignoring the next line\n\n```js\nconst myVariable = 99\n/* v8 ignore next */\nif (process.platform === 'win32') console.info('hello world')\n```\n\n### ignoring the next N lines\n\n```js\nconst myVariable = 99\n/* v8 ignore next 3 */\nif (process.platform === 'win32') {\n  console.info('hello world')\n}\n```\n\n### ignoring all lines until told\n\n```js\n/* v8 ignore start */\nfunction dontMindMe() {\n  // ...\n}\n/* v8 ignore stop */\n```\n\n### ignoring the same line as the comment\n\n```js\nconst myVariable = 99\nconst os = process.platform === 'darwin' ? 'OSXy' /* v8 ignore next */ : 'Windowsy' \n```\n\n## Testing\n\nTo execute tests, simply run:\n\n```bash\nnpm test\n```"
 }

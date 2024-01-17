@@ -1547,7 +1547,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"06a28c557d00d1f146e4e6d6ac95b215\"",
-			"fetched": 1705397988078
+			"fetched": 1705401203598
 		}
 	},
 	"_distfiles": {
@@ -1638,7 +1638,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3c5c34322ebfd2b3",
+	"_rev": "4-1fc2ac5556ce9eb6",
 	"_id": "lodash.pick",
 	"readme": "# lodash.pick v4.4.0\n\nThe [lodash](https://lodash.com/) method `_.pick` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.pick\n```\n\nIn Node.js:\n```js\nvar pick = require('lodash.pick');\n```\n\nSee the [documentation](https://lodash.com/docs#pick) or [package source](https://github.com/lodash/lodash/blob/4.4.0-npm-packages/lodash.pick) for more details."
 }

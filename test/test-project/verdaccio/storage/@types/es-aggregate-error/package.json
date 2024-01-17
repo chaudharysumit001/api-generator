@@ -441,7 +441,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c018dfe0e75675a2d0003c2ec4c65f67\"",
-			"fetched": 1705397929467
+			"fetched": 1705401152722
 		}
 	},
 	"_distfiles": {
@@ -482,7 +482,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-a8d2fb03305da318",
+	"_rev": "4-637a77e584e3343f",
 	"_id": "@types/es-aggregate-error",
 	"readme": "[object Object]"
 }

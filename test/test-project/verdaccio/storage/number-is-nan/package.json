@@ -316,7 +316,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a9b28e570128f402a606dabc173067ae\"",
-			"fetched": 1705397996715
+			"fetched": 1705401210165
 		}
 	},
 	"_distfiles": {
@@ -342,7 +342,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-5c9fb1342b4fc73b",
+	"_rev": "4-1bf86b4a9d966918",
 	"_id": "number-is-nan",
 	"readme": "# number-is-nan\n\n> ES2015 [`Number.isNaN()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN) [ponyfill](https://ponyfill.com)\n\n## Install\n\n```\n$ npm install number-is-nan\n```\n\n## Usage\n\n```js\nconst numberIsNan = require('number-is-nan');\n\nnumberIsNan(NaN);\n//=> true\n\nnumberIsNan('unicorn');\n//=> false\n```\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-number-is-nan?utm_source=npm-number-is-nan&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

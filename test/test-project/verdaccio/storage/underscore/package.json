@@ -4596,7 +4596,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0e03ea61ec496c92175eb4592204c9d2\"",
-			"fetched": 1705398023047
+			"fetched": 1705401236797
 		}
 	},
 	"_distfiles": {
@@ -4867,7 +4867,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-0b913e19d5612eeb",
+	"_rev": "4-6e636fe83fc774e3",
 	"_id": "underscore",
 	"readme": "__\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /' _ `\\  /'_  \\  /'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/'__`\\     \\/\\ \\  /',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttps://underscorejs.org\n\nFor support and questions, please consult\nour [security policy](SECURITY.md),\n[the gitter channel](https://gitter.im/jashkenas/underscore)\nor [stackoverflow](https://stackoverflow.com/search?q=underscore.js)\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n\nYou can support the project by donating on\n[Patreon](https://patreon.com/juliangonggrijp).\nEnterprise coverage is available as part of the\n[Tidelift Subscription](https://tidelift.com/subscription/pkg/npm-underscore?utm_source=npm-underscore&utm_medium=referral&utm_campaign=enterprise).\n\nThis project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code."
 }

@@ -4793,7 +4793,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"016986df00857a7c5724f98cf5e42b4e\"",
-			"fetched": 1705397879871
+			"fetched": 1705401122583
 		}
 	},
 	"_distfiles": {
@@ -5119,7 +5119,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-54b2a36d4e579f71",
+	"_rev": "4-132ccec7e2569827",
 	"_id": "@babel/code-frame",
 	"readme": ""
 }

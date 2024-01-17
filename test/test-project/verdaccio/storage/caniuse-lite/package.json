@@ -62606,7 +62606,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ae977d8c0d96e9765eab50b9158c5a10\"",
-			"fetched": 1705397896481
+			"fetched": 1705401131479
 		}
 	},
 	"_distfiles": {
@@ -66447,7 +66447,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-8067cbec38ea1f7b",
+	"_rev": "4-1ee6e5ec926f4070",
 	"_id": "caniuse-lite",
 	"readme": "# caniuse-lite\n\nA smaller version of caniuse-db, with only the essentials!\n\n## Docs\nRead full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**."
 }

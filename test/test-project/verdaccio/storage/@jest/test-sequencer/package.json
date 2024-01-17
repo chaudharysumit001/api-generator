@@ -11915,7 +11915,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"be40278cec44c44a9804f792e1a1acb3\"",
-			"fetched": 1705397914389
+			"fetched": 1705401143594
 		}
 	},
 	"_distfiles": {
@@ -12561,7 +12561,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-85eda6dc8bf6f01c",
+	"_rev": "4-909ef3d4500200b8",
 	"_id": "@jest/test-sequencer",
 	"readme": "ERROR: No README data found!"
 }

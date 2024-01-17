@@ -134,7 +134,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"46ec366a1accf825fb53d91208b1b4a5\"",
-			"fetched": 1705398003873
+			"fetched": 1705401215943
 		}
 	},
 	"_distfiles": {
@@ -150,7 +150,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3d77bdd153d0fe59",
+	"_rev": "4-5101f702eb71b95b",
 	"_id": "promise-all-reject-late",
 	"readme": "# promise-all-reject-late\n\nLike Promise.all, but save rejections until all promises are resolved.\n\nThis is handy when you want to do a bunch of things in parallel, and\nrollback on failure, without clobbering or conflicting with those parallel\nactions that may be in flight.  For example, creating a bunch of files,\nand deleting any if they don't all succeed.\n\nExample:\n\n```js\nconst lateReject = require('promise-all-reject-late')\n\nconst { promisify } = require('util')\nconst fs = require('fs')\nconst writeFile = promisify(fs.writeFile)\n\nconst createFilesOrRollback = (files) => {\n  return lateReject(files.map(file => writeFile(file, 'some data')))\n    .catch(er => {\n      // try to clean up, then fail with the initial error\n      // we know that all write attempts are finished at this point\n      return lateReject(files.map(file => rimraf(file)))\n        .catch(er => {\n          console.error('failed to clean up, youre on your own i guess', er)\n        })\n        .then(() => {\n          // fail with the original error\n          throw er\n        })\n    })\n}\n```\n\n## API\n\n* `lateReject([array, of, promises])` - Resolve all the promises,\n  returning a promise that rejects with the first error, or resolves with\n  the array of results, but only after all promises are settled."
 }

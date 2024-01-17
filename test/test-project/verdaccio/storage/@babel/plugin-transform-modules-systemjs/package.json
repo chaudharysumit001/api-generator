@@ -7033,7 +7033,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"bf67e86471269e1ee8e43fab311a7aec\"",
-			"fetched": 1705397899864
+			"fetched": 1705401133599
 		}
 	},
 	"_distfiles": {
@@ -7474,7 +7474,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-7de2075195ab7969",
+	"_rev": "4-41f68604effb858c",
 	"_id": "@babel/plugin-transform-modules-systemjs",
 	"readme": ""
 }

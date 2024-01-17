@@ -4872,7 +4872,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f3da85a513f3e242c178bd8a1835f2fd\"",
-			"fetched": 1705397889447
+			"fetched": 1705401127898
 		}
 	},
 	"_distfiles": {
@@ -5213,7 +5213,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-bf2a6302a0909746",
+	"_rev": "4-b57e1ced2a5950a2",
 	"_id": "@babel/helper-simple-access",
 	"readme": ""
 }

@@ -339,7 +339,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dead59562cd5a752fd5cc5c91ffd8bc6\"",
-			"fetched": 1705397937470
+			"fetched": 1705401159524
 		}
 	},
 	"_distfiles": {
@@ -360,7 +360,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-6210986a56cc1d71",
+	"_rev": "4-570e29a76e97b79f",
 	"_id": "ajv-draft-04",
 	"readme": "# ajv-draft-04\n\nAjv with JSON Schema draft-04 support\n\n[![build](https://github.com/ajv-validator/ajv-draft-04/actions/workflows/build.yml/badge.svg)](https://github.com/ajv-validator/ajv-draft-04/actions/workflows/build.yml)\n[![npm](https://img.shields.io/npm/v/ajv-draft-04.svg)](https://www.npmjs.com/package/ajv-draft-04)\n[![coverage](https://coveralls.io/repos/github/ajv-validator/ajv-draft-04/badge.svg?branch=master)](https://coveralls.io/github/ajv-validator/ajv-draft-04?branch=master)\n[![Gitter](https://img.shields.io/gitter/room/ajv-validator/ajv.svg)](https://gitter.im/ajv-validator/ajv)\n[![GitHub Sponsors](https://img.shields.io/badge/$-sponsors-brightgreen)](https://github.com/sponsors/epoberezkin)\n\n## Usage\n\nYou need to install both ajv and this package (to allow upgrading ajv without upgrading this package):\n\n```shell\nnpm i ajv ajv-draft-04\n```\n\n```javascript\n// ESM/TypeScript import\nimport Ajv from \"ajv-draft-04\"\n// Node.js require:\nconst Ajv = require(\"ajv-draft-04\")\n\nconst ajv = new Ajv()\n```\n\nSee [ajv site](https://ajv.js.org) for documentation.\n\n## Tests\n\n```bash\nnpm install\ngit submodule update --init\nnpm test\n```\n\n## License\n\n[MIT](https://github.com/ajv-validator/ajv-formats/blob/master/LICENSE)"
 }

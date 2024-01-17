@@ -259,7 +259,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ecef65140649d2c1fc06d6534064f4fa\"",
-			"fetched": 1705398017798
+			"fetched": 1705401232439
 		}
 	},
 	"_distfiles": {
@@ -280,7 +280,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-d08afdde24cec80b",
+	"_rev": "4-e62278383eb84f91",
 	"_id": "strip-outer",
 	"readme": "# strip-outer\n\n> Strip a substring from the start/end of a string\n\n## Install\n\n```\n$ npm install strip-outer\n```\n\n## Usage\n\n```js\nimport stripOuter from 'strip-outer';\n\nstripOuter('foobarfoo', 'foo');\n//=> 'bar'\n\nstripOuter('unicorncake', 'unicorn');\n//=> 'cake'\n```"
 }

@@ -1003,7 +1003,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"876aec31425616be4b31d72965d61f39\"",
-			"fetched": 1705397996213
+			"fetched": 1705401209332
 		}
 	},
 	"_distfiles": {
@@ -1074,7 +1074,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-b26de616654fa6dc",
+	"_rev": "4-16bd18aad87472ee",
 	"_id": "npm-bundled",
 	"readme": "# npm-bundled\n\nRun this in a node package, and it'll tell you which things in\nnode_modules are bundledDependencies, or transitive dependencies of\nbundled dependencies.\n\n[![Build Status](https://travis-ci.org/npm/npm-bundled.svg?branch=master)](https://travis-ci.org/npm/npm-bundled)\n\n## USAGE\n\nTo get the list of deps at the top level that are bundled (or\ntransitive deps of a bundled dep) run this:\n\n```js\nconst bundled = require('npm-bundled')\n\n// async version\nbundled({ path: '/path/to/pkg/defaults/to/cwd'}, (er, list) => {\n  // er means it had an error, which is _hella_ weird\n  // list is a list of package names, like `fooblz` or `@corp/blerg`\n  // the might not all be deps of the top level, because transitives\n})\n\n// async promise version\nbundled({ path: '/path/to/pkg/defaults/to/cwd'}).then(list => {\n  // so promisey!\n  // actually the callback version returns a promise, too, it just\n  // attaches the supplied callback to the promise\n})\n\n// sync version, throws if there's an error\nconst list = bundled.sync({ path: '/path/to/pkg/defaults/to/cwd'})\n```\n\nThat's basically all you need to know.  If you care to dig into it,\nyou can also use the `bundled.Walker` and `bundled.WalkerSync`\nclasses to get fancy.\n\nThis library does not write anything to the filesystem, but it _may_\nhave undefined behavior if the structure of `node_modules` changes\nwhile it's reading deps.\n\nAll symlinks are followed.  This means that it can lead to surprising\nresults if a symlinked bundled dependency has a missing dependency\nthat is satisfied at the top level.  Since package creation resolves\nsymlinks as well, this is an edge case where package creation and\ndevelopment environment are not going to be aligned, and is best\navoided."
 }

@@ -4729,7 +4729,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9eddcea62e316824e96ae5767fb82244\"",
-			"fetched": 1705397903361
+			"fetched": 1705401137170
 		}
 	},
 	"_distfiles": {
@@ -5040,7 +5040,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-ed9d1ce48bef71fe",
+	"_rev": "4-ad1c62fb692e34d9",
 	"_id": "@babel/plugin-transform-sticky-regex",
 	"readme": ""
 }

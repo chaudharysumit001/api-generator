@@ -531,7 +531,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c5aff4f986b5f14582c26c92f771b8a1\"",
-			"fetched": 1705397932183
+			"fetched": 1705401153174
 		}
 	},
 	"_distfiles": {
@@ -577,7 +577,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-0d38e391a058defa",
+	"_rev": "4-9745e07e9436f607",
 	"_id": "@types/istanbul-reports",
 	"readme": "[object Object]"
 }

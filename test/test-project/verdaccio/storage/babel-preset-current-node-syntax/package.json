@@ -571,7 +571,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"06d4646cb738c672ad1bc9cf1d26fbe5\"",
-			"fetched": 1705397943358
+			"fetched": 1705401163421
 		}
 	},
 	"_distfiles": {
@@ -617,7 +617,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-df185cca387c8c7a",
+	"_rev": "4-5c01bb88f8194576",
 	"_id": "babel-preset-current-node-syntax",
 	"readme": ""
 }

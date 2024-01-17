@@ -4983,7 +4983,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b3863d8b47d64de8a029be7c1349f50b\"",
-			"fetched": 1705397893717
+			"fetched": 1705401131481
 		}
 	},
 	"_distfiles": {
@@ -5309,7 +5309,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-4464ecbd2807a744",
+	"_rev": "4-23243b37465b4e67",
 	"_id": "@babel/plugin-transform-arrow-functions",
 	"readme": ""
 }

@@ -12870,7 +12870,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "\"605229aff3788c90c8b1e96b5e34c28c\"",
-			"fetched": 1705397886870
+			"fetched": 1705401123069
 		}
 	},
 	"_distfiles": {
@@ -13671,7 +13671,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-f0962e503c0db06a",
+	"_rev": "4-6c3a1e0807a7f81c",
 	"_id": "@babel/generator",
 	"readme": ""
 }

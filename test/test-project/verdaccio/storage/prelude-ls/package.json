@@ -1095,7 +1095,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"dfa44e36292c6a5391bdba53d90eef35\"",
-			"fetched": 1705398002394
+			"fetched": 1705401215503
 		}
 	},
 	"_distfiles": {
@@ -1171,7 +1171,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-615adbcd159bcabc",
+	"_rev": "4-eeaa8f2da055ad74",
 	"_id": "prelude-ls",
 	"readme": "# prelude.ls [![Build Status](https://travis-ci.org/gkz/prelude-ls.png?branch=master)](https://travis-ci.org/gkz/prelude-ls)\n\nis a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, <a href=\"http://livescript.net\">LiveScript</a>.\n\nSee **[the prelude.ls site](http://preludels.com)** for examples, a reference, and more.\n\nYou can install via npm `npm install prelude-ls`\n\n### Development\n\n`make test` to test\n\n`make build` to build `lib` from `src`\n\n`make build-browser` to build browser versions"
 }

@@ -467,7 +467,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c0aef36a24efa97daaae3f7de9ae5fa7\"",
-			"fetched": 1705397925880
+			"fetched": 1705401151252
 		}
 	},
 	"_distfiles": {
@@ -493,7 +493,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-0593e027ac73300f",
+	"_rev": "4-43864c07caef31ab",
 	"_id": "@stoplight/spectral-runtime",
 	"readme": "ERROR: No README data found!"
 }

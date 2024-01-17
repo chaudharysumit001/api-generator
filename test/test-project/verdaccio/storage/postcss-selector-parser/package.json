@@ -5860,7 +5860,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"37b017fb460fa1df879486c10fabdfa8\"",
-			"fetched": 1705398002079
+			"fetched": 1705401215114
 		}
 	},
 	"_distfiles": {
@@ -6141,7 +6141,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-c00111bc0d31ee39",
+	"_rev": "4-d81174fcbfe1a689",
 	"_id": "postcss-selector-parser",
 	"readme": "# postcss-selector-parser [![test](https://github.com/postcss/postcss-selector-parser/actions/workflows/test.yml/badge.svg)](https://github.com/postcss/postcss-selector-parser/actions/workflows/test.yml)\n\n> Selector parser with built in methods for working with selector strings.\n\n## Install\n\nWith [npm](https://npmjs.com/package/postcss-selector-parser) do:\n\n```\nnpm install postcss-selector-parser\n```\n\n## Quick Start\n\n```js\nconst parser = require('postcss-selector-parser');\nconst transform = selectors => {\n    selectors.walk(selector => {\n        // do something with the selector\n        console.log(String(selector))\n    });\n};\n\nconst transformed = parser(transform).processSync('h1, h2, h3');\n```\n\nTo normalize selector whitespace:\n\n```js\nconst parser = require('postcss-selector-parser');\nconst normalized = parser().processSync('h1, h2, h3', {lossless: false});\n// -> h1,h2,h3\n```\n\nAsync support is provided through `parser.process` and will resolve a Promise\nwith the resulting selector string.\n\n## API\n\nPlease see [API.md](API.md).\n\n## Credits\n\n* Huge thanks to Andrey Sitnik (@ai) for work on PostCSS which helped\n  accelerate this module's development.\n\n## License\n\nMIT"
 }

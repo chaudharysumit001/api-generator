@@ -1473,7 +1473,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58fe647d9176e09c5d8a4a03a25d9147\"",
-			"fetched": 1705398015382
+			"fetched": 1705401230331
 		}
 	},
 	"_distfiles": {
@@ -1569,7 +1569,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-5260e617353bace6",
+	"_rev": "4-1836423051a2431a",
 	"_id": "spdx-correct",
 	"readme": "## Usage\n\n```javascript\nvar correct = require('spdx-correct')\nvar assert = require('assert')\n\nassert.strictEqual(correct('mit'), 'MIT')\n\nassert.strictEqual(correct('Apache 2'), 'Apache-2.0')\n\nassert(correct('No idea what license') === null)\n\n// disable upgrade option\nassert(correct('GPL-3.0'), 'GPL-3.0-or-later')\nassert(correct('GPL-3.0', { upgrade: false }), 'GPL-3.0')\n```\n\n## Contributors\n\nspdx-correct has benefited from the work of several contributors.\nSee [the GitHub repository](https://github.com/jslicense/spdx-correct.js/graphs/contributors)\nfor more information."
 }

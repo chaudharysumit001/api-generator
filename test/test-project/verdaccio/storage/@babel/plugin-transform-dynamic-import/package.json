@@ -970,7 +970,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"06550de078f0f375ede17d3d9790b871\"",
-			"fetched": 1705397897901
+			"fetched": 1705401132587
 		}
 	},
 	"_distfiles": {
@@ -1036,7 +1036,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-edf524f94a3607a1",
+	"_rev": "4-76e1611c466dbfff",
 	"_id": "@babel/plugin-transform-dynamic-import",
 	"readme": ""
 }

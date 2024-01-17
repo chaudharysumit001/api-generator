@@ -453,7 +453,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"91f5ae208fd283d1136bbc6e2d0b3bbc\"",
-			"fetched": 1705397998829
+			"fetched": 1705401212706
 		}
 	},
 	"_distfiles": {
@@ -484,7 +484,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-8be61ddfeeeff2c2",
+	"_rev": "4-c7e48f294a333691",
 	"_id": "p-each-series",
 	"readme": "# p-each-series\n\n> Iterate over promises serially\n\nUseful as a side-effect iterator. Prefer [`p-map`](https://github.com/sindresorhus/p-map) if you don't need side-effects, as it's concurrent.\n\n## Install\n\n```\n$ npm install p-each-series\n```\n\n## Usage\n\n```js\nimport pEachSeries from 'p-each-series';\n\nconst keywords = [\n\tgetTopKeyword(), //=> Promise\n\t'rainbow',\n\t'pony'\n];\n\nconst iterator = async element => saveToDiskPromise(element);\n\nconsole.log(await pEachSeries(keywords, iterator));\n//=> ['unicorn', 'rainbow', 'pony']\n```\n\n## API\n\n### pEachSeries(input, iterator)\n\nReturns a `Promise` that is fulfilled when all promises in `input` and ones returned from `iterator` are fulfilled, or rejects if any of the promises reject. The fulfillment value is the original `input`.\n\n#### input\n\nType: `Iterable<Promise | unknown>`\n\nIterated over serially in the `iterator` function.\n\n#### iterator(element, index)\n\nType: `Function`\n\nReturn value is ignored unless it's `Promise`, then it's awaited before continuing with the next iteration.\n\n### pEachSeries.stop\n\nStop iterating through items by returning `pEachSeries.stop` from the iterator function.\n\n```js\nimport pEachSeries from 'p-each-series';\n\n// Logs `a` and `b`.\nconst result = await pEachSeries(['a', 'b', 'c'], value => {\n\tconsole.log(value);\n\n\tif (value === 'b') {\n\t\treturn pEachSeries.stop;\n\t}\n});\n\nconsole.log(result);\n//=> ['a', 'b', 'c']\n```\n\n## Related\n\n- [p-map-series](https://github.com/sindresorhus/p-map-series) - Map over promises serially\n- [p-series](https://github.com/sindresorhus/p-series) - Run promise-returning & async functions in series\n- [p-pipe](https://github.com/sindresorhus/p-pipe) - Compose promise-returning & async functions into a reusable pipeline\n- [p-waterfall](https://github.com/sindresorhus/p-waterfall) - Run promise-returning & async functions in series, each passing its result to the next\n- [p-reduce](https://github.com/sindresorhus/p-reduce) - Reduce a list of values using promises into a promise for a value\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [More…](https://github.com/sindresorhus/promise-fun)"
 }

@@ -1423,7 +1423,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fd18f8bf99e220a146b0f725a183eb84\"",
-			"fetched": 1705397983241
+			"fetched": 1705401199874
 		}
 	},
 	"_distfiles": {
@@ -1534,7 +1534,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-0373daabc9ee05c9",
+	"_rev": "4-3546ef59a7a2fb08",
 	"_id": "js-tokens",
 	"readme": "# js-tokens\n\nThe tiny, regex powered, lenient, _almost_ spec-compliant JavaScript tokenizer that never fails.\n\n```js\nconst jsTokens = require(\"js-tokens\");\n\nconst jsString = 'JSON.stringify({k:3.14**2}, null /*replacer*/, \"\\\\t\")';\n\nArray.from(jsTokens(jsString), (token) => token.value).join(\"|\");\n// JSON|.|stringify|(|{|k|:|3.14|**|2|}|,| |null| |/*replacer*/|,| |\"\\t\"|)\n```\n\n**[➡️ Full readme](https://github.com/lydell/js-tokens/)**"
 }

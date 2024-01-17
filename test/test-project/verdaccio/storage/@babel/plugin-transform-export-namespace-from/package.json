@@ -982,7 +982,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"78bb69f6ce748619783de114705b7504\"",
-			"fetched": 1705397899639
+			"fetched": 1705401132827
 		}
 	},
 	"_distfiles": {
@@ -1048,7 +1048,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-6695005f1b59430d",
+	"_rev": "4-ab9e15ea0b0be699",
 	"_id": "@babel/plugin-transform-export-namespace-from",
 	"readme": ""
 }

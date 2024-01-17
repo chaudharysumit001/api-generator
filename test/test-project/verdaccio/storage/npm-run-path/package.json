@@ -1027,7 +1027,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ca0924f862f2b8a10169a0a6a869bb9e\"",
-			"fetched": 1705397980415
+			"fetched": 1705401196239
 		}
 	},
 	"_distfiles": {
@@ -1093,7 +1093,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-d511f61c0de3a544",
+	"_rev": "4-6b5171ee3c61811a",
 	"_id": "npm-run-path",
 	"readme": "# npm-run-path\n\n> Get your [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) prepended with locally installed binaries\n\nIn [npm run scripts](https://docs.npmjs.com/cli/run-script) you can execute locally installed binaries by name. This enables the same outside npm.\n\n## Install\n\n```sh\nnpm install npm-run-path\n```\n\n## Usage\n\n```js\nimport childProcess from 'node:child_process';\nimport {npmRunPath, npmRunPathEnv} from 'npm-run-path';\n\nconsole.log(process.env.PATH);\n//=> '/usr/local/bin'\n\nconsole.log(npmRunPath());\n//=> '/Users/sindresorhus/dev/foo/node_modules/.bin:/Users/sindresorhus/dev/node_modules/.bin:/Users/sindresorhus/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin'\n\n// `foo` is a locally installed binary\nchildProcess.execFileSync('foo', {\n\tenv: npmRunPathEnv()\n});\n```\n\n## API\n\n### npmRunPath(options?)\n\nReturns the augmented PATH string.\n\n#### options\n\nType: `object`\n\n##### cwd\n\nType: `string | URL`\\\nDefault: `process.cwd()`\n\nThe working directory.\n\n##### path\n\nType: `string`\\\nDefault: [`PATH`](https://github.com/sindresorhus/path-key)\n\nThe PATH to be appended.\n\nSet it to an empty string to exclude the default PATH.\n\n##### execPath\n\nType: `string | URL`\\\nDefault: `process.execPath`\n\nThe path to the current Node.js executable. Its directory is pushed to the front of PATH.\n\nThis can be either an absolute path or a path relative to the [`cwd` option](#cwd).\n\n### npmRunPathEnv(options?)\n\nReturns the augmented [`process.env`](https://nodejs.org/api/process.html#process_process_env) object.\n\n#### options\n\nType: `object`\n\n##### cwd\n\nType: `string | URL`\\\nDefault: `process.cwd()`\n\nThe working directory.\n\n##### env\n\nType: `object`\n\nAccepts an object of environment variables, like `process.env`, and modifies the PATH using the correct [PATH key](https://github.com/sindresorhus/path-key). Use this if you're modifying the PATH for use in the `child_process` options.\n\n##### execPath\n\nType: `string`\\\nDefault: `process.execPath`\n\nThe path to the Node.js executable to use in child processes if that is different from the current one. Its directory is pushed to the front of PATH.\n\nThis can be either an absolute path or a path relative to the [`cwd` option](#cwd).\n\n## Related\n\n- [npm-run-path-cli](https://github.com/sindresorhus/npm-run-path-cli) - CLI for this module\n- [execa](https://github.com/sindresorhus/execa) - Execute a locally installed binary"
 }

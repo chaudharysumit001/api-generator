@@ -170,7 +170,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ee6904562a68d0b77506719900f8256a\"",
-			"fetched": 1705398017418
+			"fetched": 1705401232191
 		}
 	},
 	"_distfiles": {
@@ -186,7 +186,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3b298c834fa66909",
+	"_rev": "4-3c6773c8bed2ad7d",
 	"_id": "strip-eof",
 	"readme": "# strip-eof [![Build Status](https://travis-ci.com/sindresorhus/strip-eof.svg?branch=master)](https://travis-ci.com/sindresorhus/strip-eof)\n\n> Strip the [End-Of-File](https://en.wikipedia.org/wiki/End-of-file) (EOF) character from a string/buffer\n\n\n## Install\n\n```\n$ npm install strip-eof\n```\n\n\n## Usage\n\n```js\nconst stripEof = require('strip-eof');\n\nstripEof('foo\\nbar\\n\\n');\n//=> 'foo\\nbar\\n'\n\nstripEof(Buffer.from('foo\\nbar\\n\\n')).toString();\n//=> 'foo\\nbar\\n'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

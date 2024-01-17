@@ -210,7 +210,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c71386bbf01ef5648992ae9b1d05b4e3\"",
-			"fetched": 1705397934192
+			"fetched": 1705401154948
 		}
 	},
 	"_distfiles": {
@@ -231,7 +231,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-8c9793622f70ef7b",
+	"_rev": "4-3a0cc31c9893656b",
 	"_id": "@types/parse-json",
 	"readme": "[object Object]"
 }

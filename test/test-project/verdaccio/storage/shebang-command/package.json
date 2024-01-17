@@ -323,7 +323,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3c12b825812ecdb553df693fc351cb07\"",
-			"fetched": 1705397980576
+			"fetched": 1705401196719
 		}
 	},
 	"_distfiles": {
@@ -349,7 +349,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-56849b109107b881",
+	"_rev": "4-a17aa1251857a08f",
 	"_id": "shebang-command",
 	"readme": "# shebang-command [![Build Status](https://travis-ci.org/kevva/shebang-command.svg?branch=master)](https://travis-ci.org/kevva/shebang-command)\n\n> Get the command from a shebang\n\n\n## Install\n\n```\n$ npm install shebang-command\n```\n\n\n## Usage\n\n```js\nconst shebangCommand = require('shebang-command');\n\nshebangCommand('#!/usr/bin/env node');\n//=> 'node'\n\nshebangCommand('#!/bin/bash');\n//=> 'bash'\n```\n\n\n## API\n\n### shebangCommand(string)\n\n#### string\n\nType: `string`\n\nString containing a shebang."
 }

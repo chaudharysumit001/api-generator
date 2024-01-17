@@ -425,7 +425,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1508028db2256b9af36eea3ad1d4c82f\"",
-			"fetched": 1705398026605
+			"fetched": 1705401240257
 		}
 	},
 	"_distfiles": {
@@ -451,7 +451,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-165cb90562b6494f",
+	"_rev": "4-adbc6f4c335c5f5b",
 	"_id": "walk-up-path",
 	"readme": "# walk-up-path\n\nGiven a path string, return a generator that walks up the path, emitting\neach dirname.\n\nSo, to get a platform-portable walk up, instead of doing something like\nthis:\n\n```js\nfor (let p = dirname(path); p;) {\n\n  // ... do stuff ...\n\n  const pp = dirname(p)\n  if (p === pp)\n    p = null\n  else\n    p = pp\n}\n```\n\nOr this:\n\n```js\nfor (let p = dirname(path); !isRoot(p); p = dirname(p)) {\n  // ... do stuff ...\n}\n```\n\nYou can do this:\n\n```js\nconst walkUpPath = require('walk-up-path')\nfor (const p of walkUpPath(path)) {\n  // ... do stuff ..\n}\n```\n\n## API\n\n```js\nconst walkUpPath = require('walk-up-path')\n```\n\nGive the fn a string, it'll yield all the directories walking up to the\nroot."
 }

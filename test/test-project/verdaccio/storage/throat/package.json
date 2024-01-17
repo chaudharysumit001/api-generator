@@ -1080,7 +1080,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7f9b39a3c2ba1a1571c608bbc5454702\"",
-			"fetched": 1705398019900
+			"fetched": 1705401234206
 		}
 	},
 	"_distfiles": {
@@ -1156,7 +1156,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-69ee9051629f64ea",
+	"_rev": "4-a4553465694c42cd",
 	"_id": "throat",
 	"readme": "# throat\n\nThrottle the parallelism of an asynchronous, promise returning, function / functions. This has special utility when you set the concurrency to `1`. That way you get a mutually exclusive lock.\n\n[Professionally supported throat is now available](https://tidelift.com/subscription/pkg/npm-throat?utm_source=npm-throat&utm_medium=referral&utm_campaign=readme)\n\n[![Build Status](https://img.shields.io/github/actions/workflow/status/ForbesLindesay/throat/test.yml?branch=master&style=for-the-badge)](https://github.com/ForbesLindesay/throat/actions/workflows/test.yml?query=branch%3Amaster)\n[![Coveralls github branch](https://img.shields.io/coveralls/github/ForbesLindesay/throat/master?color=brightgreen&style=for-the-badge)](https://coveralls.io/github/ForbesLindesay/throat)\n[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/ForbesLindesay/throat)\n[![NPM version](https://img.shields.io/npm/v/throat?style=for-the-badge)](https://www.npmjs.com/package/throat)\n\n## Installation\n\n    npm install throat\n\n## API\n\n### throat(concurrency)\n\nThis returns a function that acts a bit like a lock (exactly as a lock if concurrency is 1).\n\nExample, only 2 of the following functions will execute at any one time:\n\n```js\nconst throat = require('throat')(2);\n\nconst resA = throat(async () => {\n  /* async stuff... */\n});\nconst resB = throat(async () => {\n  /* async stuff... */\n});\nconst resC = throat(async () => {\n  /* async stuff... */\n});\nconst resD = throat(async () => {\n  /* async stuff... */\n});\nconst resE = throat(async () => {\n  /* async stuff... */\n});\n```\n\n### throat(concurrency, worker)\n\nThis returns a function that is an exact copy of `worker` except that it will only execute up to `concurrency` times in parallel before further requests are queued:\n\n```js\nconst throat = require('throat');\n\nconst input = ['fileA.txt', 'fileB.txt', 'fileC.txt', 'fileD.txt'];\nconst data = Promise.all(\n  input.map(throat(2, (fileName) => readFile(fileName)))\n);\n```\n\nOnly 2 files will be read at a time, sometimes limiting parallelism in this way can improve scalability.\n\n## Security contact information\n\nTo report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\n\n## License\n\nMIT"
 }

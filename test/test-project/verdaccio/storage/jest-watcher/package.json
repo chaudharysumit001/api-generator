@@ -10859,7 +10859,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f42940e24b5ec537a8638e8959e0a33c\"",
-			"fetched": 1705397983758
+			"fetched": 1705401200462
 		}
 	},
 	"_distfiles": {
@@ -11500,7 +11500,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-d5d56dcc2bcfd0f1",
+	"_rev": "4-ad3599cf354d337d",
 	"_id": "jest-watcher",
 	"readme": "ERROR: No README data found!"
 }

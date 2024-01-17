@@ -4922,7 +4922,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f872934e9d1487dd83c96d811cf8fa04\"",
-			"fetched": 1705397902987
+			"fetched": 1705401136813
 		}
 	},
 	"_distfiles": {
@@ -5248,7 +5248,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-e18fa0a465b0fc2a",
+	"_rev": "4-519cf88a881df929",
 	"_id": "@babel/plugin-transform-react-display-name",
 	"readme": ""
 }

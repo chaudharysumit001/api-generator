@@ -1487,7 +1487,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8ff41fc9a5b3525a4fd07c4575ba1b3d\"",
-			"fetched": 1705398006203
+			"fetched": 1705401219156
 		}
 	},
 	"_distfiles": {
@@ -1578,7 +1578,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-20c3de39441a6327",
+	"_rev": "4-7579b22ab8423f21",
 	"_id": "read-pkg",
 	"readme": "# read-pkg\n\n> Read a package.json file\n\n## Why\n\n- [Throws more helpful JSON errors](https://github.com/sindresorhus/parse-json)\n- [Normalizes the data](https://github.com/npm/normalize-package-data#what-normalization-currently-entails)\n\n## Install\n\n```sh\nnpm install read-pkg\n```\n\n## Usage\n\n```js\nimport {readPackage} from 'read-pkg';\n\nconsole.log(await readPackage());\n//=> {name: 'read-pkg', …}\n\nconsole.log(await readPackage({cwd: 'some-other-directory'}));\n//=> {name: 'unicorn', …}\n```\n\n## API\n\n### readPackage(options?)\n\nReturns a `Promise<object>` with the parsed JSON.\n\n### readPackageSync(options?)\n\nReturns the parsed JSON.\n\n#### options\n\nType: `object`\n\n##### cwd\n\nType: `URL | string`\\\nDefault: `process.cwd()`\n\nCurrent working directory.\n\n##### normalize\n\nType: `boolean`\\\nDefault: `true`\n\n[Normalize](https://github.com/npm/normalize-package-data#what-normalization-currently-entails) the package data.\n\n### parsePackage(packageFile, options?)\n\nParses an object or string into JSON.\n\n#### packageFile\n\nType: `object | string`\n\nAn object or a stringified object to be parsed as a package.json.\n\n#### options\n\nType: `object`\n\n##### normalize\n\nType: `boolean`\\\nDefault: `true`\n\n[Normalize](https://github.com/npm/normalize-package-data#what-normalization-currently-entails) the package data.\n\n## Related\n\n- [read-package-up](https://github.com/sindresorhus/read-package-up) - Read the closest package.json file\n- [write-package](https://github.com/sindresorhus/write-package) - Write a `package.json` file\n- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file"
 }

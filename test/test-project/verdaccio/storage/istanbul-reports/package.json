@@ -5128,7 +5128,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d3a45a99851713a5477121096033f388\"",
-			"fetched": 1705397980131
+			"fetched": 1705401196571
 		}
 	},
 	"_distfiles": {
@@ -5414,7 +5414,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-6919b5156b15017f",
+	"_rev": "4-772ff72c2a43c797",
 	"_id": "istanbul-reports",
 	"readme": "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println"
 }

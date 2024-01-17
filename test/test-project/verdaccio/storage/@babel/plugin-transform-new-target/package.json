@@ -5101,7 +5101,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fe0f4277509fb799f29b99c5f68615a3\"",
-			"fetched": 1705397900256
+			"fetched": 1705401133823
 		}
 	},
 	"_distfiles": {
@@ -5432,7 +5432,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3a8e7046a74a07cc",
+	"_rev": "4-1e2c7163a4925092",
 	"_id": "@babel/plugin-transform-new-target",
 	"readme": ""
 }

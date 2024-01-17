@@ -16850,7 +16850,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cb2c6e9081b1d209224c411f98dcc3bb\"",
-			"fetched": 1705397912388
+			"fetched": 1705401142955
 		}
 	},
 	"_distfiles": {
@@ -17501,7 +17501,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-e915611b0c3a98d2",
+	"_rev": "4-327985d1aa884251",
 	"_id": "@jest/reporters",
 	"readme": "ERROR: No README data found!"
 }

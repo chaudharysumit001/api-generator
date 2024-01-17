@@ -467,7 +467,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"45c15fcd76542f585473bb7725e3372f\"",
-			"fetched": 1705397984443
+			"fetched": 1705401201053
 		}
 	},
 	"_distfiles": {
@@ -508,7 +508,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-110e41e1f9c87e3f",
+	"_rev": "4-f8a2503ac078e5c1",
 	"_id": "json-schema",
 	"readme": "This is a historical repository for the early development of the JSON Schema specification and implementation. This package is considered \"finished\": it holds the earlier draft specification and a simple, efficient, lightweight implementation of the original core elements of JSON Schema. This repository does not house the latest specifications nor does it implement the latest versions of JSON Schema. This package seeks to maintain the stability (in behavior and size) of this original implementation for the sake of the numerous packages that rely on it. For the latest JSON Schema specifications and implementations, please visit the [JSON Schema site](https://json-schema.org/) (or the [respository](https://github.com/json-schema-org/json-schema-spec)).\r\n\r\nCode is licensed under the AFL or BSD 3-Clause license."
 }

@@ -2850,7 +2850,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a341b7135ff99a9280097a89f13ae57d\"",
-			"fetched": 1705397988942
+			"fetched": 1705401203715
 		}
 	},
 	"_distfiles": {
@@ -3006,7 +3006,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-2c414a1ec62d4630",
+	"_rev": "4-92737bd3e3185a59",
 	"_id": "lodash.sortby",
 	"readme": "# lodash.sortby v4.7.0\n\nThe [lodash](https://lodash.com/) method `_.sortBy` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.sortby\n```\n\nIn Node.js:\n```js\nvar sortBy = require('lodash.sortby');\n```\n\nSee the [documentation](https://lodash.com/docs#sortBy) or [package source](https://github.com/lodash/lodash/blob/4.7.0-npm-packages/lodash.sortby) for more details."
 }

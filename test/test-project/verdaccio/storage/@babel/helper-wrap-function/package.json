@@ -5162,7 +5162,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"4db175387971adb63a410f8e3ef2f2a3\"",
-			"fetched": 1705397888894
+			"fetched": 1705401126626
 		}
 	},
 	"_distfiles": {
@@ -5533,7 +5533,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-21d642f737a31320",
+	"_rev": "4-b0c1850aacf1e07a",
 	"_id": "@babel/helper-wrap-function",
 	"readme": ""
 }

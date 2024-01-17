@@ -1574,7 +1574,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2070718e8c85ecdad6cbe3ee10448504\"",
-			"fetched": 1705397890656
+			"fetched": 1705401127510
 		}
 	},
 	"_distfiles": {
@@ -1685,7 +1685,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-3bb6973e75377d13",
+	"_rev": "4-3aa6fcca2ae99540",
 	"_id": "@babel/plugin-syntax-bigint",
 	"readme": "# @babel/plugin-syntax-bigint\n\n> Allow parsing of BigInt literals\n\nSee our website [@babel/plugin-syntax-bigint](https://babeljs.io/docs/en/next/babel-plugin-syntax-bigint.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-bigint\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-bigint --dev\n```"
 }

@@ -2006,7 +2006,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f93379a5b5b8f7dad44f6c0caae00cef\"",
-			"fetched": 1705398002271
+			"fetched": 1705401215752
 		}
 	},
 	"_distfiles": {
@@ -2147,7 +2147,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-0842e9b1c417d2e8",
+	"_rev": "4-e1de18eda1989ccd",
 	"_id": "postcss-reporter",
 	"readme": "# postcss-reporter\n\nA PostCSS plugin to `console.log()` the messages (warnings, etc.) registered by other PostCSS plugins.\n\n---\n\n**SEEKING A NEW MAINTAINER!** Interested in contributing to the ecosystem of PostCSS and Stylelint? Please open an issue if you'd like to take over maintenance of this package.\n\n---\n\n## Docs\nRead **[full docs](https://github.com/postcss/postcss-reporter#readme)** on GitHub."
 }

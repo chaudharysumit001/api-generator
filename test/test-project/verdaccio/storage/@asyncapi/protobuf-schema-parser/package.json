@@ -1124,7 +1124,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fdfdb434e4c71125814807b9eb1d2799\"",
-			"fetched": 1705397881845
+			"fetched": 1705401123279
 		}
 	},
 	"_distfiles": {
@@ -1180,7 +1180,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-8b6725ab36f1fa16",
+	"_rev": "5-29c84251cba5c031",
 	"_id": "@asyncapi/protobuf-schema-parser",
 	"readme": "# ProtoBuff Data Types Schema Parser\n\nA schema parser for Protocol Buffers data types.\nFor ProtoBuff 2 and 3 schemas.  \n\nThere is no explicit distinction between ProtoBuff 2 and 3. You dont have to expect any errors if your `schemaFormat` is `application/vnd.google.protobuf;version=2` defined, but your schema is proto3. \n\nVersion >= `2.0.0` of package is only supported by `@asyncapi/parser` version >= `2.0.0`.\n\nThis package is browser-compatible.\n\n\n## Installation\n\n```\nnpm install @asyncapi/protobuf-schema-parser\n// OR\nyarn add @asyncapi/protobuf-schema-parser\n```\n\n## Usage\n\n```ts\nimport { Parser } from '@asyncapi/parser';\nimport { ProtoSchemaParser } from '@asyncapi/protobuf-schema-parser'\n\nconst parser = new Parser();\nparser.registerSchemaParser(ProtoSchemaParser()); \n\nconst asyncapiWithProto = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with ProtoBuff\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/vnd.google.protobuf;version=3'\n        payload: |\n            message Point {\n                required int32 x = 1;\n                required int32 y = 2;\n                optional string label = 3;\n            }\n\n            message Line {\n                required Point start = 1;\n                required Point end = 2;\n                optional string label = 3;\n            }\n`\n\nconst { document } = await parser.parse(asyncapiWithProto);\n```\n\n```js\nconst { Parser } = require('@asyncapi/parser');\nconst { ProtoSchemaParser } = require('@asyncapi/protobuf-schema-parser');\n\nconst parser = new Parser();\nparser.registerSchemaParser(ProtoSchemaParser()); \n\nconst asyncapiWithProto = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with ProtoBuff\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/vnd.google.protobuf;version=3'\n        payload: |\n            message Point {\n                required int32 x = 1;\n                required int32 y = 2;\n                optional string label = 3;\n            }\n\n            message Line {\n                required Point start = 1;\n                required Point end = 2;\n                optional string label = 3;\n            }\n`\n\nconst { document } = await parser.parse(asyncapiWithProto);\n```\n\nPlace your protoBuff schema as string in `payload` to get it parsed.\n\nRefferences are NOT supported:\n- no support for `$ref`\n- no support for [`import`](https://protobuf.dev/programming-guides/proto3/#importing-definitions), except the default google types:\n  - google/protobuf/*\n  - google/type/*"
 }

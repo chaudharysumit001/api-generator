@@ -1503,7 +1503,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"179890bcfbd0e1b5a881f7268e6d8dc8\"",
-			"fetched": 1705397958582
+			"fetched": 1705401178514
 		}
 	},
 	"_distfiles": {
@@ -1569,7 +1569,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-fb6f3895845949f2",
+	"_rev": "4-e86c077d4b7f0b4f",
 	"_id": "es-aggregate-error",
 	"readme": "# es-aggregate-error <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nES Proposal spec-compliant shim for AggregateError. Invoke its \"shim\" method to shim `AggregateError` if it is unavailable or noncompliant.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment, and complies with the [proposed spec](https://tc39.es/proposal-promise-any/#sec-aggregate-error-object-structure).\n\nMost common usage:\n```js\nvar assert = require('assert');\nvar AggregateError = require('es-aggregate-error');\n\nvar oneError = new RangeError('hi!');\nvar otherError = new EvalError('oops');\nvar error = new AggregateError([oneError, otherError], 'this is two kinds of errors');\n\nassert.deepEqual(error.errors, [oneError, otherError]);\nassert.equal(error.message, 'this is two kinds of errors');\n\nAggregateError.shim(); // will be a no-op if not needed\n\nassert.ok(new globalThis.AggregateError([]) instanceof AggregateError);\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.com/package/es-aggregate-error\n[npm-version-svg]: https://versionbadg.es/es-shims/AggregateError.svg\n[deps-svg]: https://david-dm.org/es-shims/AggregateError.svg\n[deps-url]: https://david-dm.org/es-shims/AggregateError\n[dev-deps-svg]: https://david-dm.org/es-shims/AggregateError/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/AggregateError#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/es-aggregate-error.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/es-aggregate-error.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/es-aggregate-error.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=es-aggregate-error\n[codecov-image]: https://codecov.io/gh/es-shims/AggregateError/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/es-shims/AggregateError/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/AggregateError\n[actions-url]: https://github.com/es-shims/AggregateError/actions"
 }

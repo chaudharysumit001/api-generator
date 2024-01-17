@@ -1066,7 +1066,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"50bf7dc817bfcd06409ec8b591a21298\"",
-			"fetched": 1705398001016
+			"fetched": 1705401213914
 		}
 	},
 	"_distfiles": {
@@ -1127,7 +1127,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-77330a13f44d4989",
+	"_rev": "4-c224bb1ac19374c0",
 	"_id": "pkg-dir",
 	"readme": "# pkg-dir\n\n> Find the root directory of a Node.js project or npm package\n\n## Install\n\n```sh\nnpm install pkg-dir\n```\n\n## Usage\n\n```\n/\n└── Users\n    └── sindresorhus\n        └── foo\n            ├── package.json\n            └── bar\n                ├── baz\n                └── example.js\n```\n\n```js\n// example.js\nimport {packageDirectory} from 'pkg-dir';\n\nconsole.log(await packageDirectory());\n//=> '/Users/sindresorhus/foo'\n```\n\n## API\n\n### packageDirectory(option?)\n\nReturns a `Promise` for either the project root path or `undefined` if it could not be found.\n\n### packageDirectorySync(options?)\n\nReturns the project root path or `undefined` if it could not be found.\n\n#### options\n\nType: `object`\n\n##### cwd\n\nType: `string`\\\nDefault: `process.cwd()`\n\nThe directory to start searching from.\n\n## Related\n\n- [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - CLI for this module\n- [pkg-up](https://github.com/sindresorhus/pkg-up) - Find the closest package.json file\n- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories"
 }

@@ -390,7 +390,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2e49f3c7257ba18755507640f1c875da\"",
-			"fetched": 1705397933055
+			"fetched": 1705401155041
 		}
 	},
 	"_distfiles": {
@@ -426,7 +426,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-f19f07cbbd84c7da",
+	"_rev": "4-04f0b7c43c919182",
 	"_id": "@types/protocol-buffers-schema",
 	"readme": "[object Object]"
 }

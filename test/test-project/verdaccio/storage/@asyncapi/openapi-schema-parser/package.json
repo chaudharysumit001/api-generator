@@ -2326,7 +2326,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9606a5db186f93dee62dbaa6a6389aae\"",
-			"fetched": 1705397879503
+			"fetched": 1705401120703
 		}
 	},
 	"_distfiles": {
@@ -2422,7 +2422,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "3-4386f2437f581cf1",
+	"_rev": "5-f985c75b440f28ef",
 	"_id": "@asyncapi/openapi-schema-parser",
 	"readme": "# OpenAPI Schema Parser\n\nAn AsyncAPI schema parser for OpenAPI 3.0.x and Swagger 2.x schemas.\n\n> **Note**\n> Version >= `3.0.0` of package is only supported by `@asyncapi/parser` version >= `2.0.0`.\n\n<!-- toc is generated with GitHub Actions do not remove toc markers -->\n\n<!-- toc -->\n\n- [Installation](#installation)\n- [Usage](#usage)\n\n<!-- tocstop -->\n\n## Installation\n\n```bash\nnpm install @asyncapi/openapi-schema-parser\n// OR\nyarn add @asyncapi/openapi-schema-parser\n```\n\n## Usage\n\n```ts\nimport { Parser } from '@asyncapi/parser';\nimport { OpenAPISchemaParser } from '@asyncapi/openapi-schema-parser';\n\nconst parser = new Parser();\nparser.registerSchemaParser(OpenAPISchemaParser()); \n\nconst asyncapiWithOpenAPI = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with OpenAPI\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/vnd.oai.openapi;version=3.0.0'\n        payload: # The following is an OpenAPI schema\n          type: object\n          properties:\n            title:\n              type: string\n              nullable: true\n            author:\n              type: string\n              example: Jack Johnson\n`;\n\nconst { document } = await parser.parse(asyncapiWithOpenAPI);\n```\n\n```js\nconst { Parser } = require('@asyncapi/parser');\nconst { OpenAPISchemaParser } = require('@asyncapi/openapi-schema-parser');\n\nconst parser = new Parser();\nparser.registerSchemaParser(OpenAPISchemaParser()); \n\nconst asyncapiWithOpenAPI = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with OpenAPI\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/vnd.oai.openapi;version=3.0.0'\n        payload: # The following is an OpenAPI schema\n          type: object\n          properties:\n            title:\n              type: string\n              nullable: true\n            author:\n              type: string\n              example: Jack Johnson\n`;\n\nconst { document } = await parser.parse(asyncapiWithOpenAPI);\n```\n\nIt also supports referencing remote OpenAPI schemas:\n\n```ts\nimport { Parser } from '@asyncapi/parser';\nimport { OpenAPISchemaParser } from '@asyncapi/openapi-schema-parser';\n\nconst parser = new Parser();\nparser.registerSchemaParser(OpenAPISchemaParser()); \n\nconst asyncapiWithOpenAPI = `\nasyncapi: 2.0.0\ninfo:\n  title: Example with OpenAPI\n  version: 0.1.0\nchannels:\n  example:\n    publish:\n      message:\n        schemaFormat: 'application/vnd.oai.openapi;version=3.0.0'\n        payload:\n          $ref: 'yourserver.com/schemas#/Book'\n`;\n\nconst { document } = await parser.parse(asyncapiWithOpenAPI);\n```"
 }

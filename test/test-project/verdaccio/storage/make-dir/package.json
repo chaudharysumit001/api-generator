@@ -1080,7 +1080,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2886796b1586b6e6a1632e4328870e9a\"",
-			"fetched": 1705397979620
+			"fetched": 1705401195697
 		}
 	},
 	"_distfiles": {
@@ -1141,7 +1141,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-78ec7ab5df538fc9",
+	"_rev": "4-3e1e896b0eafe086",
 	"_id": "make-dir",
 	"readme": "# make-dir [![codecov](https://codecov.io/gh/sindresorhus/make-dir/branch/main/graph/badge.svg)](https://codecov.io/gh/sindresorhus/make-dir)\n\n> Make a directory and its parents if needed - Think `mkdir -p`\n\n## Advantages over [`mkdirp`](https://github.com/substack/node-mkdirp)\n\n- Promise API *(Async/await ready!)*\n- Fixes many `mkdirp` issues: [#96](https://github.com/substack/node-mkdirp/pull/96) [#70](https://github.com/substack/node-mkdirp/issues/70) [#66](https://github.com/substack/node-mkdirp/issues/66)\n- 100% test coverage\n- CI-tested on macOS, Linux, and Windows\n- Actively maintained\n- Doesn't bundle a CLI\n- Uses the native `fs.mkdir/mkdirSync` [`recursive` option](https://nodejs.org/dist/latest/docs/api/fs.html#fs_fs_mkdir_path_options_callback) in Node.js >=10.12.0 unless [overridden](#fs)\n\n## Install\n\n```\n$ npm install make-dir\n```\n\n## Usage\n\n```\n$ pwd\n/Users/sindresorhus/fun\n$ tree\n.\n```\n\n```js\nconst makeDir = require('make-dir');\n\n(async () => {\n\tconst path = await makeDir('unicorn/rainbow/cake');\n\n\tconsole.log(path);\n\t//=> '/Users/sindresorhus/fun/unicorn/rainbow/cake'\n})();\n```\n\n```\n$ tree\n.\n└── unicorn\n    └── rainbow\n        └── cake\n```\n\nMultiple directories:\n\n```js\nconst makeDir = require('make-dir');\n\n(async () => {\n\tconst paths = await Promise.all([\n\t\tmakeDir('unicorn/rainbow'),\n\t\tmakeDir('foo/bar')\n\t]);\n\n\tconsole.log(paths);\n\t/*\n\t[\n\t\t'/Users/sindresorhus/fun/unicorn/rainbow',\n\t\t'/Users/sindresorhus/fun/foo/bar'\n\t]\n\t*/\n})();\n```\n\n## API\n\n### makeDir(path, options?)\n\nReturns a `Promise` for the path to the created directory.\n\n### makeDir.sync(path, options?)\n\nReturns the path to the created directory.\n\n#### path\n\nType: `string`\n\nDirectory to create.\n\n#### options\n\nType: `object`\n\n##### mode\n\nType: `integer`\\\nDefault: `0o777`\n\nDirectory [permissions](https://x-team.com/blog/file-system-permissions-umask-node-js/).\n\n##### fs\n\nType: `object`\\\nDefault: `require('fs')`\n\nUse a custom `fs` implementation. For example [`graceful-fs`](https://github.com/isaacs/node-graceful-fs).\n\nUsing a custom `fs` implementation will block the use of the native `recursive` option if `fs.mkdir` or `fs.mkdirSync` is not the native function.\n\n## Related\n\n- [make-dir-cli](https://github.com/sindresorhus/make-dir-cli) - CLI for this module\n- [del](https://github.com/sindresorhus/del) - Delete files and directories\n- [globby](https://github.com/sindresorhus/globby) - User-friendly glob matching\n- [cpy](https://github.com/sindresorhus/cpy) - Copy files\n- [cpy-cli](https://github.com/sindresorhus/cpy-cli) - Copy files on the command-line\n- [move-file](https://github.com/sindresorhus/move-file) - Move a file\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-make-dir?utm_source=npm-make-dir&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

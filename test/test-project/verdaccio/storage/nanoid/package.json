@@ -8929,7 +8929,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"39b1d31db839a522615217bbe5f6ee93\"",
-			"fetched": 1705397992503
+			"fetched": 1705401207787
 		}
 	},
 	"_distfiles": {
@@ -9420,7 +9420,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "2-a9d48c0ae6d96896",
+	"_rev": "4-13845e2876bc156b",
 	"_id": "nanoid",
 	"readme": "# Nano ID\n\n<img src=\"https://ai.github.io/nanoid/logo.svg\" align=\"right\"\n     alt=\"Nano ID logo by Anton Lovchikov\" width=\"180\" height=\"94\">\n\n**English** | [Русский](./README.ru.md) | [简体中文](./README.zh-CN.md) | [Bahasa Indonesia](./README.id-ID.md)\n\nA tiny, secure, URL-friendly, unique string ID generator for JavaScript.\n\n> “An amazing level of senseless perfectionism,\n> which is simply impossible not to respect.”\n\n* **Small.** 109 bytes (minified and brotlied). No dependencies.\n  [Size Limit] controls the size.\n* **Safe.** It uses hardware random generator. Can be used in clusters.\n* **Short IDs.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).\n  So ID size was reduced from 36 to 21 symbols.\n* **Portable.** Nano ID was ported\n  to over [20 programming languages](./README.md#other-programming-languages).\n\n```js\nimport { nanoid } from 'nanoid'\nmodel.id = nanoid() //=> \"V1StGXR8_Z5jdHi6B-myT\"\n```\n\n---\n\n<img src=\"https://cdn.evilmartians.com/badges/logo-no-label.svg\" alt=\"\" width=\"22\" height=\"16\" />  Made in <b><a href=\"https://evilmartians.com/devtools?utm_source=nanoid&utm_campaign=devtools-button&utm_medium=github\">Evil Martians</a></b>, product consulting for <b>developer tools</b>.\n\n---\n\n[online tool]: https://gitpod.io/#https://github.com/ai/nanoid/\n[with Babel]:  https://developer.epages.com/blog/coding/how-to-transpile-node-modules-with-babel-and-webpack-in-a-monorepo/\n[Size Limit]:  https://github.com/ai/size-limit\n\n\n## Docs\nRead full docs **[here](https://github.com/ai/nanoid#readme)**."
 }
