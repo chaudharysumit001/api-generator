@@ -25,5 +25,5 @@ services:
     command: bash /app/test/test-project/test.sh
 
 networks:
-  node-network:
+  mynetwork:
     driver: bridge
