@@ -5,7 +5,7 @@ services:
     image: verdaccio/verdaccio
     container_name: 'verdaccio'
     networks:
-      - node-network
+      - mynetwork
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
@@ -16,7 +16,7 @@ services:
 
   test-project:
     privileged: true
-    image: "node:16"
+    image: "node:${NODE_IMAGE_TAG}"
 
     environment:
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true

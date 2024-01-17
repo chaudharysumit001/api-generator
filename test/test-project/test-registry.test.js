@@ -21,17 +21,17 @@ describe('Integration testing generateFromFile() to make sure the template can b
   it('generated using private registory', async () => {
     const outputDir = generateFolderName();
     const generator = new Generator('@asyncapi/html-template', outputDir,
-      { 
+      {
         debug: true,
-        install: true, 
-        forceWrite: true, 
-        templateParams: { 
-          singleFile: true 
+        install: true,
+        forceWrite: true,
+        templateParams: {
+          singleFile: true
         },
         registry: {
-          url: 'http://host.docker.internal:4873',  // Replace the host.docker.internal to localhost for testing without docker
+          url: 'http://localhost:4873',  // Replace the host.docker.internal to localhost for testing without docker
           auth: 'YWRtaW46bmltZGE='  // base64 encoded username and password represented as admin:nimda
-          
+
         }
       });
     try {
@@ -41,7 +41,7 @@ describe('Integration testing generateFromFile() to make sure the template can b
       // Code to handle the error
       console.error('An error occurred:', error);
     }
-      
+
     const file = await readFile(path.join(outputDir, 'index.html'), 'utf8');
     expect(file).toContain('Dummy example with all spec features included');
   });
