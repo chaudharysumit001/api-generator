@@ -4738,7 +4738,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5a51d04228268e5d1bd39245388675ea\"",
-			"fetched": 1705401132587
+			"fetched": 1705472442070
 		}
 	},
 	"_distfiles": {
@@ -5049,7 +5049,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-399e3a1df6480f8f",
+	"_rev": "2-897dbc88cc0492bf",
 	"_id": "@babel/plugin-transform-exponentiation-operator",
 	"readme": ""
 }

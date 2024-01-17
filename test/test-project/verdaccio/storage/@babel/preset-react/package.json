@@ -6082,7 +6082,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7d82eaff99527b4b0cfbd1fb09f552cf\"",
-			"fetched": 1705401138062
+			"fetched": 1705472447536
 		}
 	},
 	"_distfiles": {
@@ -6453,7 +6453,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-dc8fa00d4a98b13a",
+	"_rev": "2-60e08f430745ef79",
 	"_id": "@babel/preset-react",
 	"readme": ""
 }

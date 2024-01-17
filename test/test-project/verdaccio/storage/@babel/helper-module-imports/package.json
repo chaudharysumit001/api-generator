@@ -4761,7 +4761,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0beee73733de9453714b3bb52dd4b645\"",
-			"fetched": 1705401125135
+			"fetched": 1705472434991
 		}
 	},
 	"_distfiles": {
@@ -5087,7 +5087,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-67085900d13f11eb",
+	"_rev": "2-5a4ffa0feda148e4",
 	"_id": "@babel/helper-module-imports",
 	"readme": ""
 }

@@ -1006,7 +1006,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ddcefe0918a8f00a3b8b40b2832e9d1e\"",
-			"fetched": 1705401134787
+			"fetched": 1705472445372
 		}
 	},
 	"_distfiles": {
@@ -1072,7 +1072,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-1f542339dc56f41c",
+	"_rev": "2-abe136b2e1557590",
 	"_id": "@babel/plugin-transform-private-property-in-object",
 	"readme": ""
 }

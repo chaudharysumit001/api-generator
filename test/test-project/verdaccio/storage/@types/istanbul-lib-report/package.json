@@ -406,7 +406,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e4c7442fe45f3ab1b423c69ee0907e9a\"",
-			"fetched": 1705401153256
+			"fetched": 1705472460034
 		}
 	},
 	"_distfiles": {
@@ -442,7 +442,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-4bb22ffdb2103339",
+	"_rev": "2-b4e3cd6f958a91dd",
 	"_id": "@types/istanbul-lib-report",
 	"readme": "[object Object]"
 }

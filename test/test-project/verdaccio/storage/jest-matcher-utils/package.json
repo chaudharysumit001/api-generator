@@ -18210,7 +18210,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"12aca6a1214ae54643a5445eb9d46ac3\"",
-			"fetched": 1705401198899
+			"fetched": 1705472501748
 		}
 	},
 	"_distfiles": {
@@ -19356,7 +19356,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-5d7431594b5b9c30",
+	"_rev": "2-0509ccee66538d55",
 	"_id": "jest-matcher-utils",
 	"readme": "# jest-matcher-utils\n\nThis package's exports are most notably used by `expect`'s [`this.utils`](https://jestjs.io/docs/expect#thisutils).\n\n## Installation\n\nTo add this package as a dependency of a project, run either of the following commands:\n\n- `npm install jest-matcher-utils`\n- `yarn add jest-matcher-utils`\n\n## Exports ([src/index.ts](https://github.com/jestjs/jest/blob/HEAD/packages/jest-matcher-utils/src/index.ts))\n\n### Functions\n\n`stringify` `highlightTrailingWhitespace` `printReceived` `printExpected` `printWithType` `ensureNoExpected` `ensureActualIsNumber` `ensureExpectedIsNumber` `ensureNumbers` `ensureExpectedIsNonNegativeInteger` `printDiffOrStringify` `diff` `pluralize` `getLabelPrinter` `matcherErrorMessage` `matcherHint`\n\n### Types\n\n`MatcherHintOptions` `DiffOptions`\n\n### Constants\n\n`EXPECTED_COLOR` `RECEIVED_COLOR` `INVERTED_COLOR` `BOLD_WEIGHT` `DIM_COLOR` `SUGGEST_TO_CONTAIN_EQUAL`"
 }

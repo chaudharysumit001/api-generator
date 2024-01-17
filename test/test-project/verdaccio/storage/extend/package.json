@@ -905,7 +905,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6dd83c5320f4a7d5404c451b6ee310b3\"",
-			"fetched": 1705401181096
+			"fetched": 1705472486383
 		}
 	},
 	"_distfiles": {
@@ -976,7 +976,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-3d00b04ea54aed7b",
+	"_rev": "2-280263a5f628e763",
 	"_id": "extend",
 	"readme": ""
 }

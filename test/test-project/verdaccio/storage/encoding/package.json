@@ -694,7 +694,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8b6b9730995f1a5dd3c0a442fbc3be0d\"",
-			"fetched": 1705401177084
+			"fetched": 1705472481980
 		}
 	},
 	"_distfiles": {
@@ -765,7 +765,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-41ebfb793c58324e",
+	"_rev": "2-b0f66c4f28c2063d",
 	"_id": "encoding",
 	"readme": "# Encoding\n\n**encoding** is a simple wrapper around [iconv-lite](https://github.com/ashtuchkin/iconv-lite/) to convert strings from one encoding to another.\n\n[![Build Status](https://secure.travis-ci.org/andris9/encoding.svg)](http://travis-ci.org/andris9/Nodemailer)\n[![npm version](https://badge.fury.io/js/encoding.svg)](http://badge.fury.io/js/encoding)\n\nInitially _encoding_ was a wrapper around _node-iconv_ (main) and _iconv-lite_ (fallback) and was used as the encoding layer for Nodemailer/mailparser. Somehow it also ended up as a dependency for a bunch of other project, none of these actually using _node-iconv_. The loading mechanics caused issues for front-end projects and Nodemailer/malparser had moved on, so _node-iconv_ was removed.\n\n## Install\n\nInstall through npm\n\n    npm install encoding\n\n## Usage\n\nRequire the module\n\n    var encoding = require(\"encoding\");\n\nConvert with encoding.convert()\n\n    var resultBuffer = encoding.convert(text, toCharset, fromCharset);\n\nWhere\n\n-   **text** is either a Buffer or a String to be converted\n-   **toCharset** is the characterset to convert the string\n-   **fromCharset** (_optional_, defaults to UTF-8) is the source charset\n\nOutput of the conversion is always a Buffer object.\n\nExample\n\n    var result = encoding.convert(\"ÕÄÖÜ\", \"Latin_1\");\n    console.log(result); //<Buffer d5 c4 d6 dc>\n\n## License\n\n**MIT**"
 }

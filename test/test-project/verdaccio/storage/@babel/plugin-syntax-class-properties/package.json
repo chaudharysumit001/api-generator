@@ -3061,7 +3061,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8b8322fc0df12c61345f706b09aa1631\"",
-			"fetched": 1705401127511
+			"fetched": 1705472436898
 		}
 	},
 	"_distfiles": {
@@ -3277,7 +3277,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-b0521022aa5a6f3e",
+	"_rev": "2-276054526b3c4441",
 	"_id": "@babel/plugin-syntax-class-properties",
 	"readme": ""
 }

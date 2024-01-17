@@ -7261,7 +7261,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fd618aa20912884da122ba7a9495ba78\"",
-			"fetched": 1705401133500
+			"fetched": 1705472441687
 		}
 	},
 	"_distfiles": {
@@ -7712,7 +7712,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-0e101426208ecda9",
+	"_rev": "2-4c83a2892d3a4dfe",
 	"_id": "@babel/plugin-transform-modules-commonjs",
 	"readme": ""
 }

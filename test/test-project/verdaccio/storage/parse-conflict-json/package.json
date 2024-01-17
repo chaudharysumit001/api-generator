@@ -837,7 +837,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6fc7a3ef4917cb35f593f90b0703c5f0\"",
-			"fetched": 1705401212863
+			"fetched": 1705472515963
 		}
 	},
 	"_distfiles": {
@@ -888,7 +888,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a10b1994b15ae44f",
+	"_rev": "2-d24f80acc854f858",
 	"_id": "parse-conflict-json",
 	"readme": "# parse-conflict-json\n\nParse a JSON string that has git merge conflicts, resolving if possible.\n\nIf the JSON is valid, it just does `JSON.parse` as normal.\n\nIf either side of the conflict is invalid JSON, then an error is thrown for\nthat.\n\n## USAGE\n\n```js\n// after a git merge that left some conflicts there\nconst data = fs.readFileSync('package-lock.json', 'utf8')\n\n// reviverFunction is passed to JSON.parse as the reviver function\n// preference defaults to 'ours', set to 'theirs' to prefer the other\n// side's changes.\nconst parsed = parseConflictJson(data, reviverFunction, preference)\n\n// returns true if the data looks like a conflicted diff file\nparsed.isDiff(data)\n```\n\n## Algorithm\n\nIf `prefer` is set to `theirs`, then the vaules of `theirs` and `ours` are\nswitched in the resolver function.  (Ie, we'll apply their changes on top\nof our object, rather than the other way around.)\n\n- Parse the conflicted file into 3 pieces: `ours`, `theirs`, and `parent`\n\n- Get the [diff](https://github.com/angus-c/just#just-diff) from `parent`\n  to `ours`.\n\n- [Apply](https://github.com/angus-c/just#just-diff-apply) each change of\n  that diff to `theirs`.\n\n    If any change in the diff set cannot be applied (ie, because they\n    changed an object into a non-object and we changed a field on that\n    object), then replace the object at the specified path with the object\n    at the path in `ours`."
 }

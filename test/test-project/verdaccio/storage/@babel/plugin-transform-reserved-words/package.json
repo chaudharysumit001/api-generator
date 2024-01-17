@@ -4658,7 +4658,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f26d9b5c9711436172ec94d613d843ca\"",
-			"fetched": 1705401136706
+			"fetched": 1705472445620
 		}
 	},
 	"_distfiles": {
@@ -4969,7 +4969,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-bd93d970de7d0283",
+	"_rev": "2-5fbc7919256d3ba9",
 	"_id": "@babel/plugin-transform-reserved-words",
 	"readme": ""
 }

@@ -3901,7 +3901,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d8dde4c93468043cd75f3fc75f3720f3\"",
-			"fetched": 1705401157830
+			"fetched": 1705472463962
 		}
 	},
 	"_distfiles": {
@@ -3992,7 +3992,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a651f7d8677031fa",
+	"_rev": "2-769617d9c4beb752",
 	"_id": "acorn-node",
 	"readme": "# acorn-node\n\n[Acorn](https://github.com/acornjs/acorn) preloaded with plugins for syntax parity with recent Node versions.\n\nIt also includes versions of the plugins compiled with [Bublé](https://github.com/rich-harris/buble), so they can be run on old Node versions (0.6 and up).\n\n[![npm][npm-image]][npm-url]\n[![travis][travis-image]][travis-url]\n[![standard][standard-image]][standard-url]\n\n[npm-image]: https://img.shields.io/npm/v/acorn-node.svg?style=flat-square\n[npm-url]: https://www.npmjs.com/package/acorn-node\n[travis-image]: https://img.shields.io/travis/browserify/acorn-node/master.svg?style=flat-square\n[travis-url]: https://travis-ci.org/browserify/acorn-node\n[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square\n[standard-url]: http://npm.im/standard\n\n## Install\n\n```\nnpm install acorn-node\n```\n\n## Usage\n\n```js\nvar acorn = require('acorn-node')\n```\n\nThe API is the same as [acorn](https://github.com/acornjs/acorn), but the following syntax features are enabled by default:\n\n - Bigint syntax `10n`\n - Numeric separators syntax `10_000`\n - Public and private class instance fields\n - Public and private class static fields\n - Dynamic `import()`\n - The `import.meta` property\n - `export * as ns from` syntax\n\nAnd the following options have different defaults from acorn, to match Node modules:\n\n - `ecmaVersion: 2019`\n - `allowHashBang: true`\n - `allowReturnOutsideFunction: true`\n\n```js\nvar walk = require('acorn-node/walk')\n```\n\nThe Acorn syntax tree walker. Comes preconfigured for the syntax plugins if necessary.\nSee the [acorn documentation](https://github.com/acornjs/acorn#distwalkjs) for details.\n\n## License\n\nThe files in the repo root and the ./test folder are licensed as [Apache-2.0](LICENSE.md).\n\nThe files in lib/ are generated from other packages:\n\n- lib/bigint: [acorn-bigint](https://github.com/acornjs/acorn-bigint]), MIT\n- lib/class-private-elements: [acorn-class-private-elements](https://github.com/acornjs/acorn-class-private-elements), MIT\n- lib/export-ns-from: [acorn-export-ns-from](https://github.com/acornjs/acorn-export-ns-from), MIT\n- lib/import-meta: [acorn-import-meta](https://github.com/acornjs/acorn-import-meta), MIT\n- lib/numeric-separator: [acorn-numeric-separator](https://github.com/acornjs/acorn-numeric-separator]), MIT\n- lib/static-class-features: [acorn-static-class-features](https://github.com/acornjs/acorn-static-class-features), MIT"
 }

@@ -552,7 +552,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"993a796a59ce781b8cd1b829a38f479c\"",
-			"fetched": 1705401184722
+			"fetched": 1705472488853
 		}
 	},
 	"_distfiles": {
@@ -598,7 +598,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-508f1fb95beda365",
+	"_rev": "2-bdf3ca7e5b783448",
 	"_id": "foreach",
 	"readme": "# foreach\n\n[![CDNJS](https://img.shields.io/cdnjs/v/foreach.svg)](https://cdnjs.com/libraries/foreach)\n\nIterate over the key value pairs of either an array-like object or a dictionary like object.\n\n[![browser support][1]][2]\n\n## API\n\n### foreach(object, function, [context])\n\n```js\nvar each = require('foreach');\n\neach([1,2,3], function (value, key, array) {\n    // value === 1, 2, 3\n    // key === 0, 1, 2\n    // array === [1, 2, 3]\n});\n\neach({0:1,1:2,2:3}, function (value, key, object) {\n    // value === 1, 2, 3\n    // key === 0, 1, 2\n    // object === {0:1,1:2,2:3}\n});\n```\n\n[1]: https://ci.testling.com/manuelstofer/foreach.png\n[2]: https://ci.testling.com/manuelstofer/foreach"
 }

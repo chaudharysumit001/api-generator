@@ -999,7 +999,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"70f464168862d7e9e49d2885147892a7\"",
-			"fetched": 1705401133202
+			"fetched": 1705472441398
 		}
 	},
 	"_distfiles": {
@@ -1065,7 +1065,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-5b83089c18a3f8fe",
+	"_rev": "2-289714eb08e4db82",
 	"_id": "@babel/plugin-transform-logical-assignment-operators",
 	"readme": ""
 }

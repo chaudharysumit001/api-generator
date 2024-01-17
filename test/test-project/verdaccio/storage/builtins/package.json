@@ -1135,7 +1135,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5d292f69d709dd494c78d55a9f9273cc\"",
-			"fetched": 1705401166486
+			"fetched": 1705472471358
 		}
 	},
 	"_distfiles": {
@@ -1241,7 +1241,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-00321f1d49fd603d",
+	"_rev": "2-dd5d2b30188c7fee",
 	"_id": "builtins",
 	"readme": "# builtins\n\n[![CI](https://github.com/juliangruber/builtins/actions/workflows/ci.yml/badge.svg)](https://github.com/juliangruber/builtins/actions/workflows/ci.yml)\n\nList of node.js [builtin modules](http://nodejs.org/api/).\n\n## Usage\n\n```js\nconst builtins = require('builtins')\n```\n\nGet list of core modules for current Node.js version:\n\n```js\nassert(builtins().includes('http'))\n```\n\nGet list of core modules for specific Node.js version:\n\n```js\nassert(builtins({ version: '6.0.0' }).includes('http'))\n```\n\nGet list of core modules present in one or mode Node.js versions:\n\n```js\nassert(builtins({ version: '*' }).includes('worker_threads'))\n```\n\nAdd experimental modules to the list:\n\n```js\nassert(builtins({ experimental: true }).includes('wasi'))\n```\n\n## License\n\nMIT"
 }

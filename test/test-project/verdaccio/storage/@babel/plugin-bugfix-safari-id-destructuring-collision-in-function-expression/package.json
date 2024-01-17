@@ -1660,7 +1660,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"3c888d9bcbca6af814fa507dc7754512\"",
-			"fetched": 1705401126844
+			"fetched": 1705472436370
 		}
 	},
 	"_distfiles": {
@@ -1761,7 +1761,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-fbe60ab131788eef",
+	"_rev": "2-30621ecf6e7ff815",
 	"_id": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
 	"readme": ""
 }

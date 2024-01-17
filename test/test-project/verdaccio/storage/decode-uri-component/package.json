@@ -570,7 +570,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d52bc575449911cb6663f26a740985b2\"",
-			"fetched": 1705401174722
+			"fetched": 1705472478803
 		}
 	},
 	"_distfiles": {
@@ -611,7 +611,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-fcb1689d3f39432c",
+	"_rev": "2-df06bfb5f3a37c35",
 	"_id": "decode-uri-component",
 	"readme": "# decode-uri-component\n\n![CI](https://github.com/SamVerschueren/decode-uri-component/workflows/CI/badge.svg) [![Coverage Status](https://coveralls.io/repos/SamVerschueren/decode-uri-component/badge.svg?branch=master&service=github)](https://coveralls.io/github/SamVerschueren/decode-uri-component?branch=master)\n\n> A better [decodeURIComponent](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent)\n\n\n## Why?\n\n- Converts the [BOM](https://en.wikipedia.org/wiki/Byte_order_mark) to a [replacement character](https://en.wikipedia.org/wiki/Specials_(Unicode_block)#Replacement_character) `�`.\n- Does not throw with invalid encoded input.\n- Decodes as much of the string as possible.\n\n\n## Install\n\n```\n$ npm install --save decode-uri-component\n```\n\n\n## Usage\n\n```js\nimport decodeUriComponent from 'decode-uri-component';\n\ndecodeUriComponent('%25');\n//=> '%'\n\ndecodeUriComponent('%');\n//=> '%'\n\ndecodeUriComponent('st%C3%A5le');\n//=> 'ståle'\n\ndecodeUriComponent('%st%C3%A5le%');\n//=> '%ståle%'\n\ndecodeUriComponent('%%7Bst%C3%A5le%7D%');\n//=> '%{ståle}%'\n\ndecodeUriComponent('%7B%ab%%7C%de%%7D');\n//=> '{%ab%|%de%}'\n\ndecodeUriComponent('%FE%FF');\n//=> '\\uFFFD\\uFFFD'\n\ndecodeUriComponent('%C2');\n//=> '\\uFFFD'\n\ndecodeUriComponent('%C2%B5');\n//=> 'µ'\n```\n\n\n## API\n\n### decodeUriComponent(encodedURI)\n\n#### encodedURI\n\nType: `string`\n\nAn encoded component of a Uniform Resource Identifier.\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-decode-uri-component?utm_source=npm-decode-uri-component&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

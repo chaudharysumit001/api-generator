@@ -453,7 +453,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"60eea1a825eca22e699175a8ccbf5d7e\"",
-			"fetched": 1705401155307
+			"fetched": 1705472462065
 		}
 	},
 	"_distfiles": {
@@ -494,7 +494,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-c50350809e49bf3c",
+	"_rev": "2-acec314a98620b63",
 	"_id": "@types/yauzl",
 	"readme": "[object Object]"
 }

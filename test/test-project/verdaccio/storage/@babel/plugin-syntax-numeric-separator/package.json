@@ -2900,7 +2900,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fdb513c9437eee3c0bc67194e2ef4226\"",
-			"fetched": 1705401129069
+			"fetched": 1705472437965
 		}
 	},
 	"_distfiles": {
@@ -3106,7 +3106,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-70b909c209d32dfc",
+	"_rev": "2-7ebd9165d3b25153",
 	"_id": "@babel/plugin-syntax-numeric-separator",
 	"readme": "# @babel/plugin-syntax-numeric-separator\n\n> Allow parsing of Decimal, Binary, Hex and Octal literals that contain a Numeric Literal Separator\n\nSee our website [@babel/plugin-syntax-numeric-separator](https://babeljs.io/docs/en/next/babel-plugin-syntax-numeric-separator.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-numeric-separator\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-numeric-separator --dev\n```"
 }

@@ -6975,7 +6975,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a45d6ee1713560603e878bd96061fdb8\"",
-			"fetched": 1705401133723
+			"fetched": 1705472441322
 		}
 	},
 	"_distfiles": {
@@ -7431,7 +7431,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-c88657e3adedf517",
+	"_rev": "2-0048f14be0d6b41d",
 	"_id": "@babel/plugin-transform-destructuring",
 	"readme": ""
 }

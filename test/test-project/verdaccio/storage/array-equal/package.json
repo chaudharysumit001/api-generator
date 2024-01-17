@@ -160,7 +160,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"90bcfebbd6893fdc7abd167b5326b95d\"",
-			"fetched": 1705401160297
+			"fetched": 1705472466637
 		}
 	},
 	"_distfiles": {
@@ -176,7 +176,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-206dc880822aedcd",
+	"_rev": "2-53784117fe6017a1",
 	"_id": "array-equal",
 	"readme": "# Array Equal\n\nCheck if two arrays are equal:\n\n```js\nvar equals = require('array-equal')\n\nassert(equals([1, 2, 3], [1, 2, 3])) // => true\nassert(equals([1, 2, 3], [1, 2, 3, 4])) // => false\n```"
 }

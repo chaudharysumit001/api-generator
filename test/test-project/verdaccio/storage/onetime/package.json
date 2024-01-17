@@ -1109,7 +1109,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f206ea6c4aa1af0921faaaa125c7b07d\"",
-			"fetched": 1705401211686
+			"fetched": 1705472514679
 		}
 	},
 	"_distfiles": {
@@ -1185,7 +1185,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-8c3422b03e48f0ae",
+	"_rev": "2-b7d77077bd1cf258",
 	"_id": "onetime",
 	"readme": "# onetime\n\n> Ensure a function is only called once\n\nWhen called multiple times it will return the return value from the first call.\n\n*Unlike the module [once](https://github.com/isaacs/once), this one isn't naughty and extending `Function.prototype`.*\n\n## Install\n\n```sh\nnpm install onetime\n```\n\n## Usage\n\n```js\nimport onetime from 'onetime';\n\nlet index = 0;\n\nconst foo = onetime(() => ++index);\n\nfoo(); //=> 1\nfoo(); //=> 1\nfoo(); //=> 1\n\nonetime.callCount(foo); //=> 3\n```\n\n```js\nimport onetime from 'onetime';\n\nconst foo = onetime(() => {}, {throw: true});\n\nfoo();\n\nfoo();\n//=> Error: Function `foo` can only be called once\n```\n\n## API\n\n### onetime(fn, options?)\n\nReturns a function that only calls `fn` once.\n\n#### fn\n\nType: `Function`\n\nThe function that should only be called once.\n\n#### options\n\nType: `object`\n\n##### throw\n\nType: `boolean`\\\nDefault: `false`\n\nThrow an error when called more than once.\n\n### onetime.callCount(fn)\n\nReturns a number representing how many times `fn` has been called.\n\nNote: It throws an error if you pass in a function that is not wrapped by `onetime`.\n\n```js\nimport onetime from 'onetime';\n\nconst foo = onetime(() => {});\n\nfoo();\nfoo();\nfoo();\n\nconsole.log(onetime.callCount(foo));\n//=> 3\n```\n\n#### fn\n\nType: `Function`\n\nThe function to get call count from."
 }

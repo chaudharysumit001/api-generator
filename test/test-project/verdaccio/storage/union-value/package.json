@@ -1136,7 +1136,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1b587c214850734596b5438c979fb309\"",
-			"fetched": 1705401238340
+			"fetched": 1705472539073
 		}
 	},
 	"_distfiles": {
@@ -1197,7 +1197,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-6c8b3e9a421e3f70",
+	"_rev": "1-77f96c0a2a86af22",
 	"_id": "union-value",
 	"readme": ""
 }

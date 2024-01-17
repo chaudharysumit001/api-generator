@@ -628,7 +628,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c68663ed9bb96d303247e9e375654b4a\"",
-			"fetched": 1705401210713
+			"fetched": 1705472513721
 		}
 	},
 	"_distfiles": {
@@ -684,7 +684,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-c2f0ee3fa8d50a8e",
+	"_rev": "2-249d54b581deaa5a",
 	"_id": "oauth-sign",
 	"readme": "oauth-sign\n==========\n\nOAuth 1 signing. Formerly a vendor lib in mikeal/request, now a standalone module. \n\n## Supported Method Signatures\n\n- HMAC-SHA1\n- HMAC-SHA256\n- RSA-SHA1\n- PLAINTEXT"
 }

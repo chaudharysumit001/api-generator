@@ -5074,7 +5074,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"786b8d1a7bf16218ec2368dc769d434d\"",
-			"fetched": 1705401133023
+			"fetched": 1705472441073
 		}
 	},
 	"_distfiles": {
@@ -5405,7 +5405,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-30aa4edf75ad6e14",
+	"_rev": "2-1016f551a9498c31",
 	"_id": "@babel/plugin-transform-function-name",
 	"readme": ""
 }

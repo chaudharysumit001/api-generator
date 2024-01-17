@@ -294,7 +294,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7a3eaad2b789e0ab05af754e88588e7d\"",
-			"fetched": 1705401207440
+			"fetched": 1705472511616
 		}
 	},
 	"_distfiles": {
@@ -320,7 +320,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-fd27e7d71c0e1e59",
+	"_rev": "2-2ee5daf512cf7f1a",
 	"_id": "mkdirp-infer-owner",
 	"readme": "# mkdirp-infer-owner\n\n[`mkdirp`](http://npm.im/mkdirp), but chown to the owner of the containing\nfolder if possible and necessary.\n\nThat is, on Windows and when running as non-root, it's exactly the same as\n[`mkdirp`](http://npm.im/mkdirp).\n\nWhen running as root on non-Windows systems, it uses\n[`infer-owner`](http://npm.im/infer-owner) to find the owner of the\ncontaining folder, and then [`chownr`](http://npm.im/chownr) to set the\nownership of the created folder to that same uid/gid.\n\nThis is used by [npm](http://npm.im/npm) to prevent root-owned files and\nfolders from showing up in your home directory (either in `node_modules` or\nin the `~/.npm` cache) when running as root."
 }

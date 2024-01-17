@@ -304,7 +304,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"993150f1b219ebe27aa6b9327d5e09da\"",
-			"fetched": 1705401174386
+			"fetched": 1705472479640
 		}
 	},
 	"_distfiles": {
@@ -325,7 +325,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-97e1ea685c72960f",
+	"_rev": "2-14cf3318dc39aac1",
 	"_id": "defined",
 	"readme": "# defined <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nreturn the first argument that is `!== undefined`\n\nMost of the time when I chain together `||`s, I actually just want the first\nitem that is not `undefined`, not the first non-falsy item.\n\nThis module is like the defined-or (`//`) operator in perl 5.10+.\n\n# example\n\n``` js\nvar defined = require('defined');\nvar opts = { y : false, w : 4 };\nvar x = defined(opts.x, opts.y, opts.w, 100);\nconsole.log(x);\n```\n\n```\n$ node example/defined.js\nfalse\n```\n\nThe return value is `false` because `false` is the first item that is\n`!== undefined`.\n\n# methods\n\n``` js\nvar defined = require('defined')\n```\n\n## var x = defined(a, b, c...)\n\nReturn the first item in the argument list `a, b, c...` that is `!== undefined`.\n\nIf all the items are `=== undefined`, return undefined.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install defined\n```\n\n# license\n\nMIT\n\n[package-url]: https://npmjs.org/package/defined\n[npm-version-svg]: https://versionbadg.es/inspect-js/defined.svg\n[deps-svg]: https://david-dm.org/inspect-js/defined.svg\n[deps-url]: https://david-dm.org/inspect-js/defined\n[dev-deps-svg]: https://david-dm.org/inspect-js/defined/dev-status.svg\n[dev-deps-url]: https://david-dm.org/inspect-js/defined#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/defined.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/defined.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/defined.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=defined\n[codecov-image]: https://codecov.io/gh/inspect-js/defined/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/inspect-js/defined/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/defined\n[actions-url]: https://github.com/inspect-js/defined/actions"
 }

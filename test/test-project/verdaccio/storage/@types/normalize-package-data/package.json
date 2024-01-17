@@ -323,7 +323,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"75af0aa7ea8ce8b8d72858e832efd66c\"",
-			"fetched": 1705401154418
+			"fetched": 1705472461199
 		}
 	},
 	"_distfiles": {
@@ -354,7 +354,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-da7171628dfd77af",
+	"_rev": "2-01be4fcb5f48f9e0",
 	"_id": "@types/normalize-package-data",
 	"readme": "[object Object]"
 }

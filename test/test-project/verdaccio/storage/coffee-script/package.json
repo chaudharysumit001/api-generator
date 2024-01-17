@@ -3211,7 +3211,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"36ed697516cd5db92862fb491651899b\"",
-			"fetched": 1705401169278
+			"fetched": 1705472474613
 		}
 	},
 	"_distfiles": {
@@ -3442,7 +3442,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-e40876a1bb93a226",
+	"_rev": "2-3ed353ba1acbb92b",
 	"_id": "coffee-script",
 	"readme": "## CoffeeScript has moved!\n\nCoffeeScript on NPM has moved to `coffeescript` (no hyphen). Please update references to `coffee-script` to use `coffeescript` instead.\n\nAlso, a new major version has been released under the `coffeescript` name. This new release targets modern JavaScript, with minimal breaking changes. Learn more at [http://coffeescript.org](http://coffeescript.org)."
 }

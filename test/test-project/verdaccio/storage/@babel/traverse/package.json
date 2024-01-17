@@ -13305,7 +13305,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e1ecd29ce8ba4d1b4b71883c8b70bf71\"",
-			"fetched": 1705401123455
+			"fetched": 1705472434810
 		}
 	},
 	"_distfiles": {
@@ -14111,7 +14111,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-de1c51afe330a8bc",
+	"_rev": "2-2076917468e8f43f",
 	"_id": "@babel/traverse",
 	"readme": ""
 }

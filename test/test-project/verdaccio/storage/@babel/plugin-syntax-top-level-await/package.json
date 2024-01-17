@@ -754,7 +754,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1b16bc708151d41fbbe80c0f345fba67\"",
-			"fetched": 1705401130509
+			"fetched": 1705472438514
 		}
 	},
 	"_distfiles": {
@@ -805,7 +805,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-122bdd4d721a6e9d",
+	"_rev": "2-d24ea72b278f1eed",
 	"_id": "@babel/plugin-syntax-top-level-await",
 	"readme": ""
 }

@@ -255,7 +255,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a71df4e823ad12d31a3fdb9158748ffa\"",
-			"fetched": 1705401224276
+			"fetched": 1705472526266
 		}
 	},
 	"_distfiles": {
@@ -276,7 +276,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-e075877fe5881fd0",
+	"_rev": "2-a3604a02f157d0c7",
 	"_id": "resolve-cwd",
 	"readme": "# resolve-cwd [![Build Status](https://travis-ci.org/sindresorhus/resolve-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/resolve-cwd)\n\n> Resolve the path of a module like [`require.resolve()`](https://nodejs.org/api/globals.html#globals_require_resolve) but from the current working directory\n\n\n## Install\n\n```\n$ npm install resolve-cwd\n```\n\n\n## Usage\n\n```js\nconst resolveCwd = require('resolve-cwd');\n\nconsole.log(__dirname);\n//=> '/Users/sindresorhus/rainbow'\n\nconsole.log(process.cwd());\n//=> '/Users/sindresorhus/unicorn'\n\nconsole.log(resolveCwd('./foo'));\n//=> '/Users/sindresorhus/unicorn/foo.js'\n```\n\n\n## API\n\n### resolveCwd(moduleId)\n\nLike `require()`, throws when the module can't be found.\n\n### resolveCwd.silent(moduleId)\n\nReturns `undefined` instead of throwing when the module can't be found.\n\n#### moduleId\n\nType: `string`\n\nWhat you would use in `require()`.\n\n\n## Related\n\n- [resolve-from](https://github.com/sindresorhus/resolve-from) - Resolve the path of a module from a given path\n- [import-from](https://github.com/sindresorhus/import-from) - Import a module from a given path\n- [import-cwd](https://github.com/sindresorhus/import-cwd) - Import a module from the current working directory\n- [resolve-pkg](https://github.com/sindresorhus/resolve-pkg) - Resolve the path of a package regardless of it having an entry point\n- [import-lazy](https://github.com/sindresorhus/import-lazy) - Import a module lazily\n- [resolve-global](https://github.com/sindresorhus/resolve-global) - Resolve the path of a globally installed module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
 }

@@ -2311,7 +2311,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0e3f1097c8a3f02472dde5442308929b\"",
-			"fetched": 1705401136242
+			"fetched": 1705472444004
 		}
 	},
 	"_distfiles": {
@@ -2457,7 +2457,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-877b01f7ac001ecb",
+	"_rev": "2-6a0f2a44d231e1da",
 	"_id": "@babel/plugin-transform-react-jsx-development",
 	"readme": ""
 }

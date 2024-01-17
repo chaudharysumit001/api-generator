@@ -413,7 +413,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"092e8edbb7bf33e4a1d06a3105c0df3a\"",
-			"fetched": 1705401207510
+			"fetched": 1705472510736
 		}
 	},
 	"_distfiles": {
@@ -449,7 +449,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ea93a55e2ad0394d",
+	"_rev": "2-154253cc58280b62",
 	"_id": "mkdirp2",
 	"readme": "[![view on npm](http://img.shields.io/npm/v/mkdirp2.svg)](https://www.npmjs.org/package/mkdirp2)\n[![npm module downloads](http://img.shields.io/npm/dt/mkdirp2.svg)](https://www.npmjs.org/package/mkdirp2)\n[![Build Status](https://travis-ci.org/75lb/mkdirp2.svg?branch=master)](https://travis-ci.org/75lb/mkdirp2)\n[![Dependency Status](https://david-dm.org/75lb/mkdirp2.svg)](https://david-dm.org/75lb/mkdirp2)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)\n\n***DEPRECATED: Use Node.js [fs.mkdir](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fs_fspromises_mkdir_path_options)***\n\n# mkdirp2\n\nA maintained fork of the stagnant [mkdirp](https://github.com/substack/node-mkdirp).\n\n## Differences\n\n1. Command-line executable and its dependencies removed, this fork is for Nodejs use only.\n2. Extended with a promise method:\n\n    ```js\n    mkdirp.promise('tmp/tmp2/file')\n      .then(() => console.log('Created'))\n      .catch(err => console.error(`Failed: ${err.message}`))\n    ```"
 }

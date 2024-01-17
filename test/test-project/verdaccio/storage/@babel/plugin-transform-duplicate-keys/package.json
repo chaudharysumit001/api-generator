@@ -4825,7 +4825,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"1a3909420a334c0bd5ac3dc30358ad78\"",
-			"fetched": 1705401132453
+			"fetched": 1705472440137
 		}
 	},
 	"_distfiles": {
@@ -5146,7 +5146,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a958c1b0c9a88aff",
+	"_rev": "2-25de2dc709d0f9d0",
 	"_id": "@babel/plugin-transform-duplicate-keys",
 	"readme": ""
 }

@@ -1502,7 +1502,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b3ae8fafca305c93592b3d049157e0ff\"",
-			"fetched": 1705401124672
+			"fetched": 1705472434573
 		}
 	},
 	"_distfiles": {
@@ -1608,7 +1608,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-3813ce7d2b89c816",
+	"_rev": "2-f4e219face446473",
 	"_id": "@babel/helper-environment-visitor",
 	"readme": ""
 }

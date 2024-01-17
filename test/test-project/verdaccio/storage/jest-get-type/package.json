@@ -6479,7 +6479,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"591173f458fce54a8c5c1b8e53c3356a\"",
-			"fetched": 1705401197590
+			"fetched": 1705472501151
 		}
 	},
 	"_distfiles": {
@@ -6955,7 +6955,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-7317fa7e13bb15e5",
+	"_rev": "2-5fcbc483024ccefe",
 	"_id": "jest-get-type",
 	"readme": "ERROR: No README data found!"
 }

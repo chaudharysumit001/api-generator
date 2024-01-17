@@ -1113,7 +1113,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"493b8857121bfb23a133232bba91c120\"",
-			"fetched": 1705401135832
+			"fetched": 1705472442412
 		}
 	},
 	"_distfiles": {
@@ -1184,7 +1184,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-6db8f8d85a856814",
+	"_rev": "2-28ef8463e87ef635",
 	"_id": "@babel/plugin-transform-object-rest-spread",
 	"readme": ""
 }

@@ -3514,7 +3514,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fba4e7a8636fbddd3a8b255f77b08e25\"",
-			"fetched": 1705401125913
+			"fetched": 1705472436608
 		}
 	},
 	"_distfiles": {
@@ -3775,7 +3775,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-6031e358b6b0c195",
+	"_rev": "2-bcb5e3c1e99d8ec7",
 	"_id": "@babel/helper-split-export-declaration",
 	"readme": ""
 }

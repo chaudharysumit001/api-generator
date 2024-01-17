@@ -659,7 +659,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c53997cbe9706eb1483b22b8370926a4\"",
-			"fetched": 1705401167392
+			"fetched": 1705472471459
 		}
 	},
 	"_distfiles": {
@@ -715,7 +715,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "5-564e62346f5d6996",
+	"_rev": "2-ac5fafca2835b242",
 	"_id": "chownr",
 	"readme": "Like `chown -R`.\n\nTakes the same arguments as `fs.chown()`"
 }

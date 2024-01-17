@@ -151,7 +151,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ba046fc14b712f0bd98165ac23b94bbf\"",
-			"fetched": 1705401171493
+			"fetched": 1705472475933
 		}
 	},
 	"_distfiles": {
@@ -167,7 +167,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-9fb27cf813231205",
+	"_rev": "2-7b8bcdbd2928b312",
 	"_id": "common-ancestor-path",
 	"readme": "# common-ancestor-path\n\nFind the common ancestor of 2 or more paths on Windows or Unix\n\n## USAGE\n\nGive it two or more path strings, and it'll do the thing.\n\n```js\nconst ancestor = require('common-ancestor-path')\n\n// output /a/b\nconsole.log(ancestor('/a/b/c/d', '/a/b/x/y/z', '/a/b/c/i/j/k'))\n\n// normalizes separators, but NOT cases, since it matters sometimes\nconsole.log(ancestor('C:\\\\a\\\\b\\\\c', 'C:\\\\a\\\\b\\\\x'))\n\n// no common ancestor on different windows drive letters\n// so, this returns null\nconsole.log(ancestor('c:\\\\a\\\\b\\\\c', 'd:\\\\d\\\\e\\\\f'))\n```\n\n## API\n\n`commonAncestorPath(...paths)`\n\nReturns the nearest (deepest) common ancestor path, or `null` if on\ndifferent roots on Windows."
 }

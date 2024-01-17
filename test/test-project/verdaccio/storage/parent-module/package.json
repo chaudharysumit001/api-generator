@@ -532,7 +532,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"d81d282478e4a8c2ae1f8675f767434a\"",
-			"fetched": 1705401212706
+			"fetched": 1705472515961
 		}
 	},
 	"_distfiles": {
@@ -568,7 +568,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-11cd42faae1d56b2",
+	"_rev": "2-d4462d17b5c60e39",
 	"_id": "parent-module",
 	"readme": "# parent-module\n\n> Get the path of the parent module\n\nNode.js exposes `module.parent`, but it only gives you the first cached parent, which is not necessarily the actual parent.\n\n## Install\n\n```sh\nnpm install parent-module\n```\n\n## Usage\n\n```js\n// bar.js\nimport parentModule from 'parent-module';\n\nexport default function bar() {\n\tconsole.log(parentModule());\n\t//=> '/Users/sindresorhus/dev/unicorn/foo.js'\n};\n```\n\n```js\n// foo.js\nimport bar from './bar.js';\n\nbar();\n```\n\n## API\n\n### parentModule(filePath?)\n\nBy default, it will return the path of the immediate parent.\n\n#### filePath\n\nType: `string`\\\nDefault: [`__filename`](https://nodejs.org/api/globals.html#globals_filename)\n\nThe file path of the module of which to get the parent path.\n\nUseful if you want it to work [multiple module levels down](fixtures/filepath).\n\n## Tip\n\nCombine it with [`read-pkg-up`](https://github.com/sindresorhus/read-pkg-up) to read the package.json of the parent module.\n\n```js\nimport path from 'node:path';\nimport {readPackageUpSync} from 'read-pkg-up';\nimport parentModule from 'parent-module';\n\nconsole.log(readPackageUpSync({cwd: path.dirname(parentModule())}).pkg);\n//=> {name: 'chalk', version: '1.0.0', …}\n```\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-parent-module?utm_source=npm-parent-module&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

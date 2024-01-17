@@ -1426,7 +1426,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"403880727d76c4e9e8e6b29e51f4859f\"",
-			"fetched": 1705401219534
+			"fetched": 1705472522363
 		}
 	},
 	"_distfiles": {
@@ -1502,7 +1502,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-232048ca93f23aad",
+	"_rev": "2-adae8e106a5dc273",
 	"_id": "read-pkg-up",
 	"readme": "# read-pkg-up\n\n> Read the closest package.json file\n\n## Why\n\n- [Finds the closest package.json](https://github.com/sindresorhus/find-up)\n- [Throws more helpful JSON errors](https://github.com/sindresorhus/parse-json)\n- [Normalizes the data](https://github.com/npm/normalize-package-data#what-normalization-currently-entails)\n\n## Install\n\n```sh\nnpm install read-pkg-up\n```\n\n## Usage\n\n```js\nimport {readPackageUp} from 'read-pkg-up';\n\nconsole.log(await readPackageUp());\n/*\n{\n\tpackageJson: {\n\t\tname: 'awesome-package',\n\t\tversion: '1.0.0',\n\t\t…\n\t},\n\tpath: '/Users/sindresorhus/dev/awesome-package/package.json'\n}\n*/\n```\n\n## API\n\n### readPackageUp(options?)\n\nReturns a `Promise<object>`, or `Promise<undefined>` if no `package.json` was found.\n\n### readPackageUpSync(options?)\n\nReturns the result object, or `undefined` if no `package.json` was found.\n\n#### options\n\nType: `object`\n\n##### cwd\n\nType: `URL | string`\\\nDefault: `process.cwd()`\n\nThe directory to start looking for a package.json file.\n\n##### normalize\n\nType: `boolean`\\\nDefault: `true`\n\n[Normalize](https://github.com/npm/normalize-package-data#what-normalization-currently-entails) the package data.\n\n## Related\n\n- [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file\n- [pkg-up](https://github.com/sindresorhus/pkg-up) - Find the closest package.json file\n- [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories\n- [pkg-conf](https://github.com/sindresorhus/pkg-conf) - Get namespaced config from the closest package.json"
 }

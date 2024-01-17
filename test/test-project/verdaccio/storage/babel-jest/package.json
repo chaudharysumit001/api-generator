@@ -22997,7 +22997,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ea152ce77d3c336f2616a4bc79a40166\"",
-			"fetched": 1705401162503
+			"fetched": 1705472468970
 		}
 	},
 	"_distfiles": {
@@ -24383,7 +24383,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-2cb95c310ed5c2ed",
+	"_rev": "2-334249ac0d89a9d4",
 	"_id": "babel-jest",
 	"readme": "# babel-jest\n\n[Babel](https://github.com/babel/babel) [jest](https://github.com/jestjs/jest) plugin\n\n## Usage\n\nIf you are already using `jest-cli`, add `babel-jest` and it will automatically compile JavaScript code using Babel.\n\n```bash\nyarn add --dev babel-jest @babel/core\n```\n\nIf you would like to write your own preprocessor, uninstall and delete babel-jest and set the [config.transform](https://jestjs.io/docs/configuration#transform-object-string-string) option to your preprocessor.\n\n## Setup\n\n_Note: this step is only required if you are using `babel-jest` with additional code preprocessors._\n\nTo explicitly define `babel-jest` as a transformer for your JavaScript code, map _.js_ files to the `babel-jest` module. Typescript files are also supported.\n\n```json\n\"transform\": {\n  \"\\\\.[jt]sx?$\": \"babel-jest\"\n},\n```"
 }

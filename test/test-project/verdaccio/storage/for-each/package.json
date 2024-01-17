@@ -362,7 +362,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c6d10400cf687c054eed952211859e45\"",
-			"fetched": 1705401183339
+			"fetched": 1705472488612
 		}
 	},
 	"_distfiles": {
@@ -388,7 +388,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-726e6b6176a257d4",
+	"_rev": "2-654574e9a69b5f2b",
 	"_id": "for-each",
 	"readme": "# for-each [![build status][1]][2]\n\n[![browser support][3]][4]\n\nA better forEach.\n\n## Example\n\nLike `Array.prototype.forEach` but works on objects.\n\n```js\nvar forEach = require(\"for-each\")\n\nforEach({ key: \"value\" }, function (value, key, object) {\n    /* code */\n})\n```\n\nAs a bonus, it's also a perfectly function shim/polyfill for arrays too!\n\n```js\nvar forEach = require(\"for-each\")\n\nforEach([1, 2, 3], function (value, index, array) {\n    /* code */\n})\n```\n\n## Installation\n\n`npm install for-each`\n\n## Contributors\n\n - Raynos\n\n## MIT Licenced\n\n  [1]: https://secure.travis-ci.org/Raynos/for-each.png\n  [2]: http://travis-ci.org/Raynos/for-each\n  [3]: https://ci.testling.com/Raynos/for-each.png\n  [4]: https://ci.testling.com/Raynos/for-each"
 }

@@ -813,7 +813,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9c2bc0d82ab40b63df07476ea11718e0\"",
-			"fetched": 1705401154743
+			"fetched": 1705472460433
 		}
 	},
 	"_distfiles": {
@@ -879,7 +879,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-82d8b1902dbdb051",
+	"_rev": "2-4a3e327c69078159",
 	"_id": "@types/linkify-it",
 	"readme": "[object Object]"
 }

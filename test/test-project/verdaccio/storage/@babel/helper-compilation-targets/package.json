@@ -5276,7 +5276,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"34ee52117bbb202952b98345a480a4f3\"",
-			"fetched": 1705401122967
+			"fetched": 1705472433757
 		}
 	},
 	"_distfiles": {
@@ -5577,7 +5577,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-3db3e7468b9e3d21",
+	"_rev": "2-ec1d0f9ea51a5256",
 	"_id": "@babel/helper-compilation-targets",
 	"readme": ""
 }

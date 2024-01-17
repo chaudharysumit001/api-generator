@@ -135,7 +135,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"030dfce0f1d387ea0d89bab480fa28cf\"",
-			"fetched": 1705401188853
+			"fetched": 1705472493791
 		}
 	},
 	"_distfiles": {
@@ -151,7 +151,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ea26d537381bc09f",
+	"_rev": "2-24ff857e81d84f59",
 	"_id": "hsl-regex",
 	"readme": "# hsl-regex\n\n[![Build Status](https://secure.travis-ci.org/regexps/hsl-regex.png?branch=master)](https://travis-ci.org/regexps/hsl-regex)\n\nRegex for matching HSL colors.\n\n## Installation\n\n```bash\nnpm install --save hsl-regex\n```\n\n## Usage\n\n```javascript\nvar hslRegex = require('hsl-regex');\n\nhslRegex({ exact: true }).test('hsl(123, 45%, 67%)');  // => true\nhslRegex({ exact: true }).test('foo bar');  // => false\n\nhslRegex({ exact: true }).exec('hsl(1, 1.111%, 1.1111%)');\n// => [\n//  'hsl(1, 1.111%, 1.1111%)',\n//  '1',\n//  '1.111%',\n//  '1.1111%',\n//  index: 0,\n//  input: 'hsl(1, 1.111%, 1.1111%)'\n// ]\n\n'hsl(123, 45%, 67%) cats and dogs'.match(hslRegex());\n// = ['hsl(123, 45%, 67%)']\n```\n\n## License\n\nMIT\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\nCrafted with <3 by John Otander ([@4lpine](https://twitter.com/4lpine)).\n\n***\n\n> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git)."
 }

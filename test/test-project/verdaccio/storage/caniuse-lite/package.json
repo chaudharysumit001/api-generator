@@ -61826,10 +61826,89 @@
 			},
 			"_hasShrinkwrap": false,
 			"contributors": []
+		},
+		"1.0.30001578": {
+			"name": "caniuse-lite",
+			"version": "1.0.30001578",
+			"description": "A smaller version of caniuse-db, with only the essentials!",
+			"main": "dist/unpacker/index.js",
+			"keywords": [
+				"support"
+			],
+			"author": {
+				"name": "Ben Briggs",
+				"email": "beneb.info@gmail.com",
+				"url": "http://beneb.info"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/browserslist/caniuse-lite.git"
+			},
+			"funding": [
+				{
+					"type": "opencollective",
+					"url": "https://opencollective.com/browserslist"
+				},
+				{
+					"type": "tidelift",
+					"url": "https://tidelift.com/funding/github/npm/caniuse-lite"
+				},
+				{
+					"type": "github",
+					"url": "https://github.com/sponsors/ai"
+				}
+			],
+			"license": "CC-BY-4.0",
+			"_id": "caniuse-lite@1.0.30001578",
+			"gitHead": "8f0721644b361b7534bcc14782f922f0ea319efa",
+			"bugs": {
+				"url": "https://github.com/browserslist/caniuse-lite/issues"
+			},
+			"homepage": "https://github.com/browserslist/caniuse-lite#readme",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-J/jkFgsQ3NEl4w2lCoM9ZPxrD+FoBNJ7uJUpGVjIg/j0OwJosWM36EPDv+Yyi0V4twBk9pPmlFS+PLykgEvUmg==",
+				"shasum": "11741580434ce60aae4b4a9abee9f9f8d7bf5be5",
+				"tarball": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001578.tgz",
+				"fileCount": 822,
+				"unpackedSize": 1963912,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAobrvPCOKgS1MgIWPCAs3yzvxe1yMg+n+gvhxTV6agWAiEA2zyzZZR4TFNPTagjvKaoKI5SNnVjLCu40IUpiosZDsg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "caniuse-lite",
+				"email": "andrey+caniuse@sitnik.ru"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "beneb",
+					"email": "beneb.info@gmail.com"
+				},
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				},
+				{
+					"name": "caniuse-lite",
+					"email": "andrey+caniuse@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/caniuse-lite_1.0.30001578_1705466840918_0.36123059488503984"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2024-01-16T06:47:29.494Z",
+		"modified": "2024-01-17T04:47:21.411Z",
 		"created": "2017-01-27T16:04:02.256Z",
 		"0.1.0": "2017-01-27T16:04:02.256Z",
 		"0.2.0": "2017-04-08T12:54:44.262Z",
@@ -62597,16 +62676,17 @@
 		"1.0.30001574": "2024-01-04T03:47:16.822Z",
 		"1.0.30001575": "2024-01-07T18:47:17.685Z",
 		"1.0.30001576": "2024-01-07T21:47:21.067Z",
-		"1.0.30001577": "2024-01-16T06:47:29.310Z"
+		"1.0.30001577": "2024-01-16T06:47:29.310Z",
+		"1.0.30001578": "2024-01-17T04:47:21.256Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "1.0.30001577"
+		"latest": "1.0.30001578"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"ae977d8c0d96e9765eab50b9158c5a10\"",
-			"fetched": 1705401131479
+			"etag": "W/\"d2e7abff50bf6745bde300020f6f2e61\"",
+			"fetched": 1705472440400
 		}
 	},
 	"_distfiles": {
@@ -66444,10 +66524,15 @@
 			"url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001577.tgz",
 			"sha": "a24991eb4ad67324ba8b96716340d53151f2f6f8",
 			"registry": "npmjs"
+		},
+		"caniuse-lite-1.0.30001578.tgz": {
+			"url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001578.tgz",
+			"sha": "11741580434ce60aae4b4a9abee9f9f8d7bf5be5",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-1ee6e5ec926f4070",
+	"_rev": "2-b90a645fc22a1361",
 	"_id": "caniuse-lite",
 	"readme": "# caniuse-lite\n\nA smaller version of caniuse-db, with only the essentials!\n\n## Docs\nRead full docs **[here](https://github.com/browserslist/caniuse-lite#readme)**."
 }

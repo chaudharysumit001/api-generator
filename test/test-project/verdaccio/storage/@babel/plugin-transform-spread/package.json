@@ -5498,7 +5498,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"cbc302fb27cba49a95e73f59afd21d8c\"",
-			"fetched": 1705401137056
+			"fetched": 1705472444858
 		}
 	},
 	"_distfiles": {
@@ -5859,7 +5859,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-4291161854c038d4",
+	"_rev": "2-8795472ba70b77f7",
 	"_id": "@babel/plugin-transform-spread",
 	"readme": ""
 }

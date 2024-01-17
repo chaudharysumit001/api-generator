@@ -1340,7 +1340,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b0f64dd43e38c6f8b6140839b909380f\"",
-			"fetched": 1705401138959
+			"fetched": 1705472445817
 		}
 	},
 	"_distfiles": {
@@ -1391,7 +1391,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a01572f71d9f35f4",
+	"_rev": "2-3df35cf565081f9f",
 	"_id": "@babel/preset-modules",
 	"readme": ""
 }

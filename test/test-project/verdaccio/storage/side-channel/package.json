@@ -426,7 +426,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6c9f30775b711e82e73d5c733867530e\"",
-			"fetched": 1705401228236
+			"fetched": 1705472528355
 		}
 	},
 	"_distfiles": {
@@ -452,7 +452,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-287dea98a3dd5a73",
+	"_rev": "2-f3ddf92e1b671ac4",
 	"_id": "side-channel",
 	"readme": "# side-channel\nStore information about any JS value in a side channel. Uses WeakMap if available."
 }

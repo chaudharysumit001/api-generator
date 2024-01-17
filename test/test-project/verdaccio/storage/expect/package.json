@@ -20654,7 +20654,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"251fcf61e171ed15c306fa6415635421\"",
-			"fetched": 1705401180985
+			"fetched": 1705472486264
 		}
 	},
 	"_distfiles": {
@@ -21825,7 +21825,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-78dca814264c96b6",
+	"_rev": "2-e44375672d52002f",
 	"_id": "expect",
 	"readme": "# expect\n\nThis package exports the `expect` function used in [Jest](https://jestjs.io/). You can find its documentation [on Jest's website](https://jestjs.io/docs/expect)."
 }

@@ -1057,7 +1057,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ba8c9ec265b7936c1ff2f42cd3db2dd8\"",
-			"fetched": 1705401175015
+			"fetched": 1705472480040
 		}
 	},
 	"_distfiles": {
@@ -1128,7 +1128,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ea3915fc0ba99976",
+	"_rev": "2-55b54dfd721581de",
 	"_id": "detect-newline",
 	"readme": "# detect-newline\n\n> Detect the dominant newline character of a string\n\n## Install\n\n```sh\nnpm install detect-newline\n```\n\n## Usage\n\n```js\nimport {detectNewline} from 'detect-newline';\n\ndetectNewline('foo\\nbar\\nbaz\\r\\n');\n//=> '\\n'\n```\n\n## API\n\n### detectNewline(string)\n\nReturns the detected newline or `undefined` when no newline character is found or `\\n` when no dominant newline is present.\n\n### detectNewlineGraceful(unknown)\n\nReturns the detected newline or `\\n` when no newline character is found, no dominant newline is present, or the input is not a string.\n\n## Related\n\n- [detect-newline-cli](https://github.com/sindresorhus/detect-newline-cli) - CLI for this module\n- [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code"
 }

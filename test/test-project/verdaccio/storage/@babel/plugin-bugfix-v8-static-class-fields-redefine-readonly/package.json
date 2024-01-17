@@ -269,7 +269,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"e57f9aa74e0a0f333fd83e6bb0129b5d\"",
-			"fetched": 1705401127137
+			"fetched": 1705472436493
 		}
 	},
 	"_distfiles": {
@@ -290,7 +290,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-308847e6534d4e37",
+	"_rev": "2-6782a820ab0f96e0",
 	"_id": "@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly",
 	"readme": ""
 }

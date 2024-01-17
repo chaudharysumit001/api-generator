@@ -4599,7 +4599,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"44bb0359d2b4c347e506629bc0c8bca5\"",
-			"fetched": 1705401124847
+			"fetched": 1705472434177
 		}
 	},
 	"_distfiles": {
@@ -4940,7 +4940,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-70bd207482495108",
+	"_rev": "2-3f49139e10e15b82",
 	"_id": "@babel/helper-builder-binary-assignment-operator-visitor",
 	"readme": ""
 }

@@ -1983,7 +1983,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54aec0d11a4015508ba7d79c193d9394\"",
-			"fetched": 1705401138145
+			"fetched": 1705472444319
 		}
 	},
 	"_distfiles": {
@@ -2109,7 +2109,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-45077b8285dde92b",
+	"_rev": "2-ed30827ab28de7b8",
 	"_id": "@babel/plugin-transform-react-pure-annotations",
 	"readme": ""
 }

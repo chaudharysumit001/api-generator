@@ -386,7 +386,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"0a5a8e4cbabb48a1c370a1c3c9167a6e\"",
-			"fetched": 1705401227644
+			"fetched": 1705472529290
 		}
 	},
 	"_distfiles": {
@@ -422,7 +422,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-1de8fc8e9970e588",
+	"_rev": "2-ff613d0342daa054",
 	"_id": "shellwords",
 	"readme": "# Shellwords\n\nShellwords provides functions to manipulate strings according to the word parsing rules of the UNIX Bourne shell. It is based on [the Ruby module of the same name](https://docs.ruby-lang.org/en/3.1/Shellwords.html).\n\n## Installation\n\nWith npm:\n\n```\nnpm install shellwords\n```\n\nWith Yarn:\n\n```\nyarn add shellwords\n```\n\n## API\n\nShellwords exports the following functions, shown here in the TypeScript declaration file format.\n\n``` typescript\n/**\n * Splits a string into an array of tokens in the same way the UNIX Bourne shell does.\n *\n * @param line A string to split.\n * @returns An array of the split tokens.\n */\nexport declare const split: (line?: string) => string[];\n\n/**\n * Escapes a string so that it can be safely used in a Bourne shell command line.\n *\n * @param str A string to escape.\n * @returns The escaped string.\n */\nexport declare const escape: (str?: string) => string;\n```\n\n## Example\n\n``` typescript\nimport { escape, split } from \"shellwords\";\n\nsplit(\"foo 'bar baz'\");\n// [\"foo\", \"bar baz\"]\n\nescape(\"What's up, yo?\");\n// 'What\\\\\\'s\\\\ up,\\\\ yo\\\\?'\n```\n\n## Legal\n\nshellwords is released under the MIT license. See `LICENSE`."
 }

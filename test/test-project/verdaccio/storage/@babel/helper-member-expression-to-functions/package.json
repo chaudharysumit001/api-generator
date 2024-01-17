@@ -4820,7 +4820,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"a4c32941a4377a45df702b72981f3560\"",
-			"fetched": 1705401126493
+			"fetched": 1705472434991
 		}
 	},
 	"_distfiles": {
@@ -5156,7 +5156,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ee3c66c1890acdbb",
+	"_rev": "2-cd703aa3503772f3",
 	"_id": "@babel/helper-member-expression-to-functions",
 	"readme": ""
 }

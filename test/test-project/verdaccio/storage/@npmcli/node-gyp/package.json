@@ -571,7 +571,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"7c32eff78cc94146ac4ef10c9a755858\"",
-			"fetched": 1705401146507
+			"fetched": 1705472454237
 		}
 	},
 	"_distfiles": {
@@ -607,7 +607,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-1d2e36d1c21e6d56",
+	"_rev": "2-81da5facd1e21a49",
 	"_id": "@npmcli/node-gyp",
 	"readme": "# @npmcli/node-gyp\n\nThis is the module npm uses to decide whether a package should be built\nusing [`node-gyp`](https://github.com/nodejs/node-gyp) by default.\n\n## API\n\n* `isNodeGypPackage(path)`\n\nReturns a Promise that resolves to `true` or `false` based on whether the\npackage at `path` has a `binding.gyp` file.\n\n* `defaultGypInstallScript`\n\nA string with the default string that should be used as the `install`\nscript for node-gyp packages."
 }

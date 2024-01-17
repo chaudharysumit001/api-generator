@@ -2730,7 +2730,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6ad684d6b080e2c1612bfdbf5df0ea93\"",
-			"fetched": 1705401128426
+			"fetched": 1705472436766
 		}
 	},
 	"_distfiles": {
@@ -2926,7 +2926,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-13eea547544539c9",
+	"_rev": "2-06a9a4c3ad6a299b",
 	"_id": "@babel/plugin-syntax-async-generators",
 	"readme": "# @babel/plugin-syntax-async-generators\n\n> Allow parsing of async generator functions\n\nSee our website [@babel/plugin-syntax-async-generators](https://babeljs.io/docs/en/next/babel-plugin-syntax-async-generators.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-syntax-async-generators\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-syntax-async-generators --dev\n```"
 }

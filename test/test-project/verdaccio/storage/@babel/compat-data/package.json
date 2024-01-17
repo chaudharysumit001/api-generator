@@ -6712,7 +6712,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ad7565a27eb6a3961f14d3d7d7b02e8c\"",
-			"fetched": 1705401124358
+			"fetched": 1705472432425
 		}
 	},
 	"_distfiles": {
@@ -7093,7 +7093,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-b1a483187c48ad84",
+	"_rev": "2-318082e9e4429278",
 	"_id": "@babel/compat-data",
 	"readme": ""
 }

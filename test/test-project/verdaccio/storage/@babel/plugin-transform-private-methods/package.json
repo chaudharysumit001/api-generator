@@ -828,7 +828,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"23f83d7b224efc8691f2cb2c11abb78f\"",
-			"fetched": 1705401134548
+			"fetched": 1705472444587
 		}
 	},
 	"_distfiles": {
@@ -884,7 +884,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-288c42ac18195e37",
+	"_rev": "2-e30a0f4f96af89b4",
 	"_id": "@babel/plugin-transform-private-methods",
 	"readme": ""
 }

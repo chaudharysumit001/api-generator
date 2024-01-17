@@ -3423,7 +3423,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8d3656b9877125c3c9e5af02356545d0\"",
-			"fetched": 1705401126178
+			"fetched": 1705472436200
 		}
 	},
 	"_distfiles": {
@@ -3679,7 +3679,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-234e731628746013",
+	"_rev": "2-73cdeaed698c3630",
 	"_id": "@babel/helper-plugin-utils",
 	"readme": ""
 }

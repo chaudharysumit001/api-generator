@@ -21613,7 +21613,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b9f9fc003e1be99e0a4df00a97548905\"",
-			"fetched": 1705401140884
+			"fetched": 1705472448735
 		}
 	},
 	"_distfiles": {
@@ -22319,7 +22319,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-204321dd83725b20",
+	"_rev": "2-a837bcb146fd3c69",
 	"_id": "@jest/core",
 	"readme": "# @jest/core\n\nJest is currently working on providing a programmatic API. This is under development, and usage of this package directly is currently not supported."
 }

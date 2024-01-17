@@ -2640,7 +2640,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"32e32528fbb5e11c851ac68047f1e4bc\"",
-			"fetched": 1705401168145
+			"fetched": 1705472472435
 		}
 	},
 	"_distfiles": {
@@ -2781,7 +2781,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-3abf4a4a139d3426",
+	"_rev": "2-3c6f0909c41141a8",
 	"_id": "chardet",
 	"readme": "# chardet\n\n_Chardet_ is a character detection module written in pure JavaScript (TypeScript). Module uses occurrence analysis to determine the most probable encoding.\n\n- Packed size is only **22 KB**\n- Works in all environments: Node / Browser / Native\n- Works on all platforms: Linux / Mac / Windows\n- No dependencies\n- No native code / bindings\n- 100% written in TypeScript\n- Extensive code coverage\n\n## Installation\n\n```\nnpm i chardet\n```\n\n## Usage\n\nTo return the encoding with the highest confidence:\n\n```javascript\nimport chardet from 'chardet';\n\nconst encoding = chardet.detect(Buffer.from('hello there!'));\n// or\nconst encoding = await chardet.detectFile('/path/to/file');\n// or\nconst encoding = chardet.detectFileSync('/path/to/file');\n```\n\nTo return the full list of possible encodings use `analyse` method.\n\n```javascript\nimport chardet from 'chardet';\nchardet.analyse(Buffer.from('hello there!'));\n```\n\nReturned value is an array of objects sorted by confidence value in descending order\n\n```javascript\n[\n  { confidence: 90, name: 'UTF-8' },\n  { confidence: 20, name: 'windows-1252', lang: 'fr' },\n];\n```\n\nIn browser, you can use [Uint8Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) instead of the `Buffer`:\n\n```javascript\nimport chardet from 'chardet';\nchardet.analyse(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0x6f]));\n```\n\n## Working with large data sets\n\nSometimes, when data set is huge and you want to optimize performance (with a tradeoff of less accuracy),\nyou can sample only the first N bytes of the buffer:\n\n```javascript\nchardet\n  .detectFile('/path/to/file', { sampleSize: 32 })\n  .then((encoding) => console.log(encoding));\n```\n\nYou can also specify where to begin reading from in the buffer:\n\n```javascript\nchardet\n  .detectFile('/path/to/file', { sampleSize: 32, offset: 128 })\n  .then((encoding) => console.log(encoding));\n```\n\n## Supported Encodings:\n\n- UTF-8\n- UTF-16 LE\n- UTF-16 BE\n- UTF-32 LE\n- UTF-32 BE\n- ISO-2022-JP\n- ISO-2022-KR\n- ISO-2022-CN\n- Shift_JIS\n- Big5\n- EUC-JP\n- EUC-KR\n- GB18030\n- ISO-8859-1\n- ISO-8859-2\n- ISO-8859-5\n- ISO-8859-6\n- ISO-8859-7\n- ISO-8859-8\n- ISO-8859-9\n- windows-1250\n- windows-1251\n- windows-1252\n- windows-1253\n- windows-1254\n- windows-1255\n- windows-1256\n- KOI8-R\n\nCurrently only these encodings are supported.\n\n## TypeScript?\n\nYes. Type definitions are included.\n\n### References\n\n- ICU project http://site.icu-project.org/"
 }

@@ -68606,7 +68606,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"de05d7b58a3c4459a5a8ee116bceec2f\"",
-			"fetched": 1705401138337
+			"fetched": 1705472446159
 		}
 	},
 	"_distfiles": {
@@ -69367,7 +69367,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-56e3342ad3fd70d8",
+	"_rev": "2-e6d4c0eeac146081",
 	"_id": "@babel/runtime",
 	"readme": ""
 }

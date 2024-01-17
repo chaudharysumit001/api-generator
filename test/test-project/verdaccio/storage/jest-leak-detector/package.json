@@ -12763,7 +12763,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"272ec9768dc1959b424a6e09914756b1\"",
-			"fetched": 1705401197904
+			"fetched": 1705472501748
 		}
 	},
 	"_distfiles": {
@@ -13579,7 +13579,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-c52242ffd212aa3a",
+	"_rev": "2-7b78c4893d148535",
 	"_id": "jest-leak-detector",
 	"readme": "# jest-leak-detector\n\nModule for verifying whether an object has been garbage collected or not.\n\nInternally creates a weak reference to the object, and forces garbage collection to happen. If the reference is gone, it meant no one else was pointing to the object.\n\n## Example\n\n```javascript\n(async function () {\n  let reference = {};\n  let isLeaking;\n\n  const detector = new LeakDetector(reference);\n\n  // Reference is held in memory.\n  isLeaking = await detector.isLeaking();\n  console.log(isLeaking); // true\n\n  // We destroy the only reference to the object.\n  reference = null;\n\n  // Reference is gone.\n  isLeaking = await detector.isLeaking();\n  console.log(isLeaking); // false\n})();\n```"
 }

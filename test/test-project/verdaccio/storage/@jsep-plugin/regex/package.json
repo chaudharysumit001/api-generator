@@ -363,7 +363,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"69a81d6e65213a1efe42471a0ea4a137\"",
-			"fetched": 1705401143462
+			"fetched": 1705472451556
 		}
 	},
 	"_distfiles": {
@@ -389,7 +389,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-92db691fcea9d264",
+	"_rev": "2-367311e02aeb72ec",
 	"_id": "@jsep-plugin/regex",
 	"readme": "[npm]: https://img.shields.io/npm/v/@jsep-plugin/regex\n[npm-url]: https://www.npmjs.com/package/@jsep-plugin/regex\n[size]: https://packagephobia.now.sh/badge?p=@jsep-plugin/regex\n[size-url]: https://packagephobia.now.sh/result?p=@jsep-plugin/regex\n\n[![npm][npm]][npm-url]\n[![size][size]][size-url]\n\n# @jsep-plugin/regex\n\nA JSEP plugin for adding regex expression support. Allows expressions of the form:\n\n```javascript\njsep('/abc/');\njsep('/abc/ig');\njsep('/[a-z]{3}/ig.test(a)');\n```\n\n## Install\n\n```console\nnpm install @jsep-plugin/regex\n# or\nyarn add @jsep-plugin/regex\n```\n\n## Usage\n```javascript\nimport jsep from 'jsep';\nimport jsepRegex from '@jsep-plugin/regex';\njsep.plugins.register(jsepRegex);\n```\n\n## Meta\n\n[LICENSE (MIT)](/LICENSE)"
 }

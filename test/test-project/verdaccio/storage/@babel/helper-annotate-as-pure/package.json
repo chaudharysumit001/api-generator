@@ -3953,7 +3953,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"c137898d466d39847a2fb3437c5974d3\"",
-			"fetched": 1705401124838
+			"fetched": 1705472434065
 		}
 	},
 	"_distfiles": {
@@ -4254,7 +4254,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ef3ebce766ee36fb",
+	"_rev": "2-51784bd96cd355d4",
 	"_id": "@babel/helper-annotate-as-pure",
 	"readme": ""
 }

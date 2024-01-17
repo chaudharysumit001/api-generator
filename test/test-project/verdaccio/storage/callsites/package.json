@@ -702,7 +702,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"770b0d8342b66e949a81e57451b40829\"",
-			"fetched": 1705401167887
+			"fetched": 1705472471996
 		}
 	},
 	"_distfiles": {
@@ -753,7 +753,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a549032070078d30",
+	"_rev": "2-fe7e6855699ec1ff",
 	"_id": "callsites",
 	"readme": "# callsites\n\n> Get callsites from the [V8 stack trace API](https://v8.dev/docs/stack-trace-api)\n\n## Install\n\n```\n$ npm install callsites\n```\n\n## Usage\n\n```js\nimport callsites from 'callsites';\n\nfunction unicorn() {\n\tconsole.log(callsites()[0].getFileName());\n\t//=> '/Users/sindresorhus/dev/callsites/test.js'\n}\n\nunicorn();\n```\n\n## API\n\nReturns an array of callsite objects with the following methods:\n\n- `getThis`: Returns the value of `this`.\n- `getTypeName`: Returns the type of `this` as a string. This is the name of the function stored in the constructor field of `this`, if available, otherwise the object's `[[Class]]` internal property.\n- `getFunction`: Returns the current function.\n- `getFunctionName`: Returns the name of the current function, typically its `name` property. If a name property is not available an attempt will be made to try to infer a name from the function's context.\n- `getMethodName`: Returns the name of the property of `this` or one of its prototypes that holds the current function.\n- `getFileName`: If this function was defined in a script returns the name of the script.\n- `getLineNumber`: If this function was defined in a script returns the current line number.\n- `getColumnNumber`: If this function was defined in a script returns the current column number\n- `getEvalOrigin`: If this function was created using a call to `eval` returns a string representing the location where `eval` was called.\n- `isToplevel`: Is this a top-level invocation, that is, is this the global object?\n- `isEval`: Does this call take place in code defined by a call to `eval`?\n- `isNative`: Is this call in native V8 code?\n- `isConstructor`: Is this a constructor call?\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-callsites?utm_source=npm-callsites&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

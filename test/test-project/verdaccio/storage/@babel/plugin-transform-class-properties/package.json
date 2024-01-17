@@ -828,7 +828,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"02a1dfcfed86de2632b5c9b37ea1b53a\"",
-			"fetched": 1705401131032
+			"fetched": 1705472439200
 		}
 	},
 	"_distfiles": {
@@ -884,7 +884,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-a48b878095eb1621",
+	"_rev": "2-32c7c3870d1408a1",
 	"_id": "@babel/plugin-transform-class-properties",
 	"readme": ""
 }

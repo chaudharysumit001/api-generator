@@ -2875,7 +2875,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"de1f680ea70a4bb5b2aa50c1fb395956\"",
-			"fetched": 1705401179883
+			"fetched": 1705472485974
 		}
 	},
 	"_distfiles": {
@@ -3016,7 +3016,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-72ee7b17e7701028",
+	"_rev": "2-384256310119dbc1",
 	"_id": "event-target-shim",
 	"readme": "# event-target-shim\n\n[![npm version](https://img.shields.io/npm/v/event-target-shim.svg)](https://www.npmjs.com/package/event-target-shim)\n[![Downloads/month](https://img.shields.io/npm/dm/event-target-shim.svg)](http://www.npmtrends.com/event-target-shim)\n[![Build Status](https://github.com/mysticatea/event-target-shim/workflows/CI/badge.svg)](https://github.com/mysticatea/event-target-shim/actions)\n[![Coverage Status](https://codecov.io/gh/mysticatea/event-target-shim/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/event-target-shim)\n[![Dependency Status](https://david-dm.org/mysticatea/event-target-shim.svg)](https://david-dm.org/mysticatea/event-target-shim)\n\nAn implementation of [WHATWG `EventTarget` interface](https://dom.spec.whatwg.org/#interface-eventtarget) and [WHATWG `Event` interface](https://dom.spec.whatwg.org/#interface-event). This implementation supports constructor, `passive`, `once`, and `signal`.\n\nThis implementation is designed ...\n\n- Working fine on both browsers and Node.js.\n- TypeScript friendly.\n\n## 💿 Installation\n\nUse [npm](https://www.npmjs.com/) or a compatible tool.\n\n```\nnpm install event-target-shim\n```\n\n## 📖 Getting started\n\n```js\nimport { EventTarget, Event } from \"event-target-shim\";\n\n// constructor (was added to the standard on 8 Jul 2017)\nconst myNode = new EventTarget();\n\n// passive flag (was added to the standard on 6 Jan 2016)\nmyNode.addEventListener(\n  \"hello\",\n  (e) => {\n    e.preventDefault(); // ignored and print warning on console.\n  },\n  { passive: true }\n);\n\n// once flag (was added to the standard on 15 Apr 2016)\nmyNode.addEventListener(\"hello\", listener, { once: true });\nmyNode.dispatchEvent(new Event(\"hello\")); // remove the listener after call.\n\n// signal (was added to the standard on 4 Dec 2020)\nconst ac = new AbortController();\nmyNode.addEventListener(\"hello\", listener, { signal: ac.signal });\nac.abort(); // remove the listener.\n```\n\n- For browsers, use a bundler such as [Webpack](https://webpack.js.org/) to bundle.\n  - If you want to support IE11, use `import {} from \"event-target-shim/es5\"` instead. It's a transpiled code by babel. It depends on `@baebl/runtime` (`^7.12.0`) package.\n- The `AbortController` class was added to the standard on 14 Jul 2017. If you want the shim of that, use [abort-controller](https://www.npmjs.com/package/abort-controller) package.\n\n## 📚 API Reference\n\nSee [docs/reference.md](docs/reference.md).\n\n## 💥 Migrating to v6\n\nSee [docs/migrating-to-v6.md](docs/migrating-to-v6.md).\n\n## 📰 Changelog\n\nSee [GitHub releases](https://github.com/mysticatea/event-target-shim/releases).\n\n## 🍻 Contributing\n\nContributing is welcome ❤️\n\nPlease use GitHub issues/PRs.\n\n### Development tools\n\n- `npm install` installs dependencies for development.\n- `npm test` runs tests and measures code coverage.\n- `npm run watch:mocha` runs tests on each file change."
 }

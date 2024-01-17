@@ -1931,7 +1931,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"fc6940f941c7879ded0c5fe2ad409995\"",
-			"fetched": 1705401166070
+			"fetched": 1705472469976
 		}
 	},
 	"_distfiles": {
@@ -2052,7 +2052,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-61101bbd6c6c8ad3",
+	"_rev": "2-f4406205de1f896f",
 	"_id": "binary-extensions",
 	"readme": "# binary-extensions\n\n> List of binary file extensions\n\nThe list is just a [JSON file](binary-extensions.json) and can be used anywhere.\n\n\n## Install\n\n```\n$ npm install binary-extensions\n```\n\n\n## Usage\n\n```js\nconst binaryExtensions = require('binary-extensions');\n\nconsole.log(binaryExtensions);\n//=> ['3ds', '3g2', …]\n```\n\n\n## Related\n\n- [is-binary-path](https://github.com/sindresorhus/is-binary-path) - Check if a filepath is a binary file\n- [text-extensions](https://github.com/sindresorhus/text-extensions) - List of text file extensions\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-binary-extensions?utm_source=npm-binary-extensions&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>"
 }

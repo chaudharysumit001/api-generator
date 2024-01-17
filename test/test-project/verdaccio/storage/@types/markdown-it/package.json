@@ -2044,7 +2044,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"6c2bdc45773df43376f70779d39d44d1\"",
-			"fetched": 1705401153552
+			"fetched": 1705472460556
 		}
 	},
 	"_distfiles": {
@@ -2200,7 +2200,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-ba5598c80283e641",
+	"_rev": "2-bdf350baf81d019e",
 	"_id": "@types/markdown-it",
 	"readme": "[object Object]"
 }

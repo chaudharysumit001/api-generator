@@ -513,7 +513,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"9e5ff2a83207ca422ced285c31bed023\"",
-			"fetched": 1705401151723
+			"fetched": 1705472459734
 		}
 	},
 	"_distfiles": {
@@ -569,7 +569,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-409083c5aaea1f06",
+	"_rev": "2-25fb8606ee2ab704",
 	"_id": "@tsconfig/node10",
 	"readme": "### A base TSConfig for working with Node 10.\n\nAdd the package to your `\"devDependencies\"`:\n\n```sh\nnpm install --save-dev @tsconfig/node10\nyarn add --dev @tsconfig/node10\n```\n\nAdd to your `tsconfig.json`:\n\n```json\n\"extends\": \"@tsconfig/node10/tsconfig.json\"\n```\n\n---\n\nThe `tsconfig.json`: \n\n```jsonc\n{\n  \"$schema\": \"https://json.schemastore.org/tsconfig\",\n  \"display\": \"Node 10\",\n\n  \"compilerOptions\": {\n    \"lib\": [\"es2018\"],\n    \"module\": \"commonjs\",\n    \"target\": \"es2018\",\n\n    \"strict\": true,\n    \"esModuleInterop\": true,\n    \"skipLibCheck\": true,\n    \"forceConsistentCasingInFileNames\": true,\n    \"moduleResolution\": \"node\"\n  }\n}\n\n```\n\nYou can find the [code here](https://github.com/tsconfig/bases/blob/master/bases/node10.json)."
 }

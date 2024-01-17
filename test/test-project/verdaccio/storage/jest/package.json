@@ -36096,7 +36096,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"8bb6bb6ade4083f7f6200364bcc41df3\"",
-			"fetched": 1705401195978
+			"fetched": 1705472499550
 		}
 	},
 	"_distfiles": {
@@ -37857,7 +37857,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-11cc926bd7925e81",
+	"_rev": "2-baa7af5a6bcadc14",
 	"_id": "jest",
 	"readme": "# Jest\n\n🃏 Delightful JavaScript Testing\n\n- **👩🏻‍💻 Developer Ready**: Complete and ready to set-up JavaScript testing solution. Works out of the box for any React project.\n\n- **🏃🏽 Instant Feedback**: Failed tests run first. Fast interactive mode can switch between running all tests or only test files related to changed files.\n\n- **📸 Snapshot Testing**: Jest can [capture snapshots](https://jestjs.io/docs/snapshot-testing) of React trees or other serializable values to simplify UI testing.\n\nRead More: https://jestjs.io/"
 }

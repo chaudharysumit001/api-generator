@@ -532,7 +532,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5ed091c7b88dea168fc788268940648a\"",
-			"fetched": 1705401195010
+			"fetched": 1705472498376
 		}
 	},
 	"_distfiles": {
@@ -563,7 +563,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-48a624ffb085948c",
+	"_rev": "2-05a95fc3919d34bf",
 	"_id": "is-symbol",
 	"readme": "# is-symbol <sup>[![Version Badge][2]][1]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\nIs this an ES6 Symbol value?\n\n## Example\n\n```js\nvar isSymbol = require('is-symbol');\nassert(!isSymbol(function () {}));\nassert(!isSymbol(null));\nassert(!isSymbol(function* () { yield 42; return Infinity; });\n\nassert(isSymbol(Symbol.iterator));\nassert(isSymbol(Symbol('foo')));\nassert(isSymbol(Symbol.for('foo')));\nassert(isSymbol(Object(Symbol('foo'))));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/is-symbol\n[2]: https://versionbadg.es/inspect-js/is-symbol.svg\n[5]: https://david-dm.org/inspect-js/is-symbol.svg\n[6]: https://david-dm.org/inspect-js/is-symbol\n[7]: https://david-dm.org/inspect-js/is-symbol/dev-status.svg\n[8]: https://david-dm.org/inspect-js/is-symbol#info=devDependencies\n[11]: https://nodei.co/npm/is-symbol.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/is-symbol.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/is-symbol.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=is-symbol\n[codecov-image]: https://codecov.io/gh/inspect-js/is-symbol/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/inspect-js/is-symbol/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-symbol\n[actions-url]: https://github.com/inspect-js/is-symbol/actions"
 }

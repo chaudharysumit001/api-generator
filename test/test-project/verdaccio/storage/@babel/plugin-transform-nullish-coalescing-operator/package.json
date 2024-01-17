@@ -982,7 +982,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"2862aef3de79d0073171e4793fdec6f5\"",
-			"fetched": 1705401133972
+			"fetched": 1705472442167
 		}
 	},
 	"_distfiles": {
@@ -1048,7 +1048,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-b5a6a876f2b3a79b",
+	"_rev": "2-c286821c902b4824",
 	"_id": "@babel/plugin-transform-nullish-coalescing-operator",
 	"readme": ""
 }

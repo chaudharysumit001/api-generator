@@ -991,7 +991,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5b1bf16c4c2b30b62649d690390119ec\"",
-			"fetched": 1705401150714
+			"fetched": 1705472458566
 		}
 	},
 	"_distfiles": {
@@ -1047,7 +1047,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-00617bf040899488",
+	"_rev": "2-a38cc179f93c5e13",
 	"_id": "@stoplight/spectral-formats",
 	"readme": "ERROR: No README data found!"
 }

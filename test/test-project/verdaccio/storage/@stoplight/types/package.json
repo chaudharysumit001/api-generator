@@ -13473,7 +13473,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"310bca2f7945260a160640f8ac97205e\"",
-			"fetched": 1705401149569
+			"fetched": 1705472458299
 		}
 	},
 	"_distfiles": {
@@ -14029,7 +14029,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-01a36beccc4cbf3c",
+	"_rev": "2-880d758757da7e83",
 	"_id": "@stoplight/types",
 	"readme": "# @stoplight/types\n\nCommon typings for the Stoplight ecosystem.\n\n- Explore the interfaces: [TSDoc](https://stoplightio.github.io/types/)\n- View the changelog: [Releases](https://github.com/stoplightio/types/releases)\n\n### Dependent repositories:\n\nhttps://github.com/stoplightio/types/network/dependents\n\n### Installation\n\nSupported in modern browsers and node.\n\n```bash\n# latest stable\nyarn add -D @stoplight/types\n```\n\n### Contributing\n\n1. Clone repo.\n2. Create / checkout `feature/{name}`, `chore/{name}`, or `fix/{name}` branch.\n3. Install deps: `yarn`.\n4. Make your changes.\n5. Run tests: `yarn test.prod`.\n6. Stage relevant files to git.\n7. Commit: `yarn commit`. _NOTE: Commits that don't follow the [conventional](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-conventional) format will be rejected. `yarn commit` creates this format for you, or you can put it together manually and then do a regular `git commit`_.\n8. Push: `git push`.\n9. Open PR targeting the `next` branch."
 }

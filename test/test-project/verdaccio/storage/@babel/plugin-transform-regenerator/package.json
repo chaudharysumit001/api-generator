@@ -5773,7 +5773,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"aacc5cc265877e25580bb358bee0adb1\"",
-			"fetched": 1705401136469
+			"fetched": 1705472444463
 		}
 	},
 	"_distfiles": {
@@ -6149,7 +6149,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-33f6162053a20ae9",
+	"_rev": "2-7082141a251d9fe4",
 	"_id": "@babel/plugin-transform-regenerator",
 	"readme": ""
 }

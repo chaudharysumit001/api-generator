@@ -481,7 +481,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"859aebc0678d8a9dc0b1d14ce9cb0c63\"",
-			"fetched": 1705401209570
+			"fetched": 1705472513646
 		}
 	},
 	"_distfiles": {
@@ -512,7 +512,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-16245a4a86f65f51",
+	"_rev": "2-7334f4c6c4c09d4d",
 	"_id": "npm-normalize-package-bin",
 	"readme": "# npm-normalize-package-bin\n\nTurn any flavor of allowable package.json bin into a normalized object.\n\n## API\n\n```js\nconst normalize = require('npm-normalize-package-bin')\nconst pkg = {name: 'foo', bin: 'bar'}\nconsole.log(normalize(pkg)) // {name:'foo', bin:{foo: 'bar'}}\n```\n\nAlso strips out weird dots and slashes to prevent accidental and/or\nmalicious bad behavior when the package is installed."
 }

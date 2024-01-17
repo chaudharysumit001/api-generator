@@ -769,7 +769,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ec05fb13dbd6071dfc59a7ae3c7ec38f\"",
-			"fetched": 1705401176117
+			"fetched": 1705472481002
 		}
 	},
 	"_distfiles": {
@@ -825,7 +825,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-4b15f280df891943",
+	"_rev": "2-a3b066244994f8e2",
 	"_id": "dir-glob",
 	"readme": "# dir-glob [![Build Status](https://travis-ci.org/kevva/dir-glob.svg?branch=master)](https://travis-ci.org/kevva/dir-glob)\n\n> Convert directories to glob compatible strings\n\n\n## Install\n\n```\n$ npm install dir-glob\n```\n\n\n## Usage\n\n```js\nconst dirGlob = require('dir-glob');\n\n(async () => {\n\tconsole.log(await dirGlob(['index.js', 'test.js', 'fixtures']));\n\t//=> ['index.js', 'test.js', 'fixtures/**']\n\n\tconsole.log(await dirGlob(['index.js', 'inner_folder'], {cwd: 'fixtures'}));\n\t//=> ['index.js', 'inner_folder/**']\n\n\tconsole.log(await dirGlob(['lib/**', 'fixtures'], {\n\t\tfiles: ['test', 'unicorn']\n\t\textensions: ['js']\n\t}));\n\t//=> ['lib/**', 'fixtures/**/test.js', 'fixtures/**/unicorn.js']\n\n\tconsole.log(await dirGlob(['lib/**', 'fixtures'], {\n\t\tfiles: ['test', 'unicorn', '*.jsx'],\n\t\textensions: ['js', 'png']\n\t}));\n\t//=> ['lib/**', 'fixtures/**/test.{js,png}', 'fixtures/**/unicorn.{js,png}', 'fixtures/**/*.jsx']\n})();\n```\n\n\n## API\n\n### dirGlob(input, options?)\n\nReturns a `Promise<string[]>` with globs.\n\n### dirGlob.sync(input, options?)\n\nReturns a `string[]` with globs.\n\n#### input\n\nType: `string | string[]`\n\nPaths.\n\n#### options\n\nType: `object`\n\n##### extensions\n\nType: `string[]`\n\nAppend extensions to the end of your globs.\n\n##### files\n\nType: `string[]`\n\nOnly glob for certain files.\n\n##### cwd\n\nType: `string[]`\n\nTest in specific directory."
 }

@@ -1734,7 +1734,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"f741f9924a0132f9c7c6f48b94900d31\"",
-			"fetched": 1705401189139
+			"fetched": 1705472494431
 		}
 	},
 	"_distfiles": {
@@ -1855,7 +1855,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-32deac5ee1f3d7a8",
+	"_rev": "2-29bf1088eb321b11",
 	"_id": "http-proxy-agent",
 	"readme": "http-proxy-agent\n================\n### An HTTP(s) proxy `http.Agent` implementation for HTTP\n\nThis module provides an `http.Agent` implementation that connects to a specified\nHTTP or HTTPS proxy server, and can be used with the built-in `http` module.\n\n__Note:__ For HTTP proxy usage with the `https` module, check out\n[`https-proxy-agent`](../https-proxy-agent).\n\n\nExample\n-------\n\n```ts\nimport * as http from 'http';\nimport { HttpProxyAgent } from 'http-proxy-agent';\n\nconst agent = new HttpProxyAgent('http://168.63.76.32:3128');\n\nhttp.get('http://nodejs.org/api/', { agent }, (res) => {\n  console.log('\"response\" event!', res.headers);\n  res.pipe(process.stdout);\n});\n```\n\nAPI\n---\n\n### new HttpProxyAgent(proxy: string | URL, options?: HttpProxyAgentOptions)\n\nThe `HttpProxyAgent` class implements an `http.Agent` subclass that connects\nto the specified \"HTTP(s) proxy server\" in order to proxy HTTP requests.\n\nThe `proxy` argument is the URL for the proxy server.\n\nThe `options` argument accepts the usual `http.Agent` constructor options, and\nsome additional properties:\n\n * `headers` - Object containing additional headers to send to the proxy server\n   in each request. This may also be a function that returns a headers object.\n  \n   **NOTE:** If your proxy does not strip these headers from the request, they\n   will also be sent to the destination server.\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2013 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 }

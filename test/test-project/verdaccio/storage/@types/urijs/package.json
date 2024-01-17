@@ -3691,7 +3691,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b839e198ea2aa14e9ad63a295bf25530\"",
-			"fetched": 1705401157214
+			"fetched": 1705472461719
 		}
 	},
 	"_distfiles": {
@@ -3937,7 +3937,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-2df1f09a093013d5",
+	"_rev": "2-d4ed7228777f0706",
 	"_id": "@types/urijs",
 	"readme": "[object Object]"
 }

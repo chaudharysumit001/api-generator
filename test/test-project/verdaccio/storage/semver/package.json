@@ -7316,7 +7316,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b8bf26269d0c31385f2c2fe115d9c67b\"",
-			"fetched": 1705401119999
+			"fetched": 1705472430243
 		}
 	},
 	"_distfiles": {
@@ -7842,7 +7842,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-db9b00142849bf90",
+	"_rev": "2-f2ed372fc970d224",
 	"_id": "semver",
 	"readme": ""
 }

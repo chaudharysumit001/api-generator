@@ -22096,7 +22096,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"165fa456247e0bd65484b8e5f8cb20e4\"",
-			"fetched": 1705401137938
+			"fetched": 1705472445905
 		}
 	},
 	"_distfiles": {
@@ -22877,7 +22877,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-d541b6db955ae999",
+	"_rev": "2-d4b3b4c2ba8b57cb",
 	"_id": "@babel/preset-env",
 	"readme": ""
 }

@@ -6087,7 +6087,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"b329fc6144dd90793db9bcbc5c5e00f2\"",
-			"fetched": 1705401125474
+			"fetched": 1705472435319
 		}
 	},
 	"_distfiles": {
@@ -6518,7 +6518,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-130c583e52591ac5",
+	"_rev": "2-c398e53bca630ab8",
 	"_id": "@babel/helper-replace-supers",
 	"readme": ""
 }

@@ -679,7 +679,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"ecc154d87a06dca070c9543ba86357d8\"",
-			"fetched": 1705401130297
+			"fetched": 1705472438514
 		}
 	},
 	"_distfiles": {
@@ -720,7 +720,7 @@
 		}
 	},
 	"_attachments": {},
-	"_rev": "4-3fa705b5d89760b7",
+	"_rev": "2-c1108495bd64b50d",
 	"_id": "@babel/plugin-syntax-unicode-sets-regex",
 	"readme": ""
 }
