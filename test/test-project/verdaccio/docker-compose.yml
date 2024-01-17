@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  verdaccio:
+    image: verdaccio/verdaccio
+    container_name: 'verdaccio'
+    networks:
+      - node-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - '4873:4873'
+    volumes:
+      - './storage:/verdaccio/storage:z'
+      - './config:/verdaccio/conf'
+
+  test-project:
+    privileged: true
+    image: "node:16"
+
+    environment:
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+    volumes:
+      - '../../../:/app'
+    command: bash /app/test/test-project/test.sh
+
+networks:
+  node-network:
+    driver: bridge
