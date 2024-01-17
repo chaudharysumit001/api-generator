@@ -9,14 +9,14 @@ services:
     ports:
       - '4873:4873'
     volumes:
-      - './verdaccio:/verdaccio/conf'
-      - './verdaccio/storage:/verdaccio/conf/storage:z'
+      - './verdaccio/conf:/verdaccio/conf'
+      - './verdaccio/storage:/verdaccio/storage:z'
     networks:
       - mynetwork
 
   test-project:
     privileged: true
-    image: "node:${NODE_IMAGE_TAG}"
+    image: "node:16"
     extra_hosts:
      - "host.docker.internal:host-gateway"
     environment:
