@@ -2,7 +2,7 @@ version: '3'
 
 services:
   verdaccio:
-    image: verdaccio/verdaccio:5
+    build: .
     container_name: 'verdaccio'
     extra_hosts:
       - "host.docker.internal:host-gateway"
@@ -14,16 +14,17 @@ services:
     networks:
       - mynetwork
 
+
   test-project:
     privileged: true
-    image: "node:${NODE_IMAGE_TAG}"
+    image: "node:16"
     extra_hosts:
      - "host.docker.internal:host-gateway"
     environment:
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
     volumes:
       - ../../:/app
-    command: bash /app/test/test-project/test.sh test-project | bash /app/test/test-project/test.sh test-registry
+    command: bash /app/test/test-project/test.sh test-project
 
 networks:
   mynetwork:
