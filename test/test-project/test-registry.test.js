@@ -26,10 +26,10 @@ describe('Integration testing generateFromFile() to make sure the template can b
         install: true,
         forceWrite: true,
         templateParams: {
-          singleFile: true 
+          singleFile: true
         },
         registry: {
-          url: 'http://host.docker.internal:4873',  // Replace the host.docker.internal to localhost for testing without docker
+          url: 'http://verdaccio:4873',  ,  // Replace the host.docker.internal to localhost for testing without docker
           auth: 'YWRtaW46bmltZGE='  // base64 encoded username and password represented as admin:nimda
 
         }

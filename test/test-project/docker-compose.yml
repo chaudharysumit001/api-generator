@@ -25,6 +25,8 @@ services:
     volumes:
       - ../../:/app
     command: bash /app/test/test-project/test.sh test-project
+    networks:
+      - mynetwork
 
 networks:
   mynetwork:
